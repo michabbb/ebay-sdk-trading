@@ -1,4 +1,4 @@
-# EBAY-API-SDK-TRADING
+# EBAY-SDK-TRADING
 
 ## License
 MIT
