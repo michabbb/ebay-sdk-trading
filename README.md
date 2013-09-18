@@ -1,0 +1,4 @@
+# EBAY-API-SDK-TRADING
+
+## License
+MIT
