@@ -12,8 +12,18 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
     const HDR_OPERATION_NAME = 'X-EBAY-API-CALL-NAME';
     const HDR_SITE_ID = 'X-EBAY-API-SITEID';
 
-    public function __construct($config = [])
+    public function __construct($config = array())
     {
+        if (!array_key_exists(get_called_class(), self::$configProperties)) {
+            self::$configProperties[get_called_class()] = array(
+                'apiVersion' => array('required' => true),
+                'appId' => array('required' => false),
+                'certId' => array('required' => false),
+                'devId' => array('required' => false),
+                'siteId' => array('required' => true)
+            );
+        }
+
         parent::__construct($config);
     }
 }
