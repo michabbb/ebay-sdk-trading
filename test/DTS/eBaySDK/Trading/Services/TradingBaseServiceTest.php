@@ -1,7 +1,7 @@
 <?php
 
 use DTS\eBaySDK\Trading\Services\TradingBaseService;
-use DTS\eBaySDK\HttpClient\HttpClient;
+use DTS\eBaySDK\HttpClient\TestHttpClient;
 
 class TradingBaseServiceTest extends \PHPUnit_Framework_TestCase
 {
@@ -9,7 +9,7 @@ class TradingBaseServiceTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->obj = new TradingBaseService(new HttpClient());
+        $this->obj = new TradingBaseService(new TestHttpClient());
     }
 
     public function testCanBeCreated()

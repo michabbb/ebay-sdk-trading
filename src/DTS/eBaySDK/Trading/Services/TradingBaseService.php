@@ -26,4 +26,29 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
 
         parent::__construct($httpClient, 'https://api.ebay.com/ws/api.dll', 'https://api.sandbox.ebay.com/ws/api.dll', $config);
     }
+
+    protected function getEbayHeaders($operationName)
+    {
+        $headers = array();
+  
+        // Add required headers first.
+        $headers[self::HDR_API_VERSION] = $this->config('apiVersion'); 
+        $headers[self::HDR_OPERATION_NAME] = $operationName;
+        $headers[self::HDR_SITE_ID] = $this->config('siteId');
+
+        // Add optional headers.
+        if ($this->config('appId')) {
+            $headers[self::HDR_APP_ID] = $this->config('appId'); 
+        }
+
+        if ($this->config('certId')) {
+            $headers[self::HDR_CERT_ID] = $this->config('certId'); 
+        }
+
+        if ($this->config('devId')) {
+            $headers[self::HDR_DEV_ID] = $this->config('devId'); 
+        }
+
+        return $headers;
+    } 
 }
