@@ -23,7 +23,10 @@
         "phpunit/phpunit": "~3.7.0"
     },
     "autoload": {
-        "psr-0": {"DTS\\eBaySDK\\Trading\\": "src/"}
+        "psr-0": {
+            "DTS\\eBaySDK\\Trading\\": "src/",
+            "DTS\\eBaySDK\\Trading\\Mocks\\": "test/"
+        }
     },
     "repositories": [
         {
