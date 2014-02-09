@@ -1,22 +1,19 @@
 <?php
-require_once __DIR__ . '/../../../../fixtures/TestService.php';
-
 use DTS\eBaySDK\Trading\Services\TradingBaseService;
-use DTS\eBaySDK\HttpClient\TestHttpClient;
+use DTS\eBaySDK\Trading\Mocks\Service;
+use DTS\eBaySDK\Mocks\HttpClient;
 
-class TestServiceTest extends \PHPUnit_Framework_TestCase
+class ServiceTest extends \PHPUnit_Framework_TestCase
 {
-    private $obj;
-
     protected function setUp()
     {
-        $this->httpClient = new TestHttpClient();
-        $this->service = new TestService($this->httpClient);
+        $this->httpClient = new HttpClient();
+        $this->service = new Service($this->httpClient);
     }
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('TestService', $this->service);
+        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Mocks\Service', $this->service);
     }
 
     public function testEbayHeaders()
