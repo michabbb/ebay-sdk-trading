@@ -28,10 +28,10 @@ class ServiceTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals('123', $this->httpClient->headers[TradingBaseService::HDR_API_VERSION]);
 
         $this->assertArrayHasKey(TradingBaseService::HDR_SITE_ID , $this->httpClient->headers);
-        $this->assertEquals('999', $this->httpClient->headers[TradingBaseService::HDR_SITE_ID ]);
+        $this->assertEquals('999', $this->httpClient->headers[TradingBaseService::HDR_SITE_ID]);
 
         $this->assertArrayHasKey(TradingBaseService::HDR_OPERATION_NAME, $this->httpClient->headers);
-        $this->assertEquals('testOperation', $this->httpClient->headers[TradingBaseService::HDR_OPERATION_NAME ]);
+        $this->assertEquals('testOperation', $this->httpClient->headers[TradingBaseService::HDR_OPERATION_NAME]);
 
         // Test that optional headers have not been set until they have been configured.
         $this->assertArrayNotHasKey(TradingBaseService::HDR_APP_ID, $this->httpClient->headers);

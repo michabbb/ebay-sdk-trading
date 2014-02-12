@@ -10,6 +10,10 @@ class Service extends \DTS\eBaySDK\Trading\Services\TradingBaseService
 
     public function testOperation()
     {
-        return $this->callOperation('testOperation', '');    
+        return $this->callOperation(
+            'testOperation',
+            '',
+            '\DTS\eBaySDK\Mocks\ComplexClass'
+        );
     }
 }
