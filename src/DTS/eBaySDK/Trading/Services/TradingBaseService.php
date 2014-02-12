@@ -14,8 +14,8 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
 
     public function __construct(\DTS\eBaySDK\Interfaces\HttpClientInterface $httpClient, $config = array())
     {
-        if (!array_key_exists(get_called_class(), self::$configProperties)) {
-            self::$configProperties[get_called_class()] = array(
+        if (!array_key_exists(get_called_class(), self::$configOptions)) {
+            self::$configOptions[get_called_class()] = array(
                 'apiVersion' => array('required' => true),
                 'appId' => array('required' => false),
                 'certId' => array('required' => false),
