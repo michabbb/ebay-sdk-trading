@@ -4,7 +4,7 @@
     "keywords": ["ebay", "api", "sdk"],
     "homepage": "https://github.com/davidtsadler/ebay-sdk-trading",
     "type": "library",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "David T. Sadler",
