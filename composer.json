@@ -1,6 +1,6 @@
 {
     "name": "dts/ebay-sdk-trading",
-    "description": "An object oriented PHP SDK for the eBay API",
+    "description": "An eBay SDK for PHP. Use the eBay Trading API in your PHP projects.",
     "keywords": ["ebay", "api", "sdk"],
     "homepage": "https://github.com/davidtsadler/ebay-sdk-trading",
     "type": "library",
