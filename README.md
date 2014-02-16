@@ -15,6 +15,7 @@ An eBay SDK for PHP. Use the eBay Trading API in your PHP projects.
 This package can be install with [Composer](http://getcomposer.org/).
 
 1. Add "dts/ebay-sdk" as a dependency in your project's composer.json file.
+
    ```javascript
    {
        "require": {
@@ -22,15 +23,21 @@ This package can be install with [Composer](http://getcomposer.org/).
        }
    }
    ```
+
 1. Install Composer.
+
    ```
    curl -sS https://getcomposer.org/installer | php
    ```
+
 1. Install the dependencies.
+
    ```
    php composer.phar install
    ```
+
 1. Require Composer's autoloader by adding the following line to your code.
+
    ```php
    require 'vendor/autoload.php';
    ```
