@@ -35,6 +35,7 @@ This package can be install with [Composer](http://getcomposer.org/).
    ```
    php composer.phar install
    ```
+
 1. Require Composer's autoloader by adding the following line to your code.
 
    ```php
