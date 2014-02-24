@@ -74,3 +74,7 @@ $response = $service->geteBayOfficialTime($request);
 // Output the response from the API.
 echo 'The official eBay time is: '.$response->timestamp->format('H:i (\G\M\T) \o\n l jS Y')."\n";
 ```
+
+## SDK and eBay API versions.
+
+As eBay release new versions of their API the corresponding SDK version will be shown [here](https://github.com/davidtsadler/ebay-sdk/wiki/SDK-and-eBay-API-Versions#wiki-trading).
