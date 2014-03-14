@@ -45,6 +45,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DateTime $registrationDate
  * @property DTS\eBaySDK\Trading\Types\SellerType $sellerInfo
  * @property DTS\eBaySDK\Trading\Types\SellerPaymentMethodCodeType(string) $sellerPaymentMethod
+ * @property DTS\eBaySDK\Trading\Types\AddressType $shippingAddress
  * @property DTS\eBaySDK\Trading\Types\SiteCodeType(string) $site
  * @property boolean $siteVerified
  * @property string $skypeId
@@ -223,6 +224,12 @@ class UserType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerPaymentMethod'
+        ),
+        'shippingAddress' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ShippingAddress'
         ),
         'site' => array(
             'type' => 'string',

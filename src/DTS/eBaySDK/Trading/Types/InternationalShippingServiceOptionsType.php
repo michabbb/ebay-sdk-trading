@@ -25,6 +25,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $shippingService
  * @property DTS\eBaySDK\Trading\Types\AmountType $shippingServiceAdditionalCost
  * @property DTS\eBaySDK\Trading\Types\AmountType $shippingServiceCost
+ * @property DateTime $shippingServiceCutOffTime
  * @property integer $shippingServicePriority
  */
 class InternationalShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
@@ -68,6 +69,12 @@ class InternationalShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseTyp
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCost'
+        ),
+        'shippingServiceCutOffTime' => array(
+            'type' => 'DateTime',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ShippingServiceCutOffTime'
         ),
         'shippingServicePriority' => array(
             'type' => 'integer',
