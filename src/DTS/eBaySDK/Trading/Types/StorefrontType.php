@@ -20,7 +20,9 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $storeCategory2Id
+ * @property string $storeCategory2Name
  * @property integer $storeCategoryId
+ * @property string $storeCategoryName
  * @property string $storeName
  * @property string $storeUrl
  */
@@ -36,11 +38,23 @@ class StorefrontType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'StoreCategory2ID'
         ),
+        'storeCategory2Name' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'StoreCategory2Name'
+        ),
         'storeCategoryId' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StoreCategoryID'
+        ),
+        'storeCategoryName' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'StoreCategoryName'
         ),
         'storeName' => array(
             'type' => 'string',
