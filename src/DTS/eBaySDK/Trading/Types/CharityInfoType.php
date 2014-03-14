@@ -28,6 +28,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ein
  * @property string $externalId
  * @property string $id
+ * @property string $listingNpcOntactName
+ * @property string $listingNpeMail
+ * @property boolean $listingNpeMailNotifPref
  * @property string $logoUrl
  * @property string $logoUrlsElling
  * @property string $mission
@@ -99,6 +102,24 @@ class CharityInfoType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => true,
             'attributeName' => 'id'
+        ),
+        'listingNpcOntactName' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ListingNPContactName'
+        ),
+        'listingNpeMail' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ListingNPEmail'
+        ),
+        'listingNpeMailNotifPref' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ListingNPEmailNotifPref'
         ),
         'logoUrl' => array(
             'type' => 'string',
