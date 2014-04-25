@@ -19,10 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $bidGroupId
- * @property DTS\eBaySDK\Trading\Types\BidGroupItemType $bidGroupItem
- * @property string $bidGroupName
- * @property DTS\eBaySDK\Trading\Types\BidGroupStatusCodeType(string) $bidGroupStatus
  */
 class BidGroupType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,30 +26,6 @@ class BidGroupType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bidGroupId' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BidGroupID'
-        ),
-        'bidGroupItem' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\BidGroupItemType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'BidGroupItem'
-        ),
-        'bidGroupName' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BidGroupName'
-        ),
-        'bidGroupStatus' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BidGroupStatus'
-        )
     );
 
     /**

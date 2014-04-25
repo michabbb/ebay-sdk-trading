@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $eias
- * @property string $messageBody
  */
 class NotificationMessageType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -28,18 +26,6 @@ class NotificationMessageType extends \DTS\eBaySDK\Trading\Types\AbstractRespons
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'eias' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'EIAS'
-        ),
-        'messageBody' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'MessageBody'
-        )
     );
 
     /**

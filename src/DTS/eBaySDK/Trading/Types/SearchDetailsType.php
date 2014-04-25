@@ -19,9 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $buyItNowEnabled
- * @property boolean $picture
- * @property boolean $recentListing
  */
 class SearchDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -29,24 +26,6 @@ class SearchDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'buyItNowEnabled' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BuyItNowEnabled'
-        ),
-        'picture' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Picture'
-        ),
-        'recentListing' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'RecentListing'
-        )
     );
 
     /**

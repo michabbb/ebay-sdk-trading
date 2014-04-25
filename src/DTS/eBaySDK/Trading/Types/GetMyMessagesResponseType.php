@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MyMessagesAlertArrayType $alerts
  * @property DTS\eBaySDK\Trading\Types\MyMessagesMessageArrayType $messages
  * @property DTS\eBaySDK\Trading\Types\MyMessagesSummaryType $summary
  */
@@ -29,12 +28,6 @@ class GetMyMessagesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'alerts' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesAlertArrayType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Alerts'
-        ),
         'messages' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesMessageArrayType',
             'unbound' => false,

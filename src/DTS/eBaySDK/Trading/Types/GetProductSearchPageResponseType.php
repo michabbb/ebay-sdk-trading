@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $attributeSystemVersion
- * @property DTS\eBaySDK\Trading\Types\ProductSearchPageType $productSearchPage
  */
 class GetProductSearchPageResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -28,18 +26,6 @@ class GetProductSearchPageResponseType extends \DTS\eBaySDK\Trading\Types\Abstra
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'attributeSystemVersion' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeSystemVersion'
-        ),
-        'productSearchPage' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductSearchPageType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'ProductSearchPage'
-        )
     );
 
     /**

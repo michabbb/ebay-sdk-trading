@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\XSLFileType $xslfIle
  */
 class GetAttributesXSLResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -27,12 +26,6 @@ class GetAttributesXSLResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'xslfIle' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\XSLFileType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'XSLFile'
-        )
     );
 
     /**

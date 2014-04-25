@@ -21,7 +21,6 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $classifiedAdContactByEmailEnabled
  * @property DTS\eBaySDK\Trading\Types\ContactHoursDetailsType $contactHoursDetails
- * @property string $payPerLeadPhoneNumber
  */
 class ExtendedContactDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -40,12 +39,6 @@ class ExtendedContactDetailsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ContactHoursDetails'
-        ),
-        'payPerLeadPhoneNumber' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PayPerLeadPhoneNumber'
         )
     );
 

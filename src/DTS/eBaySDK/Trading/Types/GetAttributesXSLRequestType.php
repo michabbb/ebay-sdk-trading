@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $fileName
- * @property string $fileVersion
  */
 class GetAttributesXSLRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -28,18 +26,6 @@ class GetAttributesXSLRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'fileName' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'FileName'
-        ),
-        'fileVersion' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'FileVersion'
-        )
     );
 
     /**

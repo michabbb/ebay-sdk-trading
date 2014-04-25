@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $attributeData
- * @property string $attributeSystemVersion
  */
 class GetAttributesCSResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -28,18 +26,6 @@ class GetAttributesCSResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'attributeData' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeData'
-        ),
-        'attributeSystemVersion' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeSystemVersion'
-        )
     );
 
     /**

@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $checkoutRedirectProStores
- * @property DTS\eBaySDK\Trading\Types\ProStoresDetailsType $proStoresDetails
  */
 class ProStoresCheckoutPreferenceType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -28,18 +26,6 @@ class ProStoresCheckoutPreferenceType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'checkoutRedirectProStores' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'CheckoutRedirectProStores'
-        ),
-        'proStoresDetails' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ProStoresDetailsType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ProStoresDetails'
-        )
     );
 
     /**

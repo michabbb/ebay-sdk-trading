@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ProductType $product
- * @property DTS\eBaySDK\Trading\Types\ProductUseCaseCodeType(string) $useCase
  */
 class GetProductSellingPagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -28,18 +26,6 @@ class GetProductSellingPagesRequestType extends \DTS\eBaySDK\Trading\Types\Abstr
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'product' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'Product'
-        ),
-        'useCase' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'UseCase'
-        )
     );
 
     /**

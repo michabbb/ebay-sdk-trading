@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ProductSearchType $productSearch
  */
 class GetProductSearchResultsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -27,12 +26,6 @@ class GetProductSearchResultsRequestType extends \DTS\eBaySDK\Trading\Types\Abst
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'productSearch' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductSearchType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'ProductSearch'
-        )
     );
 
     /**

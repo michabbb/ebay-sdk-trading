@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $id
  */
 class CharacteristicSetIDsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -27,12 +26,6 @@ class CharacteristicSetIDsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'id' => array(
-            'type' => 'string',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'ID'
-        )
     );
 
     /**

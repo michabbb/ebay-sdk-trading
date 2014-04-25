@@ -19,9 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $day
- * @property integer $month
- * @property integer $year
  */
 class DateType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -29,24 +26,6 @@ class DateType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'day' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Day'
-        ),
-        'month' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Month'
-        ),
-        'year' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Year'
-        )
     );
 
     /**

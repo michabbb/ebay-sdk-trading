@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BidGroupType $bidGroup
  */
 class BidGroupArrayType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -27,12 +26,6 @@ class BidGroupArrayType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bidGroup' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\BidGroupType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'BidGroup'
-        )
     );
 
     /**

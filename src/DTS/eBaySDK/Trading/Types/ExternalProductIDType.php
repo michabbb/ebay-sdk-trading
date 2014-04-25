@@ -19,10 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $alternateValue
- * @property boolean $returnSearchResultOnDuplicates
- * @property DTS\eBaySDK\Trading\Types\ExternalProductCodeType(string) $type
- * @property string $value
  */
 class ExternalProductIDType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,30 +26,6 @@ class ExternalProductIDType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'alternateValue' => array(
-            'type' => 'string',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'AlternateValue'
-        ),
-        'returnSearchResultOnDuplicates' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ReturnSearchResultOnDuplicates'
-        ),
-        'type' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Type'
-        ),
-        'value' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Value'
-        )
     );
 
     /**

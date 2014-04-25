@@ -19,24 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $combinedShippingDiscount
- * @property boolean $domesticShippingCost
- * @property boolean $eligibleCheckout
- * @property boolean $eligibleItemCondition
- * @property boolean $eligiblePayPalAccount
- * @property boolean $eligibleReturnPolicy
- * @property boolean $expressApproved
- * @property boolean $expressEligibleListingType
- * @property boolean $expressEnabledCategory
- * @property boolean $expressOptOut
- * @property boolean $noCharity
- * @property boolean $noPreapprovedBidderList
- * @property boolean $payPalAccountAcceptsUnconfirmedAddress
- * @property boolean $picture
- * @property boolean $priceAboveMinimum
- * @property boolean $priceBelowMaximum
- * @property boolean $sellerExpressEligible
- * @property boolean $shipFromEligibleCountry
  */
 class ExpressItemRequirementsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -44,114 +26,6 @@ class ExpressItemRequirementsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'combinedShippingDiscount' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'CombinedShippingDiscount'
-        ),
-        'domesticShippingCost' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DomesticShippingCost'
-        ),
-        'eligibleCheckout' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'EligibleCheckout'
-        ),
-        'eligibleItemCondition' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'EligibleItemCondition'
-        ),
-        'eligiblePayPalAccount' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'EligiblePayPalAccount'
-        ),
-        'eligibleReturnPolicy' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'EligibleReturnPolicy'
-        ),
-        'expressApproved' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressApproved'
-        ),
-        'expressEligibleListingType' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressEligibleListingType'
-        ),
-        'expressEnabledCategory' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressEnabledCategory'
-        ),
-        'expressOptOut' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressOptOut'
-        ),
-        'noCharity' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'NoCharity'
-        ),
-        'noPreapprovedBidderList' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'NoPreapprovedBidderList'
-        ),
-        'payPalAccountAcceptsUnconfirmedAddress' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PayPalAccountAcceptsUnconfirmedAddress'
-        ),
-        'picture' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Picture'
-        ),
-        'priceAboveMinimum' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PriceAboveMinimum'
-        ),
-        'priceBelowMaximum' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PriceBelowMaximum'
-        ),
-        'sellerExpressEligible' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellerExpressEligible'
-        ),
-        'shipFromEligibleCountry' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ShipFromEligibleCountry'
-        )
     );
 
     /**

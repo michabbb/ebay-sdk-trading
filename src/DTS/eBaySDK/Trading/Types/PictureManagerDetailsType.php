@@ -19,13 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PictureManagerFolderType $folder
- * @property boolean $keepOriginal
- * @property integer $storageUsed
- * @property DTS\eBaySDK\Trading\Types\PictureManagerSubscriptionLevelCodeType(string) $subscriptionLevel
- * @property integer $totalStorageAvailable
- * @property boolean $watermarkEps
- * @property boolean $watermarkUserId
  */
 class PictureManagerDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,48 +26,6 @@ class PictureManagerDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'folder' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\PictureManagerFolderType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'Folder'
-        ),
-        'keepOriginal' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'KeepOriginal'
-        ),
-        'storageUsed' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'StorageUsed'
-        ),
-        'subscriptionLevel' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SubscriptionLevel'
-        ),
-        'totalStorageAvailable' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'TotalStorageAvailable'
-        ),
-        'watermarkEps' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'WatermarkEPS'
-        ),
-        'watermarkUserId' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'WatermarkUserID'
-        )
     );
 
     /**

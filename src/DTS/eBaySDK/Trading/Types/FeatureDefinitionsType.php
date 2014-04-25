@@ -21,7 +21,6 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property DTS\eBaySDK\Trading\Types\AdFormatEnabledDefinitionType $adFormatEnabled
  * @property DTS\eBaySDK\Trading\Types\AdditionalCompatibilityEnabledDefinitionType $additionalCompatibilityEnabled
- * @property DTS\eBaySDK\Trading\Types\AttributeConversionEnabledFeatureDefinitionType $attributeConversionEnabled
  * @property DTS\eBaySDK\Trading\Types\BasicUpgradePackEnabledDefinitionType $basicUpgradePackEnabled
  * @property DTS\eBaySDK\Trading\Types\BestOfferAutoAcceptEnabledDefinitionType $bestOfferAutoAcceptEnabled
  * @property DTS\eBaySDK\Trading\Types\BestOfferAutoDeclineEnabledDefinitionType $bestOfferAutoDeclineEnabled
@@ -164,12 +163,6 @@ class FeatureDefinitionsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AdditionalCompatibilityEnabled'
-        ),
-        'attributeConversionEnabled' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AttributeConversionEnabledFeatureDefinitionType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeConversionEnabled'
         ),
         'basicUpgradePackEnabled' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\BasicUpgradePackEnabledDefinitionType',

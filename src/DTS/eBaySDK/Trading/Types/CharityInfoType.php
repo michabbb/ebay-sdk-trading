@@ -20,11 +20,9 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $charityDomain
- * @property string $charityId
  * @property integer $charityRegion
  * @property string $description
  * @property boolean $displayLogoSelling
- * @property boolean $displayNameInCheckout
  * @property string $ein
  * @property string $externalId
  * @property string $id
@@ -39,9 +37,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $nonProfitSecondName
  * @property DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType $nonProfitSocialAddress
  * @property integer $popularityIndex
- * @property string $searchableString
- * @property boolean $showMultipleDonationAmountInCheckout
- * @property DTS\eBaySDK\Trading\Types\CharityStatusCodeType(string) $status
  */
 class CharityInfoType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -54,12 +49,6 @@ class CharityInfoType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'CharityDomain'
-        ),
-        'charityId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'CharityID'
         ),
         'charityRegion' => array(
             'type' => 'integer',
@@ -78,12 +67,6 @@ class CharityInfoType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DisplayLogoSelling'
-        ),
-        'displayNameInCheckout' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DisplayNameInCheckout'
         ),
         'ein' => array(
             'type' => 'string',
@@ -168,24 +151,6 @@ class CharityInfoType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PopularityIndex'
-        ),
-        'searchableString' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SearchableString'
-        ),
-        'showMultipleDonationAmountInCheckout' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ShowMultipleDonationAmountInCheckout'
-        ),
-        'status' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Status'
         )
     );
 

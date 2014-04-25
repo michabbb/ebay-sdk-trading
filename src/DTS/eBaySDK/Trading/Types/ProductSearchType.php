@@ -19,19 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $attributeSetId
- * @property boolean $availableItemsOnly
- * @property DTS\eBaySDK\Trading\Types\CharacteristicSetIDsType $characteristicSetIdS
  * @property DTS\eBaySDK\Trading\Types\ExternalProductIDType $externalProductId
- * @property integer $maxChildrenPerFamily
- * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
- * @property integer $productFinderId
- * @property string $productId
- * @property string $productReferenceId
- * @property string $productSearchId
- * @property string $queryKeywords
- * @property DTS\eBaySDK\Trading\Types\SearchAttributesType $searchAttributes
- * @property integer $sortAttributeId
  */
 class ProductSearchType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -39,83 +27,11 @@ class ProductSearchType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'attributeSetId' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeSetID'
-        ),
-        'availableItemsOnly' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AvailableItemsOnly'
-        ),
-        'characteristicSetIdS' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\CharacteristicSetIDsType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'CharacteristicSetIDs'
-        ),
         'externalProductId' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ExternalProductIDType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExternalProductID'
-        ),
-        'maxChildrenPerFamily' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'MaxChildrenPerFamily'
-        ),
-        'pagination' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Pagination'
-        ),
-        'productFinderId' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ProductFinderID'
-        ),
-        'productId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ProductID'
-        ),
-        'productReferenceId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ProductReferenceID'
-        ),
-        'productSearchId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ProductSearchID'
-        ),
-        'queryKeywords' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'QueryKeywords'
-        ),
-        'searchAttributes' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\SearchAttributesType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'SearchAttributes'
-        ),
-        'sortAttributeId' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SortAttributeID'
         )
     );
 

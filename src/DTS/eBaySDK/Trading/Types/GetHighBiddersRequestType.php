@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
  */
 class GetHighBiddersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -27,12 +26,6 @@ class GetHighBiddersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReque
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'itemId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ItemID'
-        )
     );
 
     /**

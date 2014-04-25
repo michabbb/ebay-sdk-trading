@@ -19,9 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BidGroupItemStatusCodeType(string) $bidGroupItemStatus
- * @property DTS\eBaySDK\Trading\Types\ItemType $item
- * @property DTS\eBaySDK\Trading\Types\AmountType $maxBidAmount
  */
 class BidGroupItemType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -29,24 +26,6 @@ class BidGroupItemType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bidGroupItemStatus' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BidGroupItemStatus'
-        ),
-        'item' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Item'
-        ),
-        'maxBidAmount' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'MaxBidAmount'
-        )
     );
 
     /**

@@ -44,7 +44,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AddressType $registrationAddress
  * @property DateTime $registrationDate
  * @property DTS\eBaySDK\Trading\Types\SellerType $sellerInfo
- * @property DTS\eBaySDK\Trading\Types\SellerPaymentMethodCodeType(string) $sellerPaymentMethod
  * @property DTS\eBaySDK\Trading\Types\AddressType $shippingAddress
  * @property DTS\eBaySDK\Trading\Types\SiteCodeType(string) $site
  * @property boolean $siteVerified
@@ -218,12 +217,6 @@ class UserType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerInfo'
-        ),
-        'sellerPaymentMethod' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellerPaymentMethod'
         ),
         'shippingAddress' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AddressType',

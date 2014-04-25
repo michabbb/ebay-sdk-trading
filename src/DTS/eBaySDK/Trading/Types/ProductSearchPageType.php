@@ -19,10 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DataElementSetType $dataElementSet
- * @property DTS\eBaySDK\Trading\Types\CharacteristicsSetType $searchCharacteristicsSet
- * @property DTS\eBaySDK\Trading\Types\CharacteristicsSearchCodeType(string) $searchType
- * @property DTS\eBaySDK\Trading\Types\CharacteristicType $sortCharacteristics
  */
 class ProductSearchPageType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,30 +26,6 @@ class ProductSearchPageType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'dataElementSet' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\DataElementSetType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'DataElementSet'
-        ),
-        'searchCharacteristicsSet' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\CharacteristicsSetType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SearchCharacteristicsSet'
-        ),
-        'searchType' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SearchType'
-        ),
-        'sortCharacteristics' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\CharacteristicType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'SortCharacteristics'
-        )
     );
 
     /**

@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $attributeSetId
- * @property string $attributeSystemVersion
  */
 class GetProductSearchPageRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -28,18 +26,6 @@ class GetProductSearchPageRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'attributeSetId' => array(
-            'type' => 'integer',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'AttributeSetID'
-        ),
-        'attributeSystemVersion' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeSystemVersion'
-        )
     );
 
     /**

@@ -20,7 +20,6 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $allowPaymentEdit
- * @property boolean $applyShippingDiscount
  * @property DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $calculatedShippingDiscount
  * @property DTS\eBaySDK\Trading\Types\CalculatedShippingRateType $calculatedShippingRate
  * @property boolean $changePaymentInstructions
@@ -69,12 +68,6 @@ class ShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AllowPaymentEdit'
-        ),
-        'applyShippingDiscount' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ApplyShippingDiscount'
         ),
         'calculatedShippingDiscount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType',
