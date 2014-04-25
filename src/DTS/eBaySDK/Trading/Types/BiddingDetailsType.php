@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $bidAssistant
  * @property DTS\eBaySDK\Trading\Types\AmountType $convertedMaxBid
  * @property DTS\eBaySDK\Trading\Types\AmountType $maxBid
  * @property integer $quantityBid
@@ -32,12 +31,6 @@ class BiddingDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bidAssistant' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BidAssistant'
-        ),
         'convertedMaxBid' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,

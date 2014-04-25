@@ -19,10 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $attributeId
- * @property DTS\eBaySDK\Trading\Types\DateSpecifierCodeType(string) $dateSpecifier
- * @property DTS\eBaySDK\Trading\Types\RangeCodeType(string) $rangeSpecifier
- * @property DTS\eBaySDK\Trading\Types\ValType $valueList
  */
 class SearchAttributesType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,30 +26,6 @@ class SearchAttributesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'attributeId' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeID'
-        ),
-        'dateSpecifier' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DateSpecifier'
-        ),
-        'rangeSpecifier' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'RangeSpecifier'
-        ),
-        'valueList' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ValType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'ValueList'
-        )
     );
 
     /**

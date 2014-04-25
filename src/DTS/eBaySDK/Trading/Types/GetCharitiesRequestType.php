@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $campaignId
  * @property integer $charityDomain
  * @property string $charityId
  * @property string $charityName
@@ -35,12 +34,6 @@ class GetCharitiesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequest
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'campaignId' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'CampaignID'
-        ),
         'charityDomain' => array(
             'type' => 'integer',
             'unbound' => false,

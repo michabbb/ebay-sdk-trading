@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $attributeSystemVersion
- * @property string $productFinderData
  */
 class GetProductFinderResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -28,18 +26,6 @@ class GetProductFinderResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'attributeSystemVersion' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeSystemVersion'
-        ),
-        'productFinderData' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ProductFinderData'
-        )
     );
 
     /**

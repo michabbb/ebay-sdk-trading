@@ -19,9 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AttributeType $attribute
- * @property integer $attributeSetId
- * @property string $attributeSetVersion
  */
 class AttributeSetType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -29,24 +26,6 @@ class AttributeSetType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'attribute' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AttributeType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'Attribute'
-        ),
-        'attributeSetId' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => true,
-            'attributeName' => 'attributeSetID'
-        ),
-        'attributeSetVersion' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => true,
-            'attributeName' => 'attributeSetVersion'
-        )
     );
 
     /**

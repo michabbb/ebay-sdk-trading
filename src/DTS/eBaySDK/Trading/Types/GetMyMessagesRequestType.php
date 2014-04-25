@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MyMessagesAlertIDArrayType $alertIdS
  * @property DateTime $endTime
  * @property DTS\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType $externalMessageIdS
  * @property integer $folderId
@@ -34,12 +33,6 @@ class GetMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'alertIdS' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesAlertIDArrayType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AlertIDs'
-        ),
         'endTime' => array(
             'type' => 'DateTime',
             'unbound' => false,

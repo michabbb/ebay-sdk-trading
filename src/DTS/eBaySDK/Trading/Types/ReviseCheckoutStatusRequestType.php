@@ -22,7 +22,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $adjustmentAmount
  * @property DTS\eBaySDK\Trading\Types\AmountType $amountPaid
  * @property string $buyerId
- * @property DTS\eBaySDK\Trading\Types\CheckoutMethodCodeType(string) $checkoutMethod
  * @property DTS\eBaySDK\Trading\Types\CompleteStatusCodeType(string) $checkoutStatus
  * @property DTS\eBaySDK\Trading\Types\AmountType $codcOst
  * @property string $encryptedId
@@ -65,12 +64,6 @@ class ReviseCheckoutStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyerID'
-        ),
-        'checkoutMethod' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'CheckoutMethod'
         ),
         'checkoutStatus' => array(
             'type' => 'string',

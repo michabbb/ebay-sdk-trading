@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\OfferArrayType $bidArray
- * @property DTS\eBaySDK\Trading\Types\ListingStatusCodeType(string) $listingStatus
  */
 class GetHighBiddersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -28,18 +26,6 @@ class GetHighBiddersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bidArray' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\OfferArrayType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BidArray'
-        ),
-        'listingStatus' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ListingStatus'
-        )
     );
 
     /**

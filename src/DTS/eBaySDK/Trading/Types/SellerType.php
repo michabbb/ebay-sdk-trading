@@ -29,7 +29,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\FeatureEligibilityType $featureEligibility
  * @property boolean $goodStanding
  * @property DTS\eBaySDK\Trading\Types\IntegratedMerchantCreditCardInfoType $integratedMerchantCreditCardInfo
- * @property boolean $internationalRateTable
  * @property DTS\eBaySDK\Trading\Types\MerchandizingPrefCodeType(string) $merchandizingPref
  * @property integer $paisaPayEscrowEmisTatus
  * @property integer $paisaPayStatus
@@ -118,12 +117,6 @@ class SellerType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IntegratedMerchantCreditCardInfo'
-        ),
-        'internationalRateTable' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'InternationalRateTable'
         ),
         'merchandizingPref' => array(
             'type' => 'string',

@@ -25,8 +25,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AttributeSetArrayType $attributeSetArray
  * @property boolean $autoPay
  * @property DTS\eBaySDK\Trading\Types\BestOfferDetailsType $bestOfferDetails
- * @property boolean $bestOfferEnabled
- * @property boolean $bidGroupItem
  * @property DTS\eBaySDK\Trading\Types\BiddingDetailsType $biddingDetails
  * @property DTS\eBaySDK\Trading\Types\BusinessSellerDetailsType $businessSellerDetails
  * @property DTS\eBaySDK\Trading\Types\AmountType $buyItNowPrice
@@ -38,8 +36,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $categoryMappingAllowed
  * @property DTS\eBaySDK\Trading\Types\AmountType $ceilingPrice
  * @property DTS\eBaySDK\Trading\Types\CharityType $charity
- * @property DTS\eBaySDK\Trading\Types\AmountType $classifiedAdPayPerLeadFee
- * @property string $conditionDefinition
  * @property string $conditionDescription
  * @property string $conditionDisplayName
  * @property integer $conditionId
@@ -52,7 +48,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $disableBuyerRequirements
  * @property DTS\eBaySDK\Trading\Types\DiscountPriceInfoType $discountPriceInfo
  * @property integer $dispatchTimeMax
- * @property DTS\eBaySDK\Trading\Types\DistanceType $distance
  * @property string $eBayNotes
  * @property boolean $eBayNowEligible
  * @property DTS\eBaySDK\Trading\Types\ExtendedContactDetailsType $extendedSellerContactDetails
@@ -62,7 +57,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $getItFast
  * @property integer $giftIcon
  * @property DTS\eBaySDK\Trading\Types\GiftServicesCodeType(string) $giftServices
- * @property string $groupCategoryId
  * @property boolean $hideFromSearch
  * @property integer $hitCount
  * @property DTS\eBaySDK\Trading\Types\HitCounterCodeType(string) $hitCounter
@@ -76,7 +70,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\ItemPolicyViolationType $itemPolicyViolation
  * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $itemSpecifics
  * @property integer $leadCount
- * @property boolean $limitedWarrantyEligible
  * @property DTS\eBaySDK\Trading\Types\ListingCheckoutRedirectPreferenceType $listingCheckoutRedirectPreference
  * @property DTS\eBaySDK\Trading\Types\ListingDesignerType $listingDesigner
  * @property DTS\eBaySDK\Trading\Types\ListingDetailsType $listingDetails
@@ -84,7 +77,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\ListingEnhancementsCodeType(string) $listingEnhancement
  * @property DTS\eBaySDK\Trading\Types\ListingSubtypeCodeType(string) $listingSubtype2
  * @property DTS\eBaySDK\Trading\Types\ListingTypeCodeType(string) $listingType
- * @property boolean $localListing
  * @property string $location
  * @property boolean $locationDefaulted
  * @property DTS\eBaySDK\Trading\Types\LookupAttributeArrayType $lookupAttributeArray
@@ -147,8 +139,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\StorefrontType $storefront
  * @property string $subTitle
  * @property string $taxCategory
- * @property boolean $thirdPartyCheckout
- * @property boolean $thirdPartyCheckoutIntegration
  * @property string $timeLeft
  * @property string $title
  * @property boolean $topRatedListing
@@ -208,18 +198,6 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOfferDetails'
-        ),
-        'bestOfferEnabled' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BestOfferEnabled'
-        ),
-        'bidGroupItem' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BidGroupItem'
         ),
         'biddingDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\BiddingDetailsType',
@@ -286,18 +264,6 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Charity'
-        ),
-        'classifiedAdPayPerLeadFee' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ClassifiedAdPayPerLeadFee'
-        ),
-        'conditionDefinition' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ConditionDefinition'
         ),
         'conditionDescription' => array(
             'type' => 'string',
@@ -371,12 +337,6 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'DispatchTimeMax'
         ),
-        'distance' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\DistanceType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Distance'
-        ),
         'eBayNotes' => array(
             'type' => 'string',
             'unbound' => false,
@@ -430,12 +390,6 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'GiftServices'
-        ),
-        'groupCategoryId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'GroupCategoryID'
         ),
         'hideFromSearch' => array(
             'type' => 'boolean',
@@ -515,12 +469,6 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'LeadCount'
         ),
-        'limitedWarrantyEligible' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'LimitedWarrantyEligible'
-        ),
         'listingCheckoutRedirectPreference' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ListingCheckoutRedirectPreferenceType',
             'unbound' => false,
@@ -562,12 +510,6 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingType'
-        ),
-        'localListing' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'LocalListing'
         ),
         'location' => array(
             'type' => 'string',
@@ -940,18 +882,6 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TaxCategory'
-        ),
-        'thirdPartyCheckout' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ThirdPartyCheckout'
-        ),
-        'thirdPartyCheckoutIntegration' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ThirdPartyCheckoutIntegration'
         ),
         'timeLeft' => array(
             'type' => 'string',

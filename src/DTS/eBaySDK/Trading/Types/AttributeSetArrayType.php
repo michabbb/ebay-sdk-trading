@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AttributeSetType $attributeSet
  */
 class AttributeSetArrayType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -27,12 +26,6 @@ class AttributeSetArrayType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'attributeSet' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AttributeSetType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'AttributeSet'
-        )
     );
 
     /**

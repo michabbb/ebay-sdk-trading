@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MyMessagesAlertIDArrayType $alertIdS
  * @property boolean $flagged
  * @property integer $folderId
  * @property DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $messageIdS
@@ -31,12 +30,6 @@ class ReviseMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'alertIdS' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesAlertIDArrayType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AlertIDs'
-        ),
         'flagged' => array(
             'type' => 'boolean',
             'unbound' => false,

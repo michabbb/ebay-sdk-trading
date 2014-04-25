@@ -19,10 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $description
- * @property string $detailVersion
- * @property DTS\eBaySDK\Trading\Types\BuyerPaymentMethodCodeType(string) $paymentOption
- * @property DateTime $updateTime
  */
 class PaymentOptionDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,30 +26,6 @@ class PaymentOptionDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'description' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Description'
-        ),
-        'detailVersion' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DetailVersion'
-        ),
-        'paymentOption' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PaymentOption'
-        ),
-        'updateTime' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'UpdateTime'
-        )
     );
 
     /**

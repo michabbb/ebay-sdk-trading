@@ -19,11 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PictureManagerPictureDisplayTypeCodeType(string) $displayType
- * @property integer $height
- * @property integer $size
- * @property string $url
- * @property integer $width
  */
 class PictureManagerPictureDisplayType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -31,36 +26,6 @@ class PictureManagerPictureDisplayType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'displayType' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DisplayType'
-        ),
-        'height' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Height'
-        ),
-        'size' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Size'
-        ),
-        'url' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'URL'
-        ),
-        'width' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Width'
-        )
     );
 
     /**

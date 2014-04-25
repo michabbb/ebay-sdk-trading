@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ExternalProductIDType $externalProductId
- * @property boolean $includeExpressRequirements
  * @property DTS\eBaySDK\Trading\Types\ItemType $item
  */
 class VerifyAddItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
@@ -29,18 +27,6 @@ class VerifyAddItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'externalProductId' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ExternalProductIDType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExternalProductID'
-        ),
-        'includeExpressRequirements' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'IncludeExpressRequirements'
-        ),
         'item' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'unbound' => false,

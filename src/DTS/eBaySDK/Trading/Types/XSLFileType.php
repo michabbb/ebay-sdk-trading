@@ -19,9 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $fileContent
- * @property string $fileName
- * @property string $fileVersion
  */
 class XSLFileType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -29,24 +26,6 @@ class XSLFileType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'fileContent' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'FileContent'
-        ),
-        'fileName' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'FileName'
-        ),
-        'fileVersion' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'FileVersion'
-        )
     );
 
     /**

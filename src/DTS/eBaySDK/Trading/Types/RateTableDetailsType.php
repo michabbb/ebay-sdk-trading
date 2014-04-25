@@ -20,7 +20,6 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $domesticRateTable
- * @property string $internationalRateTable
  */
 class RateTableDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,12 +32,6 @@ class RateTableDetailsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DomesticRateTable'
-        ),
-        'internationalRateTable' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'InternationalRateTable'
         )
     );
 

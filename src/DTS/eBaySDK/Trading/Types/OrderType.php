@@ -22,7 +22,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $adjustmentAmount
  * @property DTS\eBaySDK\Trading\Types\AmountType $amountPaid
  * @property DTS\eBaySDK\Trading\Types\AmountType $amountSaved
- * @property boolean $bundlePurchase
  * @property string $buyerCheckoutMessage
  * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $buyerUserId
  * @property string $cancelReason
@@ -80,12 +79,6 @@ class OrderType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AmountSaved'
-        ),
-        'bundlePurchase' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BundlePurchase'
         ),
         'buyerCheckoutMessage' => array(
             'type' => 'string',

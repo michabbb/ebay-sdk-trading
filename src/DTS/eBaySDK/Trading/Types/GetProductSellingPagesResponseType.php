@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $productSellingPagesData
  */
 class GetProductSellingPagesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -27,12 +26,6 @@ class GetProductSellingPagesResponseType extends \DTS\eBaySDK\Trading\Types\Abst
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'productSellingPagesData' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ProductSellingPagesData'
-        )
     );
 
     /**

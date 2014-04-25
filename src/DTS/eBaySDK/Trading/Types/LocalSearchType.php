@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $maxDistance
- * @property string $postalCode
  */
 class LocalSearchType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -28,18 +26,6 @@ class LocalSearchType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'maxDistance' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'MaxDistance'
-        ),
-        'postalCode' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PostalCode'
-        )
     );
 
     /**

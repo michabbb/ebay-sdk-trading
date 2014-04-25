@@ -21,7 +21,6 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property DTS\eBaySDK\Trading\Types\AdFormatEnabledCodeType(string) $adFormatEnabled
  * @property boolean $additionalCompatibilityEnabled
- * @property DTS\eBaySDK\Trading\Types\AttributeConversionEnabledCodeType(string) $attributeConversionEnabled
  * @property boolean $basicUpgradePackEnabled
  * @property boolean $bestOfferAutoAcceptEnabled
  * @property boolean $bestOfferAutoDeclineEnabled
@@ -164,12 +163,6 @@ class SiteDefaultsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AdditionalCompatibilityEnabled'
-        ),
-        'attributeConversionEnabled' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeConversionEnabled'
         ),
         'basicUpgradePackEnabled' => array(
             'type' => 'boolean',

@@ -19,9 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $attributeSetId
- * @property string $attributeSystemVersion
- * @property boolean $includeCategoryMappingDetails
  */
 class GetAttributesCSRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -29,24 +26,6 @@ class GetAttributesCSRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'attributeSetId' => array(
-            'type' => 'integer',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'AttributeSetID'
-        ),
-        'attributeSystemVersion' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeSystemVersion'
-        ),
-        'includeCategoryMappingDetails' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'IncludeCategoryMappingDetails'
-        )
     );
 
     /**

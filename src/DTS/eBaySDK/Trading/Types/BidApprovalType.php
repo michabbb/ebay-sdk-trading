@@ -19,10 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $approvedBiddingLimit
- * @property string $declinedComment
- * @property DTS\eBaySDK\Trading\Types\BidderStatusCodeType(string) $status
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $userId
  */
 class BidApprovalType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,30 +26,6 @@ class BidApprovalType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'approvedBiddingLimit' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ApprovedBiddingLimit'
-        ),
-        'declinedComment' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DeclinedComment'
-        ),
-        'status' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Status'
-        ),
-        'userId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'UserID'
-        )
     );
 
     /**

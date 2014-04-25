@@ -22,8 +22,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $category2Id
  * @property string $categoryId
  * @property DTS\eBaySDK\Trading\Types\DiscountReasonCodeType(string) $discountReason
- * @property DTS\eBaySDK\Trading\Types\ExpressItemRequirementsType $expressItemRequirements
- * @property boolean $expressListing
  * @property DTS\eBaySDK\Trading\Types\FeesType $fees
  * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
  * @property DTS\eBaySDK\Trading\Types\ListingRecommendationsType $listingRecommendations
@@ -52,18 +50,6 @@ class VerifyAddFixedPriceItemResponseType extends \DTS\eBaySDK\Trading\Types\Abs
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'DiscountReason'
-        ),
-        'expressItemRequirements' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ExpressItemRequirementsType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressItemRequirements'
-        ),
-        'expressListing' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressListing'
         ),
         'fees' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FeesType',

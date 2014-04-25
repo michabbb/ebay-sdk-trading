@@ -19,9 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $folderId
- * @property string $name
- * @property DTS\eBaySDK\Trading\Types\PictureManagerPictureType $picture
  */
 class PictureManagerFolderType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -29,24 +26,6 @@ class PictureManagerFolderType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'folderId' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'FolderID'
-        ),
-        'name' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Name'
-        ),
-        'picture' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\PictureManagerPictureType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'Picture'
-        )
     );
 
     /**

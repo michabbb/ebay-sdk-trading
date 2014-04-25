@@ -19,15 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $promotedKeywords
- * @property integer $promotedStoreCategoryId
- * @property string $promotedeBayCategoryId
- * @property DTS\eBaySDK\Trading\Types\PromotionMethodCodeType(string) $promotionMethod
- * @property DTS\eBaySDK\Trading\Types\PromotionSchemeCodeType(string) $promotionScheme
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $referringItemId
- * @property string $referringKeywords
- * @property integer $referringStoreCategoryId
- * @property string $referringeBayCategoryId
  */
 class PromotionRuleType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,60 +26,6 @@ class PromotionRuleType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'promotedKeywords' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PromotedKeywords'
-        ),
-        'promotedStoreCategoryId' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PromotedStoreCategoryID'
-        ),
-        'promotedeBayCategoryId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PromotedeBayCategoryID'
-        ),
-        'promotionMethod' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PromotionMethod'
-        ),
-        'promotionScheme' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PromotionScheme'
-        ),
-        'referringItemId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ReferringItemID'
-        ),
-        'referringKeywords' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ReferringKeywords'
-        ),
-        'referringStoreCategoryId' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ReferringStoreCategoryID'
-        ),
-        'referringeBayCategoryId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ReferringeBayCategoryID'
-        )
     );
 
     /**

@@ -22,7 +22,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $helpText
  * @property string $helpUrl
  * @property string $name
- * @property DTS\eBaySDK\Trading\Types\ItemSpecificSourceCodeType(string) $source
  * @property DTS\eBaySDK\Trading\Types\RecommendationValidationRulesType $validationRules
  * @property DTS\eBaySDK\Trading\Types\ValueRecommendationType $valueRecommendation
  */
@@ -49,12 +48,6 @@ class NameRecommendationType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Name'
-        ),
-        'source' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Source'
         ),
         'validationRules' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\RecommendationValidationRulesType',

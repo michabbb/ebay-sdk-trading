@@ -19,14 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\ListingTypeCodeType(string) $listingType
- * @property string $pictureUrl
- * @property integer $position
- * @property DTS\eBaySDK\Trading\Types\PromotionDetailsType $promotionDetails
- * @property DTS\eBaySDK\Trading\Types\PromotionItemSelectionCodeType(string) $selectionType
- * @property string $timeLeft
- * @property string $title
  */
 class PromotedItemType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -34,54 +26,6 @@ class PromotedItemType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'itemId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ItemID'
-        ),
-        'listingType' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ListingType'
-        ),
-        'pictureUrl' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PictureURL'
-        ),
-        'position' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Position'
-        ),
-        'promotionDetails' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\PromotionDetailsType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'PromotionDetails'
-        ),
-        'selectionType' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SelectionType'
-        ),
-        'timeLeft' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'TimeLeft'
-        ),
-        'title' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Title'
-        )
     );
 
     /**

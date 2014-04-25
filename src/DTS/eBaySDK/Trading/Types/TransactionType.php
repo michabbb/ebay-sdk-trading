@@ -28,7 +28,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\UserType $buyer
  * @property string $buyerCheckoutMessage
  * @property DTS\eBaySDK\Trading\Types\AmountType $buyerGuaranteePrice
- * @property string $buyerMessage
  * @property DTS\eBaySDK\Trading\Types\PaidStatusCodeType(string) $buyerPaidStatus
  * @property string $cartId
  * @property string $codiceFiscale
@@ -138,12 +137,6 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyerGuaranteePrice'
-        ),
-        'buyerMessage' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BuyerMessage'
         ),
         'buyerPaidStatus' => array(
             'type' => 'string',

@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MyMessagesAlertIDArrayType $alertIdS
  * @property DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $messageIdS
  */
 class DeleteMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
@@ -28,12 +27,6 @@ class DeleteMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'alertIdS' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesAlertIDArrayType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AlertIDs'
-        ),
         'messageIdS' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType',
             'unbound' => false,
