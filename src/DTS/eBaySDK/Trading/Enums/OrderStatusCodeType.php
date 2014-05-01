@@ -26,6 +26,7 @@ class OrderStatusCodeType
     const ALL = 'All';
     const AUTHENTICATED = 'Authenticated';
     const CANCELLED = 'Cancelled';
+    const CANCEL_PENDING = 'CancelPending';
     const COMPLETED = 'Completed';
     const CUSTOM_CODE = 'CustomCode';
     const DEFAULT = 'Default';

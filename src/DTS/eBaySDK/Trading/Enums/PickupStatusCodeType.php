@@ -27,6 +27,7 @@ class PickupStatusCodeType
     const NOT_APPLICABLE = 'NotApplicable';
     const PENDING_MERCHANT_CONFIRMATION = 'PendingMerchantConfirmation';
     const PICKEDUP = 'Pickedup';
+    const PICKUP_CANCELLED = 'PickupCancelled';
     const PICKUP_CANCELLED_BUYER_NO_SHOW = 'PickupCancelledBuyerNoShow';
     const PICKUP_CANCELLED_BUYER_REJECTED = 'PickupCancelledBuyerRejected';
     const PICKUP_CANCELLED_OUT_OF_STOCK = 'PickupCancelledOutOfStock';

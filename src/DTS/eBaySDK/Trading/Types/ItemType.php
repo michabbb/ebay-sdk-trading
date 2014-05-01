@@ -49,6 +49,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\DiscountPriceInfoType $discountPriceInfo
  * @property integer $dispatchTimeMax
  * @property string $eBayNotes
+ * @property boolean $eBayNowAvailable
  * @property boolean $eBayNowEligible
  * @property DTS\eBaySDK\Trading\Types\ExtendedContactDetailsType $extendedSellerContactDetails
  * @property DTS\eBaySDK\Trading\Types\ExternalProductIDType $externalProductId
@@ -342,6 +343,12 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'eBayNotes'
+        ),
+        'eBayNowAvailable' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'eBayNowAvailable'
         ),
         'eBayNowEligible' => array(
             'type' => 'boolean',
