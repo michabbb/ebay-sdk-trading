@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MyMessagesAlertType $alert
  */
 class MyMessagesAlertArrayType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -27,12 +26,6 @@ class MyMessagesAlertArrayType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'alert' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesAlertType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'Alert'
-        )
     );
 
     /**

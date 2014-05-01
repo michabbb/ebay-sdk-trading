@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MultiLegShipmentType $logisticsProviderShipmentToBuyer
  * @property DTS\eBaySDK\Trading\Types\MultiLegShipmentType $sellerShipmentToLogisticsProvider
  */
 class MultiLegShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
@@ -28,12 +27,6 @@ class MultiLegShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'logisticsProviderShipmentToBuyer' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\MultiLegShipmentType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'LogisticsProviderShipmentToBuyer'
-        ),
         'sellerShipmentToLogisticsProvider' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MultiLegShipmentType',
             'unbound' => false,

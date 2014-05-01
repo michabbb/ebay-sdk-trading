@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PromotionRuleType $promotionRule
  */
 class PromotionRuleArrayType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -27,12 +26,6 @@ class PromotionRuleArrayType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'promotionRule' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\PromotionRuleType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'PromotionRule'
-        )
     );
 
     /**

@@ -19,11 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $amountPerAdditionalItem
- * @property DTS\eBaySDK\Trading\Types\AmountType $deductionAmountPerAdditionalItem
- * @property DTS\eBaySDK\Trading\Types\FlatRateInsuranceRangeCostType $flatRateInsuranceRangeCost
- * @property DTS\eBaySDK\Trading\Types\FlatShippingRateOptionCodeType(string) $flatShippingRateOption
- * @property DTS\eBaySDK\Trading\Types\InsuranceOptionCodeType(string) $insuranceOption
  */
 class FlatShippingPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -31,36 +26,6 @@ class FlatShippingPreferencesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'amountPerAdditionalItem' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AmountPerAdditionalItem'
-        ),
-        'deductionAmountPerAdditionalItem' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DeductionAmountPerAdditionalItem'
-        ),
-        'flatRateInsuranceRangeCost' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\FlatRateInsuranceRangeCostType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'FlatRateInsuranceRangeCost'
-        ),
-        'flatShippingRateOption' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'FlatShippingRateOption'
-        ),
-        'insuranceOption' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'InsuranceOption'
-        )
     );
 
     /**

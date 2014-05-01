@@ -28,7 +28,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\UserType $buyer
  * @property string $buyerCheckoutMessage
  * @property DTS\eBaySDK\Trading\Types\AmountType $buyerGuaranteePrice
- * @property string $buyerMessage
  * @property DTS\eBaySDK\Trading\Types\PaidStatusCodeType(string) $buyerPaidStatus
  * @property string $cartId
  * @property string $codiceFiscale
@@ -67,6 +66,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\PaidStatusCodeType(string) $sellerPaidStatus
  * @property DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $sellingManagerProductDetails
  * @property DateTime $shippedTime
+ * @property DTS\eBaySDK\Trading\Types\AmountType $shippingConvenienceCharge
  * @property DTS\eBaySDK\Trading\Types\ShippingDetailsType $shippingDetails
  * @property DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType $shippingServiceSelected
  * @property DTS\eBaySDK\Trading\Types\TransactionStatusType $status
@@ -138,12 +138,6 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyerGuaranteePrice'
-        ),
-        'buyerMessage' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BuyerMessage'
         ),
         'buyerPaidStatus' => array(
             'type' => 'string',
@@ -372,6 +366,12 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippedTime'
+        ),
+        'shippingConvenienceCharge' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ShippingConvenienceCharge'
         ),
         'shippingDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingDetailsType',

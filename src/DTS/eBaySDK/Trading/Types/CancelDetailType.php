@@ -19,19 +19,47 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $messageIdS
+ * @property DateTime $cancelCompleteDate
+ * @property DateTime $cancelIntiationDate
+ * @property string $cancelIntiator
+ * @property string $cancelReason
+ * @property string $cancelReasonDetails
  */
-class DeleteMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class CancelDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'messageIdS' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType',
+        'cancelCompleteDate' => array(
+            'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'MessageIDs'
+            'elementName' => 'CancelCompleteDate'
+        ),
+        'cancelIntiationDate' => array(
+            'type' => 'DateTime',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'CancelIntiationDate'
+        ),
+        'cancelIntiator' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'CancelIntiator'
+        ),
+        'cancelReason' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'CancelReason'
+        ),
+        'cancelReasonDetails' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'CancelReasonDetails'
         )
     );
 

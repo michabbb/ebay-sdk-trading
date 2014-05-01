@@ -19,15 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CharacteristicsSetType $characteristicsSet
- * @property string $detailsUrl
- * @property DTS\eBaySDK\Trading\Types\AmountType $maxPrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $minPrice
- * @property integer $numItems
- * @property string $productId
- * @property string $productReferenceId
- * @property string $stockPhotoUrl
- * @property string $title
  */
 class ProductType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,60 +26,6 @@ class ProductType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'characteristicsSet' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\CharacteristicsSetType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'CharacteristicsSet'
-        ),
-        'detailsUrl' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DetailsURL'
-        ),
-        'maxPrice' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'MaxPrice'
-        ),
-        'minPrice' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'MinPrice'
-        ),
-        'numItems' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'NumItems'
-        ),
-        'productId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => true,
-            'attributeName' => 'productID'
-        ),
-        'productReferenceId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ProductReferenceID'
-        ),
-        'stockPhotoUrl' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => true,
-            'attributeName' => 'stockPhotoURL'
-        ),
-        'title' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => true,
-            'attributeName' => 'title'
-        )
     );
 
     /**

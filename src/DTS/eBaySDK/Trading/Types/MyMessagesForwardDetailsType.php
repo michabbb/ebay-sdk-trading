@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $forwardMessageEncoding
- * @property DateTime $userForwardDate
  */
 class MyMessagesForwardDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -28,18 +26,6 @@ class MyMessagesForwardDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'forwardMessageEncoding' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ForwardMessageEncoding'
-        ),
-        'userForwardDate' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'UserForwardDate'
-        )
     );
 
     /**

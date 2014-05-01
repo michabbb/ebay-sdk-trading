@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $displayName
- * @property string $displayValue
  */
 class ProductFinderConstraintType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -28,18 +26,6 @@ class ProductFinderConstraintType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'displayName' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DisplayName'
-        ),
-        'displayValue' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DisplayValue'
-        )
     );
 
     /**

@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $attributeSystemVersion
- * @property integer $productFinderId
  */
 class GetProductFinderRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -28,18 +26,6 @@ class GetProductFinderRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'attributeSystemVersion' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeSystemVersion'
-        ),
-        'productFinderId' => array(
-            'type' => 'integer',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'ProductFinderID'
-        )
     );
 
     /**

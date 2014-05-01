@@ -21,7 +21,6 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType $affiliateTrackingDetails
  * @property boolean $blockOnWarning
- * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $buyingTrackingData
  * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
  * @property DTS\eBaySDK\Trading\Types\OfferType $offer
  * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $variationSpecifics
@@ -43,12 +42,6 @@ class PlaceOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BlockOnWarning'
-        ),
-        'buyingTrackingData' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BuyingTrackingData'
         ),
         'itemId' => array(
             'type' => 'string',

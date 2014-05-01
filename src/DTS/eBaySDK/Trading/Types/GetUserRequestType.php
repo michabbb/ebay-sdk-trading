@@ -19,7 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $includeExpressRequirements
  * @property boolean $includeFeatureEligibility
  * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
  * @property string $userId
@@ -30,12 +29,6 @@ class GetUserRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'includeExpressRequirements' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'IncludeExpressRequirements'
-        ),
         'includeFeatureEligibility' => array(
             'type' => 'boolean',
             'unbound' => false,

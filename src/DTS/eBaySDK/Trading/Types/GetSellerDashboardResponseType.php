@@ -21,7 +21,6 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property DTS\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType $buyerSatisfaction
  * @property DTS\eBaySDK\Trading\Types\PerformanceDashboardType $performance
- * @property DTS\eBaySDK\Trading\Types\PolicyComplianceDashboardType $policyCompliance
  * @property DTS\eBaySDK\Trading\Types\PowerSellerDashboardType $powerSellerStatus
  * @property DTS\eBaySDK\Trading\Types\SearchStandingDashboardType $searchStanding
  * @property DTS\eBaySDK\Trading\Types\SellerAccountDashboardType $sellerAccount
@@ -44,12 +43,6 @@ class GetSellerDashboardResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'Performance'
-        ),
-        'policyCompliance' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\PolicyComplianceDashboardType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PolicyCompliance'
         ),
         'powerSellerStatus' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PowerSellerDashboardType',

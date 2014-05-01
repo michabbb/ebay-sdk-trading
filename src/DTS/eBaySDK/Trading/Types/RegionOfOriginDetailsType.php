@@ -19,11 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $description
- * @property string $detailVersion
- * @property string $regionOfOrigin
- * @property DTS\eBaySDK\Trading\Types\StatusCodeType(string) $status
- * @property DateTime $updateTime
  */
 class RegionOfOriginDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -31,36 +26,6 @@ class RegionOfOriginDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'description' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Description'
-        ),
-        'detailVersion' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DetailVersion'
-        ),
-        'regionOfOrigin' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'RegionOfOrigin'
-        ),
-        'status' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Status'
-        ),
-        'updateTime' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'UpdateTime'
-        )
     );
 
     /**

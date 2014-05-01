@@ -31,10 +31,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\CharacteristicsSetType $characteristicsSets
  * @property boolean $expired
  * @property boolean $intlAutosFixedCat
- * @property string $keywords
  * @property boolean $leafCategory
  * @property boolean $lsd
- * @property integer $numOfItems
  * @property boolean $orpa
  * @property boolean $orra
  * @property DTS\eBaySDK\Trading\Types\ExtendedProductFinderIDType $productFinderIdS
@@ -120,12 +118,6 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'IntlAutosFixedCat'
         ),
-        'keywords' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Keywords'
-        ),
         'leafCategory' => array(
             'type' => 'boolean',
             'unbound' => false,
@@ -137,12 +129,6 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LSD'
-        ),
-        'numOfItems' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'NumOfItems'
         ),
         'orpa' => array(
             'type' => 'boolean',

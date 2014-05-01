@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $name
- * @property string $value
  */
 class LookupAttributeType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -28,18 +26,6 @@ class LookupAttributeType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'name' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Name'
-        ),
-        'value' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Value'
-        )
     );
 
     /**

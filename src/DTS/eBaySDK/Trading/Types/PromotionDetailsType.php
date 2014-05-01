@@ -19,10 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $bidCount
- * @property DTS\eBaySDK\Trading\Types\AmountType $convertedPromotionPrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $promotionPrice
- * @property DTS\eBaySDK\Trading\Types\PromotionItemPriceTypeCodeType(string) $promotionPriceType
  */
 class PromotionDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,30 +26,6 @@ class PromotionDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bidCount' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BidCount'
-        ),
-        'convertedPromotionPrice' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ConvertedPromotionPrice'
-        ),
-        'promotionPrice' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PromotionPrice'
-        ),
-        'promotionPriceType' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PromotionPriceType'
-        )
     );
 
     /**

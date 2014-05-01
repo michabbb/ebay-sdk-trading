@@ -19,9 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ProductType $familyMembers
- * @property boolean $hasMoreChildren
- * @property DTS\eBaySDK\Trading\Types\ProductType $parentProduct
  */
 class ProductFamilyType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -29,24 +26,6 @@ class ProductFamilyType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'familyMembers' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'FamilyMembers'
-        ),
-        'hasMoreChildren' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => true,
-            'attributeName' => 'hasMoreChildren'
-        ),
-        'parentProduct' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ParentProduct'
-        )
     );
 
     /**

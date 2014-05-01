@@ -19,10 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $date
- * @property DTS\eBaySDK\Trading\Types\PictureManagerPictureDisplayType $displayFormat
- * @property string $name
- * @property string $pictureUrl
  */
 class PictureManagerPictureType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,30 +26,6 @@ class PictureManagerPictureType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'date' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Date'
-        ),
-        'displayFormat' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\PictureManagerPictureDisplayType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'DisplayFormat'
-        ),
-        'name' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Name'
-        ),
-        'pictureUrl' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PictureURL'
-        )
     );
 
     /**

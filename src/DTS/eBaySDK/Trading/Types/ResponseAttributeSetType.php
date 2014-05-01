@@ -19,13 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $approximatePages
- * @property integer $attributeSetId
- * @property boolean $hasMore
- * @property DTS\eBaySDK\Trading\Types\ProductFamilyType $productFamilies
- * @property DTS\eBaySDK\Trading\Types\ProductFinderConstraintType $productFinderConstraints
- * @property boolean $tooManyMatchesFound
- * @property integer $totalProducts
  */
 class ResponseAttributeSetType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,48 +26,6 @@ class ResponseAttributeSetType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'approximatePages' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ApproximatePages'
-        ),
-        'attributeSetId' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeSetID'
-        ),
-        'hasMore' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'HasMore'
-        ),
-        'productFamilies' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductFamilyType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'ProductFamilies'
-        ),
-        'productFinderConstraints' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductFinderConstraintType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'ProductFinderConstraints'
-        ),
-        'tooManyMatchesFound' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'TooManyMatchesFound'
-        ),
-        'totalProducts' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'TotalProducts'
-        )
     );
 
     /**

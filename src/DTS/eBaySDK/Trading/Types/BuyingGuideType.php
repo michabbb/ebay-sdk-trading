@@ -22,7 +22,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $categoryId
  * @property DateTime $creationTime
  * @property string $name
- * @property integer $productFinderId
  * @property string $text
  * @property string $title
  * @property string $url
@@ -51,12 +50,6 @@ class BuyingGuideType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Name'
-        ),
-        'productFinderId' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ProductFinderID'
         ),
         'text' => array(
             'type' => 'string',

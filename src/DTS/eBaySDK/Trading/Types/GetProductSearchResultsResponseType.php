@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DataElementSetType $dataElementSets
- * @property DTS\eBaySDK\Trading\Types\ProductSearchResultType $productSearchResult
  */
 class GetProductSearchResultsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -28,18 +26,6 @@ class GetProductSearchResultsResponseType extends \DTS\eBaySDK\Trading\Types\Abs
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'dataElementSets' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\DataElementSetType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'DataElementSets'
-        ),
-        'productSearchResult' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductSearchResultType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'ProductSearchResult'
-        )
     );
 
     /**

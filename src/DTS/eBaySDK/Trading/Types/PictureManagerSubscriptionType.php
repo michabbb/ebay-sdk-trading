@@ -19,9 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $fee
- * @property integer $storageSize
- * @property DTS\eBaySDK\Trading\Types\PictureManagerSubscriptionLevelCodeType(string) $subscriptionLevel
  */
 class PictureManagerSubscriptionType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -29,24 +26,6 @@ class PictureManagerSubscriptionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'fee' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Fee'
-        ),
-        'storageSize' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'StorageSize'
-        ),
-        'subscriptionLevel' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SubscriptionLevel'
-        )
     );
 
     /**

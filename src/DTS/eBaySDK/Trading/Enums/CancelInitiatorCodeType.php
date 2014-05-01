@@ -20,18 +20,12 @@ namespace DTS\eBaySDK\Trading\Enums;
 /**
  *
  */
-class CancelReasonCodeType
+class CancelInitiatorCodeType
 {
-    const BUYER_CANCEL_ORDER = 'BuyerCancelOrder';
-    const BUYER_NOT_SCHEDULE = 'BuyerNotSchedule';
-    const BUYER_NO_SHOW = 'BuyerNoShow';
-    const BUYER_REFUSED = 'BuyerRefused';
+    const BUYER = 'Buyer';
+    const CS = 'CS';
     const CUSTOM_CODE = 'CustomCode';
-    const FOUND_CHEAPER_PRICE = 'FoundCheaperPrice';
-    const ORDER_PLACED_BY_MISTAKE = 'OrderPlacedByMistake';
-    const OUT_OF_STOCK = 'OutOfStock';
-    const PRICE_TOO_HIGH = 'PriceTooHigh';
-    const VALET_DELIVERY_ISSUES = 'ValetDeliveryIssues';
-    const VALET_UNAVAILABLE = 'ValetUnavailable';
-    const WONT_ARRIVE_IN_TIME = 'WontArriveInTime';
+    const SELLER = 'Seller';
+    const SYSTEM = 'System';
+    const UNKNOWN = 'Unknown';
 }

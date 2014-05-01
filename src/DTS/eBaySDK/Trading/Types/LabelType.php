@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $name
- * @property boolean $visible
  */
 class LabelType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -28,18 +26,6 @@ class LabelType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'name' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Name'
-        ),
-        'visible' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => true,
-            'attributeName' => 'visible'
-        )
     );
 
     /**

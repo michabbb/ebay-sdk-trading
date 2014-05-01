@@ -29,7 +29,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $financingAnswer
  * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
  * @property string $itemTitle
- * @property DTS\eBaySDK\Trading\Types\AmountType $leadFee
  * @property DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $memberMessage
  * @property string $purchaseTimeFrame
  * @property DTS\eBaySDK\Trading\Types\AdFormatLeadStatusCodeType(string) $status
@@ -104,12 +103,6 @@ class AdFormatLeadType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemTitle'
-        ),
-        'leadFee' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'LeadFee'
         ),
         'memberMessage' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType',

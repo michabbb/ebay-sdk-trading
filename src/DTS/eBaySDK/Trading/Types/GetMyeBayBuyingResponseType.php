@@ -20,7 +20,6 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $bestOfferList
- * @property DTS\eBaySDK\Trading\Types\BidGroupArrayType $bidAssistantList
  * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $bidList
  * @property DTS\eBaySDK\Trading\Types\BuyingSummaryType $buyingSummary
  * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $deletedFromLostList
@@ -44,12 +43,6 @@ class GetMyeBayBuyingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOfferList'
-        ),
-        'bidAssistantList' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\BidGroupArrayType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BidAssistantList'
         ),
         'bidList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',

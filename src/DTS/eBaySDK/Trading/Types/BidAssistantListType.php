@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $bidGroupId
- * @property boolean $includeNotes
  */
 class BidAssistantListType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -28,18 +26,6 @@ class BidAssistantListType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bidGroupId' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BidGroupID'
-        ),
-        'includeNotes' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'IncludeNotes'
-        )
     );
 
     /**

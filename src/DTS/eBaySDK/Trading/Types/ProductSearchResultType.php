@@ -19,10 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ResponseAttributeSetType $attributeSet
- * @property boolean $displayStockPhotos
- * @property string $id
- * @property string $numProducts
  */
 class ProductSearchResultType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,30 +26,6 @@ class ProductSearchResultType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'attributeSet' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ResponseAttributeSetType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'AttributeSet'
-        ),
-        'displayStockPhotos' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DisplayStockPhotos'
-        ),
-        'id' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ID'
-        ),
-        'numProducts' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'NumProducts'
-        )
     );
 
     /**

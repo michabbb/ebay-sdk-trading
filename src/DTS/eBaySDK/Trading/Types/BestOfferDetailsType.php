@@ -23,7 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $bestOfferCount
  * @property boolean $bestOfferEnabled
  * @property DTS\eBaySDK\Trading\Types\BestOfferStatusCodeType(string) $bestOfferStatus
- * @property DTS\eBaySDK\Trading\Types\BestOfferTypeCodeType(string) $bestOfferType
  * @property boolean $newBestOffer
  */
 class BestOfferDetailsType extends \DTS\eBaySDK\Types\BaseType
@@ -55,12 +54,6 @@ class BestOfferDetailsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOfferStatus'
-        ),
-        'bestOfferType' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BestOfferType'
         ),
         'newBestOffer' => array(
             'type' => 'boolean',

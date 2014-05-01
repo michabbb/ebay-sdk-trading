@@ -22,10 +22,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $adjustmentAmount
  * @property DTS\eBaySDK\Trading\Types\AmountType $amountPaid
  * @property DTS\eBaySDK\Trading\Types\AmountType $amountSaved
- * @property boolean $bundlePurchase
  * @property string $buyerCheckoutMessage
  * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $buyerUserId
+ * @property DTS\eBaySDK\Trading\Types\CancelDetailType $cancelDetail
  * @property string $cancelReason
+ * @property string $cancelReasonDetails
+ * @property DTS\eBaySDK\Trading\Types\CancelStatusCodeType(string) $cancelStatus
  * @property DTS\eBaySDK\Trading\Types\CheckoutStatusType $checkoutStatus
  * @property DateTime $createdTime
  * @property DTS\eBaySDK\Trading\Types\TradingRoleCodeType(string) $creatingUserRole
@@ -51,6 +53,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $sellerUserId
  * @property DateTime $shippedTime
  * @property DTS\eBaySDK\Trading\Types\AddressType $shippingAddress
+ * @property DTS\eBaySDK\Trading\Types\AmountType $shippingConvenienceCharge
  * @property DTS\eBaySDK\Trading\Types\ShippingDetailsType $shippingDetails
  * @property DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType $shippingServiceSelected
  * @property DTS\eBaySDK\Trading\Types\AmountType $subtotal
@@ -81,12 +84,6 @@ class OrderType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'AmountSaved'
         ),
-        'bundlePurchase' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BundlePurchase'
-        ),
         'buyerCheckoutMessage' => array(
             'type' => 'string',
             'unbound' => false,
@@ -99,11 +96,29 @@ class OrderType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'BuyerUserID'
         ),
+        'cancelDetail' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\CancelDetailType',
+            'unbound' => true,
+            'attribute' => false,
+            'elementName' => 'CancelDetail'
+        ),
         'cancelReason' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CancelReason'
+        ),
+        'cancelReasonDetails' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'CancelReasonDetails'
+        ),
+        'cancelStatus' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'CancelStatus'
         ),
         'checkoutStatus' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\CheckoutStatusType',
@@ -254,6 +269,12 @@ class OrderType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingAddress'
+        ),
+        'shippingConvenienceCharge' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ShippingConvenienceCharge'
         ),
         'shippingDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingDetailsType',

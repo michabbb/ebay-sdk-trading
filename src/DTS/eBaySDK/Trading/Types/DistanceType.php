@@ -19,8 +19,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $distanceMeasurement
- * @property string $distanceUnit
  */
 class DistanceType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -28,18 +26,6 @@ class DistanceType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'distanceMeasurement' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DistanceMeasurement'
-        ),
-        'distanceUnit' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DistanceUnit'
-        )
     );
 
     /**

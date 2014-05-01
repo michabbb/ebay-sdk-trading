@@ -33,12 +33,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $hasReservePrice
  * @property boolean $hasUnansweredQuestions
  * @property string $localListingDistance
- * @property string $minimumBestOfferMessage
  * @property DTS\eBaySDK\Trading\Types\AmountType $minimumBestOfferPrice
- * @property boolean $payPerLeadEnabled
  * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $relistedItemId
  * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $secondChanceOriginalItemId
- * @property DTS\eBaySDK\Trading\Types\SellerBusinessCodeType(string) $sellerBusinessType
  * @property DateTime $startTime
  * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $tcroRiginalItemId
  * @property string $viewItemUrl
@@ -134,23 +131,11 @@ class ListingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'LocalListingDistance'
         ),
-        'minimumBestOfferMessage' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'MinimumBestOfferMessage'
-        ),
         'minimumBestOfferPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MinimumBestOfferPrice'
-        ),
-        'payPerLeadEnabled' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PayPerLeadEnabled'
         ),
         'relistedItemId' => array(
             'type' => 'string',
@@ -163,12 +148,6 @@ class ListingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SecondChanceOriginalItemID'
-        ),
-        'sellerBusinessType' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellerBusinessType'
         ),
         'startTime' => array(
             'type' => 'DateTime',

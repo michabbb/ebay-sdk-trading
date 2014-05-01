@@ -20,6 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $merchantPickupCode
+ * @property DateTime $pickupFulfillmentTime
  * @property string $pickupMethod
  * @property DTS\eBaySDK\Trading\Types\PickupStatusCodeType(string) $pickupStatus
  * @property string $pickupStoreId
@@ -35,6 +36,12 @@ class PickupMethodSelectedType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MerchantPickupCode'
+        ),
+        'pickupFulfillmentTime' => array(
+            'type' => 'DateTime',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PickupFulfillmentTime'
         ),
         'pickupMethod' => array(
             'type' => 'string',
