@@ -19,47 +19,47 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $bestOffer
- * @property integer $bestOfferCount
- * @property boolean $bestOfferEnabled
- * @property DTS\eBaySDK\Trading\Types\BestOfferStatusCodeType(string) $bestOfferStatus
- * @property boolean $newBestOffer
+ * @property DateTime $cancelCompleteDate
+ * @property DateTime $cancelIntiationDate
+ * @property string $cancelIntiator
+ * @property string $cancelReason
+ * @property string $cancelReasonDetails
  */
-class BestOfferDetailsType extends \DTS\eBaySDK\Types\BaseType
+class CancelDetailType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bestOffer' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+        'cancelCompleteDate' => array(
+            'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'BestOffer'
+            'elementName' => 'CancelCompleteDate'
         ),
-        'bestOfferCount' => array(
-            'type' => 'integer',
+        'cancelIntiationDate' => array(
+            'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferCount'
+            'elementName' => 'CancelIntiationDate'
         ),
-        'bestOfferEnabled' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BestOfferEnabled'
-        ),
-        'bestOfferStatus' => array(
+        'cancelIntiator' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'BestOfferStatus'
+            'elementName' => 'CancelIntiator'
         ),
-        'newBestOffer' => array(
-            'type' => 'boolean',
+        'cancelReason' => array(
+            'type' => 'string',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'NewBestOffer'
+            'elementName' => 'CancelReason'
+        ),
+        'cancelReasonDetails' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'CancelReasonDetails'
         )
     );
 
