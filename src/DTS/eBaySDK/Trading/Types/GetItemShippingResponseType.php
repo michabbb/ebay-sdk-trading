@@ -19,6 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
+ * @property DTS\eBaySDK\Trading\Types\PickupInStoreDetailsType $pickUpInStoreDetails
  * @property DTS\eBaySDK\Trading\Types\ShippingDetailsType $shippingDetails
  */
 class GetItemShippingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
@@ -27,6 +28,12 @@ class GetItemShippingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
+        'pickUpInStoreDetails' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\PickupInStoreDetailsType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PickUpInStoreDetails'
+        ),
         'shippingDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingDetailsType',
             'unbound' => false,
