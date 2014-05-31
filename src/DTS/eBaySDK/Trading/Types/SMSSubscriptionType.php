@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\WirelessCarrierIDCodeType(string) $carrierId
- * @property DTS\eBaySDK\Trading\Types\SMSSubscriptionErrorCodeCodeType(string) $errorCode
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemToUnsubscribe
+ * @property DTS\eBaySDK\Trading\Enums\WirelessCarrierIDCodeType(string) $carrierId
+ * @property DTS\eBaySDK\Trading\Enums\SMSSubscriptionErrorCodeCodeType(string) $errorCode
+ * @property string $itemToUnsubscribe
  * @property string $smspHone
- * @property DTS\eBaySDK\Trading\Types\SMSSubscriptionUserStatusCodeType(string) $userStatus
+ * @property DTS\eBaySDK\Trading\Enums\SMSSubscriptionUserStatusCodeType(string) $userStatus
  */
 class SMSSubscriptionType extends \DTS\eBaySDK\Types\BaseType
 {

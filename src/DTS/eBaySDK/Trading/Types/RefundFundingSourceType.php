@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $accountNumber
  * @property string $buyerExternalTransactionId
  * @property DTS\eBaySDK\Trading\Types\AmountType $refundAmount
- * @property DTS\eBaySDK\Trading\Types\RefundingSourceTypeCodeType(string) $refundingSourceType
+ * @property DTS\eBaySDK\Trading\Enums\RefundingSourceTypeCodeType(string) $refundingSourceType
  * @property string $sellerExternalTransactionId
  */
 class RefundFundingSourceType extends \DTS\eBaySDK\Types\BaseType

@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $activeItemsOnly
  * @property DateTime $endTimeFrom
  * @property DateTime $endTimeTo
- * @property DTS\eBaySDK\Trading\Types\GranularityLevelCodeType(string) $granularityLevel
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $userId
+ * @property DTS\eBaySDK\Trading\Enums\GranularityLevelCodeType(string) $granularityLevel
+ * @property string $userId
  */
 class GetBidderListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BuyerProtectionSourceCodeType(string) $buyerProtectionSource
- * @property DTS\eBaySDK\Trading\Types\BuyerProtectionCodeType(string) $buyerProtectionStatus
+ * @property DTS\eBaySDK\Trading\Enums\BuyerProtectionSourceCodeType(string) $buyerProtectionSource
+ * @property DTS\eBaySDK\Trading\Enums\BuyerProtectionCodeType(string) $buyerProtectionStatus
  */
 class BuyerProtectionDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

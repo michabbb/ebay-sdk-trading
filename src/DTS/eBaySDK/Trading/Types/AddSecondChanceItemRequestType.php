@@ -20,9 +20,9 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property DTS\eBaySDK\Trading\Types\AmountType $buyItNowPrice
- * @property DTS\eBaySDK\Trading\Types\SecondChanceOfferDurationCodeType(string) $duration
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $recipientBidderUserId
+ * @property DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType(string) $duration
+ * @property string $itemId
+ * @property string $recipientBidderUserId
  * @property string $sellerMessage
  */
 class AddSecondChanceItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

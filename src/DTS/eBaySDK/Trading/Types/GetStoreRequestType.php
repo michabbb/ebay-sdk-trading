@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $categoryStructureOnly
  * @property integer $levelLimit
  * @property integer $rootCategoryId
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $userId
+ * @property string $userId
  */
 class GetStoreRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

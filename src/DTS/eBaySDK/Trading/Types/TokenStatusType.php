@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $eiastOken
  * @property DateTime $expirationTime
  * @property DateTime $revocationTime
- * @property DTS\eBaySDK\Trading\Types\TokenStatusCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\TokenStatusCodeType(string) $status
  */
 class TokenStatusType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -29,7 +29,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $newItemFilter
  * @property DateTime $startTimeFrom
  * @property DateTime $startTimeTo
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $userId
+ * @property string $userId
  */
 class GetSellerEventsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

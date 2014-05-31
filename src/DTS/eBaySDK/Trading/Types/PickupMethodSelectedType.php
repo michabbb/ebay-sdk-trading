@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $merchantPickupCode
  * @property DateTime $pickupFulfillmentTime
  * @property string $pickupMethod
- * @property DTS\eBaySDK\Trading\Types\PickupStatusCodeType(string) $pickupStatus
+ * @property DTS\eBaySDK\Trading\Enums\PickupStatusCodeType(string) $pickupStatus
  * @property string $pickupStoreId
  */
 class PickupMethodSelectedType extends \DTS\eBaySDK\Types\BaseType

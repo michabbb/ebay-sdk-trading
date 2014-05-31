@@ -22,11 +22,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $category2Id
  * @property string $categoryId
  * @property string $correlationId
- * @property DTS\eBaySDK\Trading\Types\DiscountReasonCodeType(string) $discountReason
+ * @property DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType(string) $discountReason
  * @property DateTime $endTime
  * @property DTS\eBaySDK\Trading\Types\ErrorType $errors
  * @property DTS\eBaySDK\Trading\Types\FeesType $fees
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property DTS\eBaySDK\Trading\Types\ListingRecommendationsType $listingRecommendations
  * @property string $message
  * @property DateTime $startTime

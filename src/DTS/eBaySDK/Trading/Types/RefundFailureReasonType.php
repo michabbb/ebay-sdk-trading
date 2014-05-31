@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\RefundFailureCodeType(string) $refundFailureCode
+ * @property DTS\eBaySDK\Trading\Enums\RefundFailureCodeType(string) $refundFailureCode
  */
 class RefundFailureReasonType extends \DTS\eBaySDK\Types\BaseType
 {

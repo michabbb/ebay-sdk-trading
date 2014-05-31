@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ModifyActionCodeType(string) $action
+ * @property DTS\eBaySDK\Trading\Enums\ModifyActionCodeType(string) $action
  * @property boolean $allAuctionItems
  * @property boolean $allFixedPriceItems
  * @property boolean $allStoreInventoryItems

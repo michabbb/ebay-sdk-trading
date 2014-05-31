@@ -24,7 +24,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $text
  * @property string $title
  * @property string $url
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $userId
+ * @property string $userId
  */
 class ReviewType extends \DTS\eBaySDK\Types\BaseType
 {

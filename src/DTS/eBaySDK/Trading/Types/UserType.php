@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $aboutMePage
  * @property DTS\eBaySDK\Trading\Types\BiddingSummaryType $biddingSummary
  * @property string $billingEmail
- * @property DTS\eBaySDK\Trading\Types\BusinessRoleType(string) $businessRole
+ * @property DTS\eBaySDK\Trading\Enums\BusinessRoleType(string) $businessRole
  * @property DTS\eBaySDK\Trading\Types\BuyerType $buyerInfo
  * @property DTS\eBaySDK\Trading\Types\CharityAffiliationsType $charityAffiliations
  * @property boolean $eBayGoodStanding
@@ -31,36 +31,36 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $email
  * @property boolean $enterpriseSeller
  * @property boolean $feedbackPrivate
- * @property DTS\eBaySDK\Trading\Types\FeedbackRatingStarCodeType(string) $feedbackRatingStar
+ * @property DTS\eBaySDK\Trading\Enums\FeedbackRatingStarCodeType(string) $feedbackRatingStar
  * @property integer $feedbackScore
  * @property boolean $idvErified
  * @property boolean $motorsDealer
  * @property boolean $newUser
- * @property DTS\eBaySDK\Trading\Types\PayPalAccountLevelCodeType(string) $payPalAccountLevel
- * @property DTS\eBaySDK\Trading\Types\PayPalAccountStatusCodeType(string) $payPalAccountStatus
- * @property DTS\eBaySDK\Trading\Types\PayPalAccountTypeCodeType(string) $payPalAccountType
+ * @property DTS\eBaySDK\Trading\Enums\PayPalAccountLevelCodeType(string) $payPalAccountLevel
+ * @property DTS\eBaySDK\Trading\Enums\PayPalAccountStatusCodeType(string) $payPalAccountStatus
+ * @property DTS\eBaySDK\Trading\Enums\PayPalAccountTypeCodeType(string) $payPalAccountType
  * @property double $positiveFeedbackPercent
  * @property boolean $qualifiesForSelling
  * @property DTS\eBaySDK\Trading\Types\AddressType $registrationAddress
  * @property DateTime $registrationDate
  * @property DTS\eBaySDK\Trading\Types\SellerType $sellerInfo
  * @property DTS\eBaySDK\Trading\Types\AddressType $shippingAddress
- * @property DTS\eBaySDK\Trading\Types\SiteCodeType(string) $site
+ * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $site
  * @property boolean $siteVerified
  * @property string $skypeId
  * @property string $staticAlias
- * @property DTS\eBaySDK\Trading\Types\UserStatusCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\UserStatusCodeType(string) $status
  * @property integer $tuvlEvel
  * @property integer $uniqueNegativeFeedbackCount
  * @property integer $uniqueNeutralFeedbackCount
  * @property integer $uniquePositiveFeedbackCount
  * @property boolean $userAnonymized
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $userId
+ * @property string $userId
  * @property boolean $userIdcHanged
  * @property DateTime $userIdlAstChanged
- * @property DTS\eBaySDK\Trading\Types\EBaySubscriptionTypeCodeType(string) $userSubscription
+ * @property DTS\eBaySDK\Trading\Enums\EBaySubscriptionTypeCodeType(string) $userSubscription
  * @property string $vatid
- * @property DTS\eBaySDK\Trading\Types\VATStatusCodeType(string) $vatsTatus
+ * @property DTS\eBaySDK\Trading\Enums\VATStatusCodeType(string) $vatsTatus
  */
 class UserType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $categoryId
  * @property DateTime $endTimeFrom
  * @property DateTime $endTimeTo
- * @property DTS\eBaySDK\Trading\Types\GranularityLevelCodeType(string) $granularityLevel
+ * @property DTS\eBaySDK\Trading\Enums\GranularityLevelCodeType(string) $granularityLevel
  * @property boolean $includeVariations
  * @property boolean $includeWatchCount
  * @property DTS\eBaySDK\Trading\Types\UserIDArrayType $motorsDealerUsers
@@ -32,7 +32,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $sort
  * @property DateTime $startTimeFrom
  * @property DateTime $startTimeTo
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $userId
+ * @property string $userId
  */
 class GetSellerListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

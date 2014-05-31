@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DisputeResolutionReasonCodeType(string) $disputeResolutionReason
- * @property DTS\eBaySDK\Trading\Types\DisputeResolutionRecordTypeCodeType(string) $disputeResolutionRecordType
+ * @property DTS\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType(string) $disputeResolutionReason
+ * @property DTS\eBaySDK\Trading\Enums\DisputeResolutionRecordTypeCodeType(string) $disputeResolutionRecordType
  * @property DateTime $resolutionTime
  */
 class DisputeResolutionType extends \DTS\eBaySDK\Types\BaseType

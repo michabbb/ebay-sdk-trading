@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\PromotionSchemeCodeType(string) $primaryScheme
+ * @property string $itemId
+ * @property DTS\eBaySDK\Trading\Enums\PromotionSchemeCodeType(string) $primaryScheme
  * @property DTS\eBaySDK\Trading\Types\PromotedItemType $promotedItem
- * @property DTS\eBaySDK\Trading\Types\PromotionMethodCodeType(string) $promotionMethod
+ * @property DTS\eBaySDK\Trading\Enums\PromotionMethodCodeType(string) $promotionMethod
  * @property string $sellerId
  * @property boolean $shippingDiscount
  * @property string $storeName

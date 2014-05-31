@@ -19,20 +19,20 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CheckoutStatusCodeType(string) $checkoutStatus
- * @property DTS\eBaySDK\Trading\Types\PaymentStatusCodeType(string) $eBayPaymentStatus
- * @property DTS\eBaySDK\Trading\Types\CommentTypeCodeType(string) $feedbackReceived
+ * @property DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType(string) $checkoutStatus
+ * @property DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType(string) $eBayPaymentStatus
+ * @property DTS\eBaySDK\Trading\Enums\CommentTypeCodeType(string) $feedbackReceived
  * @property boolean $feedbackSent
  * @property boolean $integratedMerchantCreditCardEnabled
  * @property DateTime $lastEmailSentTime
- * @property DTS\eBaySDK\Trading\Types\SellingManagerPaidStatusCodeType(string) $paidStatus
+ * @property DTS\eBaySDK\Trading\Enums\SellingManagerPaidStatusCodeType(string) $paidStatus
  * @property DateTime $paidTime
  * @property string $payPalTransactionId
- * @property DTS\eBaySDK\Trading\Types\PaymentHoldStatusCodeType(string) $paymentHoldStatus
- * @property DTS\eBaySDK\Trading\Types\BuyerPaymentMethodCodeType(string) $paymentMethodUsed
+ * @property DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType(string) $paymentHoldStatus
+ * @property DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $paymentMethodUsed
  * @property string $sellerInvoiceNumber
  * @property DateTime $sellerInvoiceTime
- * @property DTS\eBaySDK\Trading\Types\SellingManagerShippedStatusCodeType(string) $shippedStatus
+ * @property DTS\eBaySDK\Trading\Enums\SellingManagerShippedStatusCodeType(string) $shippedStatus
  * @property DateTime $shippedTime
  * @property integer $totalEmailsSent
  */

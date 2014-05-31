@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $id
- * @property DTS\eBaySDK\Trading\Types\CharityAffiliationTypeCodeType(string) $type
+ * @property DTS\eBaySDK\Trading\Enums\CharityAffiliationTypeCodeType(string) $type
  */
 class CharityAffiliationType extends \DTS\eBaySDK\Types\BaseType
 {

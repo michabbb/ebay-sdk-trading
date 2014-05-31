@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\FlatRateInsuranceRangeCodeType(string) $flatRateInsuranceRange
+ * @property DTS\eBaySDK\Trading\Enums\FlatRateInsuranceRangeCodeType(string) $flatRateInsuranceRange
  * @property DTS\eBaySDK\Trading\Types\AmountType $insuranceCost
  */
 class FlatRateInsuranceRangeCostType extends \DTS\eBaySDK\Types\BaseType

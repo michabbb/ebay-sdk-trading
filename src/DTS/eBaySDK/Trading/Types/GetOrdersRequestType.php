@@ -22,15 +22,15 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DateTime $createTimeFrom
  * @property DateTime $createTimeTo
  * @property boolean $includeFinalValueFee
- * @property DTS\eBaySDK\Trading\Types\ListingTypeCodeType(string) $listingType
+ * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $listingType
  * @property DateTime $modTimeFrom
  * @property DateTime $modTimeTo
  * @property integer $numberOfDays
  * @property DTS\eBaySDK\Trading\Types\OrderIDArrayType $orderIdaRray
- * @property DTS\eBaySDK\Trading\Types\TradingRoleCodeType(string) $orderRole
- * @property DTS\eBaySDK\Trading\Types\OrderStatusCodeType(string) $orderStatus
+ * @property DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $orderRole
+ * @property DTS\eBaySDK\Trading\Enums\OrderStatusCodeType(string) $orderStatus
  * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
- * @property DTS\eBaySDK\Trading\Types\SortOrderCodeType(string) $sortingOrder
+ * @property DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $sortingOrder
  */
 class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

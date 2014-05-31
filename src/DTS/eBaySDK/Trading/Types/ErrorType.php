@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ErrorClassificationCodeType(string) $errorClassification
+ * @property DTS\eBaySDK\Trading\Enums\ErrorClassificationCodeType(string) $errorClassification
  * @property string $errorCode
  * @property DTS\eBaySDK\Trading\Types\ErrorParameterType $errorParameters
  * @property string $longMessage
- * @property DTS\eBaySDK\Trading\Types\SeverityCodeType(string) $severityCode
+ * @property DTS\eBaySDK\Trading\Enums\SeverityCodeType(string) $severityCode
  * @property string $shortMessage
  * @property boolean $userDisplayHint
  */

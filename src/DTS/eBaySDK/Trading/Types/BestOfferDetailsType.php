@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $bestOffer
  * @property integer $bestOfferCount
  * @property boolean $bestOfferEnabled
- * @property DTS\eBaySDK\Trading\Types\BestOfferStatusCodeType(string) $bestOfferStatus
+ * @property DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType(string) $bestOfferStatus
  * @property boolean $newBestOffer
  */
 class BestOfferDetailsType extends \DTS\eBaySDK\Types\BaseType

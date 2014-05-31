@@ -31,7 +31,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $globalShipping
  * @property DTS\eBaySDK\Trading\Types\InsuranceDetailsType $insuranceDetails
  * @property DTS\eBaySDK\Trading\Types\AmountType $insuranceFee
- * @property DTS\eBaySDK\Trading\Types\InsuranceOptionCodeType(string) $insuranceOption
+ * @property DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType(string) $insuranceOption
  * @property boolean $insuranceWanted
  * @property DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $internationalCalculatedShippingDiscount
  * @property DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $internationalFlatShippingDiscount
@@ -50,10 +50,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\ShipmentTrackingDetailsType $shipmentTrackingDetails
  * @property string $shippingDiscountProfileId
  * @property string $shippingRateErrorMessage
- * @property DTS\eBaySDK\Trading\Types\ShippingRateTypeCodeType(string) $shippingRateType
+ * @property DTS\eBaySDK\Trading\Enums\ShippingRateTypeCodeType(string) $shippingRateType
  * @property DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType $shippingServiceOptions
  * @property string $shippingServiceUsed
- * @property DTS\eBaySDK\Trading\Types\ShippingTypeCodeType(string) $shippingType
+ * @property DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType(string) $shippingType
  * @property DTS\eBaySDK\Trading\Types\TaxTableType $taxTable
  * @property boolean $thirdPartyCheckout
  */

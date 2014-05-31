@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DisputeIDType(string) $disputeId
+ * @property string $disputeId
  */
 class GetDisputeRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

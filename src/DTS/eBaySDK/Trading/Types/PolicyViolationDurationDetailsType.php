@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $description
- * @property DTS\eBaySDK\Trading\Types\PeriodCodeType(string) $period
+ * @property DTS\eBaySDK\Trading\Enums\PeriodCodeType(string) $period
  */
 class PolicyViolationDurationDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

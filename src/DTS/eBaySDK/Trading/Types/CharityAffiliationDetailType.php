@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CharityAffiliationTypeCodeType(string) $affiliationType
+ * @property DTS\eBaySDK\Trading\Enums\CharityAffiliationTypeCodeType(string) $affiliationType
  * @property string $charityId
  * @property DateTime $lastUsedTime
  */

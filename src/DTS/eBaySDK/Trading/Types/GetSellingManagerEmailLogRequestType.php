@@ -20,8 +20,8 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property DTS\eBaySDK\Trading\Types\TimeRangeType $emailDateRange
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\OrderIDType(string) $orderId
+ * @property string $itemId
+ * @property string $orderId
  * @property string $orderLineItemId
  * @property integer $transactionId
  */

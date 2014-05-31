@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DisputeFilterTypeCodeType(string) $disputeFilterType
+ * @property DTS\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType(string) $disputeFilterType
  * @property integer $totalAvailable
  */
 class DisputeFilterCountType extends \DTS\eBaySDK\Types\BaseType

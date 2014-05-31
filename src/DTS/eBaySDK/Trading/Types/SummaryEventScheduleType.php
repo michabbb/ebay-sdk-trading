@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\NotificationEventTypeCodeType(string) $eventType
- * @property DTS\eBaySDK\Trading\Types\SummaryFrequencyCodeType(string) $frequency
- * @property DTS\eBaySDK\Trading\Types\SummaryWindowPeriodCodeType(string) $summaryPeriod
+ * @property DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType(string) $eventType
+ * @property DTS\eBaySDK\Trading\Enums\SummaryFrequencyCodeType(string) $frequency
+ * @property DTS\eBaySDK\Trading\Enums\SummaryWindowPeriodCodeType(string) $summaryPeriod
  */
 class SummaryEventScheduleType extends \DTS\eBaySDK\Types\BaseType
 {

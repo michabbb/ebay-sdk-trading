@@ -20,8 +20,8 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $commentText
- * @property DTS\eBaySDK\Trading\Types\CommentTypeCodeType(string) $commentType
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $targetUser
+ * @property DTS\eBaySDK\Trading\Enums\CommentTypeCodeType(string) $commentType
+ * @property string $targetUser
  */
 class FeedbackInfoType extends \DTS\eBaySDK\Types\BaseType
 {

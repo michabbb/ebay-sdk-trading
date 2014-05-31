@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property DTS\eBaySDK\Trading\Types\VariationKeyType $variationKey
  */
 class AddToWatchListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

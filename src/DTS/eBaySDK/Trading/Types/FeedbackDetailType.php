@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $commentReplaced
  * @property string $commentText
  * @property DateTime $commentTime
- * @property DTS\eBaySDK\Trading\Types\CommentTypeCodeType(string) $commentType
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $commentingUser
+ * @property DTS\eBaySDK\Trading\Enums\CommentTypeCodeType(string) $commentType
+ * @property string $commentingUser
  * @property integer $commentingUserScore
  * @property boolean $countable
  * @property string $feedbackId
@@ -31,12 +31,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $feedbackRevised
  * @property boolean $followUpReplaced
  * @property string $followup
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property DTS\eBaySDK\Trading\Types\AmountType $itemPrice
  * @property string $itemTitle
  * @property string $orderLineItemId
  * @property boolean $responseReplaced
- * @property DTS\eBaySDK\Trading\Types\TradingRoleCodeType(string) $role
+ * @property DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $role
  * @property string $transactionId
  */
 class FeedbackDetailType extends \DTS\eBaySDK\Types\BaseType

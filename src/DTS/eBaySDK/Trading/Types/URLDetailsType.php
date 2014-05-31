@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $detailVersion
  * @property DateTime $updateTime
  * @property string $url
- * @property DTS\eBaySDK\Trading\Types\URLTypeCodeType(string) $urltYpe
+ * @property DTS\eBaySDK\Trading\Enums\URLTypeCodeType(string) $urltYpe
  */
 class URLDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

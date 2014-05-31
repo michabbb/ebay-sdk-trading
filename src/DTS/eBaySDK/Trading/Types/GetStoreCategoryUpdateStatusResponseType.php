@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\TaskStatusCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\TaskStatusCodeType(string) $status
  */
 class GetStoreCategoryUpdateStatusResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

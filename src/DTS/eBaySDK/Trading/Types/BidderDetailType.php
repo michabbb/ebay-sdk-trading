@@ -24,7 +24,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $uniqueNegativeFeedbackCount
  * @property integer $uniqueNeutralFeedbackCount
  * @property integer $uniquePositiveFeedbackCount
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $userId
+ * @property string $userId
  */
 class BidderDetailType extends \DTS\eBaySDK\Types\BaseType
 {

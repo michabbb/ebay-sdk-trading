@@ -20,12 +20,12 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $archived
- * @property DTS\eBaySDK\Trading\Types\SellingManagerSoldListingsPropertyTypeCodeType(string) $filter
+ * @property DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsPropertyTypeCodeType(string) $filter
  * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
  * @property DTS\eBaySDK\Trading\Types\TimeRangeType $saleDateRange
  * @property DTS\eBaySDK\Trading\Types\SellingManagerSearchType $search
- * @property DTS\eBaySDK\Trading\Types\SellingManagerSoldListingsSortTypeCodeType(string) $sort
- * @property DTS\eBaySDK\Trading\Types\SortOrderCodeType(string) $sortOrder
+ * @property DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsSortTypeCodeType(string) $sort
+ * @property DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $sortOrder
  * @property integer $storeCategoryId
  */
 class GetSellingManagerSoldListingsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

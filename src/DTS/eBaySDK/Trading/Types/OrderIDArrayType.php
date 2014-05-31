@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\OrderIDType(string) $orderId
+ * @property string $orderId
  */
 class OrderIDArrayType extends \DTS\eBaySDK\Types\BaseType
 {

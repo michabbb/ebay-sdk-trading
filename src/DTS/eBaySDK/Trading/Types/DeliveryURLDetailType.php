@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $deliveryUrl
  * @property string $deliveryUrlnAme
- * @property DTS\eBaySDK\Trading\Types\EnableCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\EnableCodeType(string) $status
  */
 class DeliveryURLDetailType extends \DTS\eBaySDK\Types\BaseType
 {

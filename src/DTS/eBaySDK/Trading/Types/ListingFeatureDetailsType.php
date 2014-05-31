@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BoldTitleCodeType(string) $boldTitle
- * @property DTS\eBaySDK\Trading\Types\BorderCodeType(string) $border
+ * @property DTS\eBaySDK\Trading\Enums\BoldTitleCodeType(string) $boldTitle
+ * @property DTS\eBaySDK\Trading\Enums\BorderCodeType(string) $border
  * @property string $detailVersion
- * @property DTS\eBaySDK\Trading\Types\FeaturedFirstCodeType(string) $featuredFirst
- * @property DTS\eBaySDK\Trading\Types\FeaturedPlusCodeType(string) $featuredPlus
- * @property DTS\eBaySDK\Trading\Types\GiftIconCodeType(string) $giftIcon
- * @property DTS\eBaySDK\Trading\Types\HighlightCodeType(string) $highlight
- * @property DTS\eBaySDK\Trading\Types\HomePageFeaturedCodeType(string) $homePageFeatured
- * @property DTS\eBaySDK\Trading\Types\ProPackCodeType(string) $proPack
+ * @property DTS\eBaySDK\Trading\Enums\FeaturedFirstCodeType(string) $featuredFirst
+ * @property DTS\eBaySDK\Trading\Enums\FeaturedPlusCodeType(string) $featuredPlus
+ * @property DTS\eBaySDK\Trading\Enums\GiftIconCodeType(string) $giftIcon
+ * @property DTS\eBaySDK\Trading\Enums\HighlightCodeType(string) $highlight
+ * @property DTS\eBaySDK\Trading\Enums\HomePageFeaturedCodeType(string) $homePageFeatured
+ * @property DTS\eBaySDK\Trading\Enums\ProPackCodeType(string) $proPack
  * @property DateTime $updateTime
  */
 class ListingFeatureDetailsType extends \DTS\eBaySDK\Types\BaseType

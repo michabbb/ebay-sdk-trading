@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MeasurementSystemCodeType(string) $measurementUnit
+ * @property DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType(string) $measurementUnit
  * @property DTS\eBaySDK\Trading\Types\MeasureType $packageDepth
  * @property DTS\eBaySDK\Trading\Types\MeasureType $packageLength
  * @property DTS\eBaySDK\Trading\Types\MeasureType $packageWidth
  * @property boolean $shippingIrregular
- * @property DTS\eBaySDK\Trading\Types\ShippingPackageCodeType(string) $shippingPackage
+ * @property DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType(string) $shippingPackage
  * @property DTS\eBaySDK\Trading\Types\MeasureType $weightMajor
  * @property DTS\eBaySDK\Trading\Types\MeasureType $weightMinor
  */

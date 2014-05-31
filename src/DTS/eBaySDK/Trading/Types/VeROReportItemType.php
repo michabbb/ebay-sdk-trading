@@ -20,12 +20,12 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $copyEmailToRightsOwner
- * @property DTS\eBaySDK\Trading\Types\CountryCodeType(string) $country
+ * @property DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $country
  * @property string $detailedMessage
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property string $messageToSeller
  * @property string $patent
- * @property DTS\eBaySDK\Trading\Types\ShippingRegionCodeType(string) $region
+ * @property DTS\eBaySDK\Trading\Enums\ShippingRegionCodeType(string) $region
  * @property integer $veRorEasonCodeId
  */
 class VeROReportItemType extends \DTS\eBaySDK\Types\BaseType

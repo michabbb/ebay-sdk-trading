@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\EndReasonCodeType(string) $endingReason
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property DTS\eBaySDK\Trading\Enums\EndReasonCodeType(string) $endingReason
+ * @property string $itemId
  * @property string $messageId
  * @property string $sellerInventoryId
  */

@@ -23,26 +23,26 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $amountPaid
  * @property DTS\eBaySDK\Trading\Types\AmountType $amountSaved
  * @property string $buyerCheckoutMessage
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $buyerUserId
+ * @property string $buyerUserId
  * @property DTS\eBaySDK\Trading\Types\CancelDetailType $cancelDetail
  * @property string $cancelReason
  * @property string $cancelReasonDetails
- * @property DTS\eBaySDK\Trading\Types\CancelStatusCodeType(string) $cancelStatus
+ * @property DTS\eBaySDK\Trading\Enums\CancelStatusCodeType(string) $cancelStatus
  * @property DTS\eBaySDK\Trading\Types\CheckoutStatusType $checkoutStatus
  * @property DateTime $createdTime
- * @property DTS\eBaySDK\Trading\Types\TradingRoleCodeType(string) $creatingUserRole
+ * @property DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $creatingUserRole
  * @property string $eiastOken
  * @property DTS\eBaySDK\Trading\Types\ExternalTransactionType $externalTransaction
  * @property boolean $integratedMerchantCreditCardEnabled
  * @property boolean $isMultiLegShipping
  * @property DTS\eBaySDK\Trading\Types\PaymentsInformationType $monetaryDetails
  * @property DTS\eBaySDK\Trading\Types\MultiLegShippingDetailsType $multiLegShippingDetails
- * @property DTS\eBaySDK\Trading\Types\OrderIDType(string) $orderId
- * @property DTS\eBaySDK\Trading\Types\OrderStatusCodeType(string) $orderStatus
+ * @property string $orderId
+ * @property DTS\eBaySDK\Trading\Enums\OrderStatusCodeType(string) $orderStatus
  * @property DateTime $paidTime
  * @property DTS\eBaySDK\Trading\Types\PaymentHoldDetailType $paymentHoldDetails
- * @property DTS\eBaySDK\Trading\Types\PaymentHoldStatusCodeType(string) $paymentHoldStatus
- * @property DTS\eBaySDK\Trading\Types\BuyerPaymentMethodCodeType(string) $paymentMethods
+ * @property DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType(string) $paymentHoldStatus
+ * @property DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $paymentMethods
  * @property DTS\eBaySDK\Trading\Types\PickupDetailsType $pickupDetails
  * @property DTS\eBaySDK\Trading\Types\PickupMethodSelectedType $pickupMethodSelected
  * @property DTS\eBaySDK\Trading\Types\AmountType $refundAmount
@@ -50,7 +50,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $refundStatus
  * @property string $sellerEiastOken
  * @property string $sellerEmail
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $sellerUserId
+ * @property string $sellerUserId
  * @property DateTime $shippedTime
  * @property DTS\eBaySDK\Trading\Types\AddressType $shippingAddress
  * @property DTS\eBaySDK\Trading\Types\AmountType $shippingConvenienceCharge

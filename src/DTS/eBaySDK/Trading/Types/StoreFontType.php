@@ -20,14 +20,14 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $descColor
- * @property DTS\eBaySDK\Trading\Types\StoreFontFaceCodeType(string) $descFace
- * @property DTS\eBaySDK\Trading\Types\StoreFontSizeCodeType(string) $descSize
+ * @property DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType(string) $descFace
+ * @property DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType(string) $descSize
  * @property string $nameColor
- * @property DTS\eBaySDK\Trading\Types\StoreFontFaceCodeType(string) $nameFace
- * @property DTS\eBaySDK\Trading\Types\StoreFontSizeCodeType(string) $nameSize
+ * @property DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType(string) $nameFace
+ * @property DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType(string) $nameSize
  * @property string $titleColor
- * @property DTS\eBaySDK\Trading\Types\StoreFontFaceCodeType(string) $titleFace
- * @property DTS\eBaySDK\Trading\Types\StoreFontSizeCodeType(string) $titleSize
+ * @property DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType(string) $titleFace
+ * @property DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType(string) $titleSize
  */
 class StoreFontType extends \DTS\eBaySDK\Types\BaseType
 {

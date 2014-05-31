@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property DateTime $expectedReleaseDate
  * @property integer $numOfReqSellerActions
- * @property DTS\eBaySDK\Trading\Types\PaymentHoldReasonCodeType(string) $paymentHoldReason
+ * @property DTS\eBaySDK\Trading\Enums\PaymentHoldReasonCodeType(string) $paymentHoldReason
  * @property DTS\eBaySDK\Trading\Types\RequiredSellerActionArrayType $requiredSellerActionArray
  */
 class PaymentHoldDetailType extends \DTS\eBaySDK\Types\BaseType

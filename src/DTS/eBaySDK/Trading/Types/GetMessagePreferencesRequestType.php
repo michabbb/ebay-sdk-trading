@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $includeAsqpReferences
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $sellerId
+ * @property string $sellerId
  */
 class GetMessagePreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

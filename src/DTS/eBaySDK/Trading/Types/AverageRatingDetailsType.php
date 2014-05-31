@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property double $rating
  * @property integer $ratingCount
- * @property DTS\eBaySDK\Trading\Types\FeedbackRatingDetailCodeType(string) $ratingDetail
+ * @property DTS\eBaySDK\Trading\Enums\FeedbackRatingDetailCodeType(string) $ratingDetail
  */
 class AverageRatingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

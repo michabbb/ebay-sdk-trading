@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\SellingManagerSearchTypeCodeType(string) $searchType
+ * @property DTS\eBaySDK\Trading\Enums\SellingManagerSearchTypeCodeType(string) $searchType
  * @property string $searchValue
  */
 class SellingManagerSearchType extends \DTS\eBaySDK\Types\BaseType

@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DiscountNameCodeType(string) $discountName
+ * @property DTS\eBaySDK\Trading\Enums\DiscountNameCodeType(string) $discountName
  * @property DTS\eBaySDK\Trading\Types\DiscountProfileType $discountProfile
  */
 class CalculatedShippingDiscountType extends \DTS\eBaySDK\Types\BaseType

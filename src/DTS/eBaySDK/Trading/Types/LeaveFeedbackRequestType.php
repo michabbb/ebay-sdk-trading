@@ -20,11 +20,11 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $commentText
- * @property DTS\eBaySDK\Trading\Types\CommentTypeCodeType(string) $commentType
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property DTS\eBaySDK\Trading\Enums\CommentTypeCodeType(string) $commentType
+ * @property string $itemId
  * @property string $orderLineItemId
  * @property DTS\eBaySDK\Trading\Types\ItemRatingDetailArrayType $sellerItemRatingDetailArray
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $targetUser
+ * @property string $targetUser
  * @property string $transactionId
  */
 class LeaveFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $sellerThirdPartyUsername
- * @property DTS\eBaySDK\Trading\Types\EnableCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\EnableCodeType(string) $status
  * @property string $storeName
  */
 class ProStoresDetailsType extends \DTS\eBaySDK\Types\BaseType

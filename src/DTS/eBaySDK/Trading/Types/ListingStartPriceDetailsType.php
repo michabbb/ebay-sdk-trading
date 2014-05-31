@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $description
  * @property string $detailVersion
- * @property DTS\eBaySDK\Trading\Types\ListingTypeCodeType(string) $listingType
+ * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $listingType
  * @property double $minBuyItNowPricePercent
  * @property DTS\eBaySDK\Trading\Types\AmountType $startPrice
  * @property DateTime $updateTime

@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DiscountNameCodeType(string) $discountName
+ * @property DTS\eBaySDK\Trading\Enums\DiscountNameCodeType(string) $discountName
  * @property integer $itemCount
  * @property DTS\eBaySDK\Trading\Types\AmountType $orderAmount
  * @property DTS\eBaySDK\Trading\Types\AmountType $shippingCost

@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\ItemType $item
  * @property DateTime $lastModifiedDate
  * @property DTS\eBaySDK\Trading\Types\MessageMediaType $messageMedia
- * @property DTS\eBaySDK\Trading\Types\MessageStatusTypeCodeType(string) $messageStatus
+ * @property DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType(string) $messageStatus
  * @property DTS\eBaySDK\Trading\Types\MemberMessageType $question
  * @property string $response
  */

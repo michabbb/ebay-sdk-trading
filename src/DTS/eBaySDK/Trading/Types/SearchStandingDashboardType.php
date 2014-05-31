@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\SearchStandingStatusCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\SearchStandingStatusCodeType(string) $status
  */
 class SearchStandingDashboardType extends \DTS\eBaySDK\Types\BaseType
 {

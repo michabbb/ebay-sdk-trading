@@ -22,13 +22,13 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $includeContainingOrder
  * @property boolean $includeFinalValueFee
  * @property boolean $includeVariations
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property DateTime $modTimeFrom
  * @property DateTime $modTimeTo
  * @property integer $numberOfDays
  * @property string $orderLineItemId
  * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
- * @property DTS\eBaySDK\Trading\Types\TransactionPlatformCodeType(string) $platform
+ * @property DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $platform
  * @property string $transactionId
  */
 class GetItemTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

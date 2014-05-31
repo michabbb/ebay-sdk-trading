@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MyMessagesExternalMessageIDType(string) $externalMessageId
+ * @property string $externalMessageId
  */
 class MyMessagesExternalMessageIDArrayType extends \DTS\eBaySDK\Types\BaseType
 {

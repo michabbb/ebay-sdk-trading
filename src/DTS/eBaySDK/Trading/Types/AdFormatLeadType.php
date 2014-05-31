@@ -27,16 +27,16 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $email
  * @property string $externalEmail
  * @property boolean $financingAnswer
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property string $itemTitle
  * @property DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $memberMessage
  * @property string $purchaseTimeFrame
- * @property DTS\eBaySDK\Trading\Types\AdFormatLeadStatusCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType(string) $status
  * @property DateTime $submittedTime
  * @property string $tradeInMake
  * @property string $tradeInModel
  * @property string $tradeInYear
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $userId
+ * @property string $userId
  */
 class AdFormatLeadType extends \DTS\eBaySDK\Types\BaseType
 {

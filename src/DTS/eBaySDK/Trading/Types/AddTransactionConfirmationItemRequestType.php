@@ -20,12 +20,12 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $comments
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\SecondChanceOfferDurationCodeType(string) $listingDuration
+ * @property string $itemId
+ * @property DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType(string) $listingDuration
  * @property DTS\eBaySDK\Trading\Types\AmountType $negotiatedPrice
  * @property string $recipientPostalCode
- * @property DTS\eBaySDK\Trading\Types\RecipientRelationCodeType(string) $recipientRelationType
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $recipientUserId
+ * @property DTS\eBaySDK\Trading\Enums\RecipientRelationCodeType(string) $recipientRelationType
+ * @property string $recipientUserId
  * @property string $verifyEligibilityOnly
  */
 class AddTransactionConfirmationItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

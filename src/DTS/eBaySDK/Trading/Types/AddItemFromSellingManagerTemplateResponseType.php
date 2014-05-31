@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $categoryId
  * @property DateTime $endTime
  * @property DTS\eBaySDK\Trading\Types\FeesType $fees
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property DateTime $startTime
  */
 class AddItemFromSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

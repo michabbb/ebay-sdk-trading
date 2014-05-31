@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\TopRatedProgramCodeType(string) $topRatedProgram
+ * @property DTS\eBaySDK\Trading\Enums\TopRatedProgramCodeType(string) $topRatedProgram
  */
 class TopRatedSellerDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

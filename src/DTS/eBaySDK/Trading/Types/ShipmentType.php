@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property DateTime $deliveryDate
- * @property DTS\eBaySDK\Trading\Types\ShipmentDeliveryStatusCodeType(string) $deliveryStatus
+ * @property DTS\eBaySDK\Trading\Enums\ShipmentDeliveryStatusCodeType(string) $deliveryStatus
  * @property DateTime $estimatedDeliveryDate
  * @property DTS\eBaySDK\Trading\Types\AmountType $insuredValue
  * @property DTS\eBaySDK\Trading\Types\ItemTransactionIDType $itemTransactionId
@@ -41,10 +41,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DateTime $shippedTime
  * @property DTS\eBaySDK\Trading\Types\AddressType $shippingAddress
  * @property string $shippingCarrierUsed
- * @property DTS\eBaySDK\Trading\Types\ShippingFeatureCodeType(string) $shippingFeature
- * @property DTS\eBaySDK\Trading\Types\ShippingPackageCodeType(string) $shippingPackage
+ * @property DTS\eBaySDK\Trading\Enums\ShippingFeatureCodeType(string) $shippingFeature
+ * @property DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType(string) $shippingPackage
  * @property string $shippingServiceUsed
- * @property DTS\eBaySDK\Trading\Types\ShipmentStatusCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\ShipmentStatusCodeType(string) $status
  * @property DTS\eBaySDK\Trading\Types\MeasureType $weightMajor
  * @property DTS\eBaySDK\Trading\Types\MeasureType $weightMinor
  */

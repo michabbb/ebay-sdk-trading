@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $accountCode
  * @property DTS\eBaySDK\Trading\Types\AmountType $balance
- * @property DTS\eBaySDK\Trading\Types\CurrencyCodeType(string) $currency
+ * @property DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $currency
  */
 class AdditionalAccountType extends \DTS\eBaySDK\Types\BaseType
 {

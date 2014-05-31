@@ -20,14 +20,14 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $buyerSelectedShipping
- * @property DTS\eBaySDK\Trading\Types\CheckoutStatusCodeType(string) $checkoutStatus
- * @property DTS\eBaySDK\Trading\Types\CompleteStatusCodeType(string) $completeStatus
+ * @property DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType(string) $checkoutStatus
+ * @property DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType(string) $completeStatus
  * @property DTS\eBaySDK\Trading\Types\EBayPaymentMismatchDetailsType $eBayPaymentMismatchDetails
- * @property DTS\eBaySDK\Trading\Types\PaymentStatusCodeType(string) $eBayPaymentStatus
+ * @property DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType(string) $eBayPaymentStatus
  * @property boolean $integratedMerchantCreditCardEnabled
  * @property DateTime $lastTimeModified
- * @property DTS\eBaySDK\Trading\Types\PaymentHoldStatusCodeType(string) $paymentHoldStatus
- * @property DTS\eBaySDK\Trading\Types\BuyerPaymentMethodCodeType(string) $paymentMethodUsed
+ * @property DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType(string) $paymentHoldStatus
+ * @property DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $paymentMethodUsed
  */
 class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -22,11 +22,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $externalPictureUrl
  * @property string $galleryDuration
  * @property string $galleryErrorInfo
- * @property DTS\eBaySDK\Trading\Types\GalleryStatusCodeType(string) $galleryStatus
- * @property DTS\eBaySDK\Trading\Types\GalleryTypeCodeType(string) $galleryType
+ * @property DTS\eBaySDK\Trading\Enums\GalleryStatusCodeType(string) $galleryStatus
+ * @property DTS\eBaySDK\Trading\Enums\GalleryTypeCodeType(string) $galleryType
  * @property string $galleryUrl
- * @property DTS\eBaySDK\Trading\Types\PhotoDisplayCodeType(string) $photoDisplay
- * @property DTS\eBaySDK\Trading\Types\PictureSourceCodeType(string) $pictureSource
+ * @property DTS\eBaySDK\Trading\Enums\PhotoDisplayCodeType(string) $photoDisplay
+ * @property DTS\eBaySDK\Trading\Enums\PictureSourceCodeType(string) $pictureSource
  * @property string $pictureUrl
  */
 class PictureDetailsType extends \DTS\eBaySDK\Types\BaseType

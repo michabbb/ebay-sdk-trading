@@ -25,9 +25,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $hideSendersEmailAddress
  * @property string $messageId
  * @property DTS\eBaySDK\Trading\Types\MessageMediaType $messageMedia
- * @property DTS\eBaySDK\Trading\Types\MessageTypeCodeType(string) $messageType
+ * @property DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $messageType
  * @property string $parentMessageId
- * @property DTS\eBaySDK\Trading\Types\QuestionTypeCodeType(string) $questionType
+ * @property DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType(string) $questionType
  * @property string $recipientId
  * @property string $senderEmail
  * @property string $senderId

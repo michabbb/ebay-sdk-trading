@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property DTS\eBaySDK\Trading\Types\SellerDashboardAlertType $alert
- * @property DTS\eBaySDK\Trading\Types\SellerAccountStatusCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\SellerAccountStatusCodeType(string) $status
  */
 class SellerAccountDashboardType extends \DTS\eBaySDK\Types\BaseType
 {

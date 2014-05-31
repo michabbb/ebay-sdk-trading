@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $count
- * @property DTS\eBaySDK\Trading\Types\PeriodCodeType(string) $period
+ * @property DTS\eBaySDK\Trading\Enums\PeriodCodeType(string) $period
  */
 class MaximumBuyerPolicyViolationsType extends \DTS\eBaySDK\Types\BaseType
 {

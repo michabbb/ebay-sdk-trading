@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BestOfferTypeCodeType(string) $bestOfferCodeType
- * @property DTS\eBaySDK\Trading\Types\BestOfferIDType(string) $bestOfferId
+ * @property DTS\eBaySDK\Trading\Enums\BestOfferTypeCodeType(string) $bestOfferCodeType
+ * @property string $bestOfferId
  * @property DTS\eBaySDK\Trading\Types\UserType $buyer
  * @property string $buyerMessage
  * @property string $callStatus
@@ -30,7 +30,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $price
  * @property integer $quantity
  * @property string $sellerMessage
- * @property DTS\eBaySDK\Trading\Types\BestOfferStatusCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType(string) $status
  */
 class BestOfferType extends \DTS\eBaySDK\Types\BaseType
 {

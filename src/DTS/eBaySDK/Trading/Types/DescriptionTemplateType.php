@@ -24,7 +24,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $imageUrl
  * @property string $name
  * @property string $templateXml
- * @property DTS\eBaySDK\Trading\Types\DescriptionTemplateCodeType(string) $type
+ * @property DTS\eBaySDK\Trading\Enums\DescriptionTemplateCodeType(string) $type
  */
 class DescriptionTemplateType extends \DTS\eBaySDK\Types\BaseType
 {

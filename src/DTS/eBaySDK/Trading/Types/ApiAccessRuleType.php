@@ -33,8 +33,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $periodicSoftLimit
  * @property DateTime $periodicStartDate
  * @property integer $periodicUsage
- * @property DTS\eBaySDK\Trading\Types\AccessRuleCurrentStatusCodeType(string) $ruleCurrentStatus
- * @property DTS\eBaySDK\Trading\Types\AccessRuleStatusCodeType(string) $ruleStatus
+ * @property DTS\eBaySDK\Trading\Enums\AccessRuleCurrentStatusCodeType(string) $ruleCurrentStatus
+ * @property DTS\eBaySDK\Trading\Enums\AccessRuleStatusCodeType(string) $ruleStatus
  */
 class ApiAccessRuleType extends \DTS\eBaySDK\Types\BaseType
 {

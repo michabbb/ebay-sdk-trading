@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ListingTypeCodeType(string) $type
+ * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $type
  */
 class ListingDurationReferenceType extends \DTS\eBaySDK\Types\IntegerType
 {

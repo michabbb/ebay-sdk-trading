@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\RequiredSellerActionCodeType(string) $requiredSellerAction
+ * @property DTS\eBaySDK\Trading\Enums\RequiredSellerActionCodeType(string) $requiredSellerAction
  */
 class RequiredSellerActionArrayType extends \DTS\eBaySDK\Types\BaseType
 {

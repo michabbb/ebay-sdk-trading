@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $description
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  */
 class AddToItemDescriptionRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
