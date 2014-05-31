@@ -23,10 +23,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $externalPictureUrl
  * @property DTS\eBaySDK\Trading\Types\Base64BinaryType $pictureData
  * @property string $pictureName
- * @property DTS\eBaySDK\Trading\Types\PictureSetCodeType(string) $pictureSet
+ * @property DTS\eBaySDK\Trading\Enums\PictureSetCodeType(string) $pictureSet
  * @property integer $pictureSystemVersion
- * @property DTS\eBaySDK\Trading\Types\PictureUploadPolicyCodeType(string) $pictureUploadPolicy
- * @property DTS\eBaySDK\Trading\Types\PictureWatermarkCodeType(string) $pictureWatermark
+ * @property DTS\eBaySDK\Trading\Enums\PictureUploadPolicyCodeType(string) $pictureUploadPolicy
+ * @property DTS\eBaySDK\Trading\Enums\PictureWatermarkCodeType(string) $pictureWatermark
  */
 class UploadSiteHostedPicturesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

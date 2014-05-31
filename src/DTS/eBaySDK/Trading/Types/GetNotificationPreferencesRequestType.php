@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\NotificationRoleCodeType(string) $preferenceLevel
+ * @property DTS\eBaySDK\Trading\Enums\NotificationRoleCodeType(string) $preferenceLevel
  */
 class GetNotificationPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

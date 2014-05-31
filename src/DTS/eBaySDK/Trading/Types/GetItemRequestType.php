@@ -24,10 +24,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $includeItemSpecifics
  * @property boolean $includeTaxTable
  * @property boolean $includeWatchCount
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\SKUType(string) $sku
+ * @property string $itemId
+ * @property string $sku
  * @property string $transactionId
- * @property DTS\eBaySDK\Trading\Types\SKUType(string) $variationSku
+ * @property string $variationSku
  * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $variationSpecifics
  */
 class GetItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

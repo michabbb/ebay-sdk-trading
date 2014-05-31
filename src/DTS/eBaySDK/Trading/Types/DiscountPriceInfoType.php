@@ -21,9 +21,9 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property DTS\eBaySDK\Trading\Types\AmountType $madeForOutletComparisonPrice
  * @property DTS\eBaySDK\Trading\Types\AmountType $minimumAdvertisedPrice
- * @property DTS\eBaySDK\Trading\Types\MinimumAdvertisedPriceExposureCodeType(string) $minimumAdvertisedPriceExposure
+ * @property DTS\eBaySDK\Trading\Enums\MinimumAdvertisedPriceExposureCodeType(string) $minimumAdvertisedPriceExposure
  * @property DTS\eBaySDK\Trading\Types\AmountType $originalRetailPrice
- * @property DTS\eBaySDK\Trading\Types\PricingTreatmentCodeType(string) $pricingTreatment
+ * @property DTS\eBaySDK\Trading\Enums\PricingTreatmentCodeType(string) $pricingTreatment
  * @property boolean $soldOffeBay
  * @property boolean $soldOneBay
  */

@@ -19,16 +19,16 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AccountEntrySortTypeCodeType(string) $accountEntrySortType
- * @property DTS\eBaySDK\Trading\Types\AccountHistorySelectionCodeType(string) $accountHistorySelection
+ * @property DTS\eBaySDK\Trading\Enums\AccountEntrySortTypeCodeType(string) $accountEntrySortType
+ * @property DTS\eBaySDK\Trading\Enums\AccountHistorySelectionCodeType(string) $accountHistorySelection
  * @property DateTime $beginDate
- * @property DTS\eBaySDK\Trading\Types\CurrencyCodeType(string) $currency
+ * @property DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $currency
  * @property DateTime $endDate
  * @property boolean $excludeBalance
  * @property boolean $excludeSummary
  * @property boolean $includeConversionRate
  * @property DateTime $invoiceDate
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
  */
 class GetAccountRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

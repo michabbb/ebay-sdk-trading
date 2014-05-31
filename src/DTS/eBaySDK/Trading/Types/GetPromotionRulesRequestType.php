@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\PromotionMethodCodeType(string) $promotionMethod
+ * @property string $itemId
+ * @property DTS\eBaySDK\Trading\Enums\PromotionMethodCodeType(string) $promotionMethod
  * @property integer $storeCategoryId
  */
 class GetPromotionRulesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

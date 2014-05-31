@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\NotificationEventStateCodeType(string) $deliveryStatus
+ * @property DTS\eBaySDK\Trading\Enums\NotificationEventStateCodeType(string) $deliveryStatus
  * @property DateTime $deliveryTime
  * @property string $deliveryUrl
  * @property string $deliveryUrlnAme
@@ -28,7 +28,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DateTime $nextRetryTime
  * @property string $referenceId
  * @property integer $retries
- * @property DTS\eBaySDK\Trading\Types\NotificationEventTypeCodeType(string) $type
+ * @property DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType(string) $type
  */
 class NotificationDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

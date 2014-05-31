@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DisputeIDType(string) $disputeId
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $disputeId
+ * @property string $itemId
  * @property string $orderLineItemId
  * @property string $transactionId
  */

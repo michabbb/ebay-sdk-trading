@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $reason
  * @property DateTime $time
- * @property DTS\eBaySDK\Trading\Types\MarkUpMarkDownEventTypeCodeType(string) $type
+ * @property DTS\eBaySDK\Trading\Enums\MarkUpMarkDownEventTypeCodeType(string) $type
  */
 class MarkUpMarkDownEventType extends \DTS\eBaySDK\Types\BaseType
 {

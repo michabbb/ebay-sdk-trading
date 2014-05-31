@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $postId
+ * @property string $postId
  */
 class GetWantItNowPostRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

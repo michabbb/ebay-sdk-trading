@@ -25,7 +25,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\PaginationResultType $paginationResult
  * @property DTS\eBaySDK\Trading\Types\VeROReportedItemDetailsType $reportedItemDetails
  * @property integer $veRorEportPacketId
- * @property DTS\eBaySDK\Trading\Types\VeROReportPacketStatusCodeType(string) $veRorEportPacketStatus
+ * @property DTS\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType(string) $veRorEportPacketStatus
  */
 class GetVeROReportStatusResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

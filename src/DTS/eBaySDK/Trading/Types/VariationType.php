@@ -25,7 +25,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $quantity
  * @property DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $sellingManagerProductInventoryStatus
  * @property DTS\eBaySDK\Trading\Types\SellingStatusType $sellingStatus
- * @property DTS\eBaySDK\Trading\Types\SKUType(string) $sku
+ * @property string $sku
  * @property DTS\eBaySDK\Trading\Types\AmountType $startPrice
  * @property DTS\eBaySDK\Trading\Types\AmountType $unitCost
  * @property integer $unitsAvailable

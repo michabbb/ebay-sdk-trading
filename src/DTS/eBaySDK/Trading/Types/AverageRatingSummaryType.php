@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property DTS\eBaySDK\Trading\Types\AverageRatingDetailsType $averageRatingDetails
- * @property DTS\eBaySDK\Trading\Types\FeedbackSummaryPeriodCodeType(string) $feedbackSummaryPeriod
+ * @property DTS\eBaySDK\Trading\Enums\FeedbackSummaryPeriodCodeType(string) $feedbackSummaryPeriod
  */
 class AverageRatingSummaryType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -21,9 +21,9 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property integer $bidCount
  * @property string $categoryId
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property DateTime $lastBidTime
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $sellerId
+ * @property string $sellerId
  */
 class ItemBidDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  */
 class GetSellingManagerItemAutomationRuleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

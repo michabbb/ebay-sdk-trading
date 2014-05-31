@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PayoutMethodType(string) $payoutMethod
+ * @property DTS\eBaySDK\Trading\Enums\PayoutMethodType(string) $payoutMethod
  * @property boolean $payoutMethodSet
  * @property DTS\eBaySDK\Trading\Types\UserAgreementInfoType $userAgreementInfo
  */

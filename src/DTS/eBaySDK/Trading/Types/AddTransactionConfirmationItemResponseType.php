@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property DateTime $endTime
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property DateTime $startTime
  */
 class AddTransactionConfirmationItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

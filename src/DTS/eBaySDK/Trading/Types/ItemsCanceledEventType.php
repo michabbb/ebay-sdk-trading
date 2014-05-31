@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property DTS\eBaySDK\Trading\Types\ItemIDArrayType $canceledItemIdaRray
  * @property boolean $eligibleForRelist
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $sellerId
+ * @property string $sellerId
  */
 class ItemsCanceledEventType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

@@ -21,11 +21,11 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property DTS\eBaySDK\Trading\Types\DisputeArrayType $disputeArray
  * @property DTS\eBaySDK\Trading\Types\DisputeFilterCountType $disputeFilterCount
- * @property DTS\eBaySDK\Trading\Types\DisputeIDType(string) $endingDisputeId
+ * @property string $endingDisputeId
  * @property integer $itemsPerPage
  * @property integer $pageNumber
  * @property DTS\eBaySDK\Trading\Types\PaginationResultType $paginationResult
- * @property DTS\eBaySDK\Trading\Types\DisputeIDType(string) $startingDisputeId
+ * @property string $startingDisputeId
  */
 class GetUserDisputesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

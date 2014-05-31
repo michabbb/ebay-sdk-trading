@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DisputeExplanationCodeType(string) $disputeExplanation
- * @property DTS\eBaySDK\Trading\Types\DisputeReasonCodeType(string) $disputeReason
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property DTS\eBaySDK\Trading\Enums\DisputeExplanationCodeType(string) $disputeExplanation
+ * @property DTS\eBaySDK\Trading\Enums\DisputeReasonCodeType(string) $disputeReason
+ * @property string $itemId
  * @property string $orderLineItemId
  * @property string $transactionId
  */

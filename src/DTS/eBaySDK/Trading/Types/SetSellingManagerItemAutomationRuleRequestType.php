@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistType $automatedRelistingRule
  * @property DTS\eBaySDK\Trading\Types\SellingManagerAutoSecondChanceOfferType $automatedSecondChanceOfferRule
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  */
 class SetSellingManagerItemAutomationRuleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

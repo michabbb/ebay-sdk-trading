@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BestOfferIDType(string) $bestOfferId
- * @property DTS\eBaySDK\Trading\Types\BestOfferStatusCodeType(string) $bestOfferStatus
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $bestOfferId
+ * @property DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType(string) $bestOfferStatus
+ * @property string $itemId
  * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
  */
 class GetBestOffersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

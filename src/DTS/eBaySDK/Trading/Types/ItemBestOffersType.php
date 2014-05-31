@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property DTS\eBaySDK\Trading\Types\BestOfferArrayType $bestOfferArray
  * @property DTS\eBaySDK\Trading\Types\ItemType $item
- * @property DTS\eBaySDK\Trading\Types\TradingRoleCodeType(string) $role
+ * @property DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $role
  */
 class ItemBestOffersType extends \DTS\eBaySDK\Types\BaseType
 {

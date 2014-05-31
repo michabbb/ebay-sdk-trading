@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $baseUrl
  * @property string $externalPictureUrl
  * @property string $fullUrl
- * @property DTS\eBaySDK\Trading\Types\PictureFormatCodeType(string) $pictureFormat
+ * @property DTS\eBaySDK\Trading\Enums\PictureFormatCodeType(string) $pictureFormat
  * @property string $pictureName
- * @property DTS\eBaySDK\Trading\Types\PictureSetCodeType(string) $pictureSet
+ * @property DTS\eBaySDK\Trading\Enums\PictureSetCodeType(string) $pictureSet
  * @property DTS\eBaySDK\Trading\Types\PictureSetMemberType $pictureSetMember
  * @property DateTime $useByDate
  */

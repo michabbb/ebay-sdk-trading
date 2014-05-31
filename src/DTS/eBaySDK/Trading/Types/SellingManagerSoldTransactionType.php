@@ -22,11 +22,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $charityListing
  * @property string $customLabel
  * @property string $invoiceNumber
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property DTS\eBaySDK\Trading\Types\AmountType $itemPrice
  * @property string $itemTitle
- * @property DTS\eBaySDK\Trading\Types\TransactionPlatformCodeType(string) $listedOn
- * @property DTS\eBaySDK\Trading\Types\ListingTypeCodeType(string) $listingType
+ * @property DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $listedOn
+ * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $listingType
  * @property string $orderLineItemId
  * @property integer $quantitySold
  * @property boolean $relisted
@@ -34,7 +34,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $saleRecordId
  * @property boolean $secondChanceOfferSent
  * @property DTS\eBaySDK\Trading\Types\ShipmentType $shipment
- * @property DTS\eBaySDK\Trading\Types\TransactionPlatformCodeType(string) $soldOn
+ * @property DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $soldOn
  * @property DTS\eBaySDK\Trading\Types\AmountType $startPrice
  * @property DTS\eBaySDK\Trading\Types\AmountType $subtotalAmount
  * @property integer $transactionId

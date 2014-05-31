@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property DateTime $actionRequiredBy
  * @property DTS\eBaySDK\Trading\Types\AmountType $mismatchAmount
- * @property DTS\eBaySDK\Trading\Types\MismatchTypeCodeType(string) $mismatchType
+ * @property DTS\eBaySDK\Trading\Enums\MismatchTypeCodeType(string) $mismatchType
  */
 class EBayPaymentMismatchDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $includeFeatureEligibility
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property string $userId
  */
 class GetUserRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

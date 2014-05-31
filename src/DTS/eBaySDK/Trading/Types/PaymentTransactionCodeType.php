@@ -24,7 +24,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\UserIdentityType $payer
  * @property DTS\eBaySDK\Trading\Types\AmountType $paymentAmount
  * @property DTS\eBaySDK\Trading\Types\TransactionReferenceType $paymentReferenceId
- * @property DTS\eBaySDK\Trading\Types\PaymentTransactionStatusCodeType(string) $paymentStatus
+ * @property DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType(string) $paymentStatus
  * @property DateTime $paymentTime
  * @property DTS\eBaySDK\Trading\Types\TransactionReferenceType $referenceId
  */

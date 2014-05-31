@@ -24,8 +24,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $relistAfterDays
  * @property integer $relistAfterHours
  * @property string $relistAtSpecificTimeOfDay
- * @property DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistOptionCodeType(string) $relistCondition
- * @property DTS\eBaySDK\Trading\Types\SellingManagerAutoRelistTypeCodeType(string) $type
+ * @property DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistOptionCodeType(string) $relistCondition
+ * @property DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistTypeCodeType(string) $type
  */
 class SellingManagerAutoRelistType extends \DTS\eBaySDK\Types\BaseType
 {

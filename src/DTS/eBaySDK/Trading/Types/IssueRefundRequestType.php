@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property string $orderLineItemId
  * @property DTS\eBaySDK\Trading\Types\AmountType $refundAmount
  * @property string $refundMessage
- * @property DTS\eBaySDK\Trading\Types\RefundReasonCodeType(string) $refundReason
- * @property DTS\eBaySDK\Trading\Types\RefundTypeCodeType(string) $refundType
+ * @property DTS\eBaySDK\Trading\Enums\RefundReasonCodeType(string) $refundReason
+ * @property DTS\eBaySDK\Trading\Enums\RefundTypeCodeType(string) $refundType
  * @property string $transactionId
  */
 class IssueRefundRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

@@ -24,7 +24,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $includeItemCount
  * @property boolean $includeListContents
  * @property integer $maxResults
- * @property DTS\eBaySDK\Trading\Types\SortOrderCodeType(string) $sort
+ * @property DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $sort
  * @property string $userDefinedListName
  */
 class MyeBaySelectionType extends \DTS\eBaySDK\Types\BaseType

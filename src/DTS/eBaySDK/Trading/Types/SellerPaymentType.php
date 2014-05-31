@@ -22,11 +22,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $amountPaid
  * @property DTS\eBaySDK\Trading\Types\AmountType $commission
  * @property DTS\eBaySDK\Trading\Types\ExternalProductIDType $externalProductId
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\OrderIDType(string) $orderId
+ * @property string $itemId
+ * @property string $orderId
  * @property string $orderLineItemId
  * @property DateTime $paidTime
- * @property DTS\eBaySDK\Trading\Types\PaymentTypeCodeType(string) $paymentType
+ * @property DTS\eBaySDK\Trading\Enums\PaymentTypeCodeType(string) $paymentType
  * @property string $privateNotes
  * @property string $sellerInventoryId
  * @property DTS\eBaySDK\Trading\Types\AmountType $shippingReimbursement

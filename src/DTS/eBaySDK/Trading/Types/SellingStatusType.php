@@ -28,7 +28,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $finalValueFee
  * @property DTS\eBaySDK\Trading\Types\UserType $highBidder
  * @property integer $leadCount
- * @property DTS\eBaySDK\Trading\Types\ListingStatusCodeType(string) $listingStatus
+ * @property DTS\eBaySDK\Trading\Enums\ListingStatusCodeType(string) $listingStatus
  * @property DTS\eBaySDK\Trading\Types\AmountType $minimumToBid
  * @property DTS\eBaySDK\Trading\Types\PromotionalSaleDetailsType $promotionalSaleDetails
  * @property integer $quantitySold

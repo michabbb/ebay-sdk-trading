@@ -20,9 +20,9 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property DTS\eBaySDK\Trading\Types\OfferArrayType $bidArray
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $highBidder
+ * @property string $highBidder
  * @property DTS\eBaySDK\Trading\Types\AmountType $highestBid
- * @property DTS\eBaySDK\Trading\Types\ListingStatusCodeType(string) $listingStatus
+ * @property DTS\eBaySDK\Trading\Enums\ListingStatusCodeType(string) $listingStatus
  */
 class GetAllBiddersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

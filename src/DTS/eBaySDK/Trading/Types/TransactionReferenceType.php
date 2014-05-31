@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\TransactionReferenceCodeType(string) $type
+ * @property DTS\eBaySDK\Trading\Enums\TransactionReferenceCodeType(string) $type
  */
 class TransactionReferenceType extends \DTS\eBaySDK\Types\StringType
 {

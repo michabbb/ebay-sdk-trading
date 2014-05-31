@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $linkId
- * @property DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkCodeType(string) $linkType
+ * @property DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderLinkCodeType(string) $linkType
  * @property integer $order
  */
 class StoreCustomListingHeaderLinkType extends \DTS\eBaySDK\Types\BaseType

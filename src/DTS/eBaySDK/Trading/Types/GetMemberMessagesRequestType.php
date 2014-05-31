@@ -21,12 +21,12 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $displayToPublic
  * @property DateTime $endCreationTime
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\MessageTypeCodeType(string) $mailMessageType
+ * @property string $itemId
+ * @property DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $mailMessageType
  * @property string $memberMessageId
- * @property DTS\eBaySDK\Trading\Types\MessageStatusTypeCodeType(string) $messageStatus
+ * @property DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType(string) $messageStatus
  * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $senderId
+ * @property string $senderId
  * @property DateTime $startCreationTime
  */
 class GetMemberMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

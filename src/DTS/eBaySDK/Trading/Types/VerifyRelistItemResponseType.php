@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DiscountReasonCodeType(string) $discountReason
+ * @property DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType(string) $discountReason
  * @property DateTime $endTime
  * @property DTS\eBaySDK\Trading\Types\FeesType $fees
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property DTS\eBaySDK\Trading\Types\ListingRecommendationsType $listingRecommendations
  * @property DTS\eBaySDK\Trading\Types\ProductSuggestionsType $productSuggestions
  * @property DateTime $startTime

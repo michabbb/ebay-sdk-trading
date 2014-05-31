@@ -24,16 +24,16 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $codcOst
  * @property boolean $emailCopyToSeller
  * @property DTS\eBaySDK\Trading\Types\AmountType $insuranceFee
- * @property DTS\eBaySDK\Trading\Types\InsuranceOptionCodeType(string) $insuranceOption
+ * @property DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType(string) $insuranceOption
  * @property DTS\eBaySDK\Trading\Types\InternationalShippingServiceOptionsType $internationalShippingServiceOptions
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\OrderIDType(string) $orderId
+ * @property string $itemId
+ * @property string $orderId
  * @property string $orderLineItemId
  * @property string $payPalEmailAddress
- * @property DTS\eBaySDK\Trading\Types\BuyerPaymentMethodCodeType(string) $paymentMethods
+ * @property DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $paymentMethods
  * @property DTS\eBaySDK\Trading\Types\SalesTaxType $salesTax
  * @property DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType $shippingServiceOptions
- * @property DTS\eBaySDK\Trading\Types\SKUType(string) $sku
+ * @property string $sku
  * @property string $transactionId
  */
 class SendInvoiceRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

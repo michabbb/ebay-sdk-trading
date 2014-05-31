@@ -26,7 +26,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property double $donationPercent
  * @property string $logoUrl
  * @property string $mission
- * @property DTS\eBaySDK\Trading\Types\CharityStatusCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\CharityStatusCodeType(string) $status
  */
 class CharityType extends \DTS\eBaySDK\Types\BaseType
 {

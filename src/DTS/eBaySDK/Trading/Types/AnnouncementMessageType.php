@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property DateTime $announcementStartTime
  * @property DateTime $eventTime
- * @property DTS\eBaySDK\Trading\Types\AnnouncementMessageCodeType(string) $messageType
+ * @property DTS\eBaySDK\Trading\Enums\AnnouncementMessageCodeType(string) $messageType
  */
 class AnnouncementMessageType extends \DTS\eBaySDK\Types\BaseType
 {

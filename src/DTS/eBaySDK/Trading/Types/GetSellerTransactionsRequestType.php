@@ -22,12 +22,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $includeCodiceFiscale
  * @property boolean $includeContainingOrder
  * @property boolean $includeFinalValueFee
- * @property DTS\eBaySDK\Trading\Types\InventoryTrackingMethodCodeType(string) $inventoryTrackingMethod
+ * @property DTS\eBaySDK\Trading\Enums\InventoryTrackingMethodCodeType(string) $inventoryTrackingMethod
  * @property DateTime $modTimeFrom
  * @property DateTime $modTimeTo
  * @property integer $numberOfDays
  * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
- * @property DTS\eBaySDK\Trading\Types\TransactionPlatformCodeType(string) $platform
+ * @property DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $platform
  * @property DTS\eBaySDK\Trading\Types\SKUArrayType $skuaRray
  */
 class GetSellerTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

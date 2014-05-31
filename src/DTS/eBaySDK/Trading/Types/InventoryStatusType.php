@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property integer $quantity
- * @property DTS\eBaySDK\Trading\Types\SKUType(string) $sku
+ * @property string $sku
  * @property DTS\eBaySDK\Trading\Types\AmountType $startPrice
  */
 class InventoryStatusType extends \DTS\eBaySDK\Types\BaseType

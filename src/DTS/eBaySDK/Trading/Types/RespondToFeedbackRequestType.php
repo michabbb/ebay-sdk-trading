@@ -20,11 +20,11 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $feedbackId
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property string $orderLineItemId
  * @property string $responseText
- * @property DTS\eBaySDK\Trading\Types\FeedbackResponseCodeType(string) $responseType
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $targetUserId
+ * @property DTS\eBaySDK\Trading\Enums\FeedbackResponseCodeType(string) $responseType
+ * @property string $targetUserId
  * @property string $transactionId
  */
 class RespondToFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

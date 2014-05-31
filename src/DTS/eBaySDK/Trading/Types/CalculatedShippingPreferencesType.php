@@ -20,9 +20,9 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property DTS\eBaySDK\Trading\Types\AmountType $calculatedShippingAmountForEntireOrder
- * @property DTS\eBaySDK\Trading\Types\CalculatedShippingChargeOptionCodeType(string) $calculatedShippingChargeOption
- * @property DTS\eBaySDK\Trading\Types\CalculatedShippingRateOptionCodeType(string) $calculatedShippingRateOption
- * @property DTS\eBaySDK\Trading\Types\InsuranceOptionCodeType(string) $insuranceOption
+ * @property DTS\eBaySDK\Trading\Enums\CalculatedShippingChargeOptionCodeType(string) $calculatedShippingChargeOption
+ * @property DTS\eBaySDK\Trading\Enums\CalculatedShippingRateOptionCodeType(string) $calculatedShippingRateOption
+ * @property DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType(string) $insuranceOption
  */
 class CalculatedShippingPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {

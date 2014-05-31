@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $userId
+ * @property string $userId
  */
 class UserIDArrayType extends \DTS\eBaySDK\Types\BaseType
 {

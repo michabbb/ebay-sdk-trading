@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property boolean $removeAllItems
  * @property DTS\eBaySDK\Trading\Types\VariationKeyType $variationKey
  */

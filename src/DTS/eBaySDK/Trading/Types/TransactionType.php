@@ -28,7 +28,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\UserType $buyer
  * @property string $buyerCheckoutMessage
  * @property DTS\eBaySDK\Trading\Types\AmountType $buyerGuaranteePrice
- * @property DTS\eBaySDK\Trading\Types\PaidStatusCodeType(string) $buyerPaidStatus
+ * @property DTS\eBaySDK\Trading\Enums\PaidStatusCodeType(string) $buyerPaidStatus
  * @property string $cartId
  * @property string $codiceFiscale
  * @property DTS\eBaySDK\Trading\Types\OrderType $containingOrder
@@ -36,7 +36,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $convertedAmountPaid
  * @property DTS\eBaySDK\Trading\Types\AmountType $convertedTransactionPrice
  * @property DateTime $createdDate
- * @property DTS\eBaySDK\Trading\Types\DepositTypeCodeType(string) $depositType
+ * @property DTS\eBaySDK\Trading\Enums\DepositTypeCodeType(string) $depositType
  * @property DTS\eBaySDK\Trading\Types\AmountType $dutchAuctionBid
  * @property DTS\eBaySDK\Trading\Types\ExternalTransactionType $externalTransaction
  * @property DTS\eBaySDK\Trading\Types\FeedbackInfoType $feedbackLeft
@@ -56,14 +56,14 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\PaymentHoldDetailType $paymentHoldDetails
  * @property DTS\eBaySDK\Trading\Types\PickupDetailsType $pickupDetails
  * @property DTS\eBaySDK\Trading\Types\PickupMethodSelectedType $pickupMethodSelected
- * @property DTS\eBaySDK\Trading\Types\TransactionPlatformCodeType(string) $platform
+ * @property DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $platform
  * @property integer $quantityPurchased
  * @property DTS\eBaySDK\Trading\Types\AmountType $refundAmount
  * @property DTS\eBaySDK\Trading\Types\RefundArrayType $refundArray
  * @property string $refundStatus
  * @property boolean $sellerContactBuyerByEmail
  * @property DTS\eBaySDK\Trading\Types\SellerDiscountsType $sellerDiscounts
- * @property DTS\eBaySDK\Trading\Types\PaidStatusCodeType(string) $sellerPaidStatus
+ * @property DTS\eBaySDK\Trading\Enums\PaidStatusCodeType(string) $sellerPaidStatus
  * @property DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $sellingManagerProductDetails
  * @property DateTime $shippedTime
  * @property DTS\eBaySDK\Trading\Types\AmountType $shippingConvenienceCharge
@@ -74,7 +74,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $totalPrice
  * @property string $transactionId
  * @property DTS\eBaySDK\Trading\Types\AmountType $transactionPrice
- * @property DTS\eBaySDK\Trading\Types\SiteCodeType(string) $transactionSiteId
+ * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $transactionSiteId
  * @property DTS\eBaySDK\Trading\Types\UnpaidItemType $unpaidItem
  * @property DTS\eBaySDK\Trading\Types\VariationType $variation
  * @property integer $vatpErcent

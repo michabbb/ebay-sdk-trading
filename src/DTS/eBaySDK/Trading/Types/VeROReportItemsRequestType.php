@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property DTS\eBaySDK\Trading\Types\VeROReportItemsType $reportItems
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $rightsOwnerId
+ * @property string $rightsOwnerId
  */
 class VeROReportItemsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $folderId
- * @property DTS\eBaySDK\Trading\Types\PictureManagerDetailLevelCodeType(string) $pictureManagerDetailLevel
+ * @property DTS\eBaySDK\Trading\Enums\PictureManagerDetailLevelCodeType(string) $pictureManagerDetailLevel
  * @property string $pictureUrl
  */
 class GetPictureManagerDetailsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

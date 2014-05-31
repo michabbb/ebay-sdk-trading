@@ -21,9 +21,9 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $categoryId
  * @property string $description
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $postId
+ * @property string $postId
  * @property integer $responseCount
- * @property DTS\eBaySDK\Trading\Types\SiteCodeType(string) $site
+ * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $site
  * @property DateTime $startTime
  * @property string $title
  */

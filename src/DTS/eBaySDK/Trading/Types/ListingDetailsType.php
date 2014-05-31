@@ -28,16 +28,16 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $convertedReservePrice
  * @property DTS\eBaySDK\Trading\Types\AmountType $convertedStartPrice
  * @property DateTime $endTime
- * @property DTS\eBaySDK\Trading\Types\EndReasonCodeType(string) $endingReason
+ * @property DTS\eBaySDK\Trading\Enums\EndReasonCodeType(string) $endingReason
  * @property boolean $hasPublicMessages
  * @property boolean $hasReservePrice
  * @property boolean $hasUnansweredQuestions
  * @property string $localListingDistance
  * @property DTS\eBaySDK\Trading\Types\AmountType $minimumBestOfferPrice
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $relistedItemId
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $secondChanceOriginalItemId
+ * @property string $relistedItemId
+ * @property string $secondChanceOriginalItemId
  * @property DateTime $startTime
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $tcroRiginalItemId
+ * @property string $tcroRiginalItemId
  * @property string $viewItemUrl
  * @property string $viewItemUrlfOrNaturalSearch
  */

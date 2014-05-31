@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $customCategory
- * @property DTS\eBaySDK\Trading\Types\TaskStatusCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\TaskStatusCodeType(string) $status
  * @property integer $taskId
  */
 class SetStoreCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

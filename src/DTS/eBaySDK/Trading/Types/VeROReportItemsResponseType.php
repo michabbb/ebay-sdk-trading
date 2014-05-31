@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $veRorEportPacketId
- * @property DTS\eBaySDK\Trading\Types\VeROReportPacketStatusCodeType(string) $veRorEportPacketStatus
+ * @property DTS\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType(string) $veRorEportPacketStatus
  */
 class VeROReportItemsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

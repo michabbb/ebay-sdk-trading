@@ -25,7 +25,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $order
  * @property integer $pageId
  * @property boolean $previewEnabled
- * @property DTS\eBaySDK\Trading\Types\StoreCustomPageStatusCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\StoreCustomPageStatusCodeType(string) $status
  * @property string $url
  * @property string $urlpAth
  */

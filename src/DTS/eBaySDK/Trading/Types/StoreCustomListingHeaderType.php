@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $addToFavoriteStores
- * @property DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderDisplayCodeType(string) $displayType
+ * @property DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderDisplayCodeType(string) $displayType
  * @property DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType $linkToInclude
  * @property boolean $logo
  * @property boolean $searchBox

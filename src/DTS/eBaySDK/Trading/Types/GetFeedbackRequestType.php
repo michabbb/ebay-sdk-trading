@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CommentTypeCodeType(string) $commentType
+ * @property DTS\eBaySDK\Trading\Enums\CommentTypeCodeType(string) $commentType
  * @property string $feedbackId
- * @property DTS\eBaySDK\Trading\Types\FeedbackTypeCodeType(string) $feedbackType
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property DTS\eBaySDK\Trading\Enums\FeedbackTypeCodeType(string) $feedbackType
+ * @property string $itemId
  * @property string $orderLineItemId
  * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
  * @property string $transactionId
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $userId
+ * @property string $userId
  */
 class GetFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

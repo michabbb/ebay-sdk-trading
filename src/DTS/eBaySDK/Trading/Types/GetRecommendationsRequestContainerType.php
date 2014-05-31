@@ -24,9 +24,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $excludeRelationships
  * @property boolean $includeConfidence
  * @property DTS\eBaySDK\Trading\Types\ItemType $item
- * @property DTS\eBaySDK\Trading\Types\ListingFlowCodeType(string) $listingFlow
+ * @property DTS\eBaySDK\Trading\Enums\ListingFlowCodeType(string) $listingFlow
  * @property string $query
- * @property DTS\eBaySDK\Trading\Types\RecommendationEngineCodeType(string) $recommendationEngine
+ * @property DTS\eBaySDK\Trading\Enums\RecommendationEngineCodeType(string) $recommendationEngine
  */
 class GetRecommendationsRequestContainerType extends \DTS\eBaySDK\Types\BaseType
 {

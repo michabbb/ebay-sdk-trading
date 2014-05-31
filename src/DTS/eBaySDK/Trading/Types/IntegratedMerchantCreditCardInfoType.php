@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\SiteCodeType(string) $supportedSite
+ * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $supportedSite
  */
 class IntegratedMerchantCreditCardInfoType extends \DTS\eBaySDK\Types\BaseType
 {

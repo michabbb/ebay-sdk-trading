@@ -23,11 +23,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $maxValues
  * @property integer $minValues
  * @property DTS\eBaySDK\Trading\Types\NameValueRelationshipType $relationship
- * @property DTS\eBaySDK\Trading\Types\SelectionModeCodeType(string) $selectionMode
- * @property DTS\eBaySDK\Trading\Types\ValueFormatCodeType(string) $valueFormat
- * @property DTS\eBaySDK\Trading\Types\ValueTypeCodeType(string) $valueType
- * @property DTS\eBaySDK\Trading\Types\VariationPictureRuleCodeType(string) $variationPicture
- * @property DTS\eBaySDK\Trading\Types\VariationSpecificsRuleCodeType(string) $variationSpecifics
+ * @property DTS\eBaySDK\Trading\Enums\SelectionModeCodeType(string) $selectionMode
+ * @property DTS\eBaySDK\Trading\Enums\ValueFormatCodeType(string) $valueFormat
+ * @property DTS\eBaySDK\Trading\Enums\ValueTypeCodeType(string) $valueType
+ * @property DTS\eBaySDK\Trading\Enums\VariationPictureRuleCodeType(string) $variationPicture
+ * @property DTS\eBaySDK\Trading\Enums\VariationSpecificsRuleCodeType(string) $variationSpecifics
  */
 class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
 {

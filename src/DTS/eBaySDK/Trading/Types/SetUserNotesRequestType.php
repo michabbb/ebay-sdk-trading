@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\SetUserNotesActionCodeType(string) $action
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property DTS\eBaySDK\Trading\Enums\SetUserNotesActionCodeType(string) $action
+ * @property string $itemId
  * @property string $noteText
  * @property string $orderLineItemId
- * @property DTS\eBaySDK\Trading\Types\SKUType(string) $sku
+ * @property string $sku
  * @property string $transactionId
  * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $variationSpecifics
  */

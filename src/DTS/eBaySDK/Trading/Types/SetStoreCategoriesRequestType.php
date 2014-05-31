@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\StoreCategoryUpdateActionCodeType(string) $action
+ * @property DTS\eBaySDK\Trading\Enums\StoreCategoryUpdateActionCodeType(string) $action
  * @property integer $destinationParentCategoryId
  * @property integer $itemDestinationCategoryId
  * @property DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $storeCategories

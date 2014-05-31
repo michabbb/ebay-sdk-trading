@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\TaxTypeCodeType(string) $imposition
+ * @property DTS\eBaySDK\Trading\Enums\TaxTypeCodeType(string) $imposition
  * @property DTS\eBaySDK\Trading\Types\AmountType $taxAmount
- * @property DTS\eBaySDK\Trading\Types\TaxDescriptionCodeType(string) $taxDescription
+ * @property DTS\eBaySDK\Trading\Enums\TaxDescriptionCodeType(string) $taxDescription
  * @property DTS\eBaySDK\Trading\Types\AmountType $taxOnHandlingAmount
  * @property DTS\eBaySDK\Trading\Types\AmountType $taxOnShippingAmount
  * @property DTS\eBaySDK\Trading\Types\AmountType $taxOnSubtotalAmount

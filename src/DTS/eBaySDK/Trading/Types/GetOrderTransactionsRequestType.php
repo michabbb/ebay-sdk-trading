@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $includeFinalValueFees
  * @property DTS\eBaySDK\Trading\Types\ItemTransactionIDArrayType $itemTransactionIdaRray
  * @property DTS\eBaySDK\Trading\Types\OrderIDArrayType $orderIdaRray
- * @property DTS\eBaySDK\Trading\Types\TransactionPlatformCodeType(string) $platform
+ * @property DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $platform
  */
 class GetOrderTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

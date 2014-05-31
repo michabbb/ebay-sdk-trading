@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property DateTime $endTime
- * @property DTS\eBaySDK\Trading\Types\SKUType(string) $sku
+ * @property string $sku
  */
 class EndFixedPriceItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AckCodeType(string) $ack
+ * @property DTS\eBaySDK\Trading\Enums\AckCodeType(string) $ack
  * @property DTS\eBaySDK\Trading\Types\BotBlockResponseType $botBlock
  * @property string $build
  * @property string $correlationId

@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DisputeFilterTypeCodeType(string) $disputeFilterType
- * @property DTS\eBaySDK\Trading\Types\DisputeSortTypeCodeType(string) $disputeSortType
+ * @property DTS\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType(string) $disputeFilterType
+ * @property DTS\eBaySDK\Trading\Enums\DisputeSortTypeCodeType(string) $disputeSortType
  * @property DateTime $modTimeFrom
  * @property DateTime $modTimeTo
  * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination

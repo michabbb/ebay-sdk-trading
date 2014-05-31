@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $affiliateUserId
- * @property DTS\eBaySDK\Trading\Types\ApplicationDeviceTypeCodeType(string) $applicationDeviceType
+ * @property DTS\eBaySDK\Trading\Enums\ApplicationDeviceTypeCodeType(string) $applicationDeviceType
  * @property string $trackingId
  * @property string $trackingPartnerCode
  */

@@ -44,7 +44,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\ShippingDetailsType $shippingDetails
  * @property DTS\eBaySDK\Trading\Types\AmountType $totalAmount
  * @property integer $totalQuantity
- * @property DTS\eBaySDK\Trading\Types\UnpaidItemStatusTypeCodeType(string) $unpaidItemStatus
+ * @property DTS\eBaySDK\Trading\Enums\UnpaidItemStatusTypeCodeType(string) $unpaidItemStatus
  * @property DTS\eBaySDK\Trading\Types\AmountType $vatiNsuranceFee
  * @property DTS\eBaySDK\Trading\Types\VATRateType $vatrAte
  * @property DTS\eBaySDK\Trading\Types\AmountType $vatsHippingFee

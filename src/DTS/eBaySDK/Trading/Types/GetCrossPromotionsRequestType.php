@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\PromotionMethodCodeType(string) $promotionMethod
- * @property DTS\eBaySDK\Trading\Types\TradingRoleCodeType(string) $promotionViewMode
+ * @property string $itemId
+ * @property DTS\eBaySDK\Trading\Enums\PromotionMethodCodeType(string) $promotionMethod
+ * @property DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $promotionViewMode
  */
 class GetCrossPromotionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

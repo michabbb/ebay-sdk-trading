@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ModifyActionCodeType(string) $action
+ * @property DTS\eBaySDK\Trading\Enums\ModifyActionCodeType(string) $action
  * @property DTS\eBaySDK\Trading\Types\PromotionalSaleType $promotionalSaleDetails
  */
 class SetPromotionalSaleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

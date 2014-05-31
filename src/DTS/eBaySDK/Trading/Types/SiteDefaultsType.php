@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AdFormatEnabledCodeType(string) $adFormatEnabled
+ * @property DTS\eBaySDK\Trading\Enums\AdFormatEnabledCodeType(string) $adFormatEnabled
  * @property boolean $additionalCompatibilityEnabled
  * @property boolean $basicUpgradePackEnabled
  * @property boolean $bestOfferAutoAcceptEnabled
@@ -30,36 +30,36 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $buyerGuaranteeEnabled
  * @property boolean $classifiedAdAutoAcceptEnabled
  * @property boolean $classifiedAdAutoDeclineEnabled
- * @property DTS\eBaySDK\Trading\Types\ClassifiedAdBestOfferEnabledCodeType(string) $classifiedAdBestOfferEnabled
+ * @property DTS\eBaySDK\Trading\Enums\ClassifiedAdBestOfferEnabledCodeType(string) $classifiedAdBestOfferEnabled
  * @property boolean $classifiedAdCompanyNameEnabled
  * @property boolean $classifiedAdContactByAddressEnabled
  * @property boolean $classifiedAdContactByEmailEnabled
  * @property boolean $classifiedAdContactByPhoneEnabled
  * @property boolean $classifiedAdCounterOfferEnabled
  * @property boolean $classifiedAdPayPerLeadEnabled
- * @property DTS\eBaySDK\Trading\Types\ClassifiedAdPaymentMethodEnabledCodeType(string) $classifiedAdPaymentMethodEnabled
+ * @property DTS\eBaySDK\Trading\Enums\ClassifiedAdPaymentMethodEnabledCodeType(string) $classifiedAdPaymentMethodEnabled
  * @property integer $classifiedAdPhoneCount
  * @property boolean $classifiedAdShippingMethodEnabled
  * @property integer $classifiedAdStreetCount
  * @property boolean $combinedFixedPriceTreatmentEnabled
  * @property string $compatibleVehicleType
- * @property DTS\eBaySDK\Trading\Types\ConditionEnabledCodeType(string) $conditionEnabled
+ * @property DTS\eBaySDK\Trading\Enums\ConditionEnabledCodeType(string) $conditionEnabled
  * @property DTS\eBaySDK\Trading\Types\ConditionValuesType $conditionValues
  * @property boolean $crossBorderTradeAustraliaEnabled
  * @property boolean $crossBorderTradeGbeNabled
  * @property boolean $crossBorderTradeNorthAmericaEnabled
  * @property boolean $depositSupported
  * @property boolean $dutchBineNabled
- * @property DTS\eBaySDK\Trading\Types\AdFormatEnabledCodeType(string) $eBayMotorsProAdFormatEnabled
+ * @property DTS\eBaySDK\Trading\Enums\AdFormatEnabledCodeType(string) $eBayMotorsProAdFormatEnabled
  * @property boolean $eBayMotorsProAutoAcceptEnabled
  * @property boolean $eBayMotorsProAutoDeclineEnabled
- * @property DTS\eBaySDK\Trading\Types\ClassifiedAdBestOfferEnabledCodeType(string) $eBayMotorsProBestOfferEnabled
+ * @property DTS\eBaySDK\Trading\Enums\ClassifiedAdBestOfferEnabledCodeType(string) $eBayMotorsProBestOfferEnabled
  * @property boolean $eBayMotorsProCompanyNameEnabled
  * @property boolean $eBayMotorsProContactByAddressEnabled
  * @property boolean $eBayMotorsProContactByEmailEnabled
  * @property boolean $eBayMotorsProContactByPhoneEnabled
  * @property boolean $eBayMotorsProCounterOfferEnabled
- * @property DTS\eBaySDK\Trading\Types\ClassifiedAdPaymentMethodEnabledCodeType(string) $eBayMotorsProPaymentMethodCheckOutEnabled
+ * @property DTS\eBaySDK\Trading\Enums\ClassifiedAdPaymentMethodEnabledCodeType(string) $eBayMotorsProPaymentMethodCheckOutEnabled
  * @property integer $eBayMotorsProPhoneCount
  * @property boolean $eBayMotorsProSellerContactDetailsEnabled
  * @property boolean $eBayMotorsProShippingMethodEnabled
@@ -77,25 +77,25 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $group3MaxFlatShippingCost
  * @property boolean $handlingTimeEnabled
  * @property boolean $homePageFeaturedEnabled
- * @property DTS\eBaySDK\Trading\Types\INEscrowWorkflowTimelineCodeType(string) $ineScrowWorkflowTimeline
+ * @property DTS\eBaySDK\Trading\Enums\INEscrowWorkflowTimelineCodeType(string) $ineScrowWorkflowTimeline
  * @property boolean $isbniDentifierEnabled
- * @property DTS\eBaySDK\Trading\Types\ItemCompatibilityEnabledCodeType(string) $itemCompatibilityEnabled
- * @property DTS\eBaySDK\Trading\Types\ItemSpecificsEnabledCodeType(string) $itemSpecificsEnabled
+ * @property DTS\eBaySDK\Trading\Enums\ItemCompatibilityEnabledCodeType(string) $itemCompatibilityEnabled
+ * @property DTS\eBaySDK\Trading\Enums\ItemSpecificsEnabledCodeType(string) $itemSpecificsEnabled
  * @property DTS\eBaySDK\Trading\Types\ListingDurationReferenceType $listingDuration
  * @property string $localListingDistancesNonSubscription
  * @property string $localListingDistancesRegular
  * @property string $localListingDistancesSpecialty
- * @property DTS\eBaySDK\Trading\Types\AdFormatEnabledCodeType(string) $localMarketAdFormatEnabled
+ * @property DTS\eBaySDK\Trading\Enums\AdFormatEnabledCodeType(string) $localMarketAdFormatEnabled
  * @property boolean $localMarketAutoAcceptEnabled
  * @property boolean $localMarketAutoDeclineEnabled
- * @property DTS\eBaySDK\Trading\Types\ClassifiedAdBestOfferEnabledCodeType(string) $localMarketBestOfferEnabled
+ * @property DTS\eBaySDK\Trading\Enums\ClassifiedAdBestOfferEnabledCodeType(string) $localMarketBestOfferEnabled
  * @property boolean $localMarketCompanyNameEnabled
  * @property boolean $localMarketContactByAddressEnabled
  * @property boolean $localMarketContactByEmailEnabled
  * @property boolean $localMarketContactByPhoneEnabled
  * @property boolean $localMarketCounterOfferEnabled
  * @property boolean $localMarketNonSubscription
- * @property DTS\eBaySDK\Trading\Types\ClassifiedAdPaymentMethodEnabledCodeType(string) $localMarketPaymentMethodCheckOutEnabled
+ * @property DTS\eBaySDK\Trading\Enums\ClassifiedAdPaymentMethodEnabledCodeType(string) $localMarketPaymentMethodCheckOutEnabled
  * @property integer $localMarketPhoneCount
  * @property boolean $localMarketPremiumSubscription
  * @property boolean $localMarketRegularSubscription
@@ -109,31 +109,31 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $maxItemCompatibility
  * @property integer $minItemCompatibility
  * @property double $minimumReservePrice
- * @property DTS\eBaySDK\Trading\Types\GeographicExposureCodeType(string) $nonSubscription
+ * @property DTS\eBaySDK\Trading\Enums\GeographicExposureCodeType(string) $nonSubscription
  * @property boolean $paisaPayFullEscrowEnabled
  * @property boolean $payPalBuyerProtectionEnabled
  * @property boolean $payPalRequired
  * @property boolean $payPalRequiredForStoreOwner
- * @property DTS\eBaySDK\Trading\Types\BuyerPaymentMethodCodeType(string) $paymentMethod
- * @property DTS\eBaySDK\Trading\Types\PaymentOptionsGroupEnabledCodeType(string) $paymentOptionsGroup
- * @property DTS\eBaySDK\Trading\Types\ProfileCategoryGroupCodeType(string) $paymentProfileCategoryGroup
- * @property DTS\eBaySDK\Trading\Types\GeographicExposureCodeType(string) $premiumSubscription
+ * @property DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $paymentMethod
+ * @property DTS\eBaySDK\Trading\Enums\PaymentOptionsGroupEnabledCodeType(string) $paymentOptionsGroup
+ * @property DTS\eBaySDK\Trading\Enums\ProfileCategoryGroupCodeType(string) $paymentProfileCategoryGroup
+ * @property DTS\eBaySDK\Trading\Enums\GeographicExposureCodeType(string) $premiumSubscription
  * @property boolean $proPackEnabled
  * @property boolean $proPackPlusEnabled
- * @property DTS\eBaySDK\Trading\Types\ProductCreationEnabledCodeType(string) $productCreationEnabled
- * @property DTS\eBaySDK\Trading\Types\GeographicExposureCodeType(string) $regularSubscription
+ * @property DTS\eBaySDK\Trading\Enums\ProductCreationEnabledCodeType(string) $productCreationEnabled
+ * @property DTS\eBaySDK\Trading\Enums\GeographicExposureCodeType(string) $regularSubscription
  * @property boolean $returnPolicyEnabled
- * @property DTS\eBaySDK\Trading\Types\ProfileCategoryGroupCodeType(string) $returnPolicyProfileCategoryGroup
+ * @property DTS\eBaySDK\Trading\Enums\ProfileCategoryGroupCodeType(string) $returnPolicyProfileCategoryGroup
  * @property boolean $revisePriceAllowed
  * @property boolean $reviseQuantityAllowed
  * @property boolean $safePaymentRequired
  * @property boolean $sellerContactDetailsEnabled
  * @property boolean $sellerProvidedTitleSupported
- * @property DTS\eBaySDK\Trading\Types\ProfileCategoryGroupCodeType(string) $shippingProfileCategoryGroup
+ * @property DTS\eBaySDK\Trading\Enums\ProfileCategoryGroupCodeType(string) $shippingProfileCategoryGroup
  * @property boolean $shippingTermsRequired
  * @property boolean $skypeMeNonTransactionalEnabled
  * @property boolean $skypeMeTransactionalEnabled
- * @property DTS\eBaySDK\Trading\Types\GeographicExposureCodeType(string) $specialitySubscription
+ * @property DTS\eBaySDK\Trading\Enums\GeographicExposureCodeType(string) $specialitySubscription
  * @property boolean $storeInventoryEnabled
  * @property DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsType $storeOwnerExtendedListingDurations
  * @property boolean $storeOwnerExtendedListingDurationsEnabled

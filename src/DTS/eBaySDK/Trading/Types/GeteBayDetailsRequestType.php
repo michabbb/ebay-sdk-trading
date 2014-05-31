@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DetailNameCodeType(string) $detailName
+ * @property DTS\eBaySDK\Trading\Enums\DetailNameCodeType(string) $detailName
  */
 class GeteBayDetailsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

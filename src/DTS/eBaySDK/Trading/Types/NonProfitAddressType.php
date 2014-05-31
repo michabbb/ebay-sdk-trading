@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $addressLine1
  * @property string $addressLine2
- * @property DTS\eBaySDK\Trading\Types\AddressTypeCodeType(string) $addressType
+ * @property DTS\eBaySDK\Trading\Enums\AddressTypeCodeType(string) $addressType
  * @property string $city
  * @property integer $latitude
  * @property integer $longitude

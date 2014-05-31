@@ -29,13 +29,13 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\MyMessagesForwardDetailsType $forwardDetails
  * @property boolean $highPriority
  * @property DateTime $itemEndTime
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property string $itemTitle
- * @property DTS\eBaySDK\Trading\Types\ListingStatusCodeType(string) $listingStatus
- * @property DTS\eBaySDK\Trading\Types\MyMessagesMessageIDType(string) $messageId
+ * @property DTS\eBaySDK\Trading\Enums\ListingStatusCodeType(string) $listingStatus
+ * @property string $messageId
  * @property DTS\eBaySDK\Trading\Types\MessageMediaType $messageMedia
- * @property DTS\eBaySDK\Trading\Types\MessageTypeCodeType(string) $messageType
- * @property DTS\eBaySDK\Trading\Types\QuestionTypeCodeType(string) $questionType
+ * @property DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $messageType
+ * @property DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType(string) $questionType
  * @property boolean $read
  * @property DateTime $receiveDate
  * @property string $recipientUserId

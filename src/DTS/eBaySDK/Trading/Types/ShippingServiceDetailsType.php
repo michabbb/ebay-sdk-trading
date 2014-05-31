@@ -28,12 +28,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $expeditedService
  * @property boolean $internationalService
  * @property integer $mappedToShippingServiceId
- * @property DTS\eBaySDK\Trading\Types\ShippingTypeCodeType(string) $serviceType
- * @property DTS\eBaySDK\Trading\Types\ShippingCarrierCodeType(string) $shippingCarrier
+ * @property DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType(string) $serviceType
+ * @property DTS\eBaySDK\Trading\Enums\ShippingCarrierCodeType(string) $shippingCarrier
  * @property string $shippingCategory
- * @property DTS\eBaySDK\Trading\Types\ShippingPackageCodeType(string) $shippingPackage
+ * @property DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType(string) $shippingPackage
  * @property string $shippingService
- * @property DTS\eBaySDK\Trading\Types\ShippingServiceCodeType(string) $shippingServiceCode
+ * @property DTS\eBaySDK\Trading\Enums\ShippingServiceCodeType(string) $shippingServiceCode
  * @property integer $shippingServiceId
  * @property DTS\eBaySDK\Trading\Types\ShippingServicePackageDetailsType $shippingServicePackageDetails
  * @property integer $shippingTimeMax

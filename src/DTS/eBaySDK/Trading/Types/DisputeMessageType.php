@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property DateTime $messageCreationTime
  * @property integer $messageId
- * @property DTS\eBaySDK\Trading\Types\DisputeMessageSourceCodeType(string) $messageSource
+ * @property DTS\eBaySDK\Trading\Enums\DisputeMessageSourceCodeType(string) $messageSource
  * @property string $messageText
  */
 class DisputeMessageType extends \DTS\eBaySDK\Types\BaseType

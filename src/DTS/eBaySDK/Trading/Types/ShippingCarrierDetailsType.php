@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $description
  * @property string $detailVersion
- * @property DTS\eBaySDK\Trading\Types\ShippingCarrierCodeType(string) $shippingCarrier
+ * @property DTS\eBaySDK\Trading\Enums\ShippingCarrierCodeType(string) $shippingCarrier
  * @property integer $shippingCarrierId
  * @property DateTime $updateTime
  */
