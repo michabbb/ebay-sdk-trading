@@ -21,12 +21,12 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $displayToPublic
  * @property DateTime $endCreationTime
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\MessageTypeCodeType(string) $mailMessageType
+ * @property string $itemId
+ * @property DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $mailMessageType
  * @property string $memberMessageId
- * @property DTS\eBaySDK\Trading\Types\MessageStatusTypeCodeType(string) $messageStatus
+ * @property DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType(string) $messageStatus
  * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $senderId
+ * @property string $senderId
  * @property DateTime $startCreationTime
  */
 class GetMemberMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
@@ -96,12 +96,18 @@ class GetMemberMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      */
     public function __construct(array $values = array())
     {
-        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
+        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
+
+        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
+        }
+
+        if (!array_key_exists(__CLASS__, self::$elementNames)) {
+            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

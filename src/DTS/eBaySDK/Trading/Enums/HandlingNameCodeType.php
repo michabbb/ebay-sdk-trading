@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class HandlingNameCodeType
 {
-    const COMBINED_HANDLING_FEE = 'CombinedHandlingFee';
-    const CUSTOM_CODE = 'CustomCode';
-    const EACH_ADDITIONAL_AMOUNT = 'EachAdditionalAmount';
-    const EACH_ADDITIONAL_AMOUNT_OFF = 'EachAdditionalAmountOff';
-    const EACH_ADDITIONAL_PERCENT_OFF = 'EachAdditionalPercentOff';
-    const INDIVIDUAL_HANDLING_FEE = 'IndividualHandlingFee';
+    const C_COMBINED_HANDLING_FEE = 'CombinedHandlingFee';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_EACH_ADDITIONAL_AMOUNT = 'EachAdditionalAmount';
+    const C_EACH_ADDITIONAL_AMOUNT_OFF = 'EachAdditionalAmountOff';
+    const C_EACH_ADDITIONAL_PERCENT_OFF = 'EachAdditionalPercentOff';
+    const C_INDIVIDUAL_HANDLING_FEE = 'IndividualHandlingFee';
 }

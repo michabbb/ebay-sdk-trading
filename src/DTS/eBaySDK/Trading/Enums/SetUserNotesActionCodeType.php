@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class SetUserNotesActionCodeType
 {
-    const ADD_OR_UPDATE = 'AddOrUpdate';
-    const CUSTOM_CODE = 'CustomCode';
-    const DELETE = 'Delete';
+    const C_ADD_OR_UPDATE = 'AddOrUpdate';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DELETE = 'Delete';
 }

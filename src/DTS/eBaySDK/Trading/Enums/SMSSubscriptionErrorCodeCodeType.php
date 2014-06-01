@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class SMSSubscriptionErrorCodeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const PHONE_NUMBER_CARRIER_CHANGED = 'PhoneNumberCarrierChanged';
-    const PHONE_NUMBER_CHANGED = 'PhoneNumberChanged';
-    const PHONE_NUMBER_INVALID = 'PhoneNumberInvalid';
-    const SMS_AGGREGATOR_NOT_AVAILABLE = 'SMSAggregatorNotAvailable';
-    const USER_REQUESTED_UNREGISTRATION = 'UserRequestedUnregistration';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_PHONE_NUMBER_CARRIER_CHANGED = 'PhoneNumberCarrierChanged';
+    const C_PHONE_NUMBER_CHANGED = 'PhoneNumberChanged';
+    const C_PHONE_NUMBER_INVALID = 'PhoneNumberInvalid';
+    const C_SMS_AGGREGATOR_NOT_AVAILABLE = 'SMSAggregatorNotAvailable';
+    const C_USER_REQUESTED_UNREGISTRATION = 'UserRequestedUnregistration';
 }

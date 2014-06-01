@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class FeedbackSummaryPeriodCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const FIFTY_TWO_WEEKS = 'FiftyTwoWeeks';
-    const THIRTY_DAYS = 'ThirtyDays';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FIFTY_TWO_WEEKS = 'FiftyTwoWeeks';
+    const C_THIRTY_DAYS = 'ThirtyDays';
 }

@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class EndOfAuctionLogoTypeCodeType
 {
-    const CUSTOMIZED = 'Customized';
-    const CUSTOM_CODE = 'CustomCode';
-    const NONE = 'None';
-    const STORE = 'Store';
-    const WINNING_BIDDER_NOTICE = 'WinningBidderNotice';
+    const C_CUSTOMIZED = 'Customized';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_NONE = 'None';
+    const C_STORE = 'Store';
+    const C_WINNING_BIDDER_NOTICE = 'WinningBidderNotice';
 }

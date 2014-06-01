@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class CheckoutStatusCodeType
 {
-    const BUYER_REQUESTS_TOTAL = 'BuyerRequestsTotal';
-    const CHECKOUT_COMPLETE = 'CheckoutComplete';
-    const CHECKOUT_INCOMPLETE = 'CheckoutIncomplete';
-    const CUSTOM_CODE = 'CustomCode';
-    const SELLER_RESPONDED = 'SellerResponded';
+    const C_BUYER_REQUESTS_TOTAL = 'BuyerRequestsTotal';
+    const C_CHECKOUT_COMPLETE = 'CheckoutComplete';
+    const C_CHECKOUT_INCOMPLETE = 'CheckoutIncomplete';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_SELLER_RESPONDED = 'SellerResponded';
 }

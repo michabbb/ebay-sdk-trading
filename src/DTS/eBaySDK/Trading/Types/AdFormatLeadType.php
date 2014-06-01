@@ -27,16 +27,16 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $email
  * @property string $externalEmail
  * @property boolean $financingAnswer
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property string $itemTitle
  * @property DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $memberMessage
  * @property string $purchaseTimeFrame
- * @property DTS\eBaySDK\Trading\Types\AdFormatLeadStatusCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType(string) $status
  * @property DateTime $submittedTime
  * @property string $tradeInMake
  * @property string $tradeInModel
  * @property string $tradeInYear
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $userId
+ * @property string $userId
  */
 class AdFormatLeadType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -159,12 +159,18 @@ class AdFormatLeadType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
+        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
+
+        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
+        }
+
+        if (!array_key_exists(__CLASS__, self::$elementNames)) {
+            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

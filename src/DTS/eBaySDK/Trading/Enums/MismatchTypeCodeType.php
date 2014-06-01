@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class MismatchTypeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const OVER_PAYMENT = 'OverPayment';
-    const UNDER_PAYMENT = 'UnderPayment';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_OVER_PAYMENT = 'OverPayment';
+    const C_UNDER_PAYMENT = 'UnderPayment';
 }

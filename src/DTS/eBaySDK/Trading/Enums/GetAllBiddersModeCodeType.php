@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class GetAllBiddersModeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const ENDED_LISTING = 'EndedListing';
-    const SECOND_CHANCE_ELIGIBLE_ENDED_LISTING = 'SecondChanceEligibleEndedListing';
-    const VIEW_ALL = 'ViewAll';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_ENDED_LISTING = 'EndedListing';
+    const C_SECOND_CHANCE_ELIGIBLE_ENDED_LISTING = 'SecondChanceEligibleEndedListing';
+    const C_VIEW_ALL = 'ViewAll';
 }

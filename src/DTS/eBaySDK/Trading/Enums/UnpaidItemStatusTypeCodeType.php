@@ -22,12 +22,12 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class UnpaidItemStatusTypeCodeType
 {
-    const AWAITING_BUYER_RESPONSE = 'AwaitingBuyerResponse';
-    const AWAITING_SELLER_RESPONSE = 'AwaitingSellerResponse';
-    const CUSTOM_CODE = 'CustomCode';
-    const FINAL_VALUE_FEE_CREDITED = 'FinalValueFeeCredited';
-    const FINAL_VALUE_FEE_DENIED = 'FinalValueFeeDenied';
-    const FINAL_VALUE_FEE_ELIGIBLE = 'FinalValueFeeEligible';
-    const UNPAID_ITEM_ELIGIBLE = 'UnpaidItemEligible';
-    const UNPAID_ITEM_FILED = 'UnpaidItemFiled';
+    const C_AWAITING_BUYER_RESPONSE = 'AwaitingBuyerResponse';
+    const C_AWAITING_SELLER_RESPONSE = 'AwaitingSellerResponse';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FINAL_VALUE_FEE_CREDITED = 'FinalValueFeeCredited';
+    const C_FINAL_VALUE_FEE_DENIED = 'FinalValueFeeDenied';
+    const C_FINAL_VALUE_FEE_ELIGIBLE = 'FinalValueFeeEligible';
+    const C_UNPAID_ITEM_ELIGIBLE = 'UnpaidItemEligible';
+    const C_UNPAID_ITEM_FILED = 'UnpaidItemFiled';
 }

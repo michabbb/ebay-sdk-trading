@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class TokenReturnMethodCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const FETCH_TOKEN = 'FetchToken';
-    const REDIRECT = 'Redirect';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FETCH_TOKEN = 'FetchToken';
+    const C_REDIRECT = 'Redirect';
 }

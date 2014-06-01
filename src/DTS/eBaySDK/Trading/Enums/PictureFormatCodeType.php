@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PictureFormatCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const GIF = 'GIF';
-    const JPG = 'JPG';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_GIF = 'GIF';
+    const C_JPG = 'JPG';
 }

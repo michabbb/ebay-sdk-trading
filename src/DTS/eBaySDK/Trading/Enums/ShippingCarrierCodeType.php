@@ -22,20 +22,20 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ShippingCarrierCodeType
 {
-    const CHRONOPOST = 'Chronopost';
-    const COLIPOSTE_DOMESTIC = 'ColiposteDomestic';
-    const COLIPOSTE_INTERNATIONAL = 'ColiposteInternational';
-    const CORREOS = 'Correos';
-    const CUSTOM_CODE = 'CustomCode';
-    const DEUTSCHE_POST = 'DeutschePost';
-    const DHL = 'DHL';
-    const FED_EX = 'FedEx';
-    const GLOBAL_SHIPPING__MULTI_CARRIER = 'GlobalShipping_MultiCarrier';
-    const HERMES = 'Hermes';
-    const I_LOXX = 'iLoxx';
-    const NACEX = 'Nacex';
-    const OTHER = 'Other';
-    const SEUR = 'Seur';
-    const UPS = 'UPS';
-    const USPS = 'USPS';
+    const C_CHRONOPOST = 'Chronopost';
+    const C_COLIPOSTE_DOMESTIC = 'ColiposteDomestic';
+    const C_COLIPOSTE_INTERNATIONAL = 'ColiposteInternational';
+    const C_CORREOS = 'Correos';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DEUTSCHE_POST = 'DeutschePost';
+    const C_DHL = 'DHL';
+    const C_FED_EX = 'FedEx';
+    const C_GLOBAL_SHIPPING__MULTI_CARRIER = 'GlobalShipping_MultiCarrier';
+    const C_HERMES = 'Hermes';
+    const C_I_LOXX = 'iLoxx';
+    const C_NACEX = 'Nacex';
+    const C_OTHER = 'Other';
+    const C_SEUR = 'Seur';
+    const C_UPS = 'UPS';
+    const C_USPS = 'USPS';
 }

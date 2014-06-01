@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class AttributeConversionEnabledCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const DISABLED = 'Disabled';
-    const ENABLED = 'Enabled';
-    const NOT_APPLICABLE = 'NotApplicable';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DISABLED = 'Disabled';
+    const C_ENABLED = 'Enabled';
+    const C_NOT_APPLICABLE = 'NotApplicable';
 }

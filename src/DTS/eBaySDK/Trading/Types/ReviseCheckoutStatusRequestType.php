@@ -22,17 +22,17 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DTS\eBaySDK\Trading\Types\AmountType $adjustmentAmount
  * @property DTS\eBaySDK\Trading\Types\AmountType $amountPaid
  * @property string $buyerId
- * @property DTS\eBaySDK\Trading\Types\CompleteStatusCodeType(string) $checkoutStatus
+ * @property DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType(string) $checkoutStatus
  * @property DTS\eBaySDK\Trading\Types\AmountType $codcOst
  * @property string $encryptedId
  * @property DTS\eBaySDK\Trading\Types\ExternalTransactionType $externalTransaction
- * @property DTS\eBaySDK\Trading\Types\InsuranceSelectedCodeType(string) $insuranceType
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property DTS\eBaySDK\Trading\Enums\InsuranceSelectedCodeType(string) $insuranceType
+ * @property string $itemId
  * @property string $multipleSellerPaymentId
  * @property string $orderId
  * @property string $orderLineItemId
- * @property DTS\eBaySDK\Trading\Types\BuyerPaymentMethodCodeType(string) $paymentMethodUsed
- * @property DTS\eBaySDK\Trading\Types\RCSPaymentStatusCodeType(string) $paymentStatus
+ * @property DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $paymentMethodUsed
+ * @property DTS\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType(string) $paymentStatus
  * @property DTS\eBaySDK\Trading\Types\AmountType $salesTax
  * @property DTS\eBaySDK\Trading\Types\AddressType $shippingAddress
  * @property DTS\eBaySDK\Trading\Types\AmountType $shippingCost
@@ -180,12 +180,18 @@ class ReviseCheckoutStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
      */
     public function __construct(array $values = array())
     {
-        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
+        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
+
+        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
+        }
+
+        if (!array_key_exists(__CLASS__, self::$elementNames)) {
+            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

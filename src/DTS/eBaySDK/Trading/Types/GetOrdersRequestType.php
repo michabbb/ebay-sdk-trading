@@ -22,15 +22,15 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property DateTime $createTimeFrom
  * @property DateTime $createTimeTo
  * @property boolean $includeFinalValueFee
- * @property DTS\eBaySDK\Trading\Types\ListingTypeCodeType(string) $listingType
+ * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $listingType
  * @property DateTime $modTimeFrom
  * @property DateTime $modTimeTo
  * @property integer $numberOfDays
  * @property DTS\eBaySDK\Trading\Types\OrderIDArrayType $orderIdaRray
- * @property DTS\eBaySDK\Trading\Types\TradingRoleCodeType(string) $orderRole
- * @property DTS\eBaySDK\Trading\Types\OrderStatusCodeType(string) $orderStatus
+ * @property DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $orderRole
+ * @property DTS\eBaySDK\Trading\Enums\OrderStatusCodeType(string) $orderStatus
  * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
- * @property DTS\eBaySDK\Trading\Types\SortOrderCodeType(string) $sortingOrder
+ * @property DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $sortingOrder
  */
 class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -117,12 +117,18 @@ class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTyp
      */
     public function __construct(array $values = array())
     {
-        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
+        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
+
+        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
+        }
+
+        if (!array_key_exists(__CLASS__, self::$elementNames)) {
+            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -22,11 +22,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $externalPictureUrl
  * @property string $galleryDuration
  * @property string $galleryErrorInfo
- * @property DTS\eBaySDK\Trading\Types\GalleryStatusCodeType(string) $galleryStatus
- * @property DTS\eBaySDK\Trading\Types\GalleryTypeCodeType(string) $galleryType
+ * @property DTS\eBaySDK\Trading\Enums\GalleryStatusCodeType(string) $galleryStatus
+ * @property DTS\eBaySDK\Trading\Enums\GalleryTypeCodeType(string) $galleryType
  * @property string $galleryUrl
- * @property DTS\eBaySDK\Trading\Types\PhotoDisplayCodeType(string) $photoDisplay
- * @property DTS\eBaySDK\Trading\Types\PictureSourceCodeType(string) $pictureSource
+ * @property DTS\eBaySDK\Trading\Enums\PhotoDisplayCodeType(string) $photoDisplay
+ * @property DTS\eBaySDK\Trading\Enums\PictureSourceCodeType(string) $pictureSource
  * @property string $pictureUrl
  */
 class PictureDetailsType extends \DTS\eBaySDK\Types\BaseType
@@ -96,12 +96,18 @@ class PictureDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
+        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
+
+        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
+        }
+
+        if (!array_key_exists(__CLASS__, self::$elementNames)) {
+            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

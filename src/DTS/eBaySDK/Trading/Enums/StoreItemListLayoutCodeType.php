@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class StoreItemListLayoutCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const GALLERY_VIEW = 'GalleryView';
-    const LIST_VIEW = 'ListView';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_GALLERY_VIEW = 'GalleryView';
+    const C_LIST_VIEW = 'ListView';
 }

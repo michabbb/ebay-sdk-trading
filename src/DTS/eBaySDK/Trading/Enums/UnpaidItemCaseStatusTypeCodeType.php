@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class UnpaidItemCaseStatusTypeCodeType
 {
-    const CLOSED_WITHOUT_PAYMENT = 'ClosedWithoutPayment';
-    const CLOSED_WITH_PAYMENT = 'ClosedWithPayment';
-    const CUSTOM_CODE = 'CustomCode';
-    const OPEN = 'Open';
+    const C_CLOSED_WITHOUT_PAYMENT = 'ClosedWithoutPayment';
+    const C_CLOSED_WITH_PAYMENT = 'ClosedWithPayment';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_OPEN = 'Open';
 }

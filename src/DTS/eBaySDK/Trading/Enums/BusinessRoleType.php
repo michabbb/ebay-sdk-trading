@@ -22,6 +22,6 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class BusinessRoleType
 {
-    const FULL_MARKET_PLACE_PARTICIPANT = 'FullMarketPlaceParticipant';
-    const SHOPPER = 'Shopper';
+    const C_FULL_MARKET_PLACE_PARTICIPANT = 'FullMarketPlaceParticipant';
+    const C_SHOPPER = 'Shopper';
 }

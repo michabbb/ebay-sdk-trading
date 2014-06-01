@@ -22,6 +22,6 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class WarrantyOfferedCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const WARRANTY_OFFERED = 'WarrantyOffered';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_WARRANTY_OFFERED = 'WarrantyOffered';
 }

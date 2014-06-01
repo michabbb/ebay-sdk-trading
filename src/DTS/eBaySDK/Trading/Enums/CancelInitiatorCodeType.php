@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class CancelInitiatorCodeType
 {
-    const BUYER = 'Buyer';
-    const CS = 'CS';
-    const CUSTOM_CODE = 'CustomCode';
-    const SELLER = 'Seller';
-    const SYSTEM = 'System';
-    const UNKNOWN = 'Unknown';
+    const C_BUYER = 'Buyer';
+    const C_CS = 'CS';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_SELLER = 'Seller';
+    const C_SYSTEM = 'System';
+    const C_UNKNOWN = 'Unknown';
 }

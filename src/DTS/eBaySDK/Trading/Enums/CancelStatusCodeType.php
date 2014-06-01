@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class CancelStatusCodeType
 {
-    const CANCEL_COMPLETE = 'CancelComplete';
-    const CANCEL_FAILED = 'CancelFailed';
-    const CANCEL_PENDING = 'CancelPending';
-    const CUSTOM_CODE = 'CustomCode';
+    const C_CANCEL_COMPLETE = 'CancelComplete';
+    const C_CANCEL_FAILED = 'CancelFailed';
+    const C_CANCEL_PENDING = 'CancelPending';
+    const C_CUSTOM_CODE = 'CustomCode';
 }

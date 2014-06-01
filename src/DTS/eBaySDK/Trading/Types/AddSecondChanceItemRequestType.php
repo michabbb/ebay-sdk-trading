@@ -20,9 +20,9 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property DTS\eBaySDK\Trading\Types\AmountType $buyItNowPrice
- * @property DTS\eBaySDK\Trading\Types\SecondChanceOfferDurationCodeType(string) $duration
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $recipientBidderUserId
+ * @property DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType(string) $duration
+ * @property string $itemId
+ * @property string $recipientBidderUserId
  * @property string $sellerMessage
  */
 class AddSecondChanceItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
@@ -68,12 +68,18 @@ class AddSecondChanceItemRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
      */
     public function __construct(array $values = array())
     {
-        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
+        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
+
+        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
+        }
+
+        if (!array_key_exists(__CLASS__, self::$elementNames)) {
+            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

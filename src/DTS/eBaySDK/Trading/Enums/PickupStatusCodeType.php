@@ -22,14 +22,14 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PickupStatusCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const INVALID = 'Invalid';
-    const NOT_APPLICABLE = 'NotApplicable';
-    const PENDING_MERCHANT_CONFIRMATION = 'PendingMerchantConfirmation';
-    const PICKEDUP = 'Pickedup';
-    const PICKUP_CANCELLED = 'PickupCancelled';
-    const PICKUP_CANCELLED_BUYER_NO_SHOW = 'PickupCancelledBuyerNoShow';
-    const PICKUP_CANCELLED_BUYER_REJECTED = 'PickupCancelledBuyerRejected';
-    const PICKUP_CANCELLED_OUT_OF_STOCK = 'PickupCancelledOutOfStock';
-    const READY_TO_PICKUP = 'ReadyToPickup';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_INVALID = 'Invalid';
+    const C_NOT_APPLICABLE = 'NotApplicable';
+    const C_PENDING_MERCHANT_CONFIRMATION = 'PendingMerchantConfirmation';
+    const C_PICKEDUP = 'Pickedup';
+    const C_PICKUP_CANCELLED = 'PickupCancelled';
+    const C_PICKUP_CANCELLED_BUYER_NO_SHOW = 'PickupCancelledBuyerNoShow';
+    const C_PICKUP_CANCELLED_BUYER_REJECTED = 'PickupCancelledBuyerRejected';
+    const C_PICKUP_CANCELLED_OUT_OF_STOCK = 'PickupCancelledOutOfStock';
+    const C_READY_TO_PICKUP = 'ReadyToPickup';
 }

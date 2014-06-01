@@ -23,11 +23,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $maxValues
  * @property integer $minValues
  * @property DTS\eBaySDK\Trading\Types\NameValueRelationshipType $relationship
- * @property DTS\eBaySDK\Trading\Types\SelectionModeCodeType(string) $selectionMode
- * @property DTS\eBaySDK\Trading\Types\ValueFormatCodeType(string) $valueFormat
- * @property DTS\eBaySDK\Trading\Types\ValueTypeCodeType(string) $valueType
- * @property DTS\eBaySDK\Trading\Types\VariationPictureRuleCodeType(string) $variationPicture
- * @property DTS\eBaySDK\Trading\Types\VariationSpecificsRuleCodeType(string) $variationSpecifics
+ * @property DTS\eBaySDK\Trading\Enums\SelectionModeCodeType(string) $selectionMode
+ * @property DTS\eBaySDK\Trading\Enums\ValueFormatCodeType(string) $valueFormat
+ * @property DTS\eBaySDK\Trading\Enums\ValueTypeCodeType(string) $valueType
+ * @property DTS\eBaySDK\Trading\Enums\VariationPictureRuleCodeType(string) $variationPicture
+ * @property DTS\eBaySDK\Trading\Enums\VariationSpecificsRuleCodeType(string) $variationSpecifics
  */
 class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -96,12 +96,18 @@ class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
+        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
+
+        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
+        }
+
+        if (!array_key_exists(__CLASS__, self::$elementNames)) {
+            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

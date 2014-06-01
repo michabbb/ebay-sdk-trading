@@ -22,16 +22,16 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class MessageTypeCodeType
 {
-    const ALL = 'All';
-    const ASK_SELLER_QUESTION = 'AskSellerQuestion';
-    const CLASSIFIEDS_BEST_OFFER = 'ClassifiedsBestOffer';
-    const CLASSIFIEDS_CONTACT_SELLER = 'ClassifiedsContactSeller';
-    const CONTACTE_BAY_MEMBER_VIA_ANONYMOUS_EMAIL = 'ContacteBayMemberViaAnonymousEmail';
-    const CONTACTE_BAY_MEMBER_VIA_COMMUNITY_LINK = 'ContacteBayMemberViaCommunityLink';
-    const CONTACT_EBAY_MEMBER = 'ContactEbayMember';
-    const CONTACT_MY_BIDDER = 'ContactMyBidder';
-    const CONTACT_TRANSACTION_PARTNER = 'ContactTransactionPartner';
-    const CUSTOM_CODE = 'CustomCode';
-    const RESPONSE_TOASQ_QUESTION = 'ResponseToASQQuestion';
-    const RESPONSE_TO_CONTACTE_BAY_MEMBER = 'ResponseToContacteBayMember';
+    const C_ALL = 'All';
+    const C_ASK_SELLER_QUESTION = 'AskSellerQuestion';
+    const C_CLASSIFIEDS_BEST_OFFER = 'ClassifiedsBestOffer';
+    const C_CLASSIFIEDS_CONTACT_SELLER = 'ClassifiedsContactSeller';
+    const C_CONTACTE_BAY_MEMBER_VIA_ANONYMOUS_EMAIL = 'ContacteBayMemberViaAnonymousEmail';
+    const C_CONTACTE_BAY_MEMBER_VIA_COMMUNITY_LINK = 'ContacteBayMemberViaCommunityLink';
+    const C_CONTACT_EBAY_MEMBER = 'ContactEbayMember';
+    const C_CONTACT_MY_BIDDER = 'ContactMyBidder';
+    const C_CONTACT_TRANSACTION_PARTNER = 'ContactTransactionPartner';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_RESPONSE_TOASQ_QUESTION = 'ResponseToASQQuestion';
+    const C_RESPONSE_TO_CONTACTE_BAY_MEMBER = 'ResponseToContacteBayMember';
 }

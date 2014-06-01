@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class VeROItemStatusCodeType
 {
-    const CLARIFICATION_REQUIRED = 'ClarificationRequired';
-    const CUSTOM_CODE = 'CustomCode';
-    const RECEIVED = 'Received';
-    const REMOVED = 'Removed';
-    const SUBMISSION_FAILED = 'SubmissionFailed';
-    const SUBMITTED = 'Submitted';
+    const C_CLARIFICATION_REQUIRED = 'ClarificationRequired';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_RECEIVED = 'Received';
+    const C_REMOVED = 'Removed';
+    const C_SUBMISSION_FAILED = 'SubmissionFailed';
+    const C_SUBMITTED = 'Submitted';
 }

@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class AccountHistorySelectionCodeType
 {
-    const BETWEEN_SPECIFIED_DATES = 'BetweenSpecifiedDates';
-    const CUSTOM_CODE = 'CustomCode';
-    const LAST_INVOICE = 'LastInvoice';
-    const SPECIFIED_INVOICE = 'SpecifiedInvoice';
+    const C_BETWEEN_SPECIFIED_DATES = 'BetweenSpecifiedDates';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_LAST_INVOICE = 'LastInvoice';
+    const C_SPECIFIED_INVOICE = 'SpecifiedInvoice';
 }

@@ -22,30 +22,30 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $bidCountMax
  * @property integer $bidCountMin
  * @property string $categoryId
- * @property DTS\eBaySDK\Trading\Types\ItemConditionCodeType(string) $condition
- * @property DTS\eBaySDK\Trading\Types\CurrencyCodeType(string) $currency
+ * @property DTS\eBaySDK\Trading\Enums\ItemConditionCodeType(string) $condition
+ * @property DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $currency
  * @property DateTime $endTimeFrom
  * @property DateTime $endTimeTo
- * @property DTS\eBaySDK\Trading\Types\SimpleItemSortCodeType(string) $itemSort
- * @property DTS\eBaySDK\Trading\Types\ItemTypeCodeType(string) $itemType
- * @property DTS\eBaySDK\Trading\Types\CountryCodeType(string) $itemsAvailableTo
- * @property DTS\eBaySDK\Trading\Types\CountryCodeType(string) $itemsLocatedIn
+ * @property DTS\eBaySDK\Trading\Enums\SimpleItemSortCodeType(string) $itemSort
+ * @property DTS\eBaySDK\Trading\Enums\ItemTypeCodeType(string) $itemType
+ * @property DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $itemsAvailableTo
+ * @property DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $itemsLocatedIn
  * @property integer $maxDistance
- * @property DTS\eBaySDK\Trading\Types\PaymentMethodSearchCodeType(string) $paymentMethod
+ * @property DTS\eBaySDK\Trading\Enums\PaymentMethodSearchCodeType(string) $paymentMethod
  * @property string $postalCode
- * @property DTS\eBaySDK\Trading\Types\PreferredLocationCodeType(string) $preferredLocation
+ * @property DTS\eBaySDK\Trading\Enums\PreferredLocationCodeType(string) $preferredLocation
  * @property DTS\eBaySDK\Trading\Types\AmountType $priceMax
  * @property DTS\eBaySDK\Trading\Types\AmountType $priceMin
  * @property integer $quantity
- * @property DTS\eBaySDK\Trading\Types\QuantityOperatorCodeType(string) $quantityOperator
+ * @property DTS\eBaySDK\Trading\Enums\QuantityOperatorCodeType(string) $quantityOperator
  * @property string $queryKeywords
- * @property DTS\eBaySDK\Trading\Types\SearchFlagCodeType(string) $searchFlag
+ * @property DTS\eBaySDK\Trading\Enums\SearchFlagCodeType(string) $searchFlag
  * @property string $searchName
  * @property string $searchQuery
- * @property DTS\eBaySDK\Trading\Types\SellerBusinessCodeType(string) $sellerBusinessType
+ * @property DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType(string) $sellerBusinessType
  * @property string $sellerId
  * @property string $sellerIdeXclude
- * @property DTS\eBaySDK\Trading\Types\SortOrderCodeType(string) $sortOrder
+ * @property DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $sortOrder
  */
 class MyeBayFavoriteSearchType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -222,12 +222,18 @@ class MyeBayFavoriteSearchType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
+        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
+
+        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
+        }
+
+        if (!array_key_exists(__CLASS__, self::$elementNames)) {
+            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

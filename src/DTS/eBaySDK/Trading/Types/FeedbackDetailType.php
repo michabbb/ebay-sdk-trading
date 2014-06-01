@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $commentReplaced
  * @property string $commentText
  * @property DateTime $commentTime
- * @property DTS\eBaySDK\Trading\Types\CommentTypeCodeType(string) $commentType
- * @property DTS\eBaySDK\Trading\Types\UserIDType(string) $commentingUser
+ * @property DTS\eBaySDK\Trading\Enums\CommentTypeCodeType(string) $commentType
+ * @property string $commentingUser
  * @property integer $commentingUserScore
  * @property boolean $countable
  * @property string $feedbackId
@@ -31,12 +31,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $feedbackRevised
  * @property boolean $followUpReplaced
  * @property string $followup
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
+ * @property string $itemId
  * @property DTS\eBaySDK\Trading\Types\AmountType $itemPrice
  * @property string $itemTitle
  * @property string $orderLineItemId
  * @property boolean $responseReplaced
- * @property DTS\eBaySDK\Trading\Types\TradingRoleCodeType(string) $role
+ * @property DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $role
  * @property string $transactionId
  */
 class FeedbackDetailType extends \DTS\eBaySDK\Types\BaseType
@@ -166,12 +166,18 @@ class FeedbackDetailType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
+        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
+
+        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
+        }
+
+        if (!array_key_exists(__CLASS__, self::$elementNames)) {
+            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

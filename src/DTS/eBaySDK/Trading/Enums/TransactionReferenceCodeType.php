@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class TransactionReferenceCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const EXTERNAL_TRANSACTIONID = 'ExternalTransactionID';
-    const MANDATE_REFERENCE_NUMBER = 'MandateReferenceNumber';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_EXTERNAL_TRANSACTIONID = 'ExternalTransactionID';
+    const C_MANDATE_REFERENCE_NUMBER = 'MandateReferenceNumber';
 }

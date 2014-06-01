@@ -22,13 +22,13 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PayPalAccountStatusCodeType
 {
-    const ACTIVE = 'Active';
-    const CLOSED = 'Closed';
-    const CUSTOM_CODE = 'CustomCode';
-    const HIGH_RESTRICTED = 'HighRestricted';
-    const INVALID = 'Invalid';
-    const LOCKED = 'Locked';
-    const LOW_RESTRICTED = 'LowRestricted';
-    const UNKNOWN = 'Unknown';
-    const WIRE_OFF = 'WireOff';
+    const C_ACTIVE = 'Active';
+    const C_CLOSED = 'Closed';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_HIGH_RESTRICTED = 'HighRestricted';
+    const C_INVALID = 'Invalid';
+    const C_LOCKED = 'Locked';
+    const C_LOW_RESTRICTED = 'LowRestricted';
+    const C_UNKNOWN = 'Unknown';
+    const C_WIRE_OFF = 'WireOff';
 }

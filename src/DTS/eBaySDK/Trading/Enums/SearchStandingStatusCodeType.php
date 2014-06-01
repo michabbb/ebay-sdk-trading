@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class SearchStandingStatusCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const LOWERED = 'Lowered';
-    const RAISED = 'Raised';
-    const STANDARD = 'Standard';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_LOWERED = 'Lowered';
+    const C_RAISED = 'Raised';
+    const C_STANDARD = 'Standard';
 }

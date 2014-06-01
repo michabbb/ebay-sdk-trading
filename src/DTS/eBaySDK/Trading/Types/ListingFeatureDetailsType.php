@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BoldTitleCodeType(string) $boldTitle
- * @property DTS\eBaySDK\Trading\Types\BorderCodeType(string) $border
+ * @property DTS\eBaySDK\Trading\Enums\BoldTitleCodeType(string) $boldTitle
+ * @property DTS\eBaySDK\Trading\Enums\BorderCodeType(string) $border
  * @property string $detailVersion
- * @property DTS\eBaySDK\Trading\Types\FeaturedFirstCodeType(string) $featuredFirst
- * @property DTS\eBaySDK\Trading\Types\FeaturedPlusCodeType(string) $featuredPlus
- * @property DTS\eBaySDK\Trading\Types\GiftIconCodeType(string) $giftIcon
- * @property DTS\eBaySDK\Trading\Types\HighlightCodeType(string) $highlight
- * @property DTS\eBaySDK\Trading\Types\HomePageFeaturedCodeType(string) $homePageFeatured
- * @property DTS\eBaySDK\Trading\Types\ProPackCodeType(string) $proPack
+ * @property DTS\eBaySDK\Trading\Enums\FeaturedFirstCodeType(string) $featuredFirst
+ * @property DTS\eBaySDK\Trading\Enums\FeaturedPlusCodeType(string) $featuredPlus
+ * @property DTS\eBaySDK\Trading\Enums\GiftIconCodeType(string) $giftIcon
+ * @property DTS\eBaySDK\Trading\Enums\HighlightCodeType(string) $highlight
+ * @property DTS\eBaySDK\Trading\Enums\HomePageFeaturedCodeType(string) $homePageFeatured
+ * @property DTS\eBaySDK\Trading\Enums\ProPackCodeType(string) $proPack
  * @property DateTime $updateTime
  */
 class ListingFeatureDetailsType extends \DTS\eBaySDK\Types\BaseType
@@ -103,12 +103,18 @@ class ListingFeatureDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
+        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
+
+        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
+        }
+
+        if (!array_key_exists(__CLASS__, self::$elementNames)) {
+            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

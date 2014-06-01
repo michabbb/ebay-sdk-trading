@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class AccessRuleStatusCodeType
 {
-    const APPLICATION_BLOCKED = 'ApplicationBlocked';
-    const CUSTOM_CODE = 'CustomCode';
-    const RULE_OFF = 'RuleOff';
-    const RULE_ON = 'RuleOn';
+    const C_APPLICATION_BLOCKED = 'ApplicationBlocked';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_RULE_OFF = 'RuleOff';
+    const C_RULE_ON = 'RuleOn';
 }

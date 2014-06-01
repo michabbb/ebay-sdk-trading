@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PreferredLocationCodeType
 {
-    const AVAILABLE_IN_COUNTRY_IMPLIED = 'AvailableInCountryImplied';
-    const BELGIUM_LISTING = 'BelgiumListing';
-    const CUSTOM_CODE = 'CustomCode';
-    const LISTED_IN_CURRENCY_IMPLIED = 'ListedInCurrencyImplied';
-    const LOCATED_IN_COUNTRY_IMPLIED = 'LocatedInCountryImplied';
-    const SITE_IMPLIED = 'SiteImplied';
+    const C_AVAILABLE_IN_COUNTRY_IMPLIED = 'AvailableInCountryImplied';
+    const C_BELGIUM_LISTING = 'BelgiumListing';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_LISTED_IN_CURRENCY_IMPLIED = 'ListedInCurrencyImplied';
+    const C_LOCATED_IN_COUNTRY_IMPLIED = 'LocatedInCountryImplied';
+    const C_SITE_IMPLIED = 'SiteImplied';
 }

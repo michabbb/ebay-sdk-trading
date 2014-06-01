@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemIDType(string) $itemId
- * @property DTS\eBaySDK\Trading\Types\PromotionSchemeCodeType(string) $primaryScheme
+ * @property string $itemId
+ * @property DTS\eBaySDK\Trading\Enums\PromotionSchemeCodeType(string) $primaryScheme
  * @property DTS\eBaySDK\Trading\Types\PromotedItemType $promotedItem
- * @property DTS\eBaySDK\Trading\Types\PromotionMethodCodeType(string) $promotionMethod
+ * @property DTS\eBaySDK\Trading\Enums\PromotionMethodCodeType(string) $promotionMethod
  * @property string $sellerId
  * @property boolean $shippingDiscount
  * @property string $storeName
@@ -82,12 +82,18 @@ class CrossPromotionsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
+        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
+
+        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
+        }
+
+        if (!array_key_exists(__CLASS__, self::$elementNames)) {
+            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

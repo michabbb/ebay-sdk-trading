@@ -22,11 +22,11 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class SocialAddressTypeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const FACEBOOK = 'Facebook';
-    const GOOGLE_PLUS = 'GooglePlus';
-    const LINKEDIN = 'Linkedin';
-    const MYSPACE = 'Myspace';
-    const ORKUT = 'Orkut';
-    const TWITTER = 'Twitter';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FACEBOOK = 'Facebook';
+    const C_GOOGLE_PLUS = 'GooglePlus';
+    const C_LINKEDIN = 'Linkedin';
+    const C_MYSPACE = 'Myspace';
+    const C_ORKUT = 'Orkut';
+    const C_TWITTER = 'Twitter';
 }

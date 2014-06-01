@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class TaxDescriptionCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const ELECTRONIC_WASTE_RECYCLING_FEE = 'ElectronicWasteRecyclingFee';
-    const SALES_TAX = 'SalesTax';
-    const TIRE_RECYCLING_FEE = 'TireRecyclingFee';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_ELECTRONIC_WASTE_RECYCLING_FEE = 'ElectronicWasteRecyclingFee';
+    const C_SALES_TAX = 'SalesTax';
+    const C_TIRE_RECYCLING_FEE = 'TireRecyclingFee';
 }

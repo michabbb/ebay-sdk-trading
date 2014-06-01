@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PictureSetCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const LARGE = 'Large';
-    const STANDARD = 'Standard';
-    const SUPERSIZE = 'Supersize';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_LARGE = 'Large';
+    const C_STANDARD = 'Standard';
+    const C_SUPERSIZE = 'Supersize';
 }

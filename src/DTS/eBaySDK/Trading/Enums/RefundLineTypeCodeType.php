@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class RefundLineTypeCodeType
 {
-    const ADDITIONAL = 'Additional';
-    const CUSTOM_CODE = 'CustomCode';
-    const PURCHASE_PRICE = 'PurchasePrice';
-    const SHIPPING_PRICE = 'ShippingPrice';
+    const C_ADDITIONAL = 'Additional';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_PURCHASE_PRICE = 'PurchasePrice';
+    const C_SHIPPING_PRICE = 'ShippingPrice';
 }

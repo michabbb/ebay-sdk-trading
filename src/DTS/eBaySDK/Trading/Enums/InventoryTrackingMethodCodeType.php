@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class InventoryTrackingMethodCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const ITEMID = 'ItemID';
-    const SKU = 'SKU';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_ITEMID = 'ItemID';
+    const C_SKU = 'SKU';
 }

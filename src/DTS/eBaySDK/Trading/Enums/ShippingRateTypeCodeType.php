@@ -22,13 +22,13 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ShippingRateTypeCodeType
 {
-    const COMMERCIAL_PLUS = 'CommercialPlus';
-    const COUNTER = 'Counter';
-    const CUSTOM_CODE = 'CustomCode';
-    const DAILY_PICKUP = 'DailyPickup';
-    const DISCOUNTED = 'Discounted';
-    const GOLD_SILVER = 'GoldSilver';
-    const ON_DEMAND = 'OnDemand';
-    const PLAT_TITANIUM = 'PlatTitanium';
-    const STANDARD_LIST = 'StandardList';
+    const C_COMMERCIAL_PLUS = 'CommercialPlus';
+    const C_COUNTER = 'Counter';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DAILY_PICKUP = 'DailyPickup';
+    const C_DISCOUNTED = 'Discounted';
+    const C_GOLD_SILVER = 'GoldSilver';
+    const C_ON_DEMAND = 'OnDemand';
+    const C_PLAT_TITANIUM = 'PlatTitanium';
+    const C_STANDARD_LIST = 'StandardList';
 }

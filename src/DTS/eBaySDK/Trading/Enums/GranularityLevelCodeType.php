@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class GranularityLevelCodeType
 {
-    const COARSE = 'Coarse';
-    const CUSTOM_CODE = 'CustomCode';
-    const FINE = 'Fine';
-    const MEDIUM = 'Medium';
+    const C_COARSE = 'Coarse';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FINE = 'Fine';
+    const C_MEDIUM = 'Medium';
 }

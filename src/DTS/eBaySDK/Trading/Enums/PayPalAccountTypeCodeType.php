@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PayPalAccountTypeCodeType
 {
-    const BUSINESS = 'Business';
-    const CUSTOM_CODE = 'CustomCode';
-    const INVALID = 'Invalid';
-    const PERSONAL = 'Personal';
-    const PREMIER = 'Premier';
-    const UNKNOWN = 'Unknown';
+    const C_BUSINESS = 'Business';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_INVALID = 'Invalid';
+    const C_PERSONAL = 'Personal';
+    const C_PREMIER = 'Premier';
+    const C_UNKNOWN = 'Unknown';
 }

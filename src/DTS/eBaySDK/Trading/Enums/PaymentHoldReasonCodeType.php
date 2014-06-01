@@ -22,15 +22,15 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PaymentHoldReasonCodeType
 {
-    const BELOW_STANDARD_SELLER = 'BelowStandardSeller';
-    const CASUAL_SELLER = 'CasualSeller';
-    const CUSTOM_CODE = 'CustomCode';
-    const EBP_CASE_OPEN = 'EbpCaseOpen';
-    const NEW_PAYPAL_ACCOUNT_ADDED = 'NewPaypalAccountAdded';
-    const NEW_SELLER = 'NewSeller';
-    const NONE = 'None';
-    const NOT_AVAILABLE = 'NotAvailable';
-    const OTHER = 'Other';
-    const REINSTATEMENT_AFTER_SUSPENSION = 'ReinstatementAfterSuspension';
-    const SELLER_IS_ON_BLACK_LIST = 'SellerIsOnBlackList';
+    const C_BELOW_STANDARD_SELLER = 'BelowStandardSeller';
+    const C_CASUAL_SELLER = 'CasualSeller';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_EBP_CASE_OPEN = 'EbpCaseOpen';
+    const C_NEW_PAYPAL_ACCOUNT_ADDED = 'NewPaypalAccountAdded';
+    const C_NEW_SELLER = 'NewSeller';
+    const C_NONE = 'None';
+    const C_NOT_AVAILABLE = 'NotAvailable';
+    const C_OTHER = 'Other';
+    const C_REINSTATEMENT_AFTER_SUSPENSION = 'ReinstatementAfterSuspension';
+    const C_SELLER_IS_ON_BLACK_LIST = 'SellerIsOnBlackList';
 }

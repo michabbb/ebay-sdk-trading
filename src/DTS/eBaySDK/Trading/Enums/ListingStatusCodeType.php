@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ListingStatusCodeType
 {
-    const ACTIVE = 'Active';
-    const COMPLETED = 'Completed';
-    const CUSTOM = 'Custom';
-    const CUSTOM_CODE = 'CustomCode';
-    const ENDED = 'Ended';
+    const C_ACTIVE = 'Active';
+    const C_COMPLETED = 'Completed';
+    const C_CUSTOM = 'Custom';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_ENDED = 'Ended';
 }

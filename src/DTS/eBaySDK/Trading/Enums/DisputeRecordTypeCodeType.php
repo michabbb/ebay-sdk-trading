@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class DisputeRecordTypeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const HALF_DISPUTE = 'HalfDispute';
-    const ITEM_NOT_RECEIVED = 'ItemNotReceived';
-    const UNPAID_ITEM = 'UnpaidItem';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_HALF_DISPUTE = 'HalfDispute';
+    const C_ITEM_NOT_RECEIVED = 'ItemNotReceived';
+    const C_UNPAID_ITEM = 'UnpaidItem';
 }
