@@ -22,11 +22,11 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ItemSortFilterCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const ENDING_LAST = 'EndingLast';
-    const ENDING_SOONEST = 'EndingSoonest';
-    const HIGHEST_PRICE = 'HighestPrice';
-    const LOWEST_PRICE = 'LowestPrice';
-    const NEWLY_LISTED = 'NewlyListed';
-    const RANDOMLY_SELECTED = 'RandomlySelected';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_ENDING_LAST = 'EndingLast';
+    const C_ENDING_SOONEST = 'EndingSoonest';
+    const C_HIGHEST_PRICE = 'HighestPrice';
+    const C_LOWEST_PRICE = 'LowestPrice';
+    const C_NEWLY_LISTED = 'NewlyListed';
+    const C_RANDOMLY_SELECTED = 'RandomlySelected';
 }

@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class RefundingSourceTypeCodeType
 {
-    const BANK_ACCOUNT = 'BankAccount';
-    const CUSTOM_CODE = 'CustomCode';
-    const PAYPAL = 'Paypal';
-    const SCHEDULED_PAYOUT = 'ScheduledPayout';
+    const C_BANK_ACCOUNT = 'BankAccount';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_PAYPAL = 'Paypal';
+    const C_SCHEDULED_PAYOUT = 'ScheduledPayout';
 }

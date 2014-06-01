@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class GalleryTypeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const FEATURED = 'Featured';
-    const GALLERY = 'Gallery';
-    const NONE = 'None';
-    const PLUS = 'Plus';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FEATURED = 'Featured';
+    const C_GALLERY = 'Gallery';
+    const C_NONE = 'None';
+    const C_PLUS = 'Plus';
 }

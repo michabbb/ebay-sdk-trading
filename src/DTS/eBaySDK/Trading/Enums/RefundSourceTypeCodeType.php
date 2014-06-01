@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class RefundSourceTypeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const PAYMENT_REFUND = 'PaymentRefund';
-    const STORE_CREDIT = 'StoreCredit';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_PAYMENT_REFUND = 'PaymentRefund';
+    const C_STORE_CREDIT = 'StoreCredit';
 }

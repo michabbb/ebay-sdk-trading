@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class EnableCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const DISABLE = 'Disable';
-    const ENABLE = 'Enable';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DISABLE = 'Disable';
+    const C_ENABLE = 'Enable';
 }

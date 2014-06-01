@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class RecommendationEngineCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const ITEM_SPECIFICS = 'ItemSpecifics';
-    const LISTING_ANALYZER = 'ListingAnalyzer';
-    const PRODUCT_PRICING = 'ProductPricing';
-    const SIFFTAS = 'SIFFTAS';
-    const SUGGESTED_ATTRIBUTES = 'SuggestedAttributes';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_ITEM_SPECIFICS = 'ItemSpecifics';
+    const C_LISTING_ANALYZER = 'ListingAnalyzer';
+    const C_PRODUCT_PRICING = 'ProductPricing';
+    const C_SIFFTAS = 'SIFFTAS';
+    const C_SUGGESTED_ATTRIBUTES = 'SuggestedAttributes';
 }

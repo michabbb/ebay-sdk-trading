@@ -22,12 +22,12 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PhotoDisplayCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const NONE = 'None';
-    const PICTURE_PACK = 'PicturePack';
-    const SITE_HOSTED_PICTURE_SHOW = 'SiteHostedPictureShow';
-    const SLIDE_SHOW = 'SlideShow';
-    const SUPER_SIZE = 'SuperSize';
-    const SUPER_SIZE_PICTURE_SHOW = 'SuperSizePictureShow';
-    const VENDOR_HOSTED_PICTURE_SHOW = 'VendorHostedPictureShow';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_NONE = 'None';
+    const C_PICTURE_PACK = 'PicturePack';
+    const C_SITE_HOSTED_PICTURE_SHOW = 'SiteHostedPictureShow';
+    const C_SLIDE_SHOW = 'SlideShow';
+    const C_SUPER_SIZE = 'SuperSize';
+    const C_SUPER_SIZE_PICTURE_SHOW = 'SuperSizePictureShow';
+    const C_VENDOR_HOSTED_PICTURE_SHOW = 'VendorHostedPictureShow';
 }

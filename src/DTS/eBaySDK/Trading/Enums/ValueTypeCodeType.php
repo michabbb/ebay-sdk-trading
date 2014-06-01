@@ -22,11 +22,11 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ValueTypeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const DATE = 'Date';
-    const DECIMAL = 'Decimal';
-    const EAN = 'EAN';
-    const ISBN = 'ISBN';
-    const TEXT = 'Text';
-    const UPC = 'UPC';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DATE = 'Date';
+    const C_DECIMAL = 'Decimal';
+    const C_EAN = 'EAN';
+    const C_ISBN = 'ISBN';
+    const C_TEXT = 'Text';
+    const C_UPC = 'UPC';
 }

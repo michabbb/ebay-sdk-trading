@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class BuyerProtectionSourceCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const E_BAY = 'eBay';
-    const PAY_PAL = 'PayPal';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_E_BAY = 'eBay';
+    const C_PAY_PAL = 'PayPal';
 }

@@ -22,11 +22,11 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class FlatRateInsuranceRangeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const FLAT_RATE_INSURANCE_RANGE1 = 'FlatRateInsuranceRange1';
-    const FLAT_RATE_INSURANCE_RANGE2 = 'FlatRateInsuranceRange2';
-    const FLAT_RATE_INSURANCE_RANGE3 = 'FlatRateInsuranceRange3';
-    const FLAT_RATE_INSURANCE_RANGE4 = 'FlatRateInsuranceRange4';
-    const FLAT_RATE_INSURANCE_RANGE5 = 'FlatRateInsuranceRange5';
-    const FLAT_RATE_INSURANCE_RANGE6 = 'FlatRateInsuranceRange6';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FLAT_RATE_INSURANCE_RANGE1 = 'FlatRateInsuranceRange1';
+    const C_FLAT_RATE_INSURANCE_RANGE2 = 'FlatRateInsuranceRange2';
+    const C_FLAT_RATE_INSURANCE_RANGE3 = 'FlatRateInsuranceRange3';
+    const C_FLAT_RATE_INSURANCE_RANGE4 = 'FlatRateInsuranceRange4';
+    const C_FLAT_RATE_INSURANCE_RANGE5 = 'FlatRateInsuranceRange5';
+    const C_FLAT_RATE_INSURANCE_RANGE6 = 'FlatRateInsuranceRange6';
 }

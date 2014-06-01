@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PromotionalSaleStatusCodeType
 {
-    const ACTIVE = 'Active';
-    const CUSTOM_CODE = 'CustomCode';
-    const DELETED = 'Deleted';
-    const INACTIVE = 'Inactive';
-    const PROCESSING = 'Processing';
-    const SCHEDULED = 'Scheduled';
+    const C_ACTIVE = 'Active';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DELETED = 'Deleted';
+    const C_INACTIVE = 'Inactive';
+    const C_PROCESSING = 'Processing';
+    const C_SCHEDULED = 'Scheduled';
 }

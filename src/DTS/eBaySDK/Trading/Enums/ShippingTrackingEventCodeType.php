@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ShippingTrackingEventCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const VALET_PICKED_UP_ORDER = 'ValetPickedUpOrder';
-    const VALET_READY_FOR_PICKUP = 'ValetReadyForPickup';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_VALET_PICKED_UP_ORDER = 'ValetPickedUpOrder';
+    const C_VALET_READY_FOR_PICKUP = 'ValetReadyForPickup';
 }

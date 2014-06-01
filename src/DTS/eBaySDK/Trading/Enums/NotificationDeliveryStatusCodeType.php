@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class NotificationDeliveryStatusCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const DELIVERED = 'Delivered';
-    const FAILED = 'Failed';
-    const MARKED_DOWN = 'MarkedDown';
-    const REJECTED = 'Rejected';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DELIVERED = 'Delivered';
+    const C_FAILED = 'Failed';
+    const C_MARKED_DOWN = 'MarkedDown';
+    const C_REJECTED = 'Rejected';
 }

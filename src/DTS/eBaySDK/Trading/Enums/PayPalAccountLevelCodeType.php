@@ -22,12 +22,12 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PayPalAccountLevelCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const INTERNATIONAL_UNVERIFIED = 'InternationalUnverified';
-    const INTERNATIONAL_VERIFIED = 'InternationalVerified';
-    const INVALID = 'Invalid';
-    const TRUSTED = 'Trusted';
-    const UNKNOWN = 'Unknown';
-    const UNVERIFIED = 'Unverified';
-    const VERIFIED = 'Verified';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_INTERNATIONAL_UNVERIFIED = 'InternationalUnverified';
+    const C_INTERNATIONAL_VERIFIED = 'InternationalVerified';
+    const C_INVALID = 'Invalid';
+    const C_TRUSTED = 'Trusted';
+    const C_UNKNOWN = 'Unknown';
+    const C_UNVERIFIED = 'Unverified';
+    const C_VERIFIED = 'Verified';
 }

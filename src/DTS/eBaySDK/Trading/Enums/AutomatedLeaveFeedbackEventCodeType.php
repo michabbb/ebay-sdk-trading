@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class AutomatedLeaveFeedbackEventCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const NONE = 'None';
-    const PAYMENT_RECEIVED = 'PaymentReceived';
-    const POSITIVE_FEEDBACK_RECEIVED = 'PositiveFeedbackReceived';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_NONE = 'None';
+    const C_PAYMENT_RECEIVED = 'PaymentReceived';
+    const C_POSITIVE_FEEDBACK_RECEIVED = 'PositiveFeedbackReceived';
 }

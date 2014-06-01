@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class DiscountReasonCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const PROMOTION = 'Promotion';
-    const SPECIAL_OFFER = 'SpecialOffer';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_PROMOTION = 'Promotion';
+    const C_SPECIAL_OFFER = 'SpecialOffer';
 }

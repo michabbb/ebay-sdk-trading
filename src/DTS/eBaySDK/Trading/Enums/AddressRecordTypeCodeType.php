@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class AddressRecordTypeCodeType
 {
-    const BUSINESS = 'Business';
-    const CUSTOM_CODE = 'CustomCode';
-    const RESIDENTIAL = 'Residential';
+    const C_BUSINESS = 'Business';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_RESIDENTIAL = 'Residential';
 }

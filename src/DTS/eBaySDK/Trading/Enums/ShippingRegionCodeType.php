@@ -22,19 +22,19 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ShippingRegionCodeType
 {
-    const AFRICA = 'Africa';
-    const AMERICAS = 'Americas';
-    const ASIA = 'Asia';
-    const CARIBBEAN = 'Caribbean';
-    const CUSTOM_CODE = 'CustomCode';
-    const EUROPE = 'Europe';
-    const EUROPEAN_UNION = 'EuropeanUnion';
-    const LATIN_AMERICA = 'LatinAmerica';
-    const MIDDLE_EAST = 'MiddleEast';
-    const NONE = 'None';
-    const NORTH_AMERICA = 'NorthAmerica';
-    const OCEANIA = 'Oceania';
-    const SOUTH_AMERICA = 'SouthAmerica';
-    const WILL_NOT_SHIP = 'WillNotShip';
-    const WORLDWIDE = 'Worldwide';
+    const C_AFRICA = 'Africa';
+    const C_AMERICAS = 'Americas';
+    const C_ASIA = 'Asia';
+    const C_CARIBBEAN = 'Caribbean';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_EUROPE = 'Europe';
+    const C_EUROPEAN_UNION = 'EuropeanUnion';
+    const C_LATIN_AMERICA = 'LatinAmerica';
+    const C_MIDDLE_EAST = 'MiddleEast';
+    const C_NONE = 'None';
+    const C_NORTH_AMERICA = 'NorthAmerica';
+    const C_OCEANIA = 'Oceania';
+    const C_SOUTH_AMERICA = 'SouthAmerica';
+    const C_WILL_NOT_SHIP = 'WillNotShip';
+    const C_WORLDWIDE = 'Worldwide';
 }

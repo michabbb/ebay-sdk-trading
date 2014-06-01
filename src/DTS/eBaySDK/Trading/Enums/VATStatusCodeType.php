@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class VATStatusCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const NOVAT_TAX = 'NoVATTax';
-    const VAT_EXEMPT = 'VATExempt';
-    const VAT_TAX = 'VATTax';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_NOVAT_TAX = 'NoVATTax';
+    const C_VAT_EXEMPT = 'VATExempt';
+    const C_VAT_TAX = 'VATTax';
 }

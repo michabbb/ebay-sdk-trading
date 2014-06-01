@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ItemConditionCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const NEW = 'New';
-    const USED = 'Used';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_NEW = 'New';
+    const C_USED = 'Used';
 }

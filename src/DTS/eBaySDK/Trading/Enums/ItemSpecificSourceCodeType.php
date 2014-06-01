@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ItemSpecificSourceCodeType
 {
-    const ATTRIBUTE = 'Attribute';
-    const CUSTOM_CODE = 'CustomCode';
-    const ITEM_SPECIFIC = 'ItemSpecific';
-    const PRODUCT = 'Product';
+    const C_ATTRIBUTE = 'Attribute';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_ITEM_SPECIFIC = 'ItemSpecific';
+    const C_PRODUCT = 'Product';
 }

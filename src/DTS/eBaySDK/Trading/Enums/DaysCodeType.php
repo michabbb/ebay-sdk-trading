@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class DaysCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const EVERY_DAY = 'EveryDay';
-    const NONE = 'None';
-    const WEEKDAYS = 'Weekdays';
-    const WEEKENDS = 'Weekends';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_EVERY_DAY = 'EveryDay';
+    const C_NONE = 'None';
+    const C_WEEKDAYS = 'Weekdays';
+    const C_WEEKENDS = 'Weekends';
 }

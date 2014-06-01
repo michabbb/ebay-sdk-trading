@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class FeedbackResponseCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const FOLLOW_UP = 'FollowUp';
-    const REPLY = 'Reply';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FOLLOW_UP = 'FollowUp';
+    const C_REPLY = 'Reply';
 }

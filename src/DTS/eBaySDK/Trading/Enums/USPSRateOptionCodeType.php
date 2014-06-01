@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class USPSRateOptionCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const USPS_DISCOUNTED = 'USPSDiscounted';
-    const USPS_RETAIL = 'USPSRetail';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_USPS_DISCOUNTED = 'USPSDiscounted';
+    const C_USPS_RETAIL = 'USPSRetail';
 }

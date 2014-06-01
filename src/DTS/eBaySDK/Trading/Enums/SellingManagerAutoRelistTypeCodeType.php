@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class SellingManagerAutoRelistTypeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const RELIST_CONTINUOUSLY = 'RelistContinuously';
-    const RELIST_CONTINUOUSLY_UNTIL_SOLD = 'RelistContinuouslyUntilSold';
-    const RELIST_ONCE_IF_NOT_SOLD = 'RelistOnceIfNotSold';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_RELIST_CONTINUOUSLY = 'RelistContinuously';
+    const C_RELIST_CONTINUOUSLY_UNTIL_SOLD = 'RelistContinuouslyUntilSold';
+    const C_RELIST_ONCE_IF_NOT_SOLD = 'RelistOnceIfNotSold';
 }

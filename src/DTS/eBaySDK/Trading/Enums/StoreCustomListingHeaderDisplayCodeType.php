@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class StoreCustomListingHeaderDisplayCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const FULL = 'Full';
-    const FULL_AND_LEFT_NAVIGATION_BAR = 'FullAndLeftNavigationBar';
-    const NONE = 'None';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FULL = 'Full';
+    const C_FULL_AND_LEFT_NAVIGATION_BAR = 'FullAndLeftNavigationBar';
+    const C_NONE = 'None';
 }

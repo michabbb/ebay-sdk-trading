@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PricingTreatmentCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const MAP = 'MAP';
-    const MFO = 'MFO';
-    const NONE = 'None';
-    const STP = 'STP';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_MAP = 'MAP';
+    const C_MFO = 'MFO';
+    const C_NONE = 'None';
+    const C_STP = 'STP';
 }

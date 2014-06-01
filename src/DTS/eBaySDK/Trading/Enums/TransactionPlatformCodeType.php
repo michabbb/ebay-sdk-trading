@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class TransactionPlatformCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const EXPRESS = 'Express';
-    const E_BAY = 'eBay';
-    const HALF = 'Half';
-    const SHOPPING = 'Shopping';
-    const WORLD_OF_GOOD = 'WorldOfGood';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_EXPRESS = 'Express';
+    const C_E_BAY = 'eBay';
+    const C_HALF = 'Half';
+    const C_SHOPPING = 'Shopping';
+    const C_WORLD_OF_GOOD = 'WorldOfGood';
 }

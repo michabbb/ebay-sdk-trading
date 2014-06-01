@@ -22,16 +22,16 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class RequiredSellerActionCodeType
 {
-    const CONTACTE_BAYCS = 'ContacteBayCS';
-    const CUSTOM_CODE = 'CustomCode';
-    const MARK_AS_SHIPPED = 'MarkAsShipped';
-    const NONE = 'None';
-    const RESOLVEEBP_CASE = 'ResolveeBPCase';
-    const RESOLVEPPP_ICASE = 'ResolvePPPIcase';
-    const RESOLVE_BUYER_MESSAGE_INR = 'ResolveBuyerMessageInr';
-    const RESOLVE_BUYER_MESSAGE_SNAD = 'ResolveBuyerMessageSnad';
-    const RESOLVE_RETURN = 'ResolveReturn';
-    const SETUP_PAYOUT_METHOD = 'SetupPayoutMethod';
-    const UPDATE_PAYOUT_METHOD = 'UpdatePayoutMethod';
-    const UPLOAD_TRACKING_INFO = 'UploadTrackingInfo';
+    const C_CONTACTE_BAYCS = 'ContacteBayCS';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_MARK_AS_SHIPPED = 'MarkAsShipped';
+    const C_NONE = 'None';
+    const C_RESOLVEEBP_CASE = 'ResolveeBPCase';
+    const C_RESOLVEPPP_ICASE = 'ResolvePPPIcase';
+    const C_RESOLVE_BUYER_MESSAGE_INR = 'ResolveBuyerMessageInr';
+    const C_RESOLVE_BUYER_MESSAGE_SNAD = 'ResolveBuyerMessageSnad';
+    const C_RESOLVE_RETURN = 'ResolveReturn';
+    const C_SETUP_PAYOUT_METHOD = 'SetupPayoutMethod';
+    const C_UPDATE_PAYOUT_METHOD = 'UpdatePayoutMethod';
+    const C_UPLOAD_TRACKING_INFO = 'UploadTrackingInfo';
 }

@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class StoreCustomListingHeaderLinkCodeType
 {
-    const ABOUT_ME_PAGE = 'AboutMePage';
-    const CUSTOM_CATEGORY = 'CustomCategory';
-    const CUSTOM_CODE = 'CustomCode';
-    const CUSTOM_PAGE = 'CustomPage';
-    const NONE = 'None';
+    const C_ABOUT_ME_PAGE = 'AboutMePage';
+    const C_CUSTOM_CATEGORY = 'CustomCategory';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_CUSTOM_PAGE = 'CustomPage';
+    const C_NONE = 'None';
 }

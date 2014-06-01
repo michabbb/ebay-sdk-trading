@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class BuyerProtectionCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const ITEM_ELIGIBLE = 'ItemEligible';
-    const ITEM_INELIGIBLE = 'ItemIneligible';
-    const ITEM_MARKED_ELIGIBLE = 'ItemMarkedEligible';
-    const ITEM_MARKED_INELIGIBLE = 'ItemMarkedIneligible';
-    const NO_COVERAGE = 'NoCoverage';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_ITEM_ELIGIBLE = 'ItemEligible';
+    const C_ITEM_INELIGIBLE = 'ItemIneligible';
+    const C_ITEM_MARKED_ELIGIBLE = 'ItemMarkedEligible';
+    const C_ITEM_MARKED_INELIGIBLE = 'ItemMarkedIneligible';
+    const C_NO_COVERAGE = 'NoCoverage';
 }

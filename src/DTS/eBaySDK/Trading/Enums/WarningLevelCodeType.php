@@ -22,6 +22,6 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class WarningLevelCodeType
 {
-    const HIGH = 'High';
-    const LOW = 'Low';
+    const C_HIGH = 'High';
+    const C_LOW = 'Low';
 }

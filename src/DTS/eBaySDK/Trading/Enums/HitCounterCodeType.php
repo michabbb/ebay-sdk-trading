@@ -22,12 +22,12 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class HitCounterCodeType
 {
-    const BASIC_STYLE = 'BasicStyle';
-    const CUSTOM_CODE = 'CustomCode';
-    const GREENLED = 'GreenLED';
-    const HIDDEN = 'Hidden';
-    const HIDDEN_STYLE = 'HiddenStyle';
-    const HONESTY_STYLE = 'HonestyStyle';
-    const NO_HIT_COUNTER = 'NoHitCounter';
-    const RETRO_STYLE = 'RetroStyle';
+    const C_BASIC_STYLE = 'BasicStyle';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_GREENLED = 'GreenLED';
+    const C_HIDDEN = 'Hidden';
+    const C_HIDDEN_STYLE = 'HiddenStyle';
+    const C_HONESTY_STYLE = 'HonestyStyle';
+    const C_NO_HIT_COUNTER = 'NoHitCounter';
+    const C_RETRO_STYLE = 'RetroStyle';
 }

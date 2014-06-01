@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class RefundStatusCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const FAILED = 'Failed';
-    const PENDING = 'Pending';
-    const SUCCESSFUL = 'Successful';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FAILED = 'Failed';
+    const C_PENDING = 'Pending';
+    const C_SUCCESSFUL = 'Successful';
 }

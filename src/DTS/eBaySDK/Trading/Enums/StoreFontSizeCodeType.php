@@ -22,12 +22,12 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class StoreFontSizeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const L = 'L';
-    const M = 'M';
-    const S = 'S';
-    const XL = 'XL';
-    const XS = 'XS';
-    const XXL = 'XXL';
-    const XXS = 'XXS';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_L = 'L';
+    const C_M = 'M';
+    const C_S = 'S';
+    const C_XL = 'XL';
+    const C_XS = 'XS';
+    const C_XXL = 'XXL';
+    const C_XXS = 'XXS';
 }

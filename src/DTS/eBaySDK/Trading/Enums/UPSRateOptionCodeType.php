@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class UPSRateOptionCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const UPS_DAILY_RATES = 'UPSDailyRates';
-    const UPS_ON_DEMAND_RATES = 'UPSOnDemandRates';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_UPS_DAILY_RATES = 'UPSDailyRates';
+    const C_UPS_ON_DEMAND_RATES = 'UPSOnDemandRates';
 }

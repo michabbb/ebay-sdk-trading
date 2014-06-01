@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class DiscountCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const PERCENTAGE = 'Percentage';
-    const PRICE = 'Price';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_PERCENTAGE = 'Percentage';
+    const C_PRICE = 'Price';
 }

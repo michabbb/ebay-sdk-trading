@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class FedExRateOptionCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const FED_EX_COUNTER = 'FedExCounter';
-    const FED_EX_DISCOUNTED = 'FedExDiscounted';
-    const FED_EX_STANDARD_LIST = 'FedExStandardList';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FED_EX_COUNTER = 'FedExCounter';
+    const C_FED_EX_DISCOUNTED = 'FedExDiscounted';
+    const C_FED_EX_STANDARD_LIST = 'FedExStandardList';
 }

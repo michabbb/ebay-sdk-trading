@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class CalculatedShippingChargeOptionCodeType
 {
-    const CHARGE_EACH_ITEM = 'ChargeEachItem';
-    const CHARGE_ENTIRE_ORDER = 'ChargeEntireOrder';
-    const CUSTOM_CODE = 'CustomCode';
+    const C_CHARGE_EACH_ITEM = 'ChargeEachItem';
+    const C_CHARGE_ENTIRE_ORDER = 'ChargeEntireOrder';
+    const C_CUSTOM_CODE = 'CustomCode';
 }

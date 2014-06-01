@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class RestockingFeeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const NO_RESTOCKING_FEE = 'NoRestockingFee';
-    const PERCENT_10 = 'Percent_10';
-    const PERCENT_15 = 'Percent_15';
-    const PERCENT_20 = 'Percent_20';
-    const PERCENT_25 = 'Percent_25';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_NO_RESTOCKING_FEE = 'NoRestockingFee';
+    const C_PERCENT_10 = 'Percent_10';
+    const C_PERCENT_15 = 'Percent_15';
+    const C_PERCENT_20 = 'Percent_20';
+    const C_PERCENT_25 = 'Percent_25';
 }

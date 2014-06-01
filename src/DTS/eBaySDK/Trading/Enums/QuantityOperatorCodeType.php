@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class QuantityOperatorCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const EQUAL = 'Equal';
-    const GREATER_THAN = 'GreaterThan';
-    const GREATER_THAN_OR_EQUAL = 'GreaterThanOrEqual';
-    const LESS_THAN = 'LessThan';
-    const LESS_THAN_OR_EQUAL = 'LessThanOrEqual';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_EQUAL = 'Equal';
+    const C_GREATER_THAN = 'GreaterThan';
+    const C_GREATER_THAN_OR_EQUAL = 'GreaterThanOrEqual';
+    const C_LESS_THAN = 'LessThan';
+    const C_LESS_THAN_OR_EQUAL = 'LessThanOrEqual';
 }

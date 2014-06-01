@@ -22,16 +22,16 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class CancelReasonCodeType
 {
-    const BUYER_CANCEL_ORDER = 'BuyerCancelOrder';
-    const BUYER_NOT_SCHEDULE = 'BuyerNotSchedule';
-    const BUYER_NO_SHOW = 'BuyerNoShow';
-    const BUYER_REFUSED = 'BuyerRefused';
-    const CUSTOM_CODE = 'CustomCode';
-    const FOUND_CHEAPER_PRICE = 'FoundCheaperPrice';
-    const ORDER_PLACED_BY_MISTAKE = 'OrderPlacedByMistake';
-    const OUT_OF_STOCK = 'OutOfStock';
-    const PRICE_TOO_HIGH = 'PriceTooHigh';
-    const VALET_DELIVERY_ISSUES = 'ValetDeliveryIssues';
-    const VALET_UNAVAILABLE = 'ValetUnavailable';
-    const WONT_ARRIVE_IN_TIME = 'WontArriveInTime';
+    const C_BUYER_CANCEL_ORDER = 'BuyerCancelOrder';
+    const C_BUYER_NOT_SCHEDULE = 'BuyerNotSchedule';
+    const C_BUYER_NO_SHOW = 'BuyerNoShow';
+    const C_BUYER_REFUSED = 'BuyerRefused';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FOUND_CHEAPER_PRICE = 'FoundCheaperPrice';
+    const C_ORDER_PLACED_BY_MISTAKE = 'OrderPlacedByMistake';
+    const C_OUT_OF_STOCK = 'OutOfStock';
+    const C_PRICE_TOO_HIGH = 'PriceTooHigh';
+    const C_VALET_DELIVERY_ISSUES = 'ValetDeliveryIssues';
+    const C_VALET_UNAVAILABLE = 'ValetUnavailable';
+    const C_WONT_ARRIVE_IN_TIME = 'WontArriveInTime';
 }

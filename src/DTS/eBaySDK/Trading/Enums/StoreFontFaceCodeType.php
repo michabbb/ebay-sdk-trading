@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class StoreFontFaceCodeType
 {
-    const ARIAL = 'Arial';
-    const COURIER = 'Courier';
-    const CUSTOM_CODE = 'CustomCode';
-    const TIMES = 'Times';
-    const VERDANA = 'Verdana';
+    const C_ARIAL = 'Arial';
+    const C_COURIER = 'Courier';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_TIMES = 'Times';
+    const C_VERDANA = 'Verdana';
 }

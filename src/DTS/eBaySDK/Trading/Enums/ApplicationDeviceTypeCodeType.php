@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ApplicationDeviceTypeCodeType
 {
-    const BROWSER = 'Browser';
-    const CUSTOM_CODE = 'CustomCode';
-    const DESKTOP = 'Desktop';
-    const SET_TOPTV_BOX = 'SetTopTVBox';
-    const WIRELESS = 'Wireless';
+    const C_BROWSER = 'Browser';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DESKTOP = 'Desktop';
+    const C_SET_TOPTV_BOX = 'SetTopTVBox';
+    const C_WIRELESS = 'Wireless';
 }

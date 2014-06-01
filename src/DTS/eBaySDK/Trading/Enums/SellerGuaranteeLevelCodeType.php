@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class SellerGuaranteeLevelCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const NOT_ELIGIBLE = 'NotEligible';
-    const PREMIUM = 'Premium';
-    const REGULAR = 'Regular';
-    const ULTRA = 'Ultra';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_NOT_ELIGIBLE = 'NotEligible';
+    const C_PREMIUM = 'Premium';
+    const C_REGULAR = 'Regular';
+    const C_ULTRA = 'Ultra';
 }

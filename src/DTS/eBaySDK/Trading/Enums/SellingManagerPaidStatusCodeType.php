@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class SellingManagerPaidStatusCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const PAID = 'Paid';
-    const PARTIALLY_PAID = 'PartiallyPaid';
-    const PENDING = 'Pending';
-    const REFUNDED = 'Refunded';
-    const UNPAID = 'Unpaid';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_PAID = 'Paid';
+    const C_PARTIALLY_PAID = 'PartiallyPaid';
+    const C_PENDING = 'Pending';
+    const C_REFUNDED = 'Refunded';
+    const C_UNPAID = 'Unpaid';
 }
