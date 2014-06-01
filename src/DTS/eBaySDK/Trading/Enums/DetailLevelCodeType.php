@@ -22,11 +22,11 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class DetailLevelCodeType
 {
-    const ITEM_RETURN_ATTRIBUTES = 'ItemReturnAttributes';
-    const ITEM_RETURN_CATEGORIES = 'ItemReturnCategories';
-    const ITEM_RETURN_DESCRIPTION = 'ItemReturnDescription';
-    const RETURN_ALL = 'ReturnAll';
-    const RETURN_HEADERS = 'ReturnHeaders';
-    const RETURN_MESSAGES = 'ReturnMessages';
-    const RETURN_SUMMARY = 'ReturnSummary';
+    const C_ITEM_RETURN_ATTRIBUTES = 'ItemReturnAttributes';
+    const C_ITEM_RETURN_CATEGORIES = 'ItemReturnCategories';
+    const C_ITEM_RETURN_DESCRIPTION = 'ItemReturnDescription';
+    const C_RETURN_ALL = 'ReturnAll';
+    const C_RETURN_HEADERS = 'ReturnHeaders';
+    const C_RETURN_MESSAGES = 'ReturnMessages';
+    const C_RETURN_SUMMARY = 'ReturnSummary';
 }

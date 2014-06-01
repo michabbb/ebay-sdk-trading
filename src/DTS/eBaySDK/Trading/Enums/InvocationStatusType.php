@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class InvocationStatusType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const FAILURE = 'Failure';
-    const IN_PROGRESS = 'InProgress';
-    const SUCCESS = 'Success';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FAILURE = 'Failure';
+    const C_IN_PROGRESS = 'InProgress';
+    const C_SUCCESS = 'Success';
 }

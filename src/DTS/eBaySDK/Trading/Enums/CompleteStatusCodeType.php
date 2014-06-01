@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class CompleteStatusCodeType
 {
-    const COMPLETE = 'Complete';
-    const CUSTOM_CODE = 'CustomCode';
-    const INCOMPLETE = 'Incomplete';
-    const PENDING = 'Pending';
+    const C_COMPLETE = 'Complete';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_INCOMPLETE = 'Incomplete';
+    const C_PENDING = 'Pending';
 }

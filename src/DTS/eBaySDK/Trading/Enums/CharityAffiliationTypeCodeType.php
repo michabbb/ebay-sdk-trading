@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class CharityAffiliationTypeCodeType
 {
-    const COMMUNITY = 'Community';
-    const CUSTOM_CODE = 'CustomCode';
-    const DIRECT = 'Direct';
-    const REMOVE = 'Remove';
+    const C_COMMUNITY = 'Community';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DIRECT = 'Direct';
+    const C_REMOVE = 'Remove';
 }

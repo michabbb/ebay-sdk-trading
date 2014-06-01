@@ -22,6 +22,6 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class NotificationEventPropertyNameCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const TIME_LEFT = 'TimeLeft';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_TIME_LEFT = 'TimeLeft';
 }

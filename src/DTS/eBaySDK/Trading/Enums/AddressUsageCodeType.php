@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class AddressUsageCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const DEFAULT_SHIPPING = 'DefaultShipping';
-    const INVALID = 'Invalid';
-    const SHIPPING = 'Shipping';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DEFAULT_SHIPPING = 'DefaultShipping';
+    const C_INVALID = 'Invalid';
+    const C_SHIPPING = 'Shipping';
 }

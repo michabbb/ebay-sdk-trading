@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class SellerDashboardAlertSeverityCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const INFORMATIONAL = 'Informational';
-    const STRONG_WARNING = 'StrongWarning';
-    const WARNING = 'Warning';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_INFORMATIONAL = 'Informational';
+    const C_STRONG_WARNING = 'StrongWarning';
+    const C_WARNING = 'Warning';
 }

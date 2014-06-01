@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PayoutMethodType
 {
-    const EFT = 'EFT';
-    const MONEYBOOKERS = 'MONEYBOOKERS';
-    const PAYPAL = 'PAYPAL';
+    const C_EFT = 'EFT';
+    const C_MONEYBOOKERS = 'MONEYBOOKERS';
+    const C_PAYPAL = 'PAYPAL';
 }

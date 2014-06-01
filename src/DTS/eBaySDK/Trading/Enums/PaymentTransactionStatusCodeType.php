@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PaymentTransactionStatusCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const FAILED = 'Failed';
-    const PENDING = 'Pending';
-    const SUCCEEDED = 'Succeeded';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FAILED = 'Failed';
+    const C_PENDING = 'Pending';
+    const C_SUCCEEDED = 'Succeeded';
 }

@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class TaskStatusCodeType
 {
-    const COMPLETE = 'Complete';
-    const CUSTOM_CODE = 'CustomCode';
-    const FAILED = 'Failed';
-    const IN_PROGRESS = 'InProgress';
-    const PENDING = 'Pending';
+    const C_COMPLETE = 'Complete';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FAILED = 'Failed';
+    const C_IN_PROGRESS = 'InProgress';
+    const C_PENDING = 'Pending';
 }

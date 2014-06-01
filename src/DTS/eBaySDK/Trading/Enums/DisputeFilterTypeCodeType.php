@@ -22,12 +22,12 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class DisputeFilterTypeCodeType
 {
-    const ALL_INVOLVED_CLOSED_DISPUTES = 'AllInvolvedClosedDisputes';
-    const ALL_INVOLVED_DISPUTES = 'AllInvolvedDisputes';
-    const CUSTOM_CODE = 'CustomCode';
-    const DISPUTES_AWAITING_MY_RESPONSE = 'DisputesAwaitingMyResponse';
-    const DISPUTES_AWAITING_OTHER_PARTY_RESPONSE = 'DisputesAwaitingOtherPartyResponse';
-    const ELIGIBLE_FOR_CREDIT = 'EligibleForCredit';
-    const ITEM_NOT_RECEIVED_DISPUTES = 'ItemNotReceivedDisputes';
-    const UNPAID_ITEM_DISPUTES = 'UnpaidItemDisputes';
+    const C_ALL_INVOLVED_CLOSED_DISPUTES = 'AllInvolvedClosedDisputes';
+    const C_ALL_INVOLVED_DISPUTES = 'AllInvolvedDisputes';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DISPUTES_AWAITING_MY_RESPONSE = 'DisputesAwaitingMyResponse';
+    const C_DISPUTES_AWAITING_OTHER_PARTY_RESPONSE = 'DisputesAwaitingOtherPartyResponse';
+    const C_ELIGIBLE_FOR_CREDIT = 'EligibleForCredit';
+    const C_ITEM_NOT_RECEIVED_DISPUTES = 'ItemNotReceivedDisputes';
+    const C_UNPAID_ITEM_DISPUTES = 'UnpaidItemDisputes';
 }

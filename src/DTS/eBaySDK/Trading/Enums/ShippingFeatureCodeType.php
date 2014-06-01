@@ -22,11 +22,11 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ShippingFeatureCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const DELIVERY_CONFIRMATION = 'DeliveryConfirmation';
-    const NOT_DEFINED = 'NotDefined';
-    const OTHER = 'Other';
-    const SATURDAY_DELIVERY = 'SaturdayDelivery';
-    const SIGNATURE_CONFIRMATION = 'SignatureConfirmation';
-    const STEALTH_POSTAGE = 'StealthPostage';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DELIVERY_CONFIRMATION = 'DeliveryConfirmation';
+    const C_NOT_DEFINED = 'NotDefined';
+    const C_OTHER = 'Other';
+    const C_SATURDAY_DELIVERY = 'SaturdayDelivery';
+    const C_SIGNATURE_CONFIRMATION = 'SignatureConfirmation';
+    const C_STEALTH_POSTAGE = 'StealthPostage';
 }

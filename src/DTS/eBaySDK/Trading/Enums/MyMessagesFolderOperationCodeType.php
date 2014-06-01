@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class MyMessagesFolderOperationCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const DISPLAY = 'Display';
-    const REMOVE = 'Remove';
-    const RENAME = 'Rename';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DISPLAY = 'Display';
+    const C_REMOVE = 'Remove';
+    const C_RENAME = 'Rename';
 }

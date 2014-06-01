@@ -22,16 +22,16 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class OrderStatusCodeType
 {
-    const ACTIVE = 'Active';
-    const ALL = 'All';
-    const AUTHENTICATED = 'Authenticated';
-    const CANCELLED = 'Cancelled';
-    const CANCEL_PENDING = 'CancelPending';
-    const COMPLETED = 'Completed';
-    const CUSTOM_CODE = 'CustomCode';
-    const DEFAULT = 'Default';
-    const INACTIVE = 'Inactive';
-    const INVALID = 'Invalid';
-    const IN_PROCESS = 'InProcess';
-    const SHIPPED = 'Shipped';
+    const C_ACTIVE = 'Active';
+    const C_ALL = 'All';
+    const C_AUTHENTICATED = 'Authenticated';
+    const C_CANCELLED = 'Cancelled';
+    const C_CANCEL_PENDING = 'CancelPending';
+    const C_COMPLETED = 'Completed';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DEFAULT = 'Default';
+    const C_INACTIVE = 'Inactive';
+    const C_INVALID = 'Invalid';
+    const C_IN_PROCESS = 'InProcess';
+    const C_SHIPPED = 'Shipped';
 }

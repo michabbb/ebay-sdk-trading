@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class SMSSubscriptionUserStatusCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const FAILED = 'Failed';
-    const PENDING = 'Pending';
-    const REGISTERED = 'Registered';
-    const UNREGISTERED = 'Unregistered';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FAILED = 'Failed';
+    const C_PENDING = 'Pending';
+    const C_REGISTERED = 'Registered';
+    const C_UNREGISTERED = 'Unregistered';
 }

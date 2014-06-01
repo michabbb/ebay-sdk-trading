@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PictureWatermarkCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const ICON = 'Icon';
-    const USER = 'User';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_ICON = 'Icon';
+    const C_USER = 'User';
 }

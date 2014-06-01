@@ -22,12 +22,12 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class DisputeSortTypeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const DISPUTE_CREATED_TIME_ASCENDING = 'DisputeCreatedTimeAscending';
-    const DISPUTE_CREATED_TIME_DESCENDING = 'DisputeCreatedTimeDescending';
-    const DISPUTE_CREDIT_ELIGIBILITY_ASCENDING = 'DisputeCreditEligibilityAscending';
-    const DISPUTE_CREDIT_ELIGIBILITY_DESCENDING = 'DisputeCreditEligibilityDescending';
-    const DISPUTE_STATUS_ASCENDING = 'DisputeStatusAscending';
-    const DISPUTE_STATUS_DESCENDING = 'DisputeStatusDescending';
-    const NONE = 'None';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DISPUTE_CREATED_TIME_ASCENDING = 'DisputeCreatedTimeAscending';
+    const C_DISPUTE_CREATED_TIME_DESCENDING = 'DisputeCreatedTimeDescending';
+    const C_DISPUTE_CREDIT_ELIGIBILITY_ASCENDING = 'DisputeCreditEligibilityAscending';
+    const C_DISPUTE_CREDIT_ELIGIBILITY_DESCENDING = 'DisputeCreditEligibilityDescending';
+    const C_DISPUTE_STATUS_ASCENDING = 'DisputeStatusAscending';
+    const C_DISPUTE_STATUS_DESCENDING = 'DisputeStatusDescending';
+    const C_NONE = 'None';
 }

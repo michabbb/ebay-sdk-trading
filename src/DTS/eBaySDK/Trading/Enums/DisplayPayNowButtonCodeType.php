@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class DisplayPayNowButtonCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const SHOW_PAY_NOW_BUTTON_FOR_ALL_PAYMENT_METHODS = 'ShowPayNowButtonForAllPaymentMethods';
-    const SHOW_PAY_NOW_BUTTON_FOR_PAY_PAL_ONLY = 'ShowPayNowButtonForPayPalOnly';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_SHOW_PAY_NOW_BUTTON_FOR_ALL_PAYMENT_METHODS = 'ShowPayNowButtonForAllPaymentMethods';
+    const C_SHOW_PAY_NOW_BUTTON_FOR_PAY_PAL_ONLY = 'ShowPayNowButtonForPayPalOnly';
 }

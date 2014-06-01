@@ -22,11 +22,11 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class TokenStatusCodeType
 {
-    const ACTIVE = 'Active';
-    const CUSTOM_CODE = 'CustomCode';
-    const EXPIRED = 'Expired';
-    const INVALID = 'Invalid';
-    const REVOKED_BYE_BAY = 'RevokedByeBay';
-    const REVOKED_BY_APP = 'RevokedByApp';
-    const REVOKED_BY_USER = 'RevokedByUser';
+    const C_ACTIVE = 'Active';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_EXPIRED = 'Expired';
+    const C_INVALID = 'Invalid';
+    const C_REVOKED_BYE_BAY = 'RevokedByeBay';
+    const C_REVOKED_BY_APP = 'RevokedByApp';
+    const C_REVOKED_BY_USER = 'RevokedByUser';
 }

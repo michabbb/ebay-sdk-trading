@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class RefundFailureCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const PAYPAL_BILLING_AGREEMENT_CANCELED = 'PaypalBillingAgreementCanceled';
-    const PAYPAL_RISK_DECLINES_TRANSACTION = 'PaypalRiskDeclinesTransaction';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_PAYPAL_BILLING_AGREEMENT_CANCELED = 'PaypalBillingAgreementCanceled';
+    const C_PAYPAL_RISK_DECLINES_TRANSACTION = 'PaypalRiskDeclinesTransaction';
 }

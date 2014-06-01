@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class CombinedPaymentOptionCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const DISCOUNT_SPECIFIED = 'DiscountSpecified';
-    const NO_COMBINED_PAYMENT = 'NoCombinedPayment';
-    const SPECIFY_DISCOUNT_LATER = 'SpecifyDiscountLater';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DISCOUNT_SPECIFIED = 'DiscountSpecified';
+    const C_NO_COMBINED_PAYMENT = 'NoCombinedPayment';
+    const C_SPECIFY_DISCOUNT_LATER = 'SpecifyDiscountLater';
 }

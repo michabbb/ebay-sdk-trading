@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class StoreHeaderStyleCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const FULL = 'Full';
-    const MINIMIZED = 'Minimized';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FULL = 'Full';
+    const C_MINIMIZED = 'Minimized';
 }

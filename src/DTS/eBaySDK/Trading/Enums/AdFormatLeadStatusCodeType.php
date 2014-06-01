@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class AdFormatLeadStatusCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const NEW = 'New';
-    const RESPONDED = 'Responded';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_NEW = 'New';
+    const C_RESPONDED = 'Responded';
 }

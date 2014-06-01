@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ModifyActionCodeType
 {
-    const ADD = 'Add';
-    const CUSTOM_CODE = 'CustomCode';
-    const DELETE = 'Delete';
-    const UPDATE = 'Update';
+    const C_ADD = 'Add';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DELETE = 'Delete';
+    const C_UPDATE = 'Update';
 }

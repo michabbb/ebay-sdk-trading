@@ -22,12 +22,12 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class WarrantyDurationOptionsCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const MONTHS_1 = 'Months_1';
-    const MONTHS_3 = 'Months_3';
-    const MONTHS_6 = 'Months_6';
-    const YEARS_1 = 'Years_1';
-    const YEARS_2 = 'Years_2';
-    const YEARS_3 = 'Years_3';
-    const YEARS__MORE_THAN3 = 'Years_MoreThan3';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_MONTHS_1 = 'Months_1';
+    const C_MONTHS_3 = 'Months_3';
+    const C_MONTHS_6 = 'Months_6';
+    const C_YEARS_1 = 'Years_1';
+    const C_YEARS_2 = 'Years_2';
+    const C_YEARS_3 = 'Years_3';
+    const C_YEARS__MORE_THAN3 = 'Years_MoreThan3';
 }

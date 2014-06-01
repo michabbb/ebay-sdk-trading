@@ -22,19 +22,19 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class WirelessCarrierIDCodeType
 {
-    const ALLTEL = 'Alltel';
-    const AMENA = 'Amena';
-    const ATT = 'ATT';
-    const CINCINNATI_BELL = 'CincinnatiBell';
-    const CINGULAR = 'Cingular';
-    const CUSTOM_CODE = 'CustomCode';
-    const DOBSON = 'Dobson';
-    const LEAP = 'Leap';
-    const MOVISTAR = 'Movistar';
-    const NEXTEL = 'Nextel';
-    const SPRINT = 'Sprint';
-    const T_MOBILE = 'TMobile';
-    const US_CELLULAR = 'USCellular';
-    const VERIZON = 'Verizon';
-    const VODAFONE = 'Vodafone';
+    const C_ALLTEL = 'Alltel';
+    const C_AMENA = 'Amena';
+    const C_ATT = 'ATT';
+    const C_CINCINNATI_BELL = 'CincinnatiBell';
+    const C_CINGULAR = 'Cingular';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DOBSON = 'Dobson';
+    const C_LEAP = 'Leap';
+    const C_MOVISTAR = 'Movistar';
+    const C_NEXTEL = 'Nextel';
+    const C_SPRINT = 'Sprint';
+    const C_T_MOBILE = 'TMobile';
+    const C_US_CELLULAR = 'USCellular';
+    const C_VERIZON = 'Verizon';
+    const C_VODAFONE = 'Vodafone';
 }

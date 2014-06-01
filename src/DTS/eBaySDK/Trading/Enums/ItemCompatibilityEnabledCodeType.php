@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ItemCompatibilityEnabledCodeType
 {
-    const BY_APPLICATION = 'ByApplication';
-    const BY_SPECIFICATION = 'BySpecification';
-    const CUSTOM_CODE = 'CustomCode';
-    const DISABLED = 'Disabled';
+    const C_BY_APPLICATION = 'ByApplication';
+    const C_BY_SPECIFICATION = 'BySpecification';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DISABLED = 'Disabled';
 }

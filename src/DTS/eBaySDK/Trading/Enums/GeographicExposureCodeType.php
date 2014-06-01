@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class GeographicExposureCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const LOCAL_ONLY = 'LocalOnly';
-    const LOCAL_OPTIONAL = 'LocalOptional';
-    const NATIONAL = 'National';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_LOCAL_ONLY = 'LocalOnly';
+    const C_LOCAL_OPTIONAL = 'LocalOptional';
+    const C_NATIONAL = 'National';
 }

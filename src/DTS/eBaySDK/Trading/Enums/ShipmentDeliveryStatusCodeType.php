@@ -22,15 +22,15 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ShipmentDeliveryStatusCodeType
 {
-    const CANCELED = 'Canceled';
-    const CREATED = 'Created';
-    const CUSTOM_CODE = 'CustomCode';
-    const DELIVERED = 'Delivered';
-    const DROPPED_OFF = 'DroppedOff';
-    const ERROR = 'Error';
-    const IN_TRANSIT = 'InTransit';
-    const LABEL_PRINTED = 'LabelPrinted';
-    const RETURNED = 'Returned';
-    const UNCONFIRMED = 'Unconfirmed';
-    const UNKNOWN = 'Unknown';
+    const C_CANCELED = 'Canceled';
+    const C_CREATED = 'Created';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DELIVERED = 'Delivered';
+    const C_DROPPED_OFF = 'DroppedOff';
+    const C_ERROR = 'Error';
+    const C_IN_TRANSIT = 'InTransit';
+    const C_LABEL_PRINTED = 'LabelPrinted';
+    const C_RETURNED = 'Returned';
+    const C_UNCONFIRMED = 'Unconfirmed';
+    const C_UNKNOWN = 'Unknown';
 }

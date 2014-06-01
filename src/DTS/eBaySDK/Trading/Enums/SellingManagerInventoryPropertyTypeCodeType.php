@@ -22,11 +22,11 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class SellingManagerInventoryPropertyTypeCodeType
 {
-    const ACTIVE = 'Active';
-    const CUSTOM_CODE = 'CustomCode';
-    const IN_ACTIVE = 'InActive';
-    const LOW_STOCK = 'LowStock';
-    const PRODUCTS_OUT_OF_STOCK = 'ProductsOutOfStock';
-    const WITHOUT_LISTINGS = 'WithoutListings';
-    const WITH_LISTINGS = 'WithListings';
+    const C_ACTIVE = 'Active';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_IN_ACTIVE = 'InActive';
+    const C_LOW_STOCK = 'LowStock';
+    const C_PRODUCTS_OUT_OF_STOCK = 'ProductsOutOfStock';
+    const C_WITHOUT_LISTINGS = 'WithoutListings';
+    const C_WITH_LISTINGS = 'WithListings';
 }

@@ -22,19 +22,19 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class BidActionCodeType
 {
-    const ABSENTEE = 'Absentee';
-    const ACCEPT = 'Accept';
-    const AUTO_CANCEL = 'AutoCancel';
-    const AUTO_RETRACTION = 'AutoRetraction';
-    const BID = 'Bid';
-    const BUY_IT_NOW = 'BuyItNow';
-    const CANCELLED = 'Cancelled';
-    const COUNTER = 'Counter';
-    const CUSTOM_CODE = 'CustomCode';
-    const DECLINE = 'Decline';
-    const NOT_USED = 'NotUsed';
-    const OFFER = 'Offer';
-    const PURCHASE = 'Purchase';
-    const RETRACTION = 'Retraction';
-    const UNKNOWN = 'Unknown';
+    const C_ABSENTEE = 'Absentee';
+    const C_ACCEPT = 'Accept';
+    const C_AUTO_CANCEL = 'AutoCancel';
+    const C_AUTO_RETRACTION = 'AutoRetraction';
+    const C_BID = 'Bid';
+    const C_BUY_IT_NOW = 'BuyItNow';
+    const C_CANCELLED = 'Cancelled';
+    const C_COUNTER = 'Counter';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DECLINE = 'Decline';
+    const C_NOT_USED = 'NotUsed';
+    const C_OFFER = 'Offer';
+    const C_PURCHASE = 'Purchase';
+    const C_RETRACTION = 'Retraction';
+    const C_UNKNOWN = 'Unknown';
 }

@@ -22,12 +22,12 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PaymentTypeCodeType
 {
-    const ADMIN_REVERSAL = 'AdminReversal';
-    const ALL_OTHER = 'AllOther';
-    const CUSTOM_CODE = 'CustomCode';
-    const REFUND = 'Refund';
-    const RENTAL_BUYOUT = 'RentalBuyout';
-    const RENTAL_EXTENSION = 'RentalExtension';
-    const SALE = 'Sale';
-    const SELLER_DENIED_PAYMENT = 'SellerDeniedPayment';
+    const C_ADMIN_REVERSAL = 'AdminReversal';
+    const C_ALL_OTHER = 'AllOther';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_REFUND = 'Refund';
+    const C_RENTAL_BUYOUT = 'RentalBuyout';
+    const C_RENTAL_EXTENSION = 'RentalExtension';
+    const C_SALE = 'Sale';
+    const C_SELLER_DENIED_PAYMENT = 'SellerDeniedPayment';
 }

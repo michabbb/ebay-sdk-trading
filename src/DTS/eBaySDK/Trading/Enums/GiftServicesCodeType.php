@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class GiftServicesCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const GIFT_EXPRESS_SHIPPING = 'GiftExpressShipping';
-    const GIFT_SHIP_TO_RECIPIENT = 'GiftShipToRecipient';
-    const GIFT_WRAP = 'GiftWrap';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_GIFT_EXPRESS_SHIPPING = 'GiftExpressShipping';
+    const C_GIFT_SHIP_TO_RECIPIENT = 'GiftShipToRecipient';
+    const C_GIFT_WRAP = 'GiftWrap';
 }

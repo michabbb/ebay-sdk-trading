@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class MarkUpMarkDownEventTypeCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const MARK_DOWN = 'MarkDown';
-    const MARK_UP = 'MarkUp';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_MARK_DOWN = 'MarkDown';
+    const C_MARK_UP = 'MarkUp';
 }

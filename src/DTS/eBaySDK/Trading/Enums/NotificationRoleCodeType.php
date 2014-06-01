@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class NotificationRoleCodeType
 {
-    const APPLICATION = 'Application';
-    const CUSTOM_CODE = 'CustomCode';
-    const EVENT = 'Event';
-    const USER = 'User';
-    const USER_DATA = 'UserData';
+    const C_APPLICATION = 'Application';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_EVENT = 'Event';
+    const C_USER = 'User';
+    const C_USER_DATA = 'UserData';
 }

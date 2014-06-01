@@ -22,12 +22,12 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class AccountEntrySortTypeCodeType
 {
-    const ACCOUNT_ENTRY_CREATED_TIME_ASCENDING = 'AccountEntryCreatedTimeAscending';
-    const ACCOUNT_ENTRY_CREATED_TIME_DESCENDING = 'AccountEntryCreatedTimeDescending';
-    const ACCOUNT_ENTRY_FEE_TYPE_ASCENDING = 'AccountEntryFeeTypeAscending';
-    const ACCOUNT_ENTRY_FEE_TYPE_DESCENDING = 'AccountEntryFeeTypeDescending';
-    const ACCOUNT_ENTRY_ITEM_NUMBER_ASCENDING = 'AccountEntryItemNumberAscending';
-    const ACCOUNT_ENTRY_ITEM_NUMBER_DESCENDING = 'AccountEntryItemNumberDescending';
-    const CUSTOM_CODE = 'CustomCode';
-    const NONE = 'None';
+    const C_ACCOUNT_ENTRY_CREATED_TIME_ASCENDING = 'AccountEntryCreatedTimeAscending';
+    const C_ACCOUNT_ENTRY_CREATED_TIME_DESCENDING = 'AccountEntryCreatedTimeDescending';
+    const C_ACCOUNT_ENTRY_FEE_TYPE_ASCENDING = 'AccountEntryFeeTypeAscending';
+    const C_ACCOUNT_ENTRY_FEE_TYPE_DESCENDING = 'AccountEntryFeeTypeDescending';
+    const C_ACCOUNT_ENTRY_ITEM_NUMBER_ASCENDING = 'AccountEntryItemNumberAscending';
+    const C_ACCOUNT_ENTRY_ITEM_NUMBER_DESCENDING = 'AccountEntryItemNumberDescending';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_NONE = 'None';
 }

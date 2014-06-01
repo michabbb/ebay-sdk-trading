@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ClassifiedAdPaymentMethodEnabledCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const ENABLED_WITHOUT_CHECKOUT = 'EnabledWithoutCheckout';
-    const ENABLED_WITH_CHECKOUT = 'EnabledWithCheckout';
-    const NOT_SUPPORTED = 'NotSupported';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_ENABLED_WITHOUT_CHECKOUT = 'EnabledWithoutCheckout';
+    const C_ENABLED_WITH_CHECKOUT = 'EnabledWithCheckout';
+    const C_NOT_SUPPORTED = 'NotSupported';
 }

@@ -22,13 +22,13 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class UnitCodeType
 {
-    const CM = 'cm';
-    const CUSTOM_CODE = 'CustomCode';
-    const FT = 'ft';
-    const GM = 'gm';
-    const INCHES = 'inches';
-    const KG = 'kg';
-    const LBS = 'lbs';
-    const MM = 'mm';
-    const OZ = 'oz';
+    const C_CM = 'cm';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FT = 'ft';
+    const C_GM = 'gm';
+    const C_INCHES = 'inches';
+    const C_KG = 'kg';
+    const C_LBS = 'lbs';
+    const C_MM = 'mm';
+    const C_OZ = 'oz';
 }

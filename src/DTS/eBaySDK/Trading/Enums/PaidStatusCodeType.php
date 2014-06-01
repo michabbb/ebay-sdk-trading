@@ -22,23 +22,23 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class PaidStatusCodeType
 {
-    const BUYER_HAS_NOT_COMPLETED_CHECKOUT = 'BuyerHasNotCompletedCheckout';
-    const CUSTOM_CODE = 'CustomCode';
-    const ESCROW_PAYMENT_CANCELLED = 'EscrowPaymentCancelled';
-    const MARKED_AS_PAID = 'MarkedAsPaid';
-    const NOT_PAID = 'NotPaid';
-    const PAID = 'Paid';
-    const PAIDCOD = 'PaidCOD';
-    const PAID_WITH_ESCROW = 'PaidWithEscrow';
-    const PAID_WITH_PAISA_PAY = 'PaidWithPaisaPay';
-    const PAID_WITH_PAISA_PAY_ESCROW = 'PaidWithPaisaPayEscrow';
-    const PAID_WITH_PAY_PAL = 'PaidWithPayPal';
-    const PAISA_PAY_NOT_PAID = 'PaisaPayNotPaid';
-    const PAYMENT_PENDING = 'PaymentPending';
-    const PAYMENT_PENDING_WITH_ESCROW = 'PaymentPendingWithEscrow';
-    const PAYMENT_PENDING_WITH_PAISA_PAY = 'PaymentPendingWithPaisaPay';
-    const PAYMENT_PENDING_WITH_PAISA_PAY_ESCROW = 'PaymentPendingWithPaisaPayEscrow';
-    const PAYMENT_PENDING_WITH_PAY_PAL = 'PaymentPendingWithPayPal';
-    const REFUNDED = 'Refunded';
-    const WAITING_FORCOD_PAYMENT = 'WaitingForCODPayment';
+    const C_BUYER_HAS_NOT_COMPLETED_CHECKOUT = 'BuyerHasNotCompletedCheckout';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_ESCROW_PAYMENT_CANCELLED = 'EscrowPaymentCancelled';
+    const C_MARKED_AS_PAID = 'MarkedAsPaid';
+    const C_NOT_PAID = 'NotPaid';
+    const C_PAID = 'Paid';
+    const C_PAIDCOD = 'PaidCOD';
+    const C_PAID_WITH_ESCROW = 'PaidWithEscrow';
+    const C_PAID_WITH_PAISA_PAY = 'PaidWithPaisaPay';
+    const C_PAID_WITH_PAISA_PAY_ESCROW = 'PaidWithPaisaPayEscrow';
+    const C_PAID_WITH_PAY_PAL = 'PaidWithPayPal';
+    const C_PAISA_PAY_NOT_PAID = 'PaisaPayNotPaid';
+    const C_PAYMENT_PENDING = 'PaymentPending';
+    const C_PAYMENT_PENDING_WITH_ESCROW = 'PaymentPendingWithEscrow';
+    const C_PAYMENT_PENDING_WITH_PAISA_PAY = 'PaymentPendingWithPaisaPay';
+    const C_PAYMENT_PENDING_WITH_PAISA_PAY_ESCROW = 'PaymentPendingWithPaisaPayEscrow';
+    const C_PAYMENT_PENDING_WITH_PAY_PAL = 'PaymentPendingWithPayPal';
+    const C_REFUNDED = 'Refunded';
+    const C_WAITING_FORCOD_PAYMENT = 'WaitingForCODPayment';
 }

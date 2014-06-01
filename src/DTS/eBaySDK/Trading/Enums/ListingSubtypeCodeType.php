@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class ListingSubtypeCodeType
 {
-    const CLASSIFIED_AD = 'ClassifiedAd';
-    const CUSTOM_CODE = 'CustomCode';
-    const LOCAL_MARKET_BEST_OFFER_ONLY = 'LocalMarketBestOfferOnly';
+    const C_CLASSIFIED_AD = 'ClassifiedAd';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_LOCAL_MARKET_BEST_OFFER_ONLY = 'LocalMarketBestOfferOnly';
 }

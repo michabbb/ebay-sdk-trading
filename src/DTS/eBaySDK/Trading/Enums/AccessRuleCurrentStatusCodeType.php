@@ -22,12 +22,12 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class AccessRuleCurrentStatusCodeType
 {
-    const CUSTOM_CODE = 'CustomCode';
-    const DAILY_LIMIT_EXCEEDED = 'DailyLimitExceeded';
-    const DAILY_SOFT_LIMIT_EXCEEDED = 'DailySoftLimitExceeded';
-    const HOURLY_LIMIT_EXCEEDED = 'HourlyLimitExceeded';
-    const HOURLY_SOFT_LIMIT_EXCEEDED = 'HourlySoftLimitExceeded';
-    const NOT_SET = 'NotSet';
-    const PERIODIC_LIMIT_EXCEEDED = 'PeriodicLimitExceeded';
-    const PERIODIC_SOFT_LIMIT_EXCEEDED = 'PeriodicSoftLimitExceeded';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_DAILY_LIMIT_EXCEEDED = 'DailyLimitExceeded';
+    const C_DAILY_SOFT_LIMIT_EXCEEDED = 'DailySoftLimitExceeded';
+    const C_HOURLY_LIMIT_EXCEEDED = 'HourlyLimitExceeded';
+    const C_HOURLY_SOFT_LIMIT_EXCEEDED = 'HourlySoftLimitExceeded';
+    const C_NOT_SET = 'NotSet';
+    const C_PERIODIC_LIMIT_EXCEEDED = 'PeriodicLimitExceeded';
+    const C_PERIODIC_SOFT_LIMIT_EXCEEDED = 'PeriodicSoftLimitExceeded';
 }

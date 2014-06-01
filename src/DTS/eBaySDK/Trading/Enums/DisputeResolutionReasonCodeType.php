@@ -22,18 +22,18 @@ namespace DTS\eBaySDK\Trading\Enums;
  */
 class DisputeResolutionReasonCodeType
 {
-    const BUYER_PAID_AUCTION_FEES = 'BuyerPaidAuctionFees';
-    const CAME_TO_AGREEMENT = 'CameToAgreement';
-    const CLAIM_PAID = 'ClaimPaid';
-    const COMPUTER_TECHNICAL_PROBLEM = 'ComputerTechnicalProblem';
-    const CUSTOM_CODE = 'CustomCode';
-    const FAMILY_EMERGENCY = 'FamilyEmergency';
-    const FIRST_INFRACTION = 'FirstInfraction';
-    const ITEM_RETURNED = 'ItemReturned';
-    const NO_CONTACT = 'NoContact';
-    const OTHER_RESOLUTION = 'OtherResolution';
-    const PROOF_GIVEN_IN_FEEDBACK = 'ProofGivenInFeedback';
-    const PROOF_OF_PAYMENT = 'ProofOfPayment';
-    const SELLER_RECEIVED_PAYMENT = 'SellerReceivedPayment';
-    const UNRESOLVED = 'Unresolved';
+    const C_BUYER_PAID_AUCTION_FEES = 'BuyerPaidAuctionFees';
+    const C_CAME_TO_AGREEMENT = 'CameToAgreement';
+    const C_CLAIM_PAID = 'ClaimPaid';
+    const C_COMPUTER_TECHNICAL_PROBLEM = 'ComputerTechnicalProblem';
+    const C_CUSTOM_CODE = 'CustomCode';
+    const C_FAMILY_EMERGENCY = 'FamilyEmergency';
+    const C_FIRST_INFRACTION = 'FirstInfraction';
+    const C_ITEM_RETURNED = 'ItemReturned';
+    const C_NO_CONTACT = 'NoContact';
+    const C_OTHER_RESOLUTION = 'OtherResolution';
+    const C_PROOF_GIVEN_IN_FEEDBACK = 'ProofGivenInFeedback';
+    const C_PROOF_OF_PAYMENT = 'ProofOfPayment';
+    const C_SELLER_RECEIVED_PAYMENT = 'SellerReceivedPayment';
+    const C_UNRESOLVED = 'Unresolved';
 }
