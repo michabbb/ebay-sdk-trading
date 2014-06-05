@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\TimeRangeType $emailDateRange
- * @property string $itemId
- * @property string $orderId
- * @property string $orderLineItemId
- * @property integer $transactionId
+ * @property DTS\eBaySDK\Trading\Types\TimeRangeType $EmailDateRange
+ * @property string $ItemID
+ * @property string $OrderID
+ * @property string $OrderLineItemID
+ * @property integer $TransactionID
  */
 class GetSellingManagerEmailLogRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -31,31 +31,31 @@ class GetSellingManagerEmailLogRequestType extends \DTS\eBaySDK\Trading\Types\Ab
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'emailDateRange' => array(
+        'EmailDateRange' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\TimeRangeType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EmailDateRange'
         ),
-        'itemId' => array(
+        'ItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemID'
         ),
-        'orderId' => array(
+        'OrderID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OrderID'
         ),
-        'orderLineItemId' => array(
+        'OrderLineItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OrderLineItemID'
         ),
-        'transactionId' => array(
+        'TransactionID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -68,18 +68,12 @@ class GetSellingManagerEmailLogRequestType extends \DTS\eBaySDK\Trading\Types\Ab
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

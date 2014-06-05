@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $bestOffer
- * @property integer $bestOfferCount
- * @property boolean $bestOfferEnabled
- * @property DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType(string) $bestOfferStatus
- * @property boolean $newBestOffer
+ * @property DTS\eBaySDK\Trading\Types\AmountType $BestOffer
+ * @property integer $BestOfferCount
+ * @property boolean $BestOfferEnabled
+ * @property DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType(string) $BestOfferStatus
+ * @property boolean $NewBestOffer
  */
 class BestOfferDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -31,31 +31,31 @@ class BestOfferDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bestOffer' => array(
+        'BestOffer' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOffer'
         ),
-        'bestOfferCount' => array(
+        'BestOfferCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOfferCount'
         ),
-        'bestOfferEnabled' => array(
+        'BestOfferEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOfferEnabled'
         ),
-        'bestOfferStatus' => array(
+        'BestOfferStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOfferStatus'
         ),
-        'newBestOffer' => array(
+        'NewBestOffer' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
@@ -68,18 +68,12 @@ class BestOfferDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

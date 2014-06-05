@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $allFeaturesForCategory
- * @property string $categoryId
- * @property DTS\eBaySDK\Trading\Enums\FeatureIDCodeType(string) $featureId
- * @property integer $levelLimit
- * @property boolean $viewAllNodes
+ * @property boolean $AllFeaturesForCategory
+ * @property string $CategoryID
+ * @property DTS\eBaySDK\Trading\Enums\FeatureIDCodeType(string) $FeatureID
+ * @property integer $LevelLimit
+ * @property boolean $ViewAllNodes
  */
 class GetCategoryFeaturesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -31,31 +31,31 @@ class GetCategoryFeaturesRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'allFeaturesForCategory' => array(
+        'AllFeaturesForCategory' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AllFeaturesForCategory'
         ),
-        'categoryId' => array(
+        'CategoryID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryID'
         ),
-        'featureId' => array(
+        'FeatureID' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'FeatureID'
         ),
-        'levelLimit' => array(
+        'LevelLimit' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LevelLimit'
         ),
-        'viewAllNodes' => array(
+        'ViewAllNodes' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
@@ -68,18 +68,12 @@ class GetCategoryFeaturesRequestType extends \DTS\eBaySDK\Trading\Types\Abstract
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

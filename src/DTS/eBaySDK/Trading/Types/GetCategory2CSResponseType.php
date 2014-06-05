@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $attributeSystemVersion
- * @property DTS\eBaySDK\Trading\Types\CategoryArrayType $mappedCategoryArray
- * @property DTS\eBaySDK\Trading\Types\SiteWideCharacteristicsType $siteWideCharacteristicSets
- * @property DTS\eBaySDK\Trading\Types\CategoryArrayType $unmappedCategoryArray
+ * @property string $AttributeSystemVersion
+ * @property DTS\eBaySDK\Trading\Types\CategoryArrayType $MappedCategoryArray
+ * @property DTS\eBaySDK\Trading\Types\SiteWideCharacteristicsType $SiteWideCharacteristicSets
+ * @property DTS\eBaySDK\Trading\Types\CategoryArrayType $UnmappedCategoryArray
  */
 class GetCategory2CSResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -30,25 +30,25 @@ class GetCategory2CSResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'attributeSystemVersion' => array(
+        'AttributeSystemVersion' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AttributeSystemVersion'
         ),
-        'mappedCategoryArray' => array(
+        'MappedCategoryArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\CategoryArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MappedCategoryArray'
         ),
-        'siteWideCharacteristicSets' => array(
+        'SiteWideCharacteristicSets' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SiteWideCharacteristicsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'SiteWideCharacteristicSets'
         ),
-        'unmappedCategoryArray' => array(
+        'UnmappedCategoryArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\CategoryArrayType',
             'unbound' => false,
             'attribute' => false,
@@ -61,18 +61,12 @@ class GetCategory2CSResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResp
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $hasMoreTransactions
- * @property integer $pageNumber
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $paginationResult
- * @property boolean $payPalPreferred
- * @property integer $returnedTransactionCountActual
- * @property DTS\eBaySDK\Trading\Types\UserType $seller
- * @property DTS\eBaySDK\Trading\Types\TransactionArrayType $transactionArray
- * @property integer $transactionsPerPage
+ * @property boolean $HasMoreTransactions
+ * @property integer $PageNumber
+ * @property DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property boolean $PayPalPreferred
+ * @property integer $ReturnedTransactionCountActual
+ * @property DTS\eBaySDK\Trading\Types\UserType $Seller
+ * @property DTS\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
+ * @property integer $TransactionsPerPage
  */
 class GetSellerTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -34,49 +34,49 @@ class GetSellerTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'hasMoreTransactions' => array(
+        'HasMoreTransactions' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HasMoreTransactions'
         ),
-        'pageNumber' => array(
+        'PageNumber' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PageNumber'
         ),
-        'paginationResult' => array(
+        'PaginationResult' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'
         ),
-        'payPalPreferred' => array(
+        'PayPalPreferred' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PayPalPreferred'
         ),
-        'returnedTransactionCountActual' => array(
+        'ReturnedTransactionCountActual' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReturnedTransactionCountActual'
         ),
-        'seller' => array(
+        'Seller' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\UserType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Seller'
         ),
-        'transactionArray' => array(
+        'TransactionArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\TransactionArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TransactionArray'
         ),
-        'transactionsPerPage' => array(
+        'TransactionsPerPage' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -89,18 +89,12 @@ class GetSellerTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

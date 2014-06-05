@@ -19,38 +19,38 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $allowPaymentEdit
- * @property DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $billingCurrency
- * @property DTS\eBaySDK\Trading\Types\CharityAffiliationDetailsType $charityAffiliationDetails
- * @property boolean $charityRegistered
- * @property boolean $checkoutEnabled
- * @property boolean $cipbAnkAccountStored
- * @property boolean $domesticRateTable
- * @property DTS\eBaySDK\Trading\Types\FeatureEligibilityType $featureEligibility
- * @property boolean $goodStanding
- * @property DTS\eBaySDK\Trading\Types\IntegratedMerchantCreditCardInfoType $integratedMerchantCreditCardInfo
- * @property DTS\eBaySDK\Trading\Enums\MerchandizingPrefCodeType(string) $merchandizingPref
- * @property integer $paisaPayEscrowEmisTatus
- * @property integer $paisaPayStatus
- * @property DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType(string) $paymentMethod
- * @property DTS\eBaySDK\Trading\Types\ProStoresCheckoutPreferenceType $proStoresPreference
- * @property boolean $qualifiesForB2Bvat
- * @property DTS\eBaySDK\Trading\Types\RecoupmentPolicyConsentType $recoupmentPolicyConsent
- * @property boolean $registeredBusinessSeller
- * @property boolean $safePaymentExempt
- * @property DTS\eBaySDK\Trading\Types\SchedulingInfoType $schedulingInfo
- * @property DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType(string) $sellerBusinessType
- * @property DTS\eBaySDK\Trading\Enums\SellerGuaranteeLevelCodeType(string) $sellerGuaranteeLevel
- * @property DTS\eBaySDK\Trading\Enums\SellerLevelCodeType(string) $sellerLevel
- * @property DTS\eBaySDK\Trading\Types\AddressType $sellerPaymentAddress
- * @property DTS\eBaySDK\Trading\Types\SellereBayPaymentProcessConsentCodeType $sellereBayPaymentProcessConsent
- * @property DTS\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType(string) $sellereBayPaymentProcessStatus
- * @property boolean $storeOwner
- * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $storeSite
- * @property string $storeUrl
- * @property boolean $topRatedSeller
- * @property DTS\eBaySDK\Trading\Types\TopRatedSellerDetailsType $topRatedSellerDetails
- * @property double $transactionPercent
+ * @property boolean $AllowPaymentEdit
+ * @property DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $BillingCurrency
+ * @property boolean $CIPBankAccountStored
+ * @property DTS\eBaySDK\Trading\Types\CharityAffiliationDetailsType $CharityAffiliationDetails
+ * @property boolean $CharityRegistered
+ * @property boolean $CheckoutEnabled
+ * @property boolean $DomesticRateTable
+ * @property DTS\eBaySDK\Trading\Types\FeatureEligibilityType $FeatureEligibility
+ * @property boolean $GoodStanding
+ * @property DTS\eBaySDK\Trading\Types\IntegratedMerchantCreditCardInfoType $IntegratedMerchantCreditCardInfo
+ * @property DTS\eBaySDK\Trading\Enums\MerchandizingPrefCodeType(string) $MerchandizingPref
+ * @property integer $PaisaPayEscrowEMIStatus
+ * @property integer $PaisaPayStatus
+ * @property DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType(string) $PaymentMethod
+ * @property DTS\eBaySDK\Trading\Types\ProStoresCheckoutPreferenceType $ProStoresPreference
+ * @property boolean $QualifiesForB2BVAT
+ * @property DTS\eBaySDK\Trading\Types\RecoupmentPolicyConsentType $RecoupmentPolicyConsent
+ * @property boolean $RegisteredBusinessSeller
+ * @property boolean $SafePaymentExempt
+ * @property DTS\eBaySDK\Trading\Types\SchedulingInfoType $SchedulingInfo
+ * @property DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType(string) $SellerBusinessType
+ * @property DTS\eBaySDK\Trading\Enums\SellerGuaranteeLevelCodeType(string) $SellerGuaranteeLevel
+ * @property DTS\eBaySDK\Trading\Enums\SellerLevelCodeType(string) $SellerLevel
+ * @property DTS\eBaySDK\Trading\Types\AddressType $SellerPaymentAddress
+ * @property DTS\eBaySDK\Trading\Types\SellereBayPaymentProcessConsentCodeType $SellereBayPaymentProcessConsent
+ * @property DTS\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType(string) $SellereBayPaymentProcessStatus
+ * @property boolean $StoreOwner
+ * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $StoreSite
+ * @property string $StoreURL
+ * @property boolean $TopRatedSeller
+ * @property DTS\eBaySDK\Trading\Types\TopRatedSellerDetailsType $TopRatedSellerDetails
+ * @property double $TransactionPercent
  */
 class SellerType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -58,193 +58,193 @@ class SellerType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'allowPaymentEdit' => array(
+        'AllowPaymentEdit' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AllowPaymentEdit'
         ),
-        'billingCurrency' => array(
+        'BillingCurrency' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BillingCurrency'
         ),
-        'charityAffiliationDetails' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\CharityAffiliationDetailsType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'CharityAffiliationDetails'
-        ),
-        'charityRegistered' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'CharityRegistered'
-        ),
-        'checkoutEnabled' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'CheckoutEnabled'
-        ),
-        'cipbAnkAccountStored' => array(
+        'CIPBankAccountStored' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CIPBankAccountStored'
         ),
-        'domesticRateTable' => array(
+        'CharityAffiliationDetails' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\CharityAffiliationDetailsType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'CharityAffiliationDetails'
+        ),
+        'CharityRegistered' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'CharityRegistered'
+        ),
+        'CheckoutEnabled' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'CheckoutEnabled'
+        ),
+        'DomesticRateTable' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DomesticRateTable'
         ),
-        'featureEligibility' => array(
+        'FeatureEligibility' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FeatureEligibilityType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FeatureEligibility'
         ),
-        'goodStanding' => array(
+        'GoodStanding' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'GoodStanding'
         ),
-        'integratedMerchantCreditCardInfo' => array(
+        'IntegratedMerchantCreditCardInfo' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\IntegratedMerchantCreditCardInfoType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IntegratedMerchantCreditCardInfo'
         ),
-        'merchandizingPref' => array(
+        'MerchandizingPref' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MerchandizingPref'
         ),
-        'paisaPayEscrowEmisTatus' => array(
+        'PaisaPayEscrowEMIStatus' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaisaPayEscrowEMIStatus'
         ),
-        'paisaPayStatus' => array(
+        'PaisaPayStatus' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaisaPayStatus'
         ),
-        'paymentMethod' => array(
+        'PaymentMethod' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaymentMethod'
         ),
-        'proStoresPreference' => array(
+        'ProStoresPreference' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ProStoresCheckoutPreferenceType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ProStoresPreference'
         ),
-        'qualifiesForB2Bvat' => array(
+        'QualifiesForB2BVAT' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'QualifiesForB2BVAT'
         ),
-        'recoupmentPolicyConsent' => array(
+        'RecoupmentPolicyConsent' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\RecoupmentPolicyConsentType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RecoupmentPolicyConsent'
         ),
-        'registeredBusinessSeller' => array(
+        'RegisteredBusinessSeller' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RegisteredBusinessSeller'
         ),
-        'safePaymentExempt' => array(
+        'SafePaymentExempt' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SafePaymentExempt'
         ),
-        'schedulingInfo' => array(
+        'SchedulingInfo' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SchedulingInfoType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SchedulingInfo'
         ),
-        'sellerBusinessType' => array(
+        'SellerBusinessType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerBusinessType'
         ),
-        'sellerGuaranteeLevel' => array(
+        'SellerGuaranteeLevel' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerGuaranteeLevel'
         ),
-        'sellerLevel' => array(
+        'SellerLevel' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerLevel'
         ),
-        'sellerPaymentAddress' => array(
+        'SellerPaymentAddress' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerPaymentAddress'
         ),
-        'sellereBayPaymentProcessConsent' => array(
+        'SellereBayPaymentProcessConsent' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellereBayPaymentProcessConsentCodeType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellereBayPaymentProcessConsent'
         ),
-        'sellereBayPaymentProcessStatus' => array(
+        'SellereBayPaymentProcessStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellereBayPaymentProcessStatus'
         ),
-        'storeOwner' => array(
+        'StoreOwner' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StoreOwner'
         ),
-        'storeSite' => array(
+        'StoreSite' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StoreSite'
         ),
-        'storeUrl' => array(
+        'StoreURL' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StoreURL'
         ),
-        'topRatedSeller' => array(
+        'TopRatedSeller' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TopRatedSeller'
         ),
-        'topRatedSellerDetails' => array(
+        'TopRatedSellerDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\TopRatedSellerDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TopRatedSellerDetails'
         ),
-        'transactionPercent' => array(
+        'TransactionPercent' => array(
             'type' => 'double',
             'unbound' => false,
             'attribute' => false,
@@ -257,18 +257,12 @@ class SellerType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

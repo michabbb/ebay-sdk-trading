@@ -19,17 +19,17 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BotBlockRequestType $botBlock
- * @property DTS\eBaySDK\Trading\Enums\DetailLevelCodeType(string) $detailLevel
- * @property string $endUserIp
- * @property DTS\eBaySDK\Trading\Enums\ErrorHandlingCodeType(string) $errorHandling
- * @property string $errorLanguage
- * @property string $invocationId
- * @property string $messageId
- * @property string $outputSelector
- * @property DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType $requesterCredentials
- * @property string $version
- * @property DTS\eBaySDK\Trading\Enums\WarningLevelCodeType(string) $warningLevel
+ * @property DTS\eBaySDK\Trading\Types\BotBlockRequestType $BotBlock
+ * @property DTS\eBaySDK\Trading\Enums\DetailLevelCodeType(string) $DetailLevel
+ * @property string $EndUserIP
+ * @property DTS\eBaySDK\Trading\Enums\ErrorHandlingCodeType(string) $ErrorHandling
+ * @property string $ErrorLanguage
+ * @property string $InvocationID
+ * @property string $MessageID
+ * @property string $OutputSelector
+ * @property DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType $RequesterCredentials
+ * @property string $Version
+ * @property DTS\eBaySDK\Trading\Enums\WarningLevelCodeType(string) $WarningLevel
  */
 class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -37,67 +37,67 @@ class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'botBlock' => array(
+        'BotBlock' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\BotBlockRequestType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BotBlock'
         ),
-        'detailLevel' => array(
+        'DetailLevel' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'DetailLevel'
         ),
-        'endUserIp' => array(
+        'EndUserIP' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EndUserIP'
         ),
-        'errorHandling' => array(
+        'ErrorHandling' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ErrorHandling'
         ),
-        'errorLanguage' => array(
+        'ErrorLanguage' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ErrorLanguage'
         ),
-        'invocationId' => array(
+        'InvocationID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'InvocationID'
         ),
-        'messageId' => array(
+        'MessageID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MessageID'
         ),
-        'outputSelector' => array(
+        'OutputSelector' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'OutputSelector'
         ),
-        'requesterCredentials' => array(
+        'RequesterCredentials' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RequesterCredentials'
         ),
-        'version' => array(
+        'Version' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Version'
         ),
-        'warningLevel' => array(
+        'WarningLevel' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -110,18 +110,12 @@ class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

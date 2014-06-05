@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $activeList
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $bidList
- * @property DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $deletedFromSoldList
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $deletedFromUnsoldList
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $scheduledList
- * @property DTS\eBaySDK\Trading\Types\SellingSummaryType $sellingSummary
- * @property DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $soldList
- * @property DTS\eBaySDK\Trading\Types\MyeBaySellingSummaryType $summary
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $unsoldList
+ * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $ActiveList
+ * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BidList
+ * @property DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $DeletedFromSoldList
+ * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $DeletedFromUnsoldList
+ * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $ScheduledList
+ * @property DTS\eBaySDK\Trading\Types\SellingSummaryType $SellingSummary
+ * @property DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $SoldList
+ * @property DTS\eBaySDK\Trading\Types\MyeBaySellingSummaryType $Summary
+ * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $UnsoldList
  */
 class GetMyeBaySellingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -35,55 +35,55 @@ class GetMyeBaySellingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'activeList' => array(
+        'ActiveList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ActiveList'
         ),
-        'bidList' => array(
+        'BidList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BidList'
         ),
-        'deletedFromSoldList' => array(
+        'DeletedFromSoldList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromSoldList'
         ),
-        'deletedFromUnsoldList' => array(
+        'DeletedFromUnsoldList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromUnsoldList'
         ),
-        'scheduledList' => array(
+        'ScheduledList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ScheduledList'
         ),
-        'sellingSummary' => array(
+        'SellingSummary' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellingSummaryType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellingSummary'
         ),
-        'soldList' => array(
+        'SoldList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SoldList'
         ),
-        'summary' => array(
+        'Summary' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MyeBaySellingSummaryType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Summary'
         ),
-        'unsoldList' => array(
+        'UnsoldList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'unbound' => false,
             'attribute' => false,
@@ -96,18 +96,12 @@ class GetMyeBaySellingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

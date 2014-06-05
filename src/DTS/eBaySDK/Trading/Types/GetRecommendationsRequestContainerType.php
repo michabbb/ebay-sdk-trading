@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $correlationId
- * @property string $deletedField
- * @property boolean $excludeRelationships
- * @property boolean $includeConfidence
- * @property DTS\eBaySDK\Trading\Types\ItemType $item
- * @property DTS\eBaySDK\Trading\Enums\ListingFlowCodeType(string) $listingFlow
- * @property string $query
- * @property DTS\eBaySDK\Trading\Enums\RecommendationEngineCodeType(string) $recommendationEngine
+ * @property string $CorrelationID
+ * @property string $DeletedField
+ * @property boolean $ExcludeRelationships
+ * @property boolean $IncludeConfidence
+ * @property DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property DTS\eBaySDK\Trading\Enums\ListingFlowCodeType(string) $ListingFlow
+ * @property string $Query
+ * @property DTS\eBaySDK\Trading\Enums\RecommendationEngineCodeType(string) $RecommendationEngine
  */
 class GetRecommendationsRequestContainerType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -34,49 +34,49 @@ class GetRecommendationsRequestContainerType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'correlationId' => array(
+        'CorrelationID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CorrelationID'
         ),
-        'deletedField' => array(
+        'DeletedField' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'DeletedField'
         ),
-        'excludeRelationships' => array(
+        'ExcludeRelationships' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExcludeRelationships'
         ),
-        'includeConfidence' => array(
+        'IncludeConfidence' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IncludeConfidence'
         ),
-        'item' => array(
+        'Item' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Item'
         ),
-        'listingFlow' => array(
+        'ListingFlow' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingFlow'
         ),
-        'query' => array(
+        'Query' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Query'
         ),
-        'recommendationEngine' => array(
+        'RecommendationEngine' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
@@ -89,18 +89,12 @@ class GetRecommendationsRequestContainerType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

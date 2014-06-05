@@ -67,14 +67,14 @@ $service = new TradingService(new HttpClient(), array(
 
 // Create the API request object.
 $request = new GeteBayOfficialTimeRequestType();
-$request->requesterCredentials = new CustomSecurityHeaderType();
-$request->requesterCredentials->eBayAuthToken = <a valid authorization token>;
+$request->RequesterCredentials = new CustomSecurityHeaderType();
+$request->RequesterCredentials->eBayAuthToken = <a valid authorization token>;
 
 // Send the request.
 $response = $service->geteBayOfficialTime($request);
 
 // Output the response from the API.
-echo 'The official eBay time is: '.$response->timestamp->format('H:i (\G\M\T) \o\n l jS Y')."\n";
+echo 'The official eBay time is: '.$response->Timestamp->format('H:i (\G\M\T) \o\n l jS Y')."\n";
 ```
 
 ## SDK and eBay API versions.

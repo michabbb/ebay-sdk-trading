@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $storeCategory2Id
- * @property string $storeCategory2Name
- * @property integer $storeCategoryId
- * @property string $storeCategoryName
- * @property string $storeName
- * @property string $storeUrl
+ * @property integer $StoreCategory2ID
+ * @property string $StoreCategory2Name
+ * @property integer $StoreCategoryID
+ * @property string $StoreCategoryName
+ * @property string $StoreName
+ * @property string $StoreURL
  */
 class StorefrontType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -32,37 +32,37 @@ class StorefrontType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'storeCategory2Id' => array(
+        'StoreCategory2ID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StoreCategory2ID'
         ),
-        'storeCategory2Name' => array(
+        'StoreCategory2Name' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StoreCategory2Name'
         ),
-        'storeCategoryId' => array(
+        'StoreCategoryID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StoreCategoryID'
         ),
-        'storeCategoryName' => array(
+        'StoreCategoryName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StoreCategoryName'
         ),
-        'storeName' => array(
+        'StoreName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StoreName'
         ),
-        'storeUrl' => array(
+        'StoreURL' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -75,18 +75,12 @@ class StorefrontType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

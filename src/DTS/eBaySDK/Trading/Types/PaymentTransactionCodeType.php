@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $feeOrCreditAmount
- * @property DTS\eBaySDK\Trading\Types\UserIdentityType $payee
- * @property DTS\eBaySDK\Trading\Types\UserIdentityType $payer
- * @property DTS\eBaySDK\Trading\Types\AmountType $paymentAmount
- * @property DTS\eBaySDK\Trading\Types\TransactionReferenceType $paymentReferenceId
- * @property DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType(string) $paymentStatus
- * @property DateTime $paymentTime
- * @property DTS\eBaySDK\Trading\Types\TransactionReferenceType $referenceId
+ * @property DTS\eBaySDK\Trading\Types\AmountType $FeeOrCreditAmount
+ * @property DTS\eBaySDK\Trading\Types\UserIdentityType $Payee
+ * @property DTS\eBaySDK\Trading\Types\UserIdentityType $Payer
+ * @property DTS\eBaySDK\Trading\Types\AmountType $PaymentAmount
+ * @property DTS\eBaySDK\Trading\Types\TransactionReferenceType $PaymentReferenceID
+ * @property DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType(string) $PaymentStatus
+ * @property DateTime $PaymentTime
+ * @property DTS\eBaySDK\Trading\Types\TransactionReferenceType $ReferenceID
  */
 class PaymentTransactionCodeType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -34,49 +34,49 @@ class PaymentTransactionCodeType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'feeOrCreditAmount' => array(
+        'FeeOrCreditAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FeeOrCreditAmount'
         ),
-        'payee' => array(
+        'Payee' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\UserIdentityType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Payee'
         ),
-        'payer' => array(
+        'Payer' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\UserIdentityType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Payer'
         ),
-        'paymentAmount' => array(
+        'PaymentAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaymentAmount'
         ),
-        'paymentReferenceId' => array(
+        'PaymentReferenceID' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\TransactionReferenceType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'PaymentReferenceID'
         ),
-        'paymentStatus' => array(
+        'PaymentStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaymentStatus'
         ),
-        'paymentTime' => array(
+        'PaymentTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaymentTime'
         ),
-        'referenceId' => array(
+        'ReferenceID' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\TransactionReferenceType',
             'unbound' => false,
             'attribute' => false,
@@ -89,18 +89,12 @@ class PaymentTransactionCodeType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

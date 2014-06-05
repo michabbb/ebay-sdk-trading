@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $feeOrCreditAmount
- * @property DTS\eBaySDK\Trading\Types\TransactionReferenceType $referenceId
- * @property DTS\eBaySDK\Trading\Types\AmountType $refundAmount
- * @property DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType(string) $refundStatus
- * @property DateTime $refundTime
- * @property DTS\eBaySDK\Trading\Types\UserIdentityType $refundTo
- * @property DTS\eBaySDK\Trading\Enums\RefundSourceTypeCodeType(string) $refundType
+ * @property DTS\eBaySDK\Trading\Types\AmountType $FeeOrCreditAmount
+ * @property DTS\eBaySDK\Trading\Types\TransactionReferenceType $ReferenceID
+ * @property DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
+ * @property DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType(string) $RefundStatus
+ * @property DateTime $RefundTime
+ * @property DTS\eBaySDK\Trading\Types\UserIdentityType $RefundTo
+ * @property DTS\eBaySDK\Trading\Enums\RefundSourceTypeCodeType(string) $RefundType
  */
 class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,43 +33,43 @@ class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'feeOrCreditAmount' => array(
+        'FeeOrCreditAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FeeOrCreditAmount'
         ),
-        'referenceId' => array(
+        'ReferenceID' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\TransactionReferenceType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReferenceID'
         ),
-        'refundAmount' => array(
+        'RefundAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RefundAmount'
         ),
-        'refundStatus' => array(
+        'RefundStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RefundStatus'
         ),
-        'refundTime' => array(
+        'RefundTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RefundTime'
         ),
-        'refundTo' => array(
+        'RefundTo' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\UserIdentityType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RefundTo'
         ),
-        'refundType' => array(
+        'RefundType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

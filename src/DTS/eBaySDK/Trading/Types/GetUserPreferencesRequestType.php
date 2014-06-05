@@ -19,25 +19,25 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $showBidderNoticePreferences
- * @property boolean $showCombinedPaymentPreferences
- * @property boolean $showCrossPromotionPreferences
- * @property boolean $showDispatchCutoffTimePreferences
- * @property boolean $showEmailShipmentTrackingNumberPreference
- * @property boolean $showEndOfAuctionEmailPreferences
- * @property boolean $showGlobalShippingProgramListingPreference
- * @property boolean $showGlobalShippingProgramPreference
- * @property boolean $showOverrideGspsErviceWithIntlServicePreference
- * @property boolean $showProStoresPreferences
- * @property boolean $showPurchaseReminderEmailPreferences
- * @property boolean $showRequiredShipPhoneNumberPreference
- * @property boolean $showSellerExcludeShipToLocationPreference
- * @property boolean $showSellerFavoriteItemPreferences
- * @property boolean $showSellerPaymentPreferences
- * @property boolean $showSellerProfilePreferences
- * @property boolean $showSellerReturnPreferences
- * @property boolean $showUnpaidItemAssistanceExclusionList
- * @property boolean $showUnpaidItemAssistancePreference
+ * @property boolean $ShowBidderNoticePreferences
+ * @property boolean $ShowCombinedPaymentPreferences
+ * @property boolean $ShowCrossPromotionPreferences
+ * @property boolean $ShowDispatchCutoffTimePreferences
+ * @property boolean $ShowEmailShipmentTrackingNumberPreference
+ * @property boolean $ShowEndOfAuctionEmailPreferences
+ * @property boolean $ShowGlobalShippingProgramListingPreference
+ * @property boolean $ShowGlobalShippingProgramPreference
+ * @property boolean $ShowOverrideGSPServiceWithIntlServicePreference
+ * @property boolean $ShowProStoresPreferences
+ * @property boolean $ShowPurchaseReminderEmailPreferences
+ * @property boolean $ShowRequiredShipPhoneNumberPreference
+ * @property boolean $ShowSellerExcludeShipToLocationPreference
+ * @property boolean $ShowSellerFavoriteItemPreferences
+ * @property boolean $ShowSellerPaymentPreferences
+ * @property boolean $ShowSellerProfilePreferences
+ * @property boolean $ShowSellerReturnPreferences
+ * @property boolean $ShowUnpaidItemAssistanceExclusionList
+ * @property boolean $ShowUnpaidItemAssistancePreference
  */
 class GetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -45,115 +45,115 @@ class GetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'showBidderNoticePreferences' => array(
+        'ShowBidderNoticePreferences' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowBidderNoticePreferences'
         ),
-        'showCombinedPaymentPreferences' => array(
+        'ShowCombinedPaymentPreferences' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowCombinedPaymentPreferences'
         ),
-        'showCrossPromotionPreferences' => array(
+        'ShowCrossPromotionPreferences' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowCrossPromotionPreferences'
         ),
-        'showDispatchCutoffTimePreferences' => array(
+        'ShowDispatchCutoffTimePreferences' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowDispatchCutoffTimePreferences'
         ),
-        'showEmailShipmentTrackingNumberPreference' => array(
+        'ShowEmailShipmentTrackingNumberPreference' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowEmailShipmentTrackingNumberPreference'
         ),
-        'showEndOfAuctionEmailPreferences' => array(
+        'ShowEndOfAuctionEmailPreferences' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowEndOfAuctionEmailPreferences'
         ),
-        'showGlobalShippingProgramListingPreference' => array(
+        'ShowGlobalShippingProgramListingPreference' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowGlobalShippingProgramListingPreference'
         ),
-        'showGlobalShippingProgramPreference' => array(
+        'ShowGlobalShippingProgramPreference' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowGlobalShippingProgramPreference'
         ),
-        'showOverrideGspsErviceWithIntlServicePreference' => array(
+        'ShowOverrideGSPServiceWithIntlServicePreference' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowOverrideGSPServiceWithIntlServicePreference'
         ),
-        'showProStoresPreferences' => array(
+        'ShowProStoresPreferences' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowProStoresPreferences'
         ),
-        'showPurchaseReminderEmailPreferences' => array(
+        'ShowPurchaseReminderEmailPreferences' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowPurchaseReminderEmailPreferences'
         ),
-        'showRequiredShipPhoneNumberPreference' => array(
+        'ShowRequiredShipPhoneNumberPreference' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowRequiredShipPhoneNumberPreference'
         ),
-        'showSellerExcludeShipToLocationPreference' => array(
+        'ShowSellerExcludeShipToLocationPreference' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowSellerExcludeShipToLocationPreference'
         ),
-        'showSellerFavoriteItemPreferences' => array(
+        'ShowSellerFavoriteItemPreferences' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowSellerFavoriteItemPreferences'
         ),
-        'showSellerPaymentPreferences' => array(
+        'ShowSellerPaymentPreferences' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowSellerPaymentPreferences'
         ),
-        'showSellerProfilePreferences' => array(
+        'ShowSellerProfilePreferences' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowSellerProfilePreferences'
         ),
-        'showSellerReturnPreferences' => array(
+        'ShowSellerReturnPreferences' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowSellerReturnPreferences'
         ),
-        'showUnpaidItemAssistanceExclusionList' => array(
+        'ShowUnpaidItemAssistanceExclusionList' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowUnpaidItemAssistanceExclusionList'
         ),
-        'showUnpaidItemAssistancePreference' => array(
+        'ShowUnpaidItemAssistancePreference' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
@@ -166,18 +166,12 @@ class GetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

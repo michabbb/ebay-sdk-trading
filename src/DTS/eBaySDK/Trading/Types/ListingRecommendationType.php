@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $code
- * @property string $fieldName
- * @property string $group
- * @property string $message
- * @property string $type
- * @property string $value
+ * @property string $Code
+ * @property string $FieldName
+ * @property string $Group
+ * @property string $Message
+ * @property string $Type
+ * @property string $Value
  */
 class ListingRecommendationType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -32,37 +32,37 @@ class ListingRecommendationType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'code' => array(
+        'Code' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Code'
         ),
-        'fieldName' => array(
+        'FieldName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FieldName'
         ),
-        'group' => array(
+        'Group' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Group'
         ),
-        'message' => array(
+        'Message' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Message'
         ),
-        'type' => array(
+        'Type' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Type'
         ),
-        'value' => array(
+        'Value' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
@@ -75,18 +75,12 @@ class ListingRecommendationType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

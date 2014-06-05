@@ -19,27 +19,27 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $adult
- * @property DTS\eBaySDK\Trading\Types\AmountType $bestOfferAutoAcceptPrice
- * @property boolean $bindingAuction
- * @property boolean $buyItNowAvailable
- * @property boolean $checkoutEnabled
- * @property DTS\eBaySDK\Trading\Types\AmountType $convertedBuyItNowPrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $convertedReservePrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $convertedStartPrice
- * @property DateTime $endTime
- * @property DTS\eBaySDK\Trading\Enums\EndReasonCodeType(string) $endingReason
- * @property boolean $hasPublicMessages
- * @property boolean $hasReservePrice
- * @property boolean $hasUnansweredQuestions
- * @property string $localListingDistance
- * @property DTS\eBaySDK\Trading\Types\AmountType $minimumBestOfferPrice
- * @property string $relistedItemId
- * @property string $secondChanceOriginalItemId
- * @property DateTime $startTime
- * @property string $tcroRiginalItemId
- * @property string $viewItemUrl
- * @property string $viewItemUrlfOrNaturalSearch
+ * @property boolean $Adult
+ * @property DTS\eBaySDK\Trading\Types\AmountType $BestOfferAutoAcceptPrice
+ * @property boolean $BindingAuction
+ * @property boolean $BuyItNowAvailable
+ * @property boolean $CheckoutEnabled
+ * @property DTS\eBaySDK\Trading\Types\AmountType $ConvertedBuyItNowPrice
+ * @property DTS\eBaySDK\Trading\Types\AmountType $ConvertedReservePrice
+ * @property DTS\eBaySDK\Trading\Types\AmountType $ConvertedStartPrice
+ * @property DateTime $EndTime
+ * @property DTS\eBaySDK\Trading\Enums\EndReasonCodeType(string) $EndingReason
+ * @property boolean $HasPublicMessages
+ * @property boolean $HasReservePrice
+ * @property boolean $HasUnansweredQuestions
+ * @property string $LocalListingDistance
+ * @property DTS\eBaySDK\Trading\Types\AmountType $MinimumBestOfferPrice
+ * @property string $RelistedItemID
+ * @property string $SecondChanceOriginalItemID
+ * @property DateTime $StartTime
+ * @property string $TCROriginalItemID
+ * @property string $ViewItemURL
+ * @property string $ViewItemURLForNaturalSearch
  */
 class ListingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -47,127 +47,127 @@ class ListingDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'adult' => array(
+        'Adult' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Adult'
         ),
-        'bestOfferAutoAcceptPrice' => array(
+        'BestOfferAutoAcceptPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOfferAutoAcceptPrice'
         ),
-        'bindingAuction' => array(
+        'BindingAuction' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BindingAuction'
         ),
-        'buyItNowAvailable' => array(
+        'BuyItNowAvailable' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyItNowAvailable'
         ),
-        'checkoutEnabled' => array(
+        'CheckoutEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CheckoutEnabled'
         ),
-        'convertedBuyItNowPrice' => array(
+        'ConvertedBuyItNowPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ConvertedBuyItNowPrice'
         ),
-        'convertedReservePrice' => array(
+        'ConvertedReservePrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ConvertedReservePrice'
         ),
-        'convertedStartPrice' => array(
+        'ConvertedStartPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ConvertedStartPrice'
         ),
-        'endTime' => array(
+        'EndTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EndTime'
         ),
-        'endingReason' => array(
+        'EndingReason' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EndingReason'
         ),
-        'hasPublicMessages' => array(
+        'HasPublicMessages' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HasPublicMessages'
         ),
-        'hasReservePrice' => array(
+        'HasReservePrice' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HasReservePrice'
         ),
-        'hasUnansweredQuestions' => array(
+        'HasUnansweredQuestions' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HasUnansweredQuestions'
         ),
-        'localListingDistance' => array(
+        'LocalListingDistance' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LocalListingDistance'
         ),
-        'minimumBestOfferPrice' => array(
+        'MinimumBestOfferPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MinimumBestOfferPrice'
         ),
-        'relistedItemId' => array(
+        'RelistedItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RelistedItemID'
         ),
-        'secondChanceOriginalItemId' => array(
+        'SecondChanceOriginalItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SecondChanceOriginalItemID'
         ),
-        'startTime' => array(
+        'StartTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StartTime'
         ),
-        'tcroRiginalItemId' => array(
+        'TCROriginalItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TCROriginalItemID'
         ),
-        'viewItemUrl' => array(
+        'ViewItemURL' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ViewItemURL'
         ),
-        'viewItemUrlfOrNaturalSearch' => array(
+        'ViewItemURLForNaturalSearch' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -180,18 +180,12 @@ class ListingDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

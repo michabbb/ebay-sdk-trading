@@ -19,26 +19,26 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\AccountStateCodeType(string) $accountState
- * @property DTS\eBaySDK\Trading\Types\AdditionalAccountType $additionalAccount
- * @property DTS\eBaySDK\Trading\Types\AmountType $amountPastDue
- * @property string $bankAccountInfo
- * @property DateTime $bankModifyDate
- * @property integer $billingCycleDate
- * @property DateTime $creditCardExpiration
- * @property string $creditCardInfo
- * @property DateTime $creditCardModifyDate
- * @property DTS\eBaySDK\Trading\Types\AmountType $currentBalance
- * @property string $email
- * @property DTS\eBaySDK\Trading\Types\AmountType $invoiceBalance
- * @property DTS\eBaySDK\Trading\Types\AmountType $invoiceCredit
- * @property DateTime $invoiceDate
- * @property DTS\eBaySDK\Trading\Types\AmountType $invoiceNewFee
- * @property DTS\eBaySDK\Trading\Types\AmountType $invoicePayment
- * @property DTS\eBaySDK\Trading\Types\AmountType $lastAmountPaid
- * @property DateTime $lastPaymentDate
- * @property boolean $pastDue
- * @property DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType(string) $paymentMethod
+ * @property DTS\eBaySDK\Trading\Enums\AccountStateCodeType(string) $AccountState
+ * @property DTS\eBaySDK\Trading\Types\AdditionalAccountType $AdditionalAccount
+ * @property DTS\eBaySDK\Trading\Types\AmountType $AmountPastDue
+ * @property string $BankAccountInfo
+ * @property DateTime $BankModifyDate
+ * @property integer $BillingCycleDate
+ * @property DateTime $CreditCardExpiration
+ * @property string $CreditCardInfo
+ * @property DateTime $CreditCardModifyDate
+ * @property DTS\eBaySDK\Trading\Types\AmountType $CurrentBalance
+ * @property string $Email
+ * @property DTS\eBaySDK\Trading\Types\AmountType $InvoiceBalance
+ * @property DTS\eBaySDK\Trading\Types\AmountType $InvoiceCredit
+ * @property DateTime $InvoiceDate
+ * @property DTS\eBaySDK\Trading\Types\AmountType $InvoiceNewFee
+ * @property DTS\eBaySDK\Trading\Types\AmountType $InvoicePayment
+ * @property DTS\eBaySDK\Trading\Types\AmountType $LastAmountPaid
+ * @property DateTime $LastPaymentDate
+ * @property boolean $PastDue
+ * @property DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType(string) $PaymentMethod
  */
 class AccountSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -46,121 +46,121 @@ class AccountSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'accountState' => array(
+        'AccountState' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AccountState'
         ),
-        'additionalAccount' => array(
+        'AdditionalAccount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AdditionalAccountType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'AdditionalAccount'
         ),
-        'amountPastDue' => array(
+        'AmountPastDue' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AmountPastDue'
         ),
-        'bankAccountInfo' => array(
+        'BankAccountInfo' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BankAccountInfo'
         ),
-        'bankModifyDate' => array(
+        'BankModifyDate' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BankModifyDate'
         ),
-        'billingCycleDate' => array(
+        'BillingCycleDate' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BillingCycleDate'
         ),
-        'creditCardExpiration' => array(
+        'CreditCardExpiration' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CreditCardExpiration'
         ),
-        'creditCardInfo' => array(
+        'CreditCardInfo' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CreditCardInfo'
         ),
-        'creditCardModifyDate' => array(
+        'CreditCardModifyDate' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CreditCardModifyDate'
         ),
-        'currentBalance' => array(
+        'CurrentBalance' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CurrentBalance'
         ),
-        'email' => array(
+        'Email' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Email'
         ),
-        'invoiceBalance' => array(
+        'InvoiceBalance' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'InvoiceBalance'
         ),
-        'invoiceCredit' => array(
+        'InvoiceCredit' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'InvoiceCredit'
         ),
-        'invoiceDate' => array(
+        'InvoiceDate' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'InvoiceDate'
         ),
-        'invoiceNewFee' => array(
+        'InvoiceNewFee' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'InvoiceNewFee'
         ),
-        'invoicePayment' => array(
+        'InvoicePayment' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'InvoicePayment'
         ),
-        'lastAmountPaid' => array(
+        'LastAmountPaid' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LastAmountPaid'
         ),
-        'lastPaymentDate' => array(
+        'LastPaymentDate' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LastPaymentDate'
         ),
-        'pastDue' => array(
+        'PastDue' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PastDue'
         ),
-        'paymentMethod' => array(
+        'PaymentMethod' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -173,18 +173,12 @@ class AccountSummaryType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

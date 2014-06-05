@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BestOfferDetailsType $bestOfferDetails
- * @property integer $listingHoldInventoryLevel
- * @property integer $relistAfterDays
- * @property integer $relistAfterHours
- * @property string $relistAtSpecificTimeOfDay
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistOptionCodeType(string) $relistCondition
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistTypeCodeType(string) $type
+ * @property DTS\eBaySDK\Trading\Types\BestOfferDetailsType $BestOfferDetails
+ * @property integer $ListingHoldInventoryLevel
+ * @property integer $RelistAfterDays
+ * @property integer $RelistAfterHours
+ * @property string $RelistAtSpecificTimeOfDay
+ * @property DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistOptionCodeType(string) $RelistCondition
+ * @property DTS\eBaySDK\Trading\Enums\SellingManagerAutoRelistTypeCodeType(string) $Type
  */
 class SellingManagerAutoRelistType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,43 +33,43 @@ class SellingManagerAutoRelistType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bestOfferDetails' => array(
+        'BestOfferDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\BestOfferDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOfferDetails'
         ),
-        'listingHoldInventoryLevel' => array(
+        'ListingHoldInventoryLevel' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingHoldInventoryLevel'
         ),
-        'relistAfterDays' => array(
+        'RelistAfterDays' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RelistAfterDays'
         ),
-        'relistAfterHours' => array(
+        'RelistAfterHours' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RelistAfterHours'
         ),
-        'relistAtSpecificTimeOfDay' => array(
+        'RelistAtSpecificTimeOfDay' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RelistAtSpecificTimeOfDay'
         ),
-        'relistCondition' => array(
+        'RelistCondition' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RelistCondition'
         ),
-        'type' => array(
+        'Type' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class SellingManagerAutoRelistType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

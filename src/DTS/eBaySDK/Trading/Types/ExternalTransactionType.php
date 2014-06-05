@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $externalTransactionId
- * @property DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType(string) $externalTransactionStatus
- * @property DateTime $externalTransactionTime
- * @property DTS\eBaySDK\Trading\Types\AmountType $feeOrCreditAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $paymentOrRefundAmount
+ * @property string $ExternalTransactionID
+ * @property DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType(string) $ExternalTransactionStatus
+ * @property DateTime $ExternalTransactionTime
+ * @property DTS\eBaySDK\Trading\Types\AmountType $FeeOrCreditAmount
+ * @property DTS\eBaySDK\Trading\Types\AmountType $PaymentOrRefundAmount
  */
 class ExternalTransactionType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -31,31 +31,31 @@ class ExternalTransactionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'externalTransactionId' => array(
+        'ExternalTransactionID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExternalTransactionID'
         ),
-        'externalTransactionStatus' => array(
+        'ExternalTransactionStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExternalTransactionStatus'
         ),
-        'externalTransactionTime' => array(
+        'ExternalTransactionTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExternalTransactionTime'
         ),
-        'feeOrCreditAmount' => array(
+        'FeeOrCreditAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FeeOrCreditAmount'
         ),
-        'paymentOrRefundAmount' => array(
+        'PaymentOrRefundAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
@@ -68,18 +68,12 @@ class ExternalTransactionType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

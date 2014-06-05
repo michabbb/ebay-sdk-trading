@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType $buyerSatisfaction
- * @property DTS\eBaySDK\Trading\Types\PerformanceDashboardType $performance
- * @property DTS\eBaySDK\Trading\Types\PowerSellerDashboardType $powerSellerStatus
- * @property DTS\eBaySDK\Trading\Types\SearchStandingDashboardType $searchStanding
- * @property DTS\eBaySDK\Trading\Types\SellerAccountDashboardType $sellerAccount
- * @property DTS\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType $sellerFeeDiscount
+ * @property DTS\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType $BuyerSatisfaction
+ * @property DTS\eBaySDK\Trading\Types\PerformanceDashboardType $Performance
+ * @property DTS\eBaySDK\Trading\Types\PowerSellerDashboardType $PowerSellerStatus
+ * @property DTS\eBaySDK\Trading\Types\SearchStandingDashboardType $SearchStanding
+ * @property DTS\eBaySDK\Trading\Types\SellerAccountDashboardType $SellerAccount
+ * @property DTS\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType $SellerFeeDiscount
  */
 class GetSellerDashboardResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -32,37 +32,37 @@ class GetSellerDashboardResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'buyerSatisfaction' => array(
+        'BuyerSatisfaction' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyerSatisfaction'
         ),
-        'performance' => array(
+        'Performance' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PerformanceDashboardType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'Performance'
         ),
-        'powerSellerStatus' => array(
+        'PowerSellerStatus' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PowerSellerDashboardType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PowerSellerStatus'
         ),
-        'searchStanding' => array(
+        'SearchStanding' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SearchStandingDashboardType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SearchStanding'
         ),
-        'sellerAccount' => array(
+        'SellerAccount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellerAccountDashboardType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerAccount'
         ),
-        'sellerFeeDiscount' => array(
+        'SellerFeeDiscount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType',
             'unbound' => false,
             'attribute' => false,
@@ -75,18 +75,12 @@ class GetSellerDashboardResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

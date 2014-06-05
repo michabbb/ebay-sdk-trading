@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $hours1AnyTime
- * @property DTS\eBaySDK\Trading\Enums\DaysCodeType(string) $hours1Days
- * @property string $hours1From
- * @property string $hours1To
- * @property boolean $hours2AnyTime
- * @property DTS\eBaySDK\Trading\Enums\DaysCodeType(string) $hours2Days
- * @property string $hours2From
- * @property string $hours2To
- * @property string $timeZoneId
+ * @property boolean $Hours1AnyTime
+ * @property DTS\eBaySDK\Trading\Enums\DaysCodeType(string) $Hours1Days
+ * @property string $Hours1From
+ * @property string $Hours1To
+ * @property boolean $Hours2AnyTime
+ * @property DTS\eBaySDK\Trading\Enums\DaysCodeType(string) $Hours2Days
+ * @property string $Hours2From
+ * @property string $Hours2To
+ * @property string $TimeZoneID
  */
 class ContactHoursDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,55 +35,55 @@ class ContactHoursDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'hours1AnyTime' => array(
+        'Hours1AnyTime' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Hours1AnyTime'
         ),
-        'hours1Days' => array(
+        'Hours1Days' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Hours1Days'
         ),
-        'hours1From' => array(
+        'Hours1From' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Hours1From'
         ),
-        'hours1To' => array(
+        'Hours1To' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Hours1To'
         ),
-        'hours2AnyTime' => array(
+        'Hours2AnyTime' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Hours2AnyTime'
         ),
-        'hours2Days' => array(
+        'Hours2Days' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Hours2Days'
         ),
-        'hours2From' => array(
+        'Hours2From' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Hours2From'
         ),
-        'hours2To' => array(
+        'Hours2To' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Hours2To'
         ),
-        'timeZoneId' => array(
+        'TimeZoneID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -96,18 +96,12 @@ class ContactHoursDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

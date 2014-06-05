@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $buyItNowAdded
- * @property boolean $buyItNowLowered
- * @property boolean $itemRevised
- * @property boolean $reserveLowered
- * @property boolean $reserveRemoved
+ * @property boolean $BuyItNowAdded
+ * @property boolean $BuyItNowLowered
+ * @property boolean $ItemRevised
+ * @property boolean $ReserveLowered
+ * @property boolean $ReserveRemoved
  */
 class ReviseStatusType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -31,31 +31,31 @@ class ReviseStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'buyItNowAdded' => array(
+        'BuyItNowAdded' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyItNowAdded'
         ),
-        'buyItNowLowered' => array(
+        'BuyItNowLowered' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyItNowLowered'
         ),
-        'itemRevised' => array(
+        'ItemRevised' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemRevised'
         ),
-        'reserveLowered' => array(
+        'ReserveLowered' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReserveLowered'
         ),
-        'reserveRemoved' => array(
+        'ReserveRemoved' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
@@ -68,18 +68,12 @@ class ReviseStatusType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

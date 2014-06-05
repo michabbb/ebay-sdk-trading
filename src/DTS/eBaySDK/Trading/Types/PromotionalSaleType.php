@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\DiscountCodeType(string) $discountType
- * @property double $discountValue
- * @property DateTime $promotionalSaleEndTime
- * @property integer $promotionalSaleId
- * @property DTS\eBaySDK\Trading\Types\ItemIDArrayType $promotionalSaleItemIdaRray
- * @property string $promotionalSaleName
- * @property DateTime $promotionalSaleStartTime
- * @property DTS\eBaySDK\Trading\Enums\PromotionalSaleTypeCodeType(string) $promotionalSaleType
- * @property DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType(string) $status
+ * @property DTS\eBaySDK\Trading\Enums\DiscountCodeType(string) $DiscountType
+ * @property double $DiscountValue
+ * @property DateTime $PromotionalSaleEndTime
+ * @property integer $PromotionalSaleID
+ * @property DTS\eBaySDK\Trading\Types\ItemIDArrayType $PromotionalSaleItemIDArray
+ * @property string $PromotionalSaleName
+ * @property DateTime $PromotionalSaleStartTime
+ * @property DTS\eBaySDK\Trading\Enums\PromotionalSaleTypeCodeType(string) $PromotionalSaleType
+ * @property DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType(string) $Status
  */
 class PromotionalSaleType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,55 +35,55 @@ class PromotionalSaleType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'discountType' => array(
+        'DiscountType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DiscountType'
         ),
-        'discountValue' => array(
+        'DiscountValue' => array(
             'type' => 'double',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DiscountValue'
         ),
-        'promotionalSaleEndTime' => array(
+        'PromotionalSaleEndTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleEndTime'
         ),
-        'promotionalSaleId' => array(
+        'PromotionalSaleID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleID'
         ),
-        'promotionalSaleItemIdaRray' => array(
+        'PromotionalSaleItemIDArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemIDArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleItemIDArray'
         ),
-        'promotionalSaleName' => array(
+        'PromotionalSaleName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleName'
         ),
-        'promotionalSaleStartTime' => array(
+        'PromotionalSaleStartTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleStartTime'
         ),
-        'promotionalSaleType' => array(
+        'PromotionalSaleType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleType'
         ),
-        'status' => array(
+        'Status' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -96,18 +96,12 @@ class PromotionalSaleType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

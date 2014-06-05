@@ -19,24 +19,24 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $additionalInformation
- * @property DTS\eBaySDK\Trading\Types\AddressType $address
- * @property boolean $answer1
- * @property boolean $answer2
- * @property string $bestTimeToCall
- * @property string $email
- * @property string $externalEmail
- * @property boolean $financingAnswer
- * @property string $itemId
- * @property string $itemTitle
- * @property DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $memberMessage
- * @property string $purchaseTimeFrame
- * @property DTS\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType(string) $status
- * @property DateTime $submittedTime
- * @property string $tradeInMake
- * @property string $tradeInModel
- * @property string $tradeInYear
- * @property string $userId
+ * @property string $AdditionalInformation
+ * @property DTS\eBaySDK\Trading\Types\AddressType $Address
+ * @property boolean $Answer1
+ * @property boolean $Answer2
+ * @property string $BestTimeToCall
+ * @property string $Email
+ * @property string $ExternalEmail
+ * @property boolean $FinancingAnswer
+ * @property string $ItemID
+ * @property string $ItemTitle
+ * @property DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
+ * @property string $PurchaseTimeFrame
+ * @property DTS\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType(string) $Status
+ * @property DateTime $SubmittedTime
+ * @property string $TradeInMake
+ * @property string $TradeInModel
+ * @property string $TradeInYear
+ * @property string $UserID
  */
 class AdFormatLeadType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -44,109 +44,109 @@ class AdFormatLeadType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'additionalInformation' => array(
+        'AdditionalInformation' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AdditionalInformation'
         ),
-        'address' => array(
+        'Address' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AddressType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Address'
         ),
-        'answer1' => array(
+        'Answer1' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Answer1'
         ),
-        'answer2' => array(
+        'Answer2' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Answer2'
         ),
-        'bestTimeToCall' => array(
+        'BestTimeToCall' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestTimeToCall'
         ),
-        'email' => array(
+        'Email' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Email'
         ),
-        'externalEmail' => array(
+        'ExternalEmail' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExternalEmail'
         ),
-        'financingAnswer' => array(
+        'FinancingAnswer' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FinancingAnswer'
         ),
-        'itemId' => array(
+        'ItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemID'
         ),
-        'itemTitle' => array(
+        'ItemTitle' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemTitle'
         ),
-        'memberMessage' => array(
+        'MemberMessage' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MemberMessage'
         ),
-        'purchaseTimeFrame' => array(
+        'PurchaseTimeFrame' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PurchaseTimeFrame'
         ),
-        'status' => array(
+        'Status' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Status'
         ),
-        'submittedTime' => array(
+        'SubmittedTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SubmittedTime'
         ),
-        'tradeInMake' => array(
+        'TradeInMake' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TradeInMake'
         ),
-        'tradeInModel' => array(
+        'TradeInModel' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TradeInModel'
         ),
-        'tradeInYear' => array(
+        'TradeInYear' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TradeInYear'
         ),
-        'userId' => array(
+        'UserID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -159,18 +159,12 @@ class AdFormatLeadType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

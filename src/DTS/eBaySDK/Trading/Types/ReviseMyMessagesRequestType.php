@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $flagged
- * @property integer $folderId
- * @property DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $messageIdS
- * @property boolean $read
+ * @property boolean $Flagged
+ * @property integer $FolderID
+ * @property DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $MessageIDs
+ * @property boolean $Read
  */
 class ReviseMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -30,25 +30,25 @@ class ReviseMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'flagged' => array(
+        'Flagged' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Flagged'
         ),
-        'folderId' => array(
+        'FolderID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FolderID'
         ),
-        'messageIdS' => array(
+        'MessageIDs' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MessageIDs'
         ),
-        'read' => array(
+        'Read' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
@@ -61,18 +61,12 @@ class ReviseMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

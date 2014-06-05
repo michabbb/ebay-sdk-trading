@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $autoOptDonationRefund
- * @property boolean $autoRelist
- * @property integer $delayBeforeOpeningDispute
- * @property string $excludedUser
- * @property boolean $optInStatus
- * @property boolean $removeAllExcludedUsers
+ * @property boolean $AutoOptDonationRefund
+ * @property boolean $AutoRelist
+ * @property integer $DelayBeforeOpeningDispute
+ * @property string $ExcludedUser
+ * @property boolean $OptInStatus
+ * @property boolean $RemoveAllExcludedUsers
  */
 class UnpaidItemAssistancePreferencesType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -32,37 +32,37 @@ class UnpaidItemAssistancePreferencesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'autoOptDonationRefund' => array(
+        'AutoOptDonationRefund' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AutoOptDonationRefund'
         ),
-        'autoRelist' => array(
+        'AutoRelist' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AutoRelist'
         ),
-        'delayBeforeOpeningDispute' => array(
+        'DelayBeforeOpeningDispute' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DelayBeforeOpeningDispute'
         ),
-        'excludedUser' => array(
+        'ExcludedUser' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ExcludedUser'
         ),
-        'optInStatus' => array(
+        'OptInStatus' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OptInStatus'
         ),
-        'removeAllExcludedUsers' => array(
+        'RemoveAllExcludedUsers' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
@@ -75,18 +75,12 @@ class UnpaidItemAssistancePreferencesType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

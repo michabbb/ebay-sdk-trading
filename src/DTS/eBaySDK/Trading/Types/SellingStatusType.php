@@ -19,23 +19,23 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $adminEnded
- * @property integer $bidCount
- * @property DTS\eBaySDK\Trading\Types\AmountType $bidIncrement
- * @property integer $bidderCount
- * @property DTS\eBaySDK\Trading\Types\AmountType $convertedCurrentPrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $currentPrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $finalValueFee
- * @property DTS\eBaySDK\Trading\Types\UserType $highBidder
- * @property integer $leadCount
- * @property DTS\eBaySDK\Trading\Enums\ListingStatusCodeType(string) $listingStatus
- * @property DTS\eBaySDK\Trading\Types\AmountType $minimumToBid
- * @property DTS\eBaySDK\Trading\Types\PromotionalSaleDetailsType $promotionalSaleDetails
- * @property integer $quantitySold
- * @property integer $quantitySoldByPickupInStore
- * @property boolean $reserveMet
- * @property boolean $secondChanceEligible
- * @property boolean $soldAsBin
+ * @property boolean $AdminEnded
+ * @property integer $BidCount
+ * @property DTS\eBaySDK\Trading\Types\AmountType $BidIncrement
+ * @property integer $BidderCount
+ * @property DTS\eBaySDK\Trading\Types\AmountType $ConvertedCurrentPrice
+ * @property DTS\eBaySDK\Trading\Types\AmountType $CurrentPrice
+ * @property DTS\eBaySDK\Trading\Types\AmountType $FinalValueFee
+ * @property DTS\eBaySDK\Trading\Types\UserType $HighBidder
+ * @property integer $LeadCount
+ * @property DTS\eBaySDK\Trading\Enums\ListingStatusCodeType(string) $ListingStatus
+ * @property DTS\eBaySDK\Trading\Types\AmountType $MinimumToBid
+ * @property DTS\eBaySDK\Trading\Types\PromotionalSaleDetailsType $PromotionalSaleDetails
+ * @property integer $QuantitySold
+ * @property integer $QuantitySoldByPickupInStore
+ * @property boolean $ReserveMet
+ * @property boolean $SecondChanceEligible
+ * @property boolean $SoldAsBin
  */
 class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -43,103 +43,103 @@ class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'adminEnded' => array(
+        'AdminEnded' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AdminEnded'
         ),
-        'bidCount' => array(
+        'BidCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BidCount'
         ),
-        'bidIncrement' => array(
+        'BidIncrement' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BidIncrement'
         ),
-        'bidderCount' => array(
+        'BidderCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BidderCount'
         ),
-        'convertedCurrentPrice' => array(
+        'ConvertedCurrentPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ConvertedCurrentPrice'
         ),
-        'currentPrice' => array(
+        'CurrentPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CurrentPrice'
         ),
-        'finalValueFee' => array(
+        'FinalValueFee' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FinalValueFee'
         ),
-        'highBidder' => array(
+        'HighBidder' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\UserType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HighBidder'
         ),
-        'leadCount' => array(
+        'LeadCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LeadCount'
         ),
-        'listingStatus' => array(
+        'ListingStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingStatus'
         ),
-        'minimumToBid' => array(
+        'MinimumToBid' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MinimumToBid'
         ),
-        'promotionalSaleDetails' => array(
+        'PromotionalSaleDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PromotionalSaleDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleDetails'
         ),
-        'quantitySold' => array(
+        'QuantitySold' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'QuantitySold'
         ),
-        'quantitySoldByPickupInStore' => array(
+        'QuantitySoldByPickupInStore' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'QuantitySoldByPickupInStore'
         ),
-        'reserveMet' => array(
+        'ReserveMet' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReserveMet'
         ),
-        'secondChanceEligible' => array(
+        'SecondChanceEligible' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SecondChanceEligible'
         ),
-        'soldAsBin' => array(
+        'SoldAsBin' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
@@ -152,18 +152,12 @@ class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

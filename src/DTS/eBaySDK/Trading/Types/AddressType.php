@@ -19,39 +19,39 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $addressId
- * @property DTS\eBaySDK\Trading\Enums\AddressOwnerCodeType(string) $addressOwner
- * @property DTS\eBaySDK\Trading\Enums\AddressRecordTypeCodeType(string) $addressRecordType
- * @property DTS\eBaySDK\Trading\Enums\AddressStatusCodeType(string) $addressStatus
- * @property DTS\eBaySDK\Trading\Enums\AddressUsageCodeType(string) $addressUsage
- * @property string $cityName
- * @property string $companyName
- * @property DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $country
- * @property string $countryName
- * @property string $county
- * @property string $externalAddressId
- * @property string $firstName
- * @property string $internationalName
- * @property string $internationalStateAndCity
- * @property string $internationalStreet
- * @property string $lastName
- * @property string $name
- * @property string $phone
- * @property string $phone2
- * @property string $phone2AreaOrCityCode
- * @property DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $phone2CountryCode
- * @property string $phone2CountryPrefix
- * @property string $phone2LocalNumber
- * @property string $phoneAreaOrCityCode
- * @property DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $phoneCountryCode
- * @property string $phoneCountryPrefix
- * @property string $phoneLocalNumber
- * @property string $postalCode
- * @property string $referenceId
- * @property string $stateOrProvince
- * @property string $street
- * @property string $street1
- * @property string $street2
+ * @property string $AddressID
+ * @property DTS\eBaySDK\Trading\Enums\AddressOwnerCodeType(string) $AddressOwner
+ * @property DTS\eBaySDK\Trading\Enums\AddressRecordTypeCodeType(string) $AddressRecordType
+ * @property DTS\eBaySDK\Trading\Enums\AddressStatusCodeType(string) $AddressStatus
+ * @property DTS\eBaySDK\Trading\Enums\AddressUsageCodeType(string) $AddressUsage
+ * @property string $CityName
+ * @property string $CompanyName
+ * @property DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $Country
+ * @property string $CountryName
+ * @property string $County
+ * @property string $ExternalAddressID
+ * @property string $FirstName
+ * @property string $InternationalName
+ * @property string $InternationalStateAndCity
+ * @property string $InternationalStreet
+ * @property string $LastName
+ * @property string $Name
+ * @property string $Phone
+ * @property string $Phone2
+ * @property string $Phone2AreaOrCityCode
+ * @property DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $Phone2CountryCode
+ * @property string $Phone2CountryPrefix
+ * @property string $Phone2LocalNumber
+ * @property string $PhoneAreaOrCityCode
+ * @property DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $PhoneCountryCode
+ * @property string $PhoneCountryPrefix
+ * @property string $PhoneLocalNumber
+ * @property string $PostalCode
+ * @property string $ReferenceID
+ * @property string $StateOrProvince
+ * @property string $Street
+ * @property string $Street1
+ * @property string $Street2
  */
 class AddressType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -59,199 +59,199 @@ class AddressType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'addressId' => array(
+        'AddressID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AddressID'
         ),
-        'addressOwner' => array(
+        'AddressOwner' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AddressOwner'
         ),
-        'addressRecordType' => array(
+        'AddressRecordType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AddressRecordType'
         ),
-        'addressStatus' => array(
+        'AddressStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AddressStatus'
         ),
-        'addressUsage' => array(
+        'AddressUsage' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AddressUsage'
         ),
-        'cityName' => array(
+        'CityName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CityName'
         ),
-        'companyName' => array(
+        'CompanyName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CompanyName'
         ),
-        'country' => array(
+        'Country' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Country'
         ),
-        'countryName' => array(
+        'CountryName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CountryName'
         ),
-        'county' => array(
+        'County' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'County'
         ),
-        'externalAddressId' => array(
+        'ExternalAddressID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExternalAddressID'
         ),
-        'firstName' => array(
+        'FirstName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FirstName'
         ),
-        'internationalName' => array(
+        'InternationalName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'InternationalName'
         ),
-        'internationalStateAndCity' => array(
+        'InternationalStateAndCity' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'InternationalStateAndCity'
         ),
-        'internationalStreet' => array(
+        'InternationalStreet' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'InternationalStreet'
         ),
-        'lastName' => array(
+        'LastName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LastName'
         ),
-        'name' => array(
+        'Name' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Name'
         ),
-        'phone' => array(
+        'Phone' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Phone'
         ),
-        'phone2' => array(
+        'Phone2' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Phone2'
         ),
-        'phone2AreaOrCityCode' => array(
+        'Phone2AreaOrCityCode' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Phone2AreaOrCityCode'
         ),
-        'phone2CountryCode' => array(
+        'Phone2CountryCode' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Phone2CountryCode'
         ),
-        'phone2CountryPrefix' => array(
+        'Phone2CountryPrefix' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Phone2CountryPrefix'
         ),
-        'phone2LocalNumber' => array(
+        'Phone2LocalNumber' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Phone2LocalNumber'
         ),
-        'phoneAreaOrCityCode' => array(
+        'PhoneAreaOrCityCode' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PhoneAreaOrCityCode'
         ),
-        'phoneCountryCode' => array(
+        'PhoneCountryCode' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PhoneCountryCode'
         ),
-        'phoneCountryPrefix' => array(
+        'PhoneCountryPrefix' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PhoneCountryPrefix'
         ),
-        'phoneLocalNumber' => array(
+        'PhoneLocalNumber' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PhoneLocalNumber'
         ),
-        'postalCode' => array(
+        'PostalCode' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PostalCode'
         ),
-        'referenceId' => array(
+        'ReferenceID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReferenceID'
         ),
-        'stateOrProvince' => array(
+        'StateOrProvince' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StateOrProvince'
         ),
-        'street' => array(
+        'Street' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Street'
         ),
-        'street1' => array(
+        'Street1' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Street1'
         ),
-        'street2' => array(
+        'Street2' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -264,18 +264,12 @@ class AddressType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

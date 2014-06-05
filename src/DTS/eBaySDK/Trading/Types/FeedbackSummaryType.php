@@ -19,18 +19,18 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $bidRetractionFeedbackPeriodArray
- * @property DTS\eBaySDK\Trading\Types\BuyerRoleMetricsType $buyerRoleMetrics
- * @property DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $negativeFeedbackPeriodArray
- * @property integer $neutralCommentCountFromSuspendedUsers
- * @property DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $neutralFeedbackPeriodArray
- * @property DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $positiveFeedbackPeriodArray
- * @property DTS\eBaySDK\Trading\Types\SellerRatingSummaryArrayType $sellerRatingSummaryArray
- * @property DTS\eBaySDK\Trading\Types\SellerRoleMetricsType $sellerRoleMetrics
- * @property DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $totalFeedbackPeriodArray
- * @property integer $uniqueNegativeFeedbackCount
- * @property integer $uniqueNeutralFeedbackCount
- * @property integer $uniquePositiveFeedbackCount
+ * @property DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $BidRetractionFeedbackPeriodArray
+ * @property DTS\eBaySDK\Trading\Types\BuyerRoleMetricsType $BuyerRoleMetrics
+ * @property DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $NegativeFeedbackPeriodArray
+ * @property integer $NeutralCommentCountFromSuspendedUsers
+ * @property DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $NeutralFeedbackPeriodArray
+ * @property DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $PositiveFeedbackPeriodArray
+ * @property DTS\eBaySDK\Trading\Types\SellerRatingSummaryArrayType $SellerRatingSummaryArray
+ * @property DTS\eBaySDK\Trading\Types\SellerRoleMetricsType $SellerRoleMetrics
+ * @property DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType $TotalFeedbackPeriodArray
+ * @property integer $UniqueNegativeFeedbackCount
+ * @property integer $UniqueNeutralFeedbackCount
+ * @property integer $UniquePositiveFeedbackCount
  */
 class FeedbackSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -38,73 +38,73 @@ class FeedbackSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bidRetractionFeedbackPeriodArray' => array(
+        'BidRetractionFeedbackPeriodArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BidRetractionFeedbackPeriodArray'
         ),
-        'buyerRoleMetrics' => array(
+        'BuyerRoleMetrics' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\BuyerRoleMetricsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyerRoleMetrics'
         ),
-        'negativeFeedbackPeriodArray' => array(
+        'NegativeFeedbackPeriodArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NegativeFeedbackPeriodArray'
         ),
-        'neutralCommentCountFromSuspendedUsers' => array(
+        'NeutralCommentCountFromSuspendedUsers' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NeutralCommentCountFromSuspendedUsers'
         ),
-        'neutralFeedbackPeriodArray' => array(
+        'NeutralFeedbackPeriodArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NeutralFeedbackPeriodArray'
         ),
-        'positiveFeedbackPeriodArray' => array(
+        'PositiveFeedbackPeriodArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PositiveFeedbackPeriodArray'
         ),
-        'sellerRatingSummaryArray' => array(
+        'SellerRatingSummaryArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellerRatingSummaryArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerRatingSummaryArray'
         ),
-        'sellerRoleMetrics' => array(
+        'SellerRoleMetrics' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellerRoleMetricsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerRoleMetrics'
         ),
-        'totalFeedbackPeriodArray' => array(
+        'TotalFeedbackPeriodArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackPeriodArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TotalFeedbackPeriodArray'
         ),
-        'uniqueNegativeFeedbackCount' => array(
+        'UniqueNegativeFeedbackCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UniqueNegativeFeedbackCount'
         ),
-        'uniqueNeutralFeedbackCount' => array(
+        'UniqueNeutralFeedbackCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UniqueNeutralFeedbackCount'
         ),
-        'uniquePositiveFeedbackCount' => array(
+        'UniquePositiveFeedbackCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -117,18 +117,12 @@ class FeedbackSummaryType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

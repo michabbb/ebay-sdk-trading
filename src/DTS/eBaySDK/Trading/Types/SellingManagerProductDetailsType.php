@@ -19,16 +19,16 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $customLabel
- * @property integer $folderId
- * @property string $note
- * @property integer $productId
- * @property string $productName
- * @property integer $quantityAvailable
- * @property boolean $restockAlert
- * @property integer $restockThreshold
- * @property DTS\eBaySDK\Trading\Types\AmountType $unitCost
- * @property DTS\eBaySDK\Trading\Types\SellingManagerVendorDetailsType $vendorInfo
+ * @property string $CustomLabel
+ * @property integer $FolderID
+ * @property string $Note
+ * @property integer $ProductID
+ * @property string $ProductName
+ * @property integer $QuantityAvailable
+ * @property boolean $RestockAlert
+ * @property integer $RestockThreshold
+ * @property DTS\eBaySDK\Trading\Types\AmountType $UnitCost
+ * @property DTS\eBaySDK\Trading\Types\SellingManagerVendorDetailsType $VendorInfo
  */
 class SellingManagerProductDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -36,61 +36,61 @@ class SellingManagerProductDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'customLabel' => array(
+        'CustomLabel' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CustomLabel'
         ),
-        'folderId' => array(
+        'FolderID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FolderID'
         ),
-        'note' => array(
+        'Note' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Note'
         ),
-        'productId' => array(
+        'ProductID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ProductID'
         ),
-        'productName' => array(
+        'ProductName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ProductName'
         ),
-        'quantityAvailable' => array(
+        'QuantityAvailable' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'QuantityAvailable'
         ),
-        'restockAlert' => array(
+        'RestockAlert' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RestockAlert'
         ),
-        'restockThreshold' => array(
+        'RestockThreshold' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RestockThreshold'
         ),
-        'unitCost' => array(
+        'UnitCost' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UnitCost'
         ),
-        'vendorInfo' => array(
+        'VendorInfo' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerVendorDetailsType',
             'unbound' => false,
             'attribute' => false,
@@ -103,18 +103,12 @@ class SellingManagerProductDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

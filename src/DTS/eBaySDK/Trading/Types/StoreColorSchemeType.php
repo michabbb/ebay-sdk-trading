@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\StoreColorType $color
- * @property integer $colorSchemeId
- * @property DTS\eBaySDK\Trading\Types\StoreFontType $font
- * @property string $name
+ * @property DTS\eBaySDK\Trading\Types\StoreColorType $Color
+ * @property integer $ColorSchemeID
+ * @property DTS\eBaySDK\Trading\Types\StoreFontType $Font
+ * @property string $Name
  */
 class StoreColorSchemeType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,25 +30,25 @@ class StoreColorSchemeType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'color' => array(
+        'Color' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\StoreColorType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Color'
         ),
-        'colorSchemeId' => array(
+        'ColorSchemeID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ColorSchemeID'
         ),
-        'font' => array(
+        'Font' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\StoreFontType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Font'
         ),
-        'name' => array(
+        'Name' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -61,18 +61,12 @@ class StoreColorSchemeType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {
