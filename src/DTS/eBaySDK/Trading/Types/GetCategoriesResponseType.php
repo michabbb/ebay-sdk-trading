@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CategoryArrayType $categoryArray
- * @property integer $categoryCount
- * @property string $categoryVersion
- * @property double $minimumReservePrice
- * @property boolean $reduceReserveAllowed
- * @property boolean $reservePriceAllowed
- * @property DateTime $updateTime
+ * @property DTS\eBaySDK\Trading\Types\CategoryArrayType $CategoryArray
+ * @property integer $CategoryCount
+ * @property string $CategoryVersion
+ * @property double $MinimumReservePrice
+ * @property boolean $ReduceReserveAllowed
+ * @property boolean $ReservePriceAllowed
+ * @property DateTime $UpdateTime
  */
 class GetCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -33,43 +33,43 @@ class GetCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'categoryArray' => array(
+        'CategoryArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\CategoryArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryArray'
         ),
-        'categoryCount' => array(
+        'CategoryCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryCount'
         ),
-        'categoryVersion' => array(
+        'CategoryVersion' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryVersion'
         ),
-        'minimumReservePrice' => array(
+        'MinimumReservePrice' => array(
             'type' => 'double',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MinimumReservePrice'
         ),
-        'reduceReserveAllowed' => array(
+        'ReduceReserveAllowed' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReduceReserveAllowed'
         ),
-        'reservePriceAllowed' => array(
+        'ReservePriceAllowed' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReservePriceAllowed'
         ),
-        'updateTime' => array(
+        'UpdateTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class GetCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

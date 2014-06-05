@@ -19,16 +19,16 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\NotificationEventStateCodeType(string) $deliveryStatus
- * @property DateTime $deliveryTime
- * @property string $deliveryUrl
- * @property string $deliveryUrlnAme
- * @property string $errorMessage
- * @property DateTime $expirationTime
- * @property DateTime $nextRetryTime
- * @property string $referenceId
- * @property integer $retries
- * @property DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType(string) $type
+ * @property DTS\eBaySDK\Trading\Enums\NotificationEventStateCodeType(string) $DeliveryStatus
+ * @property DateTime $DeliveryTime
+ * @property string $DeliveryURL
+ * @property string $DeliveryURLName
+ * @property string $ErrorMessage
+ * @property DateTime $ExpirationTime
+ * @property DateTime $NextRetryTime
+ * @property string $ReferenceID
+ * @property integer $Retries
+ * @property DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType(string) $Type
  */
 class NotificationDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -36,61 +36,61 @@ class NotificationDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'deliveryStatus' => array(
+        'DeliveryStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DeliveryStatus'
         ),
-        'deliveryTime' => array(
+        'DeliveryTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DeliveryTime'
         ),
-        'deliveryUrl' => array(
+        'DeliveryURL' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DeliveryURL'
         ),
-        'deliveryUrlnAme' => array(
+        'DeliveryURLName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DeliveryURLName'
         ),
-        'errorMessage' => array(
+        'ErrorMessage' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ErrorMessage'
         ),
-        'expirationTime' => array(
+        'ExpirationTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExpirationTime'
         ),
-        'nextRetryTime' => array(
+        'NextRetryTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NextRetryTime'
         ),
-        'referenceId' => array(
+        'ReferenceID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReferenceID'
         ),
-        'retries' => array(
+        'Retries' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Retries'
         ),
-        'type' => array(
+        'Type' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -103,18 +103,12 @@ class NotificationDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

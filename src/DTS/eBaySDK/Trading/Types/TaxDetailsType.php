@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\TaxTypeCodeType(string) $imposition
- * @property DTS\eBaySDK\Trading\Types\AmountType $taxAmount
- * @property DTS\eBaySDK\Trading\Enums\TaxDescriptionCodeType(string) $taxDescription
- * @property DTS\eBaySDK\Trading\Types\AmountType $taxOnHandlingAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $taxOnShippingAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $taxOnSubtotalAmount
+ * @property DTS\eBaySDK\Trading\Enums\TaxTypeCodeType(string) $Imposition
+ * @property DTS\eBaySDK\Trading\Types\AmountType $TaxAmount
+ * @property DTS\eBaySDK\Trading\Enums\TaxDescriptionCodeType(string) $TaxDescription
+ * @property DTS\eBaySDK\Trading\Types\AmountType $TaxOnHandlingAmount
+ * @property DTS\eBaySDK\Trading\Types\AmountType $TaxOnShippingAmount
+ * @property DTS\eBaySDK\Trading\Types\AmountType $TaxOnSubtotalAmount
  */
 class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -32,37 +32,37 @@ class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'imposition' => array(
+        'Imposition' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Imposition'
         ),
-        'taxAmount' => array(
+        'TaxAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TaxAmount'
         ),
-        'taxDescription' => array(
+        'TaxDescription' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TaxDescription'
         ),
-        'taxOnHandlingAmount' => array(
+        'TaxOnHandlingAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TaxOnHandlingAmount'
         ),
-        'taxOnShippingAmount' => array(
+        'TaxOnShippingAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TaxOnShippingAmount'
         ),
-        'taxOnSubtotalAmount' => array(
+        'TaxOnSubtotalAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
@@ -75,18 +75,12 @@ class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

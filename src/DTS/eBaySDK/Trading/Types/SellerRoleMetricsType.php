@@ -19,16 +19,16 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $crossBorderTransactionCount
- * @property double $crossBorderTransactionPercent
- * @property double $feedbackLeftPercent
- * @property integer $negativeFeedbackLeftCount
- * @property integer $neutralFeedbackLeftCount
- * @property integer $positiveFeedbackLeftCount
- * @property integer $repeatBuyerCount
- * @property double $repeatBuyerPercent
- * @property double $transactionPercent
- * @property integer $uniqueBuyerCount
+ * @property integer $CrossBorderTransactionCount
+ * @property double $CrossBorderTransactionPercent
+ * @property double $FeedbackLeftPercent
+ * @property integer $NegativeFeedbackLeftCount
+ * @property integer $NeutralFeedbackLeftCount
+ * @property integer $PositiveFeedbackLeftCount
+ * @property integer $RepeatBuyerCount
+ * @property double $RepeatBuyerPercent
+ * @property double $TransactionPercent
+ * @property integer $UniqueBuyerCount
  */
 class SellerRoleMetricsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -36,61 +36,61 @@ class SellerRoleMetricsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'crossBorderTransactionCount' => array(
+        'CrossBorderTransactionCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CrossBorderTransactionCount'
         ),
-        'crossBorderTransactionPercent' => array(
+        'CrossBorderTransactionPercent' => array(
             'type' => 'double',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CrossBorderTransactionPercent'
         ),
-        'feedbackLeftPercent' => array(
+        'FeedbackLeftPercent' => array(
             'type' => 'double',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FeedbackLeftPercent'
         ),
-        'negativeFeedbackLeftCount' => array(
+        'NegativeFeedbackLeftCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NegativeFeedbackLeftCount'
         ),
-        'neutralFeedbackLeftCount' => array(
+        'NeutralFeedbackLeftCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NeutralFeedbackLeftCount'
         ),
-        'positiveFeedbackLeftCount' => array(
+        'PositiveFeedbackLeftCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PositiveFeedbackLeftCount'
         ),
-        'repeatBuyerCount' => array(
+        'RepeatBuyerCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RepeatBuyerCount'
         ),
-        'repeatBuyerPercent' => array(
+        'RepeatBuyerPercent' => array(
             'type' => 'double',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RepeatBuyerPercent'
         ),
-        'transactionPercent' => array(
+        'TransactionPercent' => array(
             'type' => 'double',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TransactionPercent'
         ),
-        'uniqueBuyerCount' => array(
+        'UniqueBuyerCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -103,18 +103,12 @@ class SellerRoleMetricsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

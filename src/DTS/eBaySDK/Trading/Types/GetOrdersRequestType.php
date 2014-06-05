@@ -19,18 +19,18 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $createTimeFrom
- * @property DateTime $createTimeTo
- * @property boolean $includeFinalValueFee
- * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $listingType
- * @property DateTime $modTimeFrom
- * @property DateTime $modTimeTo
- * @property integer $numberOfDays
- * @property DTS\eBaySDK\Trading\Types\OrderIDArrayType $orderIdaRray
- * @property DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $orderRole
- * @property DTS\eBaySDK\Trading\Enums\OrderStatusCodeType(string) $orderStatus
- * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
- * @property DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $sortingOrder
+ * @property DateTime $CreateTimeFrom
+ * @property DateTime $CreateTimeTo
+ * @property boolean $IncludeFinalValueFee
+ * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
+ * @property DateTime $ModTimeFrom
+ * @property DateTime $ModTimeTo
+ * @property integer $NumberOfDays
+ * @property DTS\eBaySDK\Trading\Types\OrderIDArrayType $OrderIDArray
+ * @property DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $OrderRole
+ * @property DTS\eBaySDK\Trading\Enums\OrderStatusCodeType(string) $OrderStatus
+ * @property DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $SortingOrder
  */
 class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -38,73 +38,73 @@ class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTyp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'createTimeFrom' => array(
+        'CreateTimeFrom' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CreateTimeFrom'
         ),
-        'createTimeTo' => array(
+        'CreateTimeTo' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CreateTimeTo'
         ),
-        'includeFinalValueFee' => array(
+        'IncludeFinalValueFee' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IncludeFinalValueFee'
         ),
-        'listingType' => array(
+        'ListingType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingType'
         ),
-        'modTimeFrom' => array(
+        'ModTimeFrom' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ModTimeFrom'
         ),
-        'modTimeTo' => array(
+        'ModTimeTo' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ModTimeTo'
         ),
-        'numberOfDays' => array(
+        'NumberOfDays' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NumberOfDays'
         ),
-        'orderIdaRray' => array(
+        'OrderIDArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\OrderIDArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OrderIDArray'
         ),
-        'orderRole' => array(
+        'OrderRole' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OrderRole'
         ),
-        'orderStatus' => array(
+        'OrderStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OrderStatus'
         ),
-        'pagination' => array(
+        'Pagination' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Pagination'
         ),
-        'sortingOrder' => array(
+        'SortingOrder' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -117,18 +117,12 @@ class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTyp
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,19 +19,19 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $activeAuctionCount
- * @property DTS\eBaySDK\Trading\Types\AmountType $amountLimitRemaining
- * @property integer $auctionBidCount
- * @property integer $auctionSellingCount
- * @property integer $classifiedAdCount
- * @property integer $classifiedAdOfferCount
- * @property integer $quantityLimitRemaining
- * @property integer $soldDurationInDays
- * @property DTS\eBaySDK\Trading\Types\AmountType $totalAuctionSellingValue
- * @property integer $totalLeadCount
- * @property integer $totalListingsWithLeads
- * @property integer $totalSoldCount
- * @property DTS\eBaySDK\Trading\Types\AmountType $totalSoldValue
+ * @property integer $ActiveAuctionCount
+ * @property DTS\eBaySDK\Trading\Types\AmountType $AmountLimitRemaining
+ * @property integer $AuctionBidCount
+ * @property integer $AuctionSellingCount
+ * @property integer $ClassifiedAdCount
+ * @property integer $ClassifiedAdOfferCount
+ * @property integer $QuantityLimitRemaining
+ * @property integer $SoldDurationInDays
+ * @property DTS\eBaySDK\Trading\Types\AmountType $TotalAuctionSellingValue
+ * @property integer $TotalLeadCount
+ * @property integer $TotalListingsWithLeads
+ * @property integer $TotalSoldCount
+ * @property DTS\eBaySDK\Trading\Types\AmountType $TotalSoldValue
  */
 class MyeBaySellingSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -39,79 +39,79 @@ class MyeBaySellingSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'activeAuctionCount' => array(
+        'ActiveAuctionCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ActiveAuctionCount'
         ),
-        'amountLimitRemaining' => array(
+        'AmountLimitRemaining' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AmountLimitRemaining'
         ),
-        'auctionBidCount' => array(
+        'AuctionBidCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AuctionBidCount'
         ),
-        'auctionSellingCount' => array(
+        'AuctionSellingCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AuctionSellingCount'
         ),
-        'classifiedAdCount' => array(
+        'ClassifiedAdCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdCount'
         ),
-        'classifiedAdOfferCount' => array(
+        'ClassifiedAdOfferCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdOfferCount'
         ),
-        'quantityLimitRemaining' => array(
+        'QuantityLimitRemaining' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'QuantityLimitRemaining'
         ),
-        'soldDurationInDays' => array(
+        'SoldDurationInDays' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SoldDurationInDays'
         ),
-        'totalAuctionSellingValue' => array(
+        'TotalAuctionSellingValue' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TotalAuctionSellingValue'
         ),
-        'totalLeadCount' => array(
+        'TotalLeadCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TotalLeadCount'
         ),
-        'totalListingsWithLeads' => array(
+        'TotalListingsWithLeads' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TotalListingsWithLeads'
         ),
-        'totalSoldCount' => array(
+        'TotalSoldCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TotalSoldCount'
         ),
-        'totalSoldValue' => array(
+        'TotalSoldValue' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
@@ -124,18 +124,12 @@ class MyeBaySellingSummaryType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

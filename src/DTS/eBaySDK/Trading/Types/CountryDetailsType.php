@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $country
- * @property string $description
- * @property string $detailVersion
- * @property DateTime $updateTime
+ * @property DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $Country
+ * @property string $Description
+ * @property string $DetailVersion
+ * @property DateTime $UpdateTime
  */
 class CountryDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,25 +30,25 @@ class CountryDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'country' => array(
+        'Country' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Country'
         ),
-        'description' => array(
+        'Description' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Description'
         ),
-        'detailVersion' => array(
+        'DetailVersion' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DetailVersion'
         ),
-        'updateTime' => array(
+        'UpdateTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
@@ -61,18 +61,12 @@ class CountryDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $favoriteSearches
- * @property integer $favoriteSellerCount
- * @property DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $favoriteSellers
- * @property DTS\eBaySDK\Trading\Types\ItemArrayType $itemArray
- * @property integer $itemCount
- * @property string $name
+ * @property DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
+ * @property integer $FavoriteSellerCount
+ * @property DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
+ * @property DTS\eBaySDK\Trading\Types\ItemArrayType $ItemArray
+ * @property integer $ItemCount
+ * @property string $Name
  */
 class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -32,37 +32,37 @@ class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'favoriteSearches' => array(
+        'FavoriteSearches' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FavoriteSearches'
         ),
-        'favoriteSellerCount' => array(
+        'FavoriteSellerCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FavoriteSellerCount'
         ),
-        'favoriteSellers' => array(
+        'FavoriteSellers' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FavoriteSellers'
         ),
-        'itemArray' => array(
+        'ItemArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemArray'
         ),
-        'itemCount' => array(
+        'ItemCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemCount'
         ),
-        'name' => array(
+        'Name' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -75,18 +75,12 @@ class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

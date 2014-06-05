@@ -19,32 +19,32 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $content
- * @property string $contentType
- * @property DateTime $creationDate
- * @property DateTime $expirationDate
- * @property string $externalMessageId
- * @property boolean $flagged
- * @property DTS\eBaySDK\Trading\Types\MyMessagesFolderType $folder
- * @property DTS\eBaySDK\Trading\Types\MyMessagesForwardDetailsType $forwardDetails
- * @property boolean $highPriority
- * @property DateTime $itemEndTime
- * @property string $itemId
- * @property string $itemTitle
- * @property DTS\eBaySDK\Trading\Enums\ListingStatusCodeType(string) $listingStatus
- * @property string $messageId
- * @property DTS\eBaySDK\Trading\Types\MessageMediaType $messageMedia
- * @property DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $messageType
- * @property DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType(string) $questionType
- * @property boolean $read
- * @property DateTime $receiveDate
- * @property string $recipientUserId
- * @property boolean $replied
- * @property DTS\eBaySDK\Trading\Types\MyMessagesResponseDetailsType $responseDetails
- * @property string $sendToName
- * @property string $sender
- * @property string $subject
- * @property string $text
+ * @property string $Content
+ * @property string $ContentType
+ * @property DateTime $CreationDate
+ * @property DateTime $ExpirationDate
+ * @property string $ExternalMessageID
+ * @property boolean $Flagged
+ * @property DTS\eBaySDK\Trading\Types\MyMessagesFolderType $Folder
+ * @property DTS\eBaySDK\Trading\Types\MyMessagesForwardDetailsType $ForwardDetails
+ * @property boolean $HighPriority
+ * @property DateTime $ItemEndTime
+ * @property string $ItemID
+ * @property string $ItemTitle
+ * @property DTS\eBaySDK\Trading\Enums\ListingStatusCodeType(string) $ListingStatus
+ * @property string $MessageID
+ * @property DTS\eBaySDK\Trading\Types\MessageMediaType $MessageMedia
+ * @property DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $MessageType
+ * @property DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType(string) $QuestionType
+ * @property boolean $Read
+ * @property DateTime $ReceiveDate
+ * @property string $RecipientUserID
+ * @property boolean $Replied
+ * @property DTS\eBaySDK\Trading\Types\MyMessagesResponseDetailsType $ResponseDetails
+ * @property string $SendToName
+ * @property string $Sender
+ * @property string $Subject
+ * @property string $Text
  */
 class MyMessagesMessageType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -52,157 +52,157 @@ class MyMessagesMessageType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'content' => array(
+        'Content' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Content'
         ),
-        'contentType' => array(
+        'ContentType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ContentType'
         ),
-        'creationDate' => array(
+        'CreationDate' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CreationDate'
         ),
-        'expirationDate' => array(
+        'ExpirationDate' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExpirationDate'
         ),
-        'externalMessageId' => array(
+        'ExternalMessageID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExternalMessageID'
         ),
-        'flagged' => array(
+        'Flagged' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Flagged'
         ),
-        'folder' => array(
+        'Folder' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesFolderType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Folder'
         ),
-        'forwardDetails' => array(
+        'ForwardDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesForwardDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ForwardDetails'
         ),
-        'highPriority' => array(
+        'HighPriority' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HighPriority'
         ),
-        'itemEndTime' => array(
+        'ItemEndTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemEndTime'
         ),
-        'itemId' => array(
+        'ItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemID'
         ),
-        'itemTitle' => array(
+        'ItemTitle' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemTitle'
         ),
-        'listingStatus' => array(
+        'ListingStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingStatus'
         ),
-        'messageId' => array(
+        'MessageID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MessageID'
         ),
-        'messageMedia' => array(
+        'MessageMedia' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'MessageMedia'
         ),
-        'messageType' => array(
+        'MessageType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MessageType'
         ),
-        'questionType' => array(
+        'QuestionType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'QuestionType'
         ),
-        'read' => array(
+        'Read' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Read'
         ),
-        'receiveDate' => array(
+        'ReceiveDate' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReceiveDate'
         ),
-        'recipientUserId' => array(
+        'RecipientUserID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RecipientUserID'
         ),
-        'replied' => array(
+        'Replied' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Replied'
         ),
-        'responseDetails' => array(
+        'ResponseDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesResponseDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ResponseDetails'
         ),
-        'sendToName' => array(
+        'SendToName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SendToName'
         ),
-        'sender' => array(
+        'Sender' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Sender'
         ),
-        'subject' => array(
+        'Subject' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Subject'
         ),
-        'text' => array(
+        'Text' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -215,18 +215,12 @@ class MyMessagesMessageType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

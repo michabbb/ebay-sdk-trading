@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $convertedMaxBid
- * @property DTS\eBaySDK\Trading\Types\AmountType $maxBid
- * @property integer $quantityBid
- * @property integer $quantityWon
- * @property boolean $winning
+ * @property DTS\eBaySDK\Trading\Types\AmountType $ConvertedMaxBid
+ * @property DTS\eBaySDK\Trading\Types\AmountType $MaxBid
+ * @property integer $QuantityBid
+ * @property integer $QuantityWon
+ * @property boolean $Winning
  */
 class BiddingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -31,31 +31,31 @@ class BiddingDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'convertedMaxBid' => array(
+        'ConvertedMaxBid' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ConvertedMaxBid'
         ),
-        'maxBid' => array(
+        'MaxBid' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MaxBid'
         ),
-        'quantityBid' => array(
+        'QuantityBid' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'QuantityBid'
         ),
-        'quantityWon' => array(
+        'QuantityWon' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'QuantityWon'
         ),
-        'winning' => array(
+        'Winning' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
@@ -68,18 +68,12 @@ class BiddingDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $affiliateUserId
- * @property DTS\eBaySDK\Trading\Enums\ApplicationDeviceTypeCodeType(string) $applicationDeviceType
- * @property string $trackingId
- * @property string $trackingPartnerCode
+ * @property string $AffiliateUserID
+ * @property DTS\eBaySDK\Trading\Enums\ApplicationDeviceTypeCodeType(string) $ApplicationDeviceType
+ * @property string $TrackingID
+ * @property string $TrackingPartnerCode
  */
 class AffiliateTrackingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,25 +30,25 @@ class AffiliateTrackingDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'affiliateUserId' => array(
+        'AffiliateUserID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AffiliateUserID'
         ),
-        'applicationDeviceType' => array(
+        'ApplicationDeviceType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ApplicationDeviceType'
         ),
-        'trackingId' => array(
+        'TrackingID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TrackingID'
         ),
-        'trackingPartnerCode' => array(
+        'TrackingPartnerCode' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -61,18 +61,12 @@ class AffiliateTrackingDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

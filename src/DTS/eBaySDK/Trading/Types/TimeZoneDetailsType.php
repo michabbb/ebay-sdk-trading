@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $daylightSavingsInEffect
- * @property string $daylightSavingsLabel
- * @property string $daylightSavingsOffset
- * @property string $detailVersion
- * @property string $standardLabel
- * @property string $standardOffset
- * @property string $timeZoneId
- * @property DateTime $updateTime
+ * @property boolean $DaylightSavingsInEffect
+ * @property string $DaylightSavingsLabel
+ * @property string $DaylightSavingsOffset
+ * @property string $DetailVersion
+ * @property string $StandardLabel
+ * @property string $StandardOffset
+ * @property string $TimeZoneID
+ * @property DateTime $UpdateTime
  */
 class TimeZoneDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -34,49 +34,49 @@ class TimeZoneDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'daylightSavingsInEffect' => array(
+        'DaylightSavingsInEffect' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DaylightSavingsInEffect'
         ),
-        'daylightSavingsLabel' => array(
+        'DaylightSavingsLabel' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DaylightSavingsLabel'
         ),
-        'daylightSavingsOffset' => array(
+        'DaylightSavingsOffset' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DaylightSavingsOffset'
         ),
-        'detailVersion' => array(
+        'DetailVersion' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DetailVersion'
         ),
-        'standardLabel' => array(
+        'StandardLabel' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StandardLabel'
         ),
-        'standardOffset' => array(
+        'StandardOffset' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StandardOffset'
         ),
-        'timeZoneId' => array(
+        'TimeZoneID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TimeZoneID'
         ),
-        'updateTime' => array(
+        'UpdateTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
@@ -89,18 +89,12 @@ class TimeZoneDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

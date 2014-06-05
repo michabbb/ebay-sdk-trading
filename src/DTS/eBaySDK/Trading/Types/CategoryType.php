@@ -19,26 +19,26 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $autoPayEnabled
- * @property boolean $b2BvateNabled
- * @property boolean $bestOfferEnabled
- * @property boolean $catalogEnabled
- * @property string $categoryId
- * @property integer $categoryLevel
- * @property string $categoryName
- * @property string $categoryParentId
- * @property string $categoryParentName
- * @property DTS\eBaySDK\Trading\Types\CharacteristicsSetType $characteristicsSets
- * @property boolean $expired
- * @property boolean $intlAutosFixedCat
- * @property boolean $leafCategory
- * @property boolean $lsd
- * @property boolean $orpa
- * @property boolean $orra
- * @property DTS\eBaySDK\Trading\Types\ExtendedProductFinderIDType $productFinderIdS
- * @property boolean $productSearchPageAvailable
- * @property boolean $sellerGuaranteeEligible
- * @property boolean $virtual
+ * @property boolean $AutoPayEnabled
+ * @property boolean $B2BVATEnabled
+ * @property boolean $BestOfferEnabled
+ * @property boolean $CatalogEnabled
+ * @property string $CategoryID
+ * @property integer $CategoryLevel
+ * @property string $CategoryName
+ * @property string $CategoryParentID
+ * @property string $CategoryParentName
+ * @property DTS\eBaySDK\Trading\Types\CharacteristicsSetType $CharacteristicsSets
+ * @property boolean $Expired
+ * @property boolean $IntlAutosFixedCat
+ * @property boolean $LSD
+ * @property boolean $LeafCategory
+ * @property boolean $ORPA
+ * @property boolean $ORRA
+ * @property DTS\eBaySDK\Trading\Types\ExtendedProductFinderIDType $ProductFinderIDs
+ * @property boolean $ProductSearchPageAvailable
+ * @property boolean $SellerGuaranteeEligible
+ * @property boolean $Virtual
  */
 class CategoryType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -46,121 +46,121 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'autoPayEnabled' => array(
+        'AutoPayEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AutoPayEnabled'
         ),
-        'b2BvateNabled' => array(
+        'B2BVATEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'B2BVATEnabled'
         ),
-        'bestOfferEnabled' => array(
+        'BestOfferEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOfferEnabled'
         ),
-        'catalogEnabled' => array(
+        'CatalogEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CatalogEnabled'
         ),
-        'categoryId' => array(
+        'CategoryID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryID'
         ),
-        'categoryLevel' => array(
+        'CategoryLevel' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryLevel'
         ),
-        'categoryName' => array(
+        'CategoryName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryName'
         ),
-        'categoryParentId' => array(
+        'CategoryParentID' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'CategoryParentID'
         ),
-        'categoryParentName' => array(
+        'CategoryParentName' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'CategoryParentName'
         ),
-        'characteristicsSets' => array(
+        'CharacteristicsSets' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\CharacteristicsSetType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'CharacteristicsSets'
         ),
-        'expired' => array(
+        'Expired' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Expired'
         ),
-        'intlAutosFixedCat' => array(
+        'IntlAutosFixedCat' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IntlAutosFixedCat'
         ),
-        'leafCategory' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'LeafCategory'
-        ),
-        'lsd' => array(
+        'LSD' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LSD'
         ),
-        'orpa' => array(
+        'LeafCategory' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'LeafCategory'
+        ),
+        'ORPA' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ORPA'
         ),
-        'orra' => array(
+        'ORRA' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ORRA'
         ),
-        'productFinderIdS' => array(
+        'ProductFinderIDs' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ExtendedProductFinderIDType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ProductFinderIDs'
         ),
-        'productSearchPageAvailable' => array(
+        'ProductSearchPageAvailable' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ProductSearchPageAvailable'
         ),
-        'sellerGuaranteeEligible' => array(
+        'SellerGuaranteeEligible' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerGuaranteeEligible'
         ),
-        'virtual' => array(
+        'Virtual' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
@@ -173,18 +173,12 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

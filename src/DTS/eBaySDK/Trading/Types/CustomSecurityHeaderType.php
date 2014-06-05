@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\UserIdPasswordType $credentials
+ * @property DTS\eBaySDK\Trading\Types\UserIdPasswordType $Credentials
+ * @property string $HardExpirationWarning
+ * @property string $NotificationSignature
  * @property string $eBayAuthToken
- * @property string $hardExpirationWarning
- * @property string $notificationSignature
  */
 class CustomSecurityHeaderType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,29 +30,29 @@ class CustomSecurityHeaderType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'credentials' => array(
+        'Credentials' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\UserIdPasswordType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Credentials'
+        ),
+        'HardExpirationWarning' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'HardExpirationWarning'
+        ),
+        'NotificationSignature' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'NotificationSignature'
         ),
         'eBayAuthToken' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'eBayAuthToken'
-        ),
-        'hardExpirationWarning' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'HardExpirationWarning'
-        ),
-        'notificationSignature' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'NotificationSignature'
         )
     );
 
@@ -61,18 +61,12 @@ class CustomSecurityHeaderType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

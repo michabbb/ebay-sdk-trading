@@ -19,22 +19,22 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType(string) $checkoutStatus
+ * @property DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType(string) $CheckoutStatus
+ * @property DTS\eBaySDK\Trading\Enums\CommentTypeCodeType(string) $FeedbackReceived
+ * @property boolean $FeedbackSent
+ * @property boolean $IntegratedMerchantCreditCardEnabled
+ * @property DateTime $LastEmailSentTime
+ * @property DTS\eBaySDK\Trading\Enums\SellingManagerPaidStatusCodeType(string) $PaidStatus
+ * @property DateTime $PaidTime
+ * @property string $PayPalTransactionID
+ * @property DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType(string) $PaymentHoldStatus
+ * @property DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $PaymentMethodUsed
+ * @property string $SellerInvoiceNumber
+ * @property DateTime $SellerInvoiceTime
+ * @property DTS\eBaySDK\Trading\Enums\SellingManagerShippedStatusCodeType(string) $ShippedStatus
+ * @property DateTime $ShippedTime
+ * @property integer $TotalEmailsSent
  * @property DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType(string) $eBayPaymentStatus
- * @property DTS\eBaySDK\Trading\Enums\CommentTypeCodeType(string) $feedbackReceived
- * @property boolean $feedbackSent
- * @property boolean $integratedMerchantCreditCardEnabled
- * @property DateTime $lastEmailSentTime
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerPaidStatusCodeType(string) $paidStatus
- * @property DateTime $paidTime
- * @property string $payPalTransactionId
- * @property DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType(string) $paymentHoldStatus
- * @property DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $paymentMethodUsed
- * @property string $sellerInvoiceNumber
- * @property DateTime $sellerInvoiceTime
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerShippedStatusCodeType(string) $shippedStatus
- * @property DateTime $shippedTime
- * @property integer $totalEmailsSent
  */
 class SellingManagerOrderStatusType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -42,101 +42,101 @@ class SellingManagerOrderStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'checkoutStatus' => array(
+        'CheckoutStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CheckoutStatus'
+        ),
+        'FeedbackReceived' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'FeedbackReceived'
+        ),
+        'FeedbackSent' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'FeedbackSent'
+        ),
+        'IntegratedMerchantCreditCardEnabled' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'IntegratedMerchantCreditCardEnabled'
+        ),
+        'LastEmailSentTime' => array(
+            'type' => 'DateTime',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'LastEmailSentTime'
+        ),
+        'PaidStatus' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PaidStatus'
+        ),
+        'PaidTime' => array(
+            'type' => 'DateTime',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PaidTime'
+        ),
+        'PayPalTransactionID' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PayPalTransactionID'
+        ),
+        'PaymentHoldStatus' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PaymentHoldStatus'
+        ),
+        'PaymentMethodUsed' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PaymentMethodUsed'
+        ),
+        'SellerInvoiceNumber' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'SellerInvoiceNumber'
+        ),
+        'SellerInvoiceTime' => array(
+            'type' => 'DateTime',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'SellerInvoiceTime'
+        ),
+        'ShippedStatus' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ShippedStatus'
+        ),
+        'ShippedTime' => array(
+            'type' => 'DateTime',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ShippedTime'
+        ),
+        'TotalEmailsSent' => array(
+            'type' => 'integer',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'TotalEmailsSent'
         ),
         'eBayPaymentStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'eBayPaymentStatus'
-        ),
-        'feedbackReceived' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'FeedbackReceived'
-        ),
-        'feedbackSent' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'FeedbackSent'
-        ),
-        'integratedMerchantCreditCardEnabled' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'IntegratedMerchantCreditCardEnabled'
-        ),
-        'lastEmailSentTime' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'LastEmailSentTime'
-        ),
-        'paidStatus' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PaidStatus'
-        ),
-        'paidTime' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PaidTime'
-        ),
-        'payPalTransactionId' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PayPalTransactionID'
-        ),
-        'paymentHoldStatus' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PaymentHoldStatus'
-        ),
-        'paymentMethodUsed' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PaymentMethodUsed'
-        ),
-        'sellerInvoiceNumber' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellerInvoiceNumber'
-        ),
-        'sellerInvoiceTime' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellerInvoiceTime'
-        ),
-        'shippedStatus' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ShippedStatus'
-        ),
-        'shippedTime' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ShippedTime'
-        ),
-        'totalEmailsSent' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'TotalEmailsSent'
         )
     );
 
@@ -145,18 +145,12 @@ class SellingManagerOrderStatusType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

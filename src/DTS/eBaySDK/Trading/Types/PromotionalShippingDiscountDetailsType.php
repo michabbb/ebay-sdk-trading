@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\DiscountNameCodeType(string) $discountName
- * @property integer $itemCount
- * @property DTS\eBaySDK\Trading\Types\AmountType $orderAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $shippingCost
+ * @property DTS\eBaySDK\Trading\Enums\DiscountNameCodeType(string) $DiscountName
+ * @property integer $ItemCount
+ * @property DTS\eBaySDK\Trading\Types\AmountType $OrderAmount
+ * @property DTS\eBaySDK\Trading\Types\AmountType $ShippingCost
  */
 class PromotionalShippingDiscountDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,25 +30,25 @@ class PromotionalShippingDiscountDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'discountName' => array(
+        'DiscountName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DiscountName'
         ),
-        'itemCount' => array(
+        'ItemCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemCount'
         ),
-        'orderAmount' => array(
+        'OrderAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OrderAmount'
         ),
-        'shippingCost' => array(
+        'ShippingCost' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
@@ -61,18 +61,12 @@ class PromotionalShippingDiscountDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

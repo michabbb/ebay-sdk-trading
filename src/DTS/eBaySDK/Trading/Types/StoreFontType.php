@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $descColor
- * @property DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType(string) $descFace
- * @property DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType(string) $descSize
- * @property string $nameColor
- * @property DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType(string) $nameFace
- * @property DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType(string) $nameSize
- * @property string $titleColor
- * @property DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType(string) $titleFace
- * @property DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType(string) $titleSize
+ * @property string $DescColor
+ * @property DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType(string) $DescFace
+ * @property DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType(string) $DescSize
+ * @property string $NameColor
+ * @property DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType(string) $NameFace
+ * @property DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType(string) $NameSize
+ * @property string $TitleColor
+ * @property DTS\eBaySDK\Trading\Enums\StoreFontFaceCodeType(string) $TitleFace
+ * @property DTS\eBaySDK\Trading\Enums\StoreFontSizeCodeType(string) $TitleSize
  */
 class StoreFontType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,55 +35,55 @@ class StoreFontType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'descColor' => array(
+        'DescColor' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DescColor'
         ),
-        'descFace' => array(
+        'DescFace' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DescFace'
         ),
-        'descSize' => array(
+        'DescSize' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DescSize'
         ),
-        'nameColor' => array(
+        'NameColor' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NameColor'
         ),
-        'nameFace' => array(
+        'NameFace' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NameFace'
         ),
-        'nameSize' => array(
+        'NameSize' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NameSize'
         ),
-        'titleColor' => array(
+        'TitleColor' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TitleColor'
         ),
-        'titleFace' => array(
+        'TitleFace' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TitleFace'
         ),
-        'titleSize' => array(
+        'TitleSize' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -96,18 +96,12 @@ class StoreFontType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

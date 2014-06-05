@@ -19,22 +19,22 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $callName
- * @property boolean $countsTowardAggregate
- * @property integer $dailyHardLimit
- * @property integer $dailySoftLimit
- * @property integer $dailyUsage
- * @property integer $hourlyHardLimit
- * @property integer $hourlySoftLimit
- * @property integer $hourlyUsage
- * @property DateTime $modTime
- * @property integer $period
- * @property integer $periodicHardLimit
- * @property integer $periodicSoftLimit
- * @property DateTime $periodicStartDate
- * @property integer $periodicUsage
- * @property DTS\eBaySDK\Trading\Enums\AccessRuleCurrentStatusCodeType(string) $ruleCurrentStatus
- * @property DTS\eBaySDK\Trading\Enums\AccessRuleStatusCodeType(string) $ruleStatus
+ * @property string $CallName
+ * @property boolean $CountsTowardAggregate
+ * @property integer $DailyHardLimit
+ * @property integer $DailySoftLimit
+ * @property integer $DailyUsage
+ * @property integer $HourlyHardLimit
+ * @property integer $HourlySoftLimit
+ * @property integer $HourlyUsage
+ * @property DateTime $ModTime
+ * @property integer $Period
+ * @property integer $PeriodicHardLimit
+ * @property integer $PeriodicSoftLimit
+ * @property DateTime $PeriodicStartDate
+ * @property integer $PeriodicUsage
+ * @property DTS\eBaySDK\Trading\Enums\AccessRuleCurrentStatusCodeType(string) $RuleCurrentStatus
+ * @property DTS\eBaySDK\Trading\Enums\AccessRuleStatusCodeType(string) $RuleStatus
  */
 class ApiAccessRuleType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -42,97 +42,97 @@ class ApiAccessRuleType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'callName' => array(
+        'CallName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CallName'
         ),
-        'countsTowardAggregate' => array(
+        'CountsTowardAggregate' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CountsTowardAggregate'
         ),
-        'dailyHardLimit' => array(
+        'DailyHardLimit' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DailyHardLimit'
         ),
-        'dailySoftLimit' => array(
+        'DailySoftLimit' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DailySoftLimit'
         ),
-        'dailyUsage' => array(
+        'DailyUsage' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DailyUsage'
         ),
-        'hourlyHardLimit' => array(
+        'HourlyHardLimit' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HourlyHardLimit'
         ),
-        'hourlySoftLimit' => array(
+        'HourlySoftLimit' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HourlySoftLimit'
         ),
-        'hourlyUsage' => array(
+        'HourlyUsage' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HourlyUsage'
         ),
-        'modTime' => array(
+        'ModTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ModTime'
         ),
-        'period' => array(
+        'Period' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Period'
         ),
-        'periodicHardLimit' => array(
+        'PeriodicHardLimit' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PeriodicHardLimit'
         ),
-        'periodicSoftLimit' => array(
+        'PeriodicSoftLimit' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PeriodicSoftLimit'
         ),
-        'periodicStartDate' => array(
+        'PeriodicStartDate' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PeriodicStartDate'
         ),
-        'periodicUsage' => array(
+        'PeriodicUsage' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PeriodicUsage'
         ),
-        'ruleCurrentStatus' => array(
+        'RuleCurrentStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RuleCurrentStatus'
         ),
-        'ruleStatus' => array(
+        'RuleStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -145,18 +145,12 @@ class ApiAccessRuleType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

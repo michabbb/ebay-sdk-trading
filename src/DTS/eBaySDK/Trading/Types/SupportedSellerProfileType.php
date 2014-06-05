@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CategoryGroupType $categoryGroup
- * @property integer $profileId
- * @property string $profileName
- * @property string $profileType
- * @property string $shortSummary
+ * @property DTS\eBaySDK\Trading\Types\CategoryGroupType $CategoryGroup
+ * @property integer $ProfileID
+ * @property string $ProfileName
+ * @property string $ProfileType
+ * @property string $ShortSummary
  */
 class SupportedSellerProfileType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -31,31 +31,31 @@ class SupportedSellerProfileType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'categoryGroup' => array(
+        'CategoryGroup' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\CategoryGroupType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryGroup'
         ),
-        'profileId' => array(
+        'ProfileID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ProfileID'
         ),
-        'profileName' => array(
+        'ProfileName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ProfileName'
         ),
-        'profileType' => array(
+        'ProfileType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ProfileType'
         ),
-        'shortSummary' => array(
+        'ShortSummary' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -68,18 +68,12 @@ class SupportedSellerProfileType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

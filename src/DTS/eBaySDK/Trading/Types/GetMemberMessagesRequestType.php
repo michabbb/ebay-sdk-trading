@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $displayToPublic
- * @property DateTime $endCreationTime
- * @property string $itemId
- * @property DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $mailMessageType
- * @property string $memberMessageId
- * @property DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType(string) $messageStatus
- * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
- * @property string $senderId
- * @property DateTime $startCreationTime
+ * @property boolean $DisplayToPublic
+ * @property DateTime $EndCreationTime
+ * @property string $ItemID
+ * @property DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $MailMessageType
+ * @property string $MemberMessageID
+ * @property DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType(string) $MessageStatus
+ * @property DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property string $SenderID
+ * @property DateTime $StartCreationTime
  */
 class GetMemberMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -35,55 +35,55 @@ class GetMemberMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'displayToPublic' => array(
+        'DisplayToPublic' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DisplayToPublic'
         ),
-        'endCreationTime' => array(
+        'EndCreationTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EndCreationTime'
         ),
-        'itemId' => array(
+        'ItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemID'
         ),
-        'mailMessageType' => array(
+        'MailMessageType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MailMessageType'
         ),
-        'memberMessageId' => array(
+        'MemberMessageID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MemberMessageID'
         ),
-        'messageStatus' => array(
+        'MessageStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MessageStatus'
         ),
-        'pagination' => array(
+        'Pagination' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Pagination'
         ),
-        'senderId' => array(
+        'SenderID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SenderID'
         ),
-        'startCreationTime' => array(
+        'StartCreationTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
@@ -96,18 +96,12 @@ class GetMemberMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

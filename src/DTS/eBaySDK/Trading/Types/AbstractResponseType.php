@@ -19,21 +19,21 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\AckCodeType(string) $ack
- * @property DTS\eBaySDK\Trading\Types\BotBlockResponseType $botBlock
- * @property string $build
- * @property string $correlationId
- * @property DTS\eBaySDK\Trading\Types\DuplicateInvocationDetailsType $duplicateInvocationDetails
- * @property string $eiastOken
- * @property DTS\eBaySDK\Trading\Types\ErrorType $errors
- * @property string $externalUserData
- * @property string $hardExpirationWarning
- * @property string $message
- * @property string $notificationEventName
- * @property string $notificationSignature
- * @property string $recipientUserId
- * @property DateTime $timestamp
- * @property string $version
+ * @property DTS\eBaySDK\Trading\Enums\AckCodeType(string) $Ack
+ * @property DTS\eBaySDK\Trading\Types\BotBlockResponseType $BotBlock
+ * @property string $Build
+ * @property string $CorrelationID
+ * @property DTS\eBaySDK\Trading\Types\DuplicateInvocationDetailsType $DuplicateInvocationDetails
+ * @property string $EIASToken
+ * @property DTS\eBaySDK\Trading\Types\ErrorType $Errors
+ * @property string $ExternalUserData
+ * @property string $HardExpirationWarning
+ * @property string $Message
+ * @property string $NotificationEventName
+ * @property string $NotificationSignature
+ * @property string $RecipientUserID
+ * @property DateTime $Timestamp
+ * @property string $Version
  */
 class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -41,91 +41,91 @@ class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'ack' => array(
+        'Ack' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Ack'
         ),
-        'botBlock' => array(
+        'BotBlock' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\BotBlockResponseType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BotBlock'
         ),
-        'build' => array(
+        'Build' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Build'
         ),
-        'correlationId' => array(
+        'CorrelationID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CorrelationID'
         ),
-        'duplicateInvocationDetails' => array(
+        'DuplicateInvocationDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\DuplicateInvocationDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DuplicateInvocationDetails'
         ),
-        'eiastOken' => array(
+        'EIASToken' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EIASToken'
         ),
-        'errors' => array(
+        'Errors' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ErrorType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'Errors'
         ),
-        'externalUserData' => array(
+        'ExternalUserData' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExternalUserData'
         ),
-        'hardExpirationWarning' => array(
+        'HardExpirationWarning' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HardExpirationWarning'
         ),
-        'message' => array(
+        'Message' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Message'
         ),
-        'notificationEventName' => array(
+        'NotificationEventName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NotificationEventName'
         ),
-        'notificationSignature' => array(
+        'NotificationSignature' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NotificationSignature'
         ),
-        'recipientUserId' => array(
+        'RecipientUserID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RecipientUserID'
         ),
-        'timestamp' => array(
+        'Timestamp' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Timestamp'
         ),
-        'version' => array(
+        'Version' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -138,18 +138,12 @@ class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,18 +19,18 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $bestOfferList
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $bidList
- * @property DTS\eBaySDK\Trading\Types\BuyingSummaryType $buyingSummary
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $deletedFromLostList
- * @property DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $deletedFromWonList
- * @property DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $favoriteSearches
- * @property DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $favoriteSellers
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $lostList
- * @property DTS\eBaySDK\Trading\Types\ItemType $secondChanceOffer
- * @property DTS\eBaySDK\Trading\Types\UserDefinedListType $userDefinedList
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $watchList
- * @property DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $wonList
+ * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BestOfferList
+ * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BidList
+ * @property DTS\eBaySDK\Trading\Types\BuyingSummaryType $BuyingSummary
+ * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $DeletedFromLostList
+ * @property DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $DeletedFromWonList
+ * @property DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
+ * @property DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
+ * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $LostList
+ * @property DTS\eBaySDK\Trading\Types\ItemType $SecondChanceOffer
+ * @property DTS\eBaySDK\Trading\Types\UserDefinedListType $UserDefinedList
+ * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $WatchList
+ * @property DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $WonList
  */
 class GetMyeBayBuyingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -38,73 +38,73 @@ class GetMyeBayBuyingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bestOfferList' => array(
+        'BestOfferList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOfferList'
         ),
-        'bidList' => array(
+        'BidList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BidList'
         ),
-        'buyingSummary' => array(
+        'BuyingSummary' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\BuyingSummaryType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyingSummary'
         ),
-        'deletedFromLostList' => array(
+        'DeletedFromLostList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromLostList'
         ),
-        'deletedFromWonList' => array(
+        'DeletedFromWonList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromWonList'
         ),
-        'favoriteSearches' => array(
+        'FavoriteSearches' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FavoriteSearches'
         ),
-        'favoriteSellers' => array(
+        'FavoriteSellers' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FavoriteSellers'
         ),
-        'lostList' => array(
+        'LostList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LostList'
         ),
-        'secondChanceOffer' => array(
+        'SecondChanceOffer' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'SecondChanceOffer'
         ),
-        'userDefinedList' => array(
+        'UserDefinedList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\UserDefinedListType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'UserDefinedList'
         ),
-        'watchList' => array(
+        'WatchList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedItemArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'WatchList'
         ),
-        'wonList' => array(
+        'WonList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType',
             'unbound' => false,
             'attribute' => false,
@@ -117,18 +117,12 @@ class GetMyeBayBuyingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

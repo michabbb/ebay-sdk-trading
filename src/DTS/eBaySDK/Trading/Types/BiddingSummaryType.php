@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $bidActivityWithSeller
- * @property integer $bidRetractions
- * @property integer $bidsToUniqueCategories
- * @property integer $bidsToUniqueSellers
- * @property DTS\eBaySDK\Trading\Types\ItemBidDetailsType $itemBidDetails
- * @property integer $summaryDays
- * @property integer $totalBids
+ * @property integer $BidActivityWithSeller
+ * @property integer $BidRetractions
+ * @property integer $BidsToUniqueCategories
+ * @property integer $BidsToUniqueSellers
+ * @property DTS\eBaySDK\Trading\Types\ItemBidDetailsType $ItemBidDetails
+ * @property integer $SummaryDays
+ * @property integer $TotalBids
  */
 class BiddingSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,43 +33,43 @@ class BiddingSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bidActivityWithSeller' => array(
+        'BidActivityWithSeller' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BidActivityWithSeller'
         ),
-        'bidRetractions' => array(
+        'BidRetractions' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BidRetractions'
         ),
-        'bidsToUniqueCategories' => array(
+        'BidsToUniqueCategories' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BidsToUniqueCategories'
         ),
-        'bidsToUniqueSellers' => array(
+        'BidsToUniqueSellers' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BidsToUniqueSellers'
         ),
-        'itemBidDetails' => array(
+        'ItemBidDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemBidDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ItemBidDetails'
         ),
-        'summaryDays' => array(
+        'SummaryDays' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SummaryDays'
         ),
-        'totalBids' => array(
+        'TotalBids' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class BiddingSummaryType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

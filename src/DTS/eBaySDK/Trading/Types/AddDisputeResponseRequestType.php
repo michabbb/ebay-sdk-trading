@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\DisputeActivityCodeType(string) $disputeActivity
- * @property string $disputeId
- * @property string $messageText
- * @property string $shipmentTrackNumber
- * @property string $shippingCarrierUsed
- * @property DateTime $shippingTime
+ * @property DTS\eBaySDK\Trading\Enums\DisputeActivityCodeType(string) $DisputeActivity
+ * @property string $DisputeID
+ * @property string $MessageText
+ * @property string $ShipmentTrackNumber
+ * @property string $ShippingCarrierUsed
+ * @property DateTime $ShippingTime
  */
 class AddDisputeResponseRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -32,37 +32,37 @@ class AddDisputeResponseRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'disputeActivity' => array(
+        'DisputeActivity' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DisputeActivity'
         ),
-        'disputeId' => array(
+        'DisputeID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DisputeID'
         ),
-        'messageText' => array(
+        'MessageText' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MessageText'
         ),
-        'shipmentTrackNumber' => array(
+        'ShipmentTrackNumber' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShipmentTrackNumber'
         ),
-        'shippingCarrierUsed' => array(
+        'ShippingCarrierUsed' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingCarrierUsed'
         ),
-        'shippingTime' => array(
+        'ShippingTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
@@ -75,18 +75,12 @@ class AddDisputeResponseRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

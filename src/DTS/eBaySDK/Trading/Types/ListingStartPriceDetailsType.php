@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $description
- * @property string $detailVersion
- * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $listingType
- * @property double $minBuyItNowPricePercent
- * @property DTS\eBaySDK\Trading\Types\AmountType $startPrice
- * @property DateTime $updateTime
+ * @property string $Description
+ * @property string $DetailVersion
+ * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
+ * @property double $MinBuyItNowPricePercent
+ * @property DTS\eBaySDK\Trading\Types\AmountType $StartPrice
+ * @property DateTime $UpdateTime
  */
 class ListingStartPriceDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -32,37 +32,37 @@ class ListingStartPriceDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'description' => array(
+        'Description' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Description'
         ),
-        'detailVersion' => array(
+        'DetailVersion' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DetailVersion'
         ),
-        'listingType' => array(
+        'ListingType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingType'
         ),
-        'minBuyItNowPricePercent' => array(
+        'MinBuyItNowPricePercent' => array(
             'type' => 'double',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MinBuyItNowPricePercent'
         ),
-        'startPrice' => array(
+        'StartPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StartPrice'
         ),
-        'updateTime' => array(
+        'UpdateTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
@@ -75,18 +75,12 @@ class ListingStartPriceDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,24 +19,24 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $description
- * @property string $ean
- * @property string $refund
- * @property string $refundOption
- * @property string $restockingFeeValue
- * @property string $restockingFeeValueOption
- * @property string $returnsAccepted
- * @property string $returnsAcceptedOption
- * @property string $returnsWithin
- * @property string $returnsWithinOption
- * @property string $shippingCostPaidBy
- * @property string $shippingCostPaidByOption
- * @property string $warrantyDuration
- * @property string $warrantyDurationOption
- * @property string $warrantyOffered
- * @property string $warrantyOfferedOption
- * @property string $warrantyType
- * @property string $warrantyTypeOption
+ * @property string $Description
+ * @property string $EAN
+ * @property string $Refund
+ * @property string $RefundOption
+ * @property string $RestockingFeeValue
+ * @property string $RestockingFeeValueOption
+ * @property string $ReturnsAccepted
+ * @property string $ReturnsAcceptedOption
+ * @property string $ReturnsWithin
+ * @property string $ReturnsWithinOption
+ * @property string $ShippingCostPaidBy
+ * @property string $ShippingCostPaidByOption
+ * @property string $WarrantyDuration
+ * @property string $WarrantyDurationOption
+ * @property string $WarrantyOffered
+ * @property string $WarrantyOfferedOption
+ * @property string $WarrantyType
+ * @property string $WarrantyTypeOption
  */
 class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -44,109 +44,109 @@ class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'description' => array(
+        'Description' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Description'
         ),
-        'ean' => array(
+        'EAN' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EAN'
         ),
-        'refund' => array(
+        'Refund' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Refund'
         ),
-        'refundOption' => array(
+        'RefundOption' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RefundOption'
         ),
-        'restockingFeeValue' => array(
+        'RestockingFeeValue' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RestockingFeeValue'
         ),
-        'restockingFeeValueOption' => array(
+        'RestockingFeeValueOption' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RestockingFeeValueOption'
         ),
-        'returnsAccepted' => array(
+        'ReturnsAccepted' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReturnsAccepted'
         ),
-        'returnsAcceptedOption' => array(
+        'ReturnsAcceptedOption' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReturnsAcceptedOption'
         ),
-        'returnsWithin' => array(
+        'ReturnsWithin' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReturnsWithin'
         ),
-        'returnsWithinOption' => array(
+        'ReturnsWithinOption' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReturnsWithinOption'
         ),
-        'shippingCostPaidBy' => array(
+        'ShippingCostPaidBy' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingCostPaidBy'
         ),
-        'shippingCostPaidByOption' => array(
+        'ShippingCostPaidByOption' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingCostPaidByOption'
         ),
-        'warrantyDuration' => array(
+        'WarrantyDuration' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'WarrantyDuration'
         ),
-        'warrantyDurationOption' => array(
+        'WarrantyDurationOption' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'WarrantyDurationOption'
         ),
-        'warrantyOffered' => array(
+        'WarrantyOffered' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'WarrantyOffered'
         ),
-        'warrantyOfferedOption' => array(
+        'WarrantyOfferedOption' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'WarrantyOfferedOption'
         ),
-        'warrantyType' => array(
+        'WarrantyType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'WarrantyType'
         ),
-        'warrantyTypeOption' => array(
+        'WarrantyTypeOption' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -159,18 +159,12 @@ class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

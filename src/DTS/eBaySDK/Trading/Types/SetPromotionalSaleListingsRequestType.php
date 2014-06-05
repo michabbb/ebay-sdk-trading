@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\ModifyActionCodeType(string) $action
- * @property boolean $allAuctionItems
- * @property boolean $allFixedPriceItems
- * @property boolean $allStoreInventoryItems
- * @property integer $categoryId
- * @property integer $promotionalSaleId
- * @property DTS\eBaySDK\Trading\Types\ItemIDArrayType $promotionalSaleItemIdaRray
- * @property integer $storeCategoryId
+ * @property DTS\eBaySDK\Trading\Enums\ModifyActionCodeType(string) $Action
+ * @property boolean $AllAuctionItems
+ * @property boolean $AllFixedPriceItems
+ * @property boolean $AllStoreInventoryItems
+ * @property integer $CategoryID
+ * @property integer $PromotionalSaleID
+ * @property DTS\eBaySDK\Trading\Types\ItemIDArrayType $PromotionalSaleItemIDArray
+ * @property integer $StoreCategoryID
  */
 class SetPromotionalSaleListingsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -34,49 +34,49 @@ class SetPromotionalSaleListingsRequestType extends \DTS\eBaySDK\Trading\Types\A
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'action' => array(
+        'Action' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Action'
         ),
-        'allAuctionItems' => array(
+        'AllAuctionItems' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AllAuctionItems'
         ),
-        'allFixedPriceItems' => array(
+        'AllFixedPriceItems' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AllFixedPriceItems'
         ),
-        'allStoreInventoryItems' => array(
+        'AllStoreInventoryItems' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AllStoreInventoryItems'
         ),
-        'categoryId' => array(
+        'CategoryID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryID'
         ),
-        'promotionalSaleId' => array(
+        'PromotionalSaleID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleID'
         ),
-        'promotionalSaleItemIdaRray' => array(
+        'PromotionalSaleItemIDArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemIDArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PromotionalSaleItemIDArray'
         ),
-        'storeCategoryId' => array(
+        'StoreCategoryID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -89,18 +89,12 @@ class SetPromotionalSaleListingsRequestType extends \DTS\eBaySDK\Trading\Types\A
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

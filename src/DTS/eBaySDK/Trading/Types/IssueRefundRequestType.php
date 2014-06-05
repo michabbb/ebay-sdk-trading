@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $itemId
- * @property string $orderLineItemId
- * @property DTS\eBaySDK\Trading\Types\AmountType $refundAmount
- * @property string $refundMessage
- * @property DTS\eBaySDK\Trading\Enums\RefundReasonCodeType(string) $refundReason
- * @property DTS\eBaySDK\Trading\Enums\RefundTypeCodeType(string) $refundType
- * @property string $transactionId
+ * @property string $ItemID
+ * @property string $OrderLineItemID
+ * @property DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
+ * @property string $RefundMessage
+ * @property DTS\eBaySDK\Trading\Enums\RefundReasonCodeType(string) $RefundReason
+ * @property DTS\eBaySDK\Trading\Enums\RefundTypeCodeType(string) $RefundType
+ * @property string $TransactionID
  */
 class IssueRefundRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -33,43 +33,43 @@ class IssueRefundRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestT
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'itemId' => array(
+        'ItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemID'
         ),
-        'orderLineItemId' => array(
+        'OrderLineItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OrderLineItemID'
         ),
-        'refundAmount' => array(
+        'RefundAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RefundAmount'
         ),
-        'refundMessage' => array(
+        'RefundMessage' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RefundMessage'
         ),
-        'refundReason' => array(
+        'RefundReason' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RefundReason'
         ),
-        'refundType' => array(
+        'RefundType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RefundType'
         ),
-        'transactionId' => array(
+        'TransactionID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class IssueRefundRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestT
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

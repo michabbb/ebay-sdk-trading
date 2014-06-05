@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AttributeRecommendationsType $attributeRecommendations
- * @property string $correlationId
- * @property DTS\eBaySDK\Trading\Types\ListingAnalyzerRecommendationsType $listingAnalyzerRecommendations
- * @property DTS\eBaySDK\Trading\Types\PricingRecommendationsType $pricingRecommendations
- * @property DTS\eBaySDK\Trading\Types\ProductListingDetailsType $productListingDetails
- * @property DTS\eBaySDK\Trading\Types\ProductRecommendationsType $productRecommendations
- * @property DTS\eBaySDK\Trading\Types\RecommendationsType $recommendations
- * @property DTS\eBaySDK\Trading\Types\SIFFTASRecommendationsType $sifftasrEcommendations
- * @property string $title
+ * @property DTS\eBaySDK\Trading\Types\AttributeRecommendationsType $AttributeRecommendations
+ * @property string $CorrelationID
+ * @property DTS\eBaySDK\Trading\Types\ListingAnalyzerRecommendationsType $ListingAnalyzerRecommendations
+ * @property DTS\eBaySDK\Trading\Types\PricingRecommendationsType $PricingRecommendations
+ * @property DTS\eBaySDK\Trading\Types\ProductListingDetailsType $ProductListingDetails
+ * @property DTS\eBaySDK\Trading\Types\ProductRecommendationsType $ProductRecommendations
+ * @property DTS\eBaySDK\Trading\Types\RecommendationsType $Recommendations
+ * @property DTS\eBaySDK\Trading\Types\SIFFTASRecommendationsType $SIFFTASRecommendations
+ * @property string $Title
  */
 class GetRecommendationsResponseContainerType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,55 +35,55 @@ class GetRecommendationsResponseContainerType extends \DTS\eBaySDK\Types\BaseTyp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'attributeRecommendations' => array(
+        'AttributeRecommendations' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AttributeRecommendationsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AttributeRecommendations'
         ),
-        'correlationId' => array(
+        'CorrelationID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CorrelationID'
         ),
-        'listingAnalyzerRecommendations' => array(
+        'ListingAnalyzerRecommendations' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ListingAnalyzerRecommendationsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingAnalyzerRecommendations'
         ),
-        'pricingRecommendations' => array(
+        'PricingRecommendations' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PricingRecommendationsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PricingRecommendations'
         ),
-        'productListingDetails' => array(
+        'ProductListingDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ProductListingDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ProductListingDetails'
         ),
-        'productRecommendations' => array(
+        'ProductRecommendations' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ProductRecommendationsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ProductRecommendations'
         ),
-        'recommendations' => array(
+        'Recommendations' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\RecommendationsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Recommendations'
         ),
-        'sifftasrEcommendations' => array(
+        'SIFFTASRecommendations' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SIFFTASRecommendationsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SIFFTASRecommendations'
         ),
-        'title' => array(
+        'Title' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -96,18 +96,12 @@ class GetRecommendationsResponseContainerType extends \DTS\eBaySDK\Types\BaseTyp
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

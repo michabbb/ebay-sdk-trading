@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\SellerPaymentProfileType $sellerPaymentProfile
- * @property DTS\eBaySDK\Trading\Types\SellerReturnProfileType $sellerReturnProfile
- * @property DTS\eBaySDK\Trading\Types\SellerShippingProfileType $sellerShippingProfile
+ * @property DTS\eBaySDK\Trading\Types\SellerPaymentProfileType $SellerPaymentProfile
+ * @property DTS\eBaySDK\Trading\Types\SellerReturnProfileType $SellerReturnProfile
+ * @property DTS\eBaySDK\Trading\Types\SellerShippingProfileType $SellerShippingProfile
  */
 class SellerProfilesType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -29,19 +29,19 @@ class SellerProfilesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'sellerPaymentProfile' => array(
+        'SellerPaymentProfile' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellerPaymentProfileType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerPaymentProfile'
         ),
-        'sellerReturnProfile' => array(
+        'SellerReturnProfile' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellerReturnProfileType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerReturnProfile'
         ),
-        'sellerShippingProfile' => array(
+        'SellerShippingProfile' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellerShippingProfileType',
             'unbound' => false,
             'attribute' => false,
@@ -54,18 +54,12 @@ class SellerProfilesType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {
