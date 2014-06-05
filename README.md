@@ -57,10 +57,9 @@ use \DTS\eBaySDK\Trading\Services\TradingService;
 use \DTS\eBaySDK\Trading\Types\GeteBayOfficialTimeRequestType;
 use \DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType;
 use \DTS\eBaySDK\Constants\SiteIds;
-use \DTS\eBaySDK\HttpClient\HttpClient;
 
 // Instantiate an eBay service.
-$service = new TradingService(new HttpClient(), array(
+$service = new TradingService(array(
     'apiVersion' => 859,
     'siteId' => SiteIds::US
 ));

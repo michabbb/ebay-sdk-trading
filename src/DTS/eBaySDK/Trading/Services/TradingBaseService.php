@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Services;
 class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
 {
     /**
-     * Constants for the various HTTP headers required by the API. 
+     * Constants for the various HTTP headers required by the API.
      */
     const HDR_API_VERSION = 'X-EBAY-API-COMPATIBILITY-LEVEL';
     const HDR_APP_ID = 'X-EBAY-API-APP-NAME';
@@ -35,10 +35,10 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
     const HDR_SITE_ID = 'X-EBAY-API-SITEID';
 
     /**
+     * @param array $config Optional configuration option values.
      * @param \DTS\eBaySDK\Interfaces\HttpClientInterface $httpClient The object that will handle sending requests to the API.
-     * @param array $config Optional configuration option values. 
      */
-    public function __construct(\DTS\eBaySDK\Interfaces\HttpClientInterface $httpClient, $config = array())
+    public function __construct($config = array(), \DTS\eBaySDK\Interfaces\HttpClientInterface $httpClient = null)
     {
         if (!array_key_exists(get_called_class(), self::$configOptions)) {
             self::$configOptions[get_called_class()] = array(
@@ -50,7 +50,7 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
             );
         }
 
-        parent::__construct($httpClient, 'https://api.ebay.com/ws/api.dll', 'https://api.sandbox.ebay.com/ws/api.dll', $config);
+        parent::__construct('https://api.ebay.com/ws/api.dll', 'https://api.sandbox.ebay.com/ws/api.dll', $config, $httpClient);
     }
 
     /**
@@ -63,25 +63,25 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
     protected function getEbayHeaders($operationName)
     {
         $headers = array();
-  
+
         // Add required headers first.
-        $headers[self::HDR_API_VERSION] = $this->config('apiVersion'); 
+        $headers[self::HDR_API_VERSION] = $this->config('apiVersion');
         $headers[self::HDR_OPERATION_NAME] = $operationName;
         $headers[self::HDR_SITE_ID] = $this->config('siteId');
 
         // Add optional headers.
         if ($this->config('appId')) {
-            $headers[self::HDR_APP_ID] = $this->config('appId'); 
+            $headers[self::HDR_APP_ID] = $this->config('appId');
         }
 
         if ($this->config('certId')) {
-            $headers[self::HDR_CERT_ID] = $this->config('certId'); 
+            $headers[self::HDR_CERT_ID] = $this->config('certId');
         }
 
         if ($this->config('devId')) {
-            $headers[self::HDR_DEV_ID] = $this->config('devId'); 
+            $headers[self::HDR_DEV_ID] = $this->config('devId');
         }
 
         return $headers;
-    } 
+    }
 }
