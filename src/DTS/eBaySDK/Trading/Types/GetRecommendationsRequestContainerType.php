@@ -23,10 +23,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $DeletedField
  * @property boolean $ExcludeRelationships
  * @property boolean $IncludeConfidence
- * @property DTS\eBaySDK\Trading\Types\ItemType $Item
- * @property DTS\eBaySDK\Trading\Enums\ListingFlowCodeType(string) $ListingFlow
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DTS\eBaySDK\Trading\Enums\ListingFlowCodeType(string) $ListingFlow
  * @property string $Query
- * @property DTS\eBaySDK\Trading\Enums\RecommendationEngineCodeType(string) $RecommendationEngine
+ * @property \DTS\eBaySDK\Trading\Enums\RecommendationEngineCodeType(string) $RecommendationEngine
  */
 class GetRecommendationsRequestContainerType extends \DTS\eBaySDK\Types\BaseType
 {

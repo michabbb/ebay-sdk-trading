@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\HandlingNameCodeType(string) $DiscountName
- * @property DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalOffAmount
+ * @property \DTS\eBaySDK\Trading\Enums\HandlingNameCodeType(string) $DiscountName
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalOffAmount
  * @property double $EachAdditionalPercentOff
- * @property DTS\eBaySDK\Trading\Types\AmountType $OrderHandlingAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $OrderHandlingAmount
  */
 class CalculatedHandlingDiscountType extends \DTS\eBaySDK\Types\BaseType
 {

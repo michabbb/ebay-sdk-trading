@@ -22,14 +22,14 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $Category2ID
  * @property string $CategoryID
  * @property string $CorrelationID
- * @property DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType(string) $DiscountReason
- * @property DateTime $EndTime
- * @property DTS\eBaySDK\Trading\Types\ErrorType $Errors
- * @property DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property \DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType(string) $DiscountReason
+ * @property \DateTime $EndTime
+ * @property \DTS\eBaySDK\Trading\Types\ErrorType $Errors
+ * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
  * @property string $ItemID
- * @property DTS\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
+ * @property \DTS\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
  * @property string $Message
- * @property DateTime $StartTime
+ * @property \DateTime $StartTime
  */
 class AddItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
 {

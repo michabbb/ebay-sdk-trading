@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\DisputeActivityCodeType(string) $DisputeActivity
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeActivityCodeType(string) $DisputeActivity
  * @property string $DisputeID
  * @property string $MessageText
  * @property string $ShipmentTrackNumber
  * @property string $ShippingCarrierUsed
- * @property DateTime $ShippingTime
+ * @property \DateTime $ShippingTime
  */
 class AddDisputeResponseRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

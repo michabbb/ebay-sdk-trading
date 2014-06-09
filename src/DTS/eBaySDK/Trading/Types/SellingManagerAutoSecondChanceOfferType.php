@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $Amount
- * @property DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType(string) $Duration
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Amount
+ * @property \DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType(string) $Duration
  * @property integer $ListingHoldInventoryLevel
  * @property double $ProfitPercent
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerAutoSecondChanceOfferTypeCodeType(string) $SecondChanceOfferCondition
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerAutoSecondChanceOfferTypeCodeType(string) $SecondChanceOfferCondition
  */
 class SellingManagerAutoSecondChanceOfferType extends \DTS\eBaySDK\Types\BaseType
 {

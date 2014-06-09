@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\OrderType $Order
- * @property DTS\eBaySDK\Trading\Types\TransactionType $Transaction
+ * @property \DTS\eBaySDK\Trading\Types\OrderType $Order
+ * @property \DTS\eBaySDK\Trading\Types\TransactionType $Transaction
  */
 class OrderTransactionType extends \DTS\eBaySDK\Types\BaseType
 {

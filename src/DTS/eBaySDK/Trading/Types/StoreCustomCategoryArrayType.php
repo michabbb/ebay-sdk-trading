@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\StoreCustomCategoryType $CustomCategory
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomCategoryType $CustomCategory
  */
 class StoreCustomCategoryArrayType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $DurationInDays
  * @property boolean $Include
  * @property boolean $IncludeNotes
- * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
- * @property DTS\eBaySDK\Trading\Enums\OrderStatusFilterCodeType(string) $OrderStatusFilter
- * @property DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property DTS\eBaySDK\Trading\Enums\ItemSortTypeCodeType(string) $Sort
+ * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
+ * @property \DTS\eBaySDK\Trading\Enums\OrderStatusFilterCodeType(string) $OrderStatusFilter
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Enums\ItemSortTypeCodeType(string) $Sort
  */
 class ItemListCustomizationType extends \DTS\eBaySDK\Types\BaseType
 {

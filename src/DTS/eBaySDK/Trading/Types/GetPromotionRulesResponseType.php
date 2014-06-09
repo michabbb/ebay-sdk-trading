@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PromotionRuleArrayType $PromotionRuleArray
+ * @property \DTS\eBaySDK\Trading\Types\PromotionRuleArrayType $PromotionRuleArray
  */
 class GetPromotionRulesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

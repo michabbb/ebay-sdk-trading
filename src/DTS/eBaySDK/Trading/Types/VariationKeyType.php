@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $ItemID
- * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
  */
 class VariationKeyType extends \DTS\eBaySDK\Types\BaseType
 {

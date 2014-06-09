@@ -21,26 +21,26 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $Content
  * @property string $ContentType
- * @property DateTime $CreationDate
- * @property DateTime $ExpirationDate
+ * @property \DateTime $CreationDate
+ * @property \DateTime $ExpirationDate
  * @property string $ExternalMessageID
  * @property boolean $Flagged
- * @property DTS\eBaySDK\Trading\Types\MyMessagesFolderType $Folder
- * @property DTS\eBaySDK\Trading\Types\MyMessagesForwardDetailsType $ForwardDetails
+ * @property \DTS\eBaySDK\Trading\Types\MyMessagesFolderType $Folder
+ * @property \DTS\eBaySDK\Trading\Types\MyMessagesForwardDetailsType $ForwardDetails
  * @property boolean $HighPriority
- * @property DateTime $ItemEndTime
+ * @property \DateTime $ItemEndTime
  * @property string $ItemID
  * @property string $ItemTitle
- * @property DTS\eBaySDK\Trading\Enums\ListingStatusCodeType(string) $ListingStatus
+ * @property \DTS\eBaySDK\Trading\Enums\ListingStatusCodeType(string) $ListingStatus
  * @property string $MessageID
- * @property DTS\eBaySDK\Trading\Types\MessageMediaType $MessageMedia
- * @property DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $MessageType
- * @property DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType(string) $QuestionType
+ * @property \DTS\eBaySDK\Trading\Types\MessageMediaType $MessageMedia
+ * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $MessageType
+ * @property \DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType(string) $QuestionType
  * @property boolean $Read
- * @property DateTime $ReceiveDate
+ * @property \DateTime $ReceiveDate
  * @property string $RecipientUserID
  * @property boolean $Replied
- * @property DTS\eBaySDK\Trading\Types\MyMessagesResponseDetailsType $ResponseDetails
+ * @property \DTS\eBaySDK\Trading\Types\MyMessagesResponseDetailsType $ResponseDetails
  * @property string $SendToName
  * @property string $Sender
  * @property string $Subject

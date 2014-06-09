@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $ImportCharge
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ImportCharge
  * @property string $ShipToLocation
- * @property DTS\eBaySDK\Trading\Types\AmountType $ShippingInsuranceCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingInsuranceCost
  * @property string $ShippingService
- * @property DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
- * @property DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
- * @property DateTime $ShippingServiceCutOffTime
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
+ * @property \DateTime $ShippingServiceCutOffTime
  * @property integer $ShippingServicePriority
  */
 class InternationalShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType

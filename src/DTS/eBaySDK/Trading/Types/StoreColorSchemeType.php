@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\StoreColorType $Color
+ * @property \DTS\eBaySDK\Trading\Types\StoreColorType $Color
  * @property integer $ColorSchemeID
- * @property DTS\eBaySDK\Trading\Types\StoreFontType $Font
+ * @property \DTS\eBaySDK\Trading\Types\StoreFontType $Font
  * @property string $Name
  */
 class StoreColorSchemeType extends \DTS\eBaySDK\Types\BaseType

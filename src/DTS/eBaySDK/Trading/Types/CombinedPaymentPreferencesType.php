@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CalculatedShippingPreferencesType $CalculatedShippingPreferences
- * @property DTS\eBaySDK\Trading\Enums\CombinedPaymentOptionCodeType(string) $CombinedPaymentOption
- * @property DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType(string) $CombinedPaymentPeriod
- * @property DTS\eBaySDK\Trading\Types\FlatShippingPreferencesType $FlatShippingPreferences
+ * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingPreferencesType $CalculatedShippingPreferences
+ * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentOptionCodeType(string) $CombinedPaymentOption
+ * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType(string) $CombinedPaymentPeriod
+ * @property \DTS\eBaySDK\Trading\Types\FlatShippingPreferencesType $FlatShippingPreferences
  */
 class CombinedPaymentPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {

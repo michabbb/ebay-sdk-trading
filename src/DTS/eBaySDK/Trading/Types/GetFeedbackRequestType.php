@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\CommentTypeCodeType(string) $CommentType
+ * @property \DTS\eBaySDK\Trading\Enums\CommentTypeCodeType(string) $CommentType
  * @property string $FeedbackID
- * @property DTS\eBaySDK\Trading\Enums\FeedbackTypeCodeType(string) $FeedbackType
+ * @property \DTS\eBaySDK\Trading\Enums\FeedbackTypeCodeType(string) $FeedbackType
  * @property string $ItemID
  * @property string $OrderLineItemID
- * @property DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
  * @property string $TransactionID
  * @property string $UserID
  */

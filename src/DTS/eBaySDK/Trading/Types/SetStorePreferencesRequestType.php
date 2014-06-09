@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\StorePreferencesType $StorePreferences
+ * @property \DTS\eBaySDK\Trading\Types\StorePreferencesType $StorePreferences
  */
 class SetStorePreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

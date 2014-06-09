@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\FeeType $Fee
+ * @property \DTS\eBaySDK\Trading\Types\FeeType $Fee
  * @property string $ItemID
  */
 class InventoryFeesType extends \DTS\eBaySDK\Types\BaseType

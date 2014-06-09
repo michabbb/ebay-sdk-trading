@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $CreationDate
- * @property DTS\eBaySDK\Trading\Types\ItemType $Item
- * @property DateTime $LastModifiedDate
- * @property DTS\eBaySDK\Trading\Types\MessageMediaType $MessageMedia
- * @property DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType(string) $MessageStatus
- * @property DTS\eBaySDK\Trading\Types\MemberMessageType $Question
+ * @property \DateTime $CreationDate
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DateTime $LastModifiedDate
+ * @property \DTS\eBaySDK\Trading\Types\MessageMediaType $MessageMedia
+ * @property \DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType(string) $MessageStatus
+ * @property \DTS\eBaySDK\Trading\Types\MemberMessageType $Question
  * @property string $Response
  */
 class MemberMessageExchangeType extends \DTS\eBaySDK\Types\BaseType

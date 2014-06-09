@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\StoreSubscriptionType $Subscription
+ * @property \DTS\eBaySDK\Trading\Types\StoreSubscriptionType $Subscription
  */
 class StoreSubscriptionArrayType extends \DTS\eBaySDK\Types\BaseType
 {

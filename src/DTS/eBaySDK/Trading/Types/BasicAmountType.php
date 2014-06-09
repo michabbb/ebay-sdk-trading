@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $currencyID
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $currencyID
  */
 class BasicAmountType extends \DTS\eBaySDK\Types\StringType
 {

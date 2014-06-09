@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DescriptionTemplateType $DescriptionTemplate
+ * @property \DTS\eBaySDK\Trading\Types\DescriptionTemplateType $DescriptionTemplate
  * @property integer $LayoutTotal
  * @property integer $ObsoleteLayoutID
  * @property integer $ObsoleteThemeID
- * @property DTS\eBaySDK\Trading\Types\ThemeGroupType $ThemeGroup
+ * @property \DTS\eBaySDK\Trading\Types\ThemeGroupType $ThemeGroup
  * @property integer $ThemeTotal
  */
 class GetDescriptionTemplatesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

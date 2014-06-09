@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AverageRatingSummaryType $AverageRatingSummary
+ * @property \DTS\eBaySDK\Trading\Types\AverageRatingSummaryType $AverageRatingSummary
  */
 class SellerRatingSummaryArrayType extends \DTS\eBaySDK\Types\BaseType
 {

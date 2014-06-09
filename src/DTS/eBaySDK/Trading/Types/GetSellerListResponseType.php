@@ -20,12 +20,12 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $HasMoreItems
- * @property DTS\eBaySDK\Trading\Types\ItemArrayType $ItemArray
+ * @property \DTS\eBaySDK\Trading\Types\ItemArrayType $ItemArray
  * @property integer $ItemsPerPage
  * @property integer $PageNumber
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  * @property integer $ReturnedItemCountActual
- * @property DTS\eBaySDK\Trading\Types\UserType $Seller
+ * @property \DTS\eBaySDK\Trading\Types\UserType $Seller
  */
 class GetSellerListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

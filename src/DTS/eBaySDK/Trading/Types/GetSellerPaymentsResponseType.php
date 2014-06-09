@@ -21,10 +21,10 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $HasMorePayments
  * @property integer $PageNumber
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  * @property integer $PaymentsPerPage
  * @property integer $ReturnedPaymentCountActual
- * @property DTS\eBaySDK\Trading\Types\SellerPaymentType $SellerPayment
+ * @property \DTS\eBaySDK\Trading\Types\SellerPaymentType $SellerPayment
  */
 class GetSellerPaymentsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $ScheduleID
- * @property DateTime $ScheduleTime
+ * @property \DateTime $ScheduleTime
  */
 class ScheduleType extends \DTS\eBaySDK\Types\BaseType
 {

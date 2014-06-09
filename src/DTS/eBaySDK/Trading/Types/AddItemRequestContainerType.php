@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
  * @property string $MessageID
  */
 class AddItemRequestContainerType extends \DTS\eBaySDK\Types\BaseType

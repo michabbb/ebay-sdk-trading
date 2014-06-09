@@ -20,8 +20,8 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $HasMoreItems
- * @property DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
 class GetMemberMessagesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

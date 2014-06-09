@@ -25,7 +25,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $CharityRegion
  * @property boolean $Featured
  * @property boolean $IncludeDescription
- * @property DTS\eBaySDK\Trading\Enums\StringMatchCodeType(string) $MatchType
+ * @property \DTS\eBaySDK\Trading\Enums\StringMatchCodeType(string) $MatchType
  * @property string $Query
  */
 class GetCharitiesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $DeletedField
- * @property DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
  * @property integer $ProductID
  * @property integer $SaleTemplateID
  * @property string $SaleTemplateName

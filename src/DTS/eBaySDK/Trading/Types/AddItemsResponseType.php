@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AddItemResponseContainerType $AddItemResponseContainer
+ * @property \DTS\eBaySDK\Trading\Types\AddItemResponseContainerType $AddItemResponseContainer
  */
 class AddItemsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

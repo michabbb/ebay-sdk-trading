@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ExternalProductIDType $ExternalProductID
+ * @property \DTS\eBaySDK\Trading\Types\ExternalProductIDType $ExternalProductID
  */
 class ProductSearchType extends \DTS\eBaySDK\Types\BaseType
 {

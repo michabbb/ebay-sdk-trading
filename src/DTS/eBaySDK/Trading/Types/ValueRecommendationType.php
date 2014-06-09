@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\RecommendationValidationRulesType $ValidationRules
+ * @property \DTS\eBaySDK\Trading\Types\RecommendationValidationRulesType $ValidationRules
  * @property string $Value
  */
 class ValueRecommendationType extends \DTS\eBaySDK\Types\BaseType

@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $EndTime
- * @property DTS\eBaySDK\Trading\Types\AmountType $OriginalPrice
- * @property DateTime $StartTime
+ * @property \DateTime $EndTime
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalPrice
+ * @property \DateTime $StartTime
  */
 class PromotionalSaleDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

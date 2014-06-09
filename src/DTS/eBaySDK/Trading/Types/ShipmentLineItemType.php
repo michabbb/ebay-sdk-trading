@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\LineItemType $LineItem
+ * @property \DTS\eBaySDK\Trading\Types\LineItemType $LineItem
  */
 class ShipmentLineItemType extends \DTS\eBaySDK\Types\BaseType
 {

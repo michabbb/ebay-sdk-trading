@@ -20,11 +20,11 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $Hours1AnyTime
- * @property DTS\eBaySDK\Trading\Enums\DaysCodeType(string) $Hours1Days
+ * @property \DTS\eBaySDK\Trading\Enums\DaysCodeType(string) $Hours1Days
  * @property string $Hours1From
  * @property string $Hours1To
  * @property boolean $Hours2AnyTime
- * @property DTS\eBaySDK\Trading\Enums\DaysCodeType(string) $Hours2Days
+ * @property \DTS\eBaySDK\Trading\Enums\DaysCodeType(string) $Hours2Days
  * @property string $Hours2From
  * @property string $Hours2To
  * @property string $TimeZoneID

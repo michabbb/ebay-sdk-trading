@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PictureManagerDetailsType $PictureManagerDetails
+ * @property \DTS\eBaySDK\Trading\Types\PictureManagerDetailsType $PictureManagerDetails
  */
 class GetPictureManagerDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

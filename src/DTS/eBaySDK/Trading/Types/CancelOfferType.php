@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $Explanation
- * @property DTS\eBaySDK\Trading\Types\OfferType $Offer
+ * @property \DTS\eBaySDK\Trading\Types\OfferType $Offer
  */
 class CancelOfferType extends \DTS\eBaySDK\Types\BaseType
 {

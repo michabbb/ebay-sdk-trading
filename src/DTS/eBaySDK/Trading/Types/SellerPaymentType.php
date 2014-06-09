@@ -19,20 +19,20 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
- * @property DTS\eBaySDK\Trading\Types\AmountType $Commission
- * @property DTS\eBaySDK\Trading\Types\ExternalProductIDType $ExternalProductID
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Commission
+ * @property \DTS\eBaySDK\Trading\Types\ExternalProductIDType $ExternalProductID
  * @property string $ItemID
  * @property string $OrderID
  * @property string $OrderLineItemID
- * @property DateTime $PaidTime
- * @property DTS\eBaySDK\Trading\Enums\PaymentTypeCodeType(string) $PaymentType
+ * @property \DateTime $PaidTime
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentTypeCodeType(string) $PaymentType
  * @property string $PrivateNotes
  * @property string $SellerInventoryID
- * @property DTS\eBaySDK\Trading\Types\AmountType $ShippingReimbursement
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingReimbursement
  * @property string $Title
  * @property string $TransactionID
- * @property DTS\eBaySDK\Trading\Types\AmountType $TransactionPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TransactionPrice
  */
 class SellerPaymentType extends \DTS\eBaySDK\Types\BaseType
 {

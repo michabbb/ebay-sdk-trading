@@ -21,16 +21,16 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $ExpeditedService
  * @property boolean $FreeShipping
- * @property DTS\eBaySDK\Trading\Types\AmountType $ImportCharge
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ImportCharge
  * @property boolean $LocalPickup
- * @property DTS\eBaySDK\Trading\Types\AmountType $ShippingInsuranceCost
- * @property DTS\eBaySDK\Trading\Types\ShippingPackageInfoType $ShippingPackageInfo
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingInsuranceCost
+ * @property \DTS\eBaySDK\Trading\Types\ShippingPackageInfoType $ShippingPackageInfo
  * @property string $ShippingService
- * @property DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
- * @property DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
- * @property DateTime $ShippingServiceCutOffTime
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
+ * @property \DateTime $ShippingServiceCutOffTime
  * @property integer $ShippingServicePriority
- * @property DTS\eBaySDK\Trading\Types\AmountType $ShippingSurcharge
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingSurcharge
  * @property integer $ShippingTimeMax
  * @property integer $ShippingTimeMin
  */

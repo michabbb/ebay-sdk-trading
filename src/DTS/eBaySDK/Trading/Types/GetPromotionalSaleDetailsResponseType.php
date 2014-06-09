@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PromotionalSaleArrayType $PromotionalSaleDetails
+ * @property \DTS\eBaySDK\Trading\Types\PromotionalSaleArrayType $PromotionalSaleDetails
  */
 class GetPromotionalSaleDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

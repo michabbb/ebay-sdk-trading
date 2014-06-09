@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $EndTime
- * @property DateTime $StartTime
+ * @property \DateTime $EndTime
+ * @property \DateTime $StartTime
  */
 class VerifyAddSecondChanceItemResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

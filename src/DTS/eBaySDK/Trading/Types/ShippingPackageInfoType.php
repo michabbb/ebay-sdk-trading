@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $ActualDeliveryTime
- * @property DateTime $ScheduledDeliveryTimeMax
- * @property DateTime $ScheduledDeliveryTimeMin
+ * @property \DateTime $ActualDeliveryTime
+ * @property \DateTime $ScheduledDeliveryTimeMax
+ * @property \DateTime $ScheduledDeliveryTimeMin
  * @property string $ShippingTrackingEvent
  * @property string $StoreID
  */

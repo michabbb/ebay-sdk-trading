@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $FileReferenceID
- * @property DTS\eBaySDK\Trading\Types\RecommendationsType $Recommendations
+ * @property \DTS\eBaySDK\Trading\Types\RecommendationsType $Recommendations
  * @property string $TaskReferenceID
  */
 class GetCategorySpecificsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

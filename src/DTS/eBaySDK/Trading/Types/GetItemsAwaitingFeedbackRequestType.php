@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property DTS\eBaySDK\Trading\Enums\ItemSortTypeCodeType(string) $Sort
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Enums\ItemSortTypeCodeType(string) $Sort
  */
 class GetItemsAwaitingFeedbackRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

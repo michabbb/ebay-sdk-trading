@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $ClassifiedAdContactByEmailEnabled
- * @property DTS\eBaySDK\Trading\Types\ContactHoursDetailsType $ContactHoursDetails
+ * @property \DTS\eBaySDK\Trading\Types\ContactHoursDetailsType $ContactHoursDetails
  */
 class ExtendedContactDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

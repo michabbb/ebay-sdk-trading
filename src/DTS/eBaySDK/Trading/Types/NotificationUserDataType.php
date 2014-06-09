@@ -20,8 +20,8 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $ExternalUserData
- * @property DTS\eBaySDK\Trading\Types\SMSSubscriptionType $SMSSubscription
- * @property DTS\eBaySDK\Trading\Types\SummaryEventScheduleType $SummarySchedule
+ * @property \DTS\eBaySDK\Trading\Types\SMSSubscriptionType $SMSSubscription
+ * @property \DTS\eBaySDK\Trading\Types\SummaryEventScheduleType $SummarySchedule
  */
 class NotificationUserDataType extends \DTS\eBaySDK\Types\BaseType
 {

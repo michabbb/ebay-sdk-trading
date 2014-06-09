@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ProductSearchType $ProductSearch
+ * @property \DTS\eBaySDK\Trading\Types\ProductSearchType $ProductSearch
  */
 class GetProductFamilyMembersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

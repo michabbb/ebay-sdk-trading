@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ReasonCodeDetailType $ReasonCodeDetail
- * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
+ * @property \DTS\eBaySDK\Trading\Types\ReasonCodeDetailType $ReasonCodeDetail
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
  */
 class VeROSiteDetailType extends \DTS\eBaySDK\Types\BaseType
 {

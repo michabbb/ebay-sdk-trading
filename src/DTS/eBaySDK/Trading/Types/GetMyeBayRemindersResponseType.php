@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\RemindersType $BuyingReminders
- * @property DTS\eBaySDK\Trading\Types\RemindersType $SellingReminders
+ * @property \DTS\eBaySDK\Trading\Types\RemindersType $BuyingReminders
+ * @property \DTS\eBaySDK\Trading\Types\RemindersType $SellingReminders
  */
 class GetMyeBayRemindersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

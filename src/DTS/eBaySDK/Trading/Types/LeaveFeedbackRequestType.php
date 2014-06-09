@@ -20,10 +20,10 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $CommentText
- * @property DTS\eBaySDK\Trading\Enums\CommentTypeCodeType(string) $CommentType
+ * @property \DTS\eBaySDK\Trading\Enums\CommentTypeCodeType(string) $CommentType
  * @property string $ItemID
  * @property string $OrderLineItemID
- * @property DTS\eBaySDK\Trading\Types\ItemRatingDetailArrayType $SellerItemRatingDetailArray
+ * @property \DTS\eBaySDK\Trading\Types\ItemRatingDetailArrayType $SellerItemRatingDetailArray
  * @property string $TargetUser
  * @property string $TransactionID
  */

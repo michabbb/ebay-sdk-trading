@@ -24,7 +24,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $JurisdictionName
  * @property double $SalesTaxPercent
  * @property boolean $ShippingIncludedInTax
- * @property DateTime $UpdateTime
+ * @property \DateTime $UpdateTime
  */
 class TaxJurisdictionType extends \DTS\eBaySDK\Types\BaseType
 {

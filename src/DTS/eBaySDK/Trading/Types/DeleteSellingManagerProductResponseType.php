@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $DeletedSellingManagerProductDetails
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $DeletedSellingManagerProductDetails
  */
 class DeleteSellingManagerProductResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

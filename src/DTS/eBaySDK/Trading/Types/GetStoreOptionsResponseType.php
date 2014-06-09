@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\StoreThemeArrayType $AdvancedThemeArray
- * @property DTS\eBaySDK\Trading\Types\StoreThemeArrayType $BasicThemeArray
- * @property DTS\eBaySDK\Trading\Types\StoreLogoArrayType $LogoArray
+ * @property \DTS\eBaySDK\Trading\Types\StoreThemeArrayType $AdvancedThemeArray
+ * @property \DTS\eBaySDK\Trading\Types\StoreThemeArrayType $BasicThemeArray
+ * @property \DTS\eBaySDK\Trading\Types\StoreLogoArrayType $LogoArray
  * @property integer $MaxCategories
  * @property integer $MaxCategoryLevels
- * @property DTS\eBaySDK\Trading\Types\StoreSubscriptionArrayType $SubscriptionArray
+ * @property \DTS\eBaySDK\Trading\Types\StoreSubscriptionArrayType $SubscriptionArray
  */
 class GetStoreOptionsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

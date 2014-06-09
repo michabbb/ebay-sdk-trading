@@ -32,9 +32,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $LogoURLSelling
  * @property string $Mission
  * @property string $Name
- * @property DTS\eBaySDK\Trading\Types\NonProfitAddressType $NonProfitAddress
+ * @property \DTS\eBaySDK\Trading\Types\NonProfitAddressType $NonProfitAddress
  * @property string $NonProfitSecondName
- * @property DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType $NonProfitSocialAddress
+ * @property \DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType $NonProfitSocialAddress
  * @property integer $PopularityIndex
  * @property string $id
  */

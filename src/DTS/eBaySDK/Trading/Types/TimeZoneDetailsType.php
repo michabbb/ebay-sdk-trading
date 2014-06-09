@@ -26,7 +26,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $StandardLabel
  * @property string $StandardOffset
  * @property string $TimeZoneID
- * @property DateTime $UpdateTime
+ * @property \DateTime $UpdateTime
  */
 class TimeZoneDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

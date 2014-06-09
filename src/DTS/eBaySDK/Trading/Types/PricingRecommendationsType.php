@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ProductInfoType $ProductInfo
+ * @property \DTS\eBaySDK\Trading\Types\ProductInfoType $ProductInfo
  */
 class PricingRecommendationsType extends \DTS\eBaySDK\Types\BaseType
 {

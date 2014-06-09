@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemType $SecondChanceOffer
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $SecondChanceOffer
  * @property integer $TotalAvailable
  */
 class MyeBaySecondChanceOfferListType extends \DTS\eBaySDK\Types\BaseType

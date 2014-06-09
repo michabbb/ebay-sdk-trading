@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CategoryType $Category
+ * @property \DTS\eBaySDK\Trading\Types\CategoryType $Category
  */
 class CategoryArrayType extends \DTS\eBaySDK\Types\BaseType
 {

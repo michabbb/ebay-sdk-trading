@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
  * @property integer $SaleTemplateID
- * @property DateTime $ScheduleTime
+ * @property \DateTime $ScheduleTime
  */
 class AddItemFromSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

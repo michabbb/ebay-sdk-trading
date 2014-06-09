@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\OrderTransactionArrayType $OrderTransactionArray
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\OrderTransactionArrayType $OrderTransactionArray
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
 class PaginatedOrderTransactionArrayType extends \DTS\eBaySDK\Types\BaseType
 {

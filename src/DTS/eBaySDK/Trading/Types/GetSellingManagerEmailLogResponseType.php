@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\SellingManagerEmailLogType $EmailLog
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerEmailLogType $EmailLog
  */
 class GetSellingManagerEmailLogResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

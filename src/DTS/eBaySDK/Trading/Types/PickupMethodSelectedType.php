@@ -20,9 +20,9 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $MerchantPickupCode
- * @property DateTime $PickupFulfillmentTime
+ * @property \DateTime $PickupFulfillmentTime
  * @property string $PickupMethod
- * @property DTS\eBaySDK\Trading\Enums\PickupStatusCodeType(string) $PickupStatus
+ * @property \DTS\eBaySDK\Trading\Enums\PickupStatusCodeType(string) $PickupStatus
  * @property string $PickupStoreID
  */
 class PickupMethodSelectedType extends \DTS\eBaySDK\Types\BaseType

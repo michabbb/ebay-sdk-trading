@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PaymentInformationType $Payments
- * @property DTS\eBaySDK\Trading\Types\RefundInformationType $Refunds
+ * @property \DTS\eBaySDK\Trading\Types\PaymentInformationType $Payments
+ * @property \DTS\eBaySDK\Trading\Types\RefundInformationType $Refunds
  */
 class PaymentsInformationType extends \DTS\eBaySDK\Types\BaseType
 {

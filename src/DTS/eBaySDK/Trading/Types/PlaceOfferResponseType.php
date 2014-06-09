@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BestOfferType $BestOffer
+ * @property \DTS\eBaySDK\Trading\Types\BestOfferType $BestOffer
  * @property string $OrderLineItemID
- * @property DTS\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
+ * @property \DTS\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
  * @property string $TransactionID
  */
 class PlaceOfferResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

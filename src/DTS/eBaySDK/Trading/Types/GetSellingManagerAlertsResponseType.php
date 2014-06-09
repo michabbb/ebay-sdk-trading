@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\SellingManagerAlertType $Alert
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerAlertType $Alert
  */
 class GetSellingManagerAlertsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

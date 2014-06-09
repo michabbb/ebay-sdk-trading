@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ListingTipFieldType $Field
+ * @property \DTS\eBaySDK\Trading\Types\ListingTipFieldType $Field
  * @property string $ListingTipID
- * @property DTS\eBaySDK\Trading\Types\ListingTipMessageType $Message
+ * @property \DTS\eBaySDK\Trading\Types\ListingTipMessageType $Message
  * @property integer $Priority
  */
 class ListingTipType extends \DTS\eBaySDK\Types\BaseType

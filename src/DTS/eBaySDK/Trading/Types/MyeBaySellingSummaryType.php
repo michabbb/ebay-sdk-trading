@@ -20,18 +20,18 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $ActiveAuctionCount
- * @property DTS\eBaySDK\Trading\Types\AmountType $AmountLimitRemaining
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountLimitRemaining
  * @property integer $AuctionBidCount
  * @property integer $AuctionSellingCount
  * @property integer $ClassifiedAdCount
  * @property integer $ClassifiedAdOfferCount
  * @property integer $QuantityLimitRemaining
  * @property integer $SoldDurationInDays
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalAuctionSellingValue
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalAuctionSellingValue
  * @property integer $TotalLeadCount
  * @property integer $TotalListingsWithLeads
  * @property integer $TotalSoldCount
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalSoldValue
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalSoldValue
  */
 class MyeBaySellingSummaryType extends \DTS\eBaySDK\Types\BaseType
 {

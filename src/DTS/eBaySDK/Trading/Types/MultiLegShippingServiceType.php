@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $ShippingService
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalShippingCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalShippingCost
  */
 class MultiLegShippingServiceType extends \DTS\eBaySDK\Types\BaseType
 {

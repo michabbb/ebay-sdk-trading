@@ -21,10 +21,10 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $Description
  * @property string $DetailVersion
- * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
+ * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
  * @property double $MinBuyItNowPricePercent
- * @property DTS\eBaySDK\Trading\Types\AmountType $StartPrice
- * @property DateTime $UpdateTime
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
+ * @property \DateTime $UpdateTime
  */
 class ListingStartPriceDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

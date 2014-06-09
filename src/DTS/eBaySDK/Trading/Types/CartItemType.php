@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\ModifyActionCodeType(string) $Action
- * @property DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DTS\eBaySDK\Trading\Enums\ModifyActionCodeType(string) $Action
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
  * @property integer $ReferenceID
  */
 class CartItemType extends \DTS\eBaySDK\Types\BaseType

@@ -21,8 +21,8 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $CampaignDisplayName
  * @property integer $CampaignID
- * @property DTS\eBaySDK\Trading\Types\AmountType $ItemDiscountAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $ShippingDiscountAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ItemDiscountAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingDiscountAmount
  */
 class SellerDiscountType extends \DTS\eBaySDK\Types\BaseType
 {

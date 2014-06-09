@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $Flagged
  * @property integer $FolderID
- * @property DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $MessageIDs
+ * @property \DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $MessageIDs
  * @property boolean $Read
  */
 class ReviseMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

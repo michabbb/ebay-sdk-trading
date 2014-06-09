@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $CreationTime
+ * @property \DateTime $CreationTime
  * @property integer $Rating
  * @property string $Text
  * @property string $Title

@@ -19,18 +19,18 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BestOfferList
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BidList
- * @property DTS\eBaySDK\Trading\Types\BuyingSummaryType $BuyingSummary
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $DeletedFromLostList
- * @property DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $DeletedFromWonList
- * @property DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
- * @property DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $LostList
- * @property DTS\eBaySDK\Trading\Types\ItemType $SecondChanceOffer
- * @property DTS\eBaySDK\Trading\Types\UserDefinedListType $UserDefinedList
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $WatchList
- * @property DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $WonList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BestOfferList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BidList
+ * @property \DTS\eBaySDK\Trading\Types\BuyingSummaryType $BuyingSummary
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $DeletedFromLostList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $DeletedFromWonList
+ * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
+ * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $LostList
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $SecondChanceOffer
+ * @property \DTS\eBaySDK\Trading\Types\UserDefinedListType $UserDefinedList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $WatchList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $WonList
  */
 class GetMyeBayBuyingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

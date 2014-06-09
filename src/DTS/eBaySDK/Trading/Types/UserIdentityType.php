@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\UserIdentityCodeType(string) $type
+ * @property \DTS\eBaySDK\Trading\Enums\UserIdentityCodeType(string) $type
  */
 class UserIdentityType extends \DTS\eBaySDK\Types\StringType
 {

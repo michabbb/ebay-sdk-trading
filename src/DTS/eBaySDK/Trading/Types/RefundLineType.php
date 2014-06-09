@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\RefundLineTypeCodeType(string) $type
+ * @property \DTS\eBaySDK\Trading\Enums\RefundLineTypeCodeType(string) $type
  */
 class RefundLineType extends \DTS\eBaySDK\Trading\Types\AmountType
 {

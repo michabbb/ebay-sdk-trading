@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BrandMPNType $BrandMPN
+ * @property \DTS\eBaySDK\Trading\Types\BrandMPNType $BrandMPN
  * @property string $Copyright
  * @property string $DetailsURL
  * @property string $EAN
@@ -33,7 +33,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ProductReferenceID
  * @property boolean $ReturnSearchResultOnDuplicates
  * @property string $StockPhotoURL
- * @property DTS\eBaySDK\Trading\Types\TicketListingDetailsType $TicketListingDetails
+ * @property \DTS\eBaySDK\Trading\Types\TicketListingDetailsType $TicketListingDetails
  * @property string $UPC
  * @property boolean $UseFirstProduct
  * @property boolean $UseStockPhotoURLAsGallery

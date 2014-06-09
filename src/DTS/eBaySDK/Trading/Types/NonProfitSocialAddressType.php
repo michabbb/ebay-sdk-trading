@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $SocialAddressId
- * @property DTS\eBaySDK\Trading\Enums\SocialAddressTypeCodeType(string) $SocialAddressType
+ * @property \DTS\eBaySDK\Trading\Enums\SocialAddressTypeCodeType(string) $SocialAddressType
  */
 class NonProfitSocialAddressType extends \DTS\eBaySDK\Types\BaseType
 {

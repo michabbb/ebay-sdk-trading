@@ -21,17 +21,17 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $AdminEndedItemsOnly
  * @property integer $CategoryID
- * @property DateTime $EndTimeFrom
- * @property DateTime $EndTimeTo
- * @property DTS\eBaySDK\Trading\Enums\GranularityLevelCodeType(string) $GranularityLevel
+ * @property \DateTime $EndTimeFrom
+ * @property \DateTime $EndTimeTo
+ * @property \DTS\eBaySDK\Trading\Enums\GranularityLevelCodeType(string) $GranularityLevel
  * @property boolean $IncludeVariations
  * @property boolean $IncludeWatchCount
- * @property DTS\eBaySDK\Trading\Types\UserIDArrayType $MotorsDealerUsers
- * @property DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property DTS\eBaySDK\Trading\Types\SKUArrayType $SKUArray
+ * @property \DTS\eBaySDK\Trading\Types\UserIDArrayType $MotorsDealerUsers
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Types\SKUArrayType $SKUArray
  * @property integer $Sort
- * @property DateTime $StartTimeFrom
- * @property DateTime $StartTimeTo
+ * @property \DateTime $StartTimeFrom
+ * @property \DateTime $StartTimeTo
  * @property string $UserID
  */
 class GetSellerListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

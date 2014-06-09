@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ConditionType $Condition
+ * @property \DTS\eBaySDK\Trading\Types\ConditionType $Condition
  * @property string $ConditionHelpURL
  */
 class ConditionValuesType extends \DTS\eBaySDK\Types\BaseType

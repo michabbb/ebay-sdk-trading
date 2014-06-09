@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CharacteristicsSetType $CharacteristicsSet
+ * @property \DTS\eBaySDK\Trading\Types\CharacteristicsSetType $CharacteristicsSet
  * @property string $ExcludeCategoryID
  */
 class SiteWideCharacteristicsType extends \DTS\eBaySDK\Types\BaseType

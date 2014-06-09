@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $CancelCompleteDate
- * @property DateTime $CancelIntiationDate
+ * @property \DateTime $CancelCompleteDate
+ * @property \DateTime $CancelIntiationDate
  * @property string $CancelIntiator
  * @property string $CancelReason
  * @property string $CancelReasonDetails

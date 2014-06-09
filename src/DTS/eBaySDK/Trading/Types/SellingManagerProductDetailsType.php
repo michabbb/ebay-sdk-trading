@@ -27,8 +27,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $QuantityAvailable
  * @property boolean $RestockAlert
  * @property integer $RestockThreshold
- * @property DTS\eBaySDK\Trading\Types\AmountType $UnitCost
- * @property DTS\eBaySDK\Trading\Types\SellingManagerVendorDetailsType $VendorInfo
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $UnitCost
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerVendorDetailsType $VendorInfo
  */
 class SellingManagerProductDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

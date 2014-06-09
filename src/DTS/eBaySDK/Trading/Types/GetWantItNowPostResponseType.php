@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\WantItNowPostType $WantItNowPost
+ * @property \DTS\eBaySDK\Trading\Types\WantItNowPostType $WantItNowPost
  */
 class GetWantItNowPostResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $PromotionalSaleID
- * @property DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType(string) $PromotionalSaleStatus
+ * @property \DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType(string) $PromotionalSaleStatus
  */
 class GetPromotionalSaleDetailsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

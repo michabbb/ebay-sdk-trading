@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ShipmentLineItemType $ShipmentLineItem
+ * @property \DTS\eBaySDK\Trading\Types\ShipmentLineItemType $ShipmentLineItem
  * @property string $ShipmentTrackingNumber
  * @property string $ShippingCarrierUsed
  */

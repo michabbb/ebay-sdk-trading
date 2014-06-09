@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\GetAllBiddersModeCodeType(string) $CallMode
+ * @property \DTS\eBaySDK\Trading\Enums\GetAllBiddersModeCodeType(string) $CallMode
  * @property boolean $IncludeBiddingSummary
  * @property string $ItemID
  */

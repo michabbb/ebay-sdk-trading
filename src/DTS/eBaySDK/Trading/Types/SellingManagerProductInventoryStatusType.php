@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $AverageSellingPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AverageSellingPrice
  * @property integer $QuantityActive
  * @property integer $QuantityScheduled
  * @property integer $QuantitySold

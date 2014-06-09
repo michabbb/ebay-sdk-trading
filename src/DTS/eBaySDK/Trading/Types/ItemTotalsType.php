@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $TotalQuantity
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalValue
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalValue
  */
 class ItemTotalsType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $PictureSystemVersion
- * @property DTS\eBaySDK\Trading\Types\SiteHostedPictureDetailsType $SiteHostedPictureDetails
+ * @property \DTS\eBaySDK\Trading\Types\SiteHostedPictureDetailsType $SiteHostedPictureDetails
  */
 class UploadSiteHostedPicturesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

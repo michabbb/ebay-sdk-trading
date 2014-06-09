@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property DTS\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType(string) $PaymentStatus
- * @property DateTime $PaymentTimeFrom
- * @property DateTime $PaymentTimeTo
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType(string) $PaymentStatus
+ * @property \DateTime $PaymentTimeFrom
+ * @property \DateTime $PaymentTimeTo
  */
 class GetSellerPaymentsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

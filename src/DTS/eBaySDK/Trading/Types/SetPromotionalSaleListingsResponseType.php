@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType(string) $Status
+ * @property \DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType(string) $Status
  */
 class SetPromotionalSaleListingsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $MaxNamesPerVariationSpecificsSet
  * @property integer $MaxValuesPerVariationSpecificsSetName
  * @property integer $MaxVariationsPerItem
- * @property DateTime $UpdateTime
+ * @property \DateTime $UpdateTime
  */
 class VariationDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

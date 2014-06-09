@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\AccountDetailEntryCodeType(string) $AccountDetailsEntryType
- * @property DTS\eBaySDK\Trading\Types\AmountType $Balance
- * @property DTS\eBaySDK\Trading\Types\AmountType $ConversionRate
- * @property DateTime $Date
+ * @property \DTS\eBaySDK\Trading\Enums\AccountDetailEntryCodeType(string) $AccountDetailsEntryType
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Balance
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ConversionRate
+ * @property \DateTime $Date
  * @property string $Description
- * @property DTS\eBaySDK\Trading\Types\AmountType $GrossDetailAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $GrossDetailAmount
  * @property string $ItemID
  * @property string $Memo
- * @property DTS\eBaySDK\Trading\Types\AmountType $NetDetailAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $NetDetailAmount
  * @property string $OrderLineItemID
  * @property boolean $ReceivedTopRatedDiscount
  * @property string $RefNumber

@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $DetailVersion
  * @property integer $DispatchTimeMax
  * @property boolean $ExtendedHandling
- * @property DateTime $UpdateTime
+ * @property \DateTime $UpdateTime
  */
 class DispatchTimeMaxDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

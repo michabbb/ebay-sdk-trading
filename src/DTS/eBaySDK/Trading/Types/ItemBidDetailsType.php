@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $BidCount
  * @property string $CategoryID
  * @property string $ItemID
- * @property DateTime $LastBidTime
+ * @property \DateTime $LastBidTime
  * @property string $SellerID
  */
 class ItemBidDetailsType extends \DTS\eBaySDK\Types\BaseType

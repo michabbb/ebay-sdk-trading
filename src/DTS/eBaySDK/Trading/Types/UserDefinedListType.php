@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
+ * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
  * @property integer $FavoriteSellerCount
- * @property DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
- * @property DTS\eBaySDK\Trading\Types\ItemArrayType $ItemArray
+ * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
+ * @property \DTS\eBaySDK\Trading\Types\ItemArrayType $ItemArray
  * @property integer $ItemCount
  * @property string $Name
  */

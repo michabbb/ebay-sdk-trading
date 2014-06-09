@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\StoreCustomPageType $CustomPage
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomPageType $CustomPage
  */
 class StoreCustomPageArrayType extends \DTS\eBaySDK\Types\BaseType
 {

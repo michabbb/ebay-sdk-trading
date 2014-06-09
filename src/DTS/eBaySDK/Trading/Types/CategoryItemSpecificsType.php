@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $CategoryID
- * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $ItemSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $ItemSpecifics
  */
 class CategoryItemSpecificsType extends \DTS\eBaySDK\Types\BaseType
 {

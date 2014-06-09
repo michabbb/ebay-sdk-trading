@@ -21,11 +21,11 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property integer $Category2ID
  * @property integer $CategoryID
- * @property DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
  * @property integer $SaleTemplateGroupID
  * @property integer $SaleTemplateID
  * @property string $SaleTemplateName
- * @property DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
  */
 class AddSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

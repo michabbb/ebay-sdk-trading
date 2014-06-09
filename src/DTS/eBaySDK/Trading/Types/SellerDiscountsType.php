@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $OriginalItemPrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $OriginalItemShippingCost
- * @property DTS\eBaySDK\Trading\Types\SellerDiscountType $SellerDiscount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalItemPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalItemShippingCost
+ * @property \DTS\eBaySDK\Trading\Types\SellerDiscountType $SellerDiscount
  */
 class SellerDiscountsType extends \DTS\eBaySDK\Types\BaseType
 {

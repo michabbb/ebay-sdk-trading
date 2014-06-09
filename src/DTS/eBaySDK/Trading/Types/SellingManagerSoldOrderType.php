@@ -19,36 +19,36 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $ActualShippingCost
- * @property DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ActualShippingCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
  * @property string $BuyerEmail
  * @property string $BuyerID
- * @property DTS\eBaySDK\Trading\Types\AmountType $CashOnDeliveryCost
- * @property DateTime $CreationTime
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $CashOnDeliveryCost
+ * @property \DateTime $CreationTime
  * @property integer $DaysSinceSale
  * @property integer $EmailsSent
- * @property DTS\eBaySDK\Trading\Types\AmountType $ItemCost
- * @property DTS\eBaySDK\Trading\Types\AmountType $NetInsuranceFee
- * @property DTS\eBaySDK\Trading\Types\AmountType $NetShippingFee
- * @property DTS\eBaySDK\Trading\Types\AmountType $NetTotalAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ItemCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $NetInsuranceFee
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $NetShippingFee
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $NetTotalAmount
  * @property string $NotesFromBuyer
  * @property string $NotesToBuyer
  * @property string $NotesToSeller
- * @property DTS\eBaySDK\Trading\Types\SellingManagerOrderStatusType $OrderStatus
- * @property DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerOrderStatusType $OrderStatus
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
  * @property string $RefundStatus
- * @property DTS\eBaySDK\Trading\Types\AmountType $SalePrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $SalePrice
  * @property integer $SaleRecordID
- * @property DTS\eBaySDK\Trading\Types\SellingManagerSoldTransactionType $SellingManagerSoldTransaction
- * @property DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
- * @property DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalAmount
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldTransactionType $SellingManagerSoldTransaction
+ * @property \DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
+ * @property \DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalAmount
  * @property integer $TotalQuantity
- * @property DTS\eBaySDK\Trading\Enums\UnpaidItemStatusTypeCodeType(string) $UnpaidItemStatus
- * @property DTS\eBaySDK\Trading\Types\AmountType $VATInsuranceFee
- * @property DTS\eBaySDK\Trading\Types\VATRateType $VATRate
- * @property DTS\eBaySDK\Trading\Types\AmountType $VATShippingFee
- * @property DTS\eBaySDK\Trading\Types\AmountType $VATTotalAmount
+ * @property \DTS\eBaySDK\Trading\Enums\UnpaidItemStatusTypeCodeType(string) $UnpaidItemStatus
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $VATInsuranceFee
+ * @property \DTS\eBaySDK\Trading\Types\VATRateType $VATRate
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $VATShippingFee
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $VATTotalAmount
  */
 class SellingManagerSoldOrderType extends \DTS\eBaySDK\Types\BaseType
 {

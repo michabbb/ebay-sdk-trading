@@ -20,8 +20,8 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $DetailVersion
- * @property DTS\eBaySDK\Trading\Types\UnitOfMeasurementType $UnitOfMeasurement
- * @property DateTime $UpdateTime
+ * @property \DTS\eBaySDK\Trading\Types\UnitOfMeasurementType $UnitOfMeasurement
+ * @property \DateTime $UpdateTime
  */
 class UnitOfMeasurementDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

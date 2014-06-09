@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ItemID
  * @property string $OrderID
  * @property string $OrderLineItemID
- * @property DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType $SellingManagerSoldOrder
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType $SellingManagerSoldOrder
  * @property string $TransactionID
  */
 class ReviseSellingManagerSaleRecordRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

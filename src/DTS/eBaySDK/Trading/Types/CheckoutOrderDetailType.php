@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalCartMerchandiseCost
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalCartShippingCost
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalTaxAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalCartMerchandiseCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalCartShippingCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalTaxAmount
  */
 class CheckoutOrderDetailType extends \DTS\eBaySDK\Types\BaseType
 {

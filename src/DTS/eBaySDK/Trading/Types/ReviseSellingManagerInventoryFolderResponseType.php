@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType $Folder
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType $Folder
  */
 class ReviseSellingManagerInventoryFolderResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

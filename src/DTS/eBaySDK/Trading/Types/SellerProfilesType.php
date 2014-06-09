@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\SellerPaymentProfileType $SellerPaymentProfile
- * @property DTS\eBaySDK\Trading\Types\SellerReturnProfileType $SellerReturnProfile
- * @property DTS\eBaySDK\Trading\Types\SellerShippingProfileType $SellerShippingProfile
+ * @property \DTS\eBaySDK\Trading\Types\SellerPaymentProfileType $SellerPaymentProfile
+ * @property \DTS\eBaySDK\Trading\Types\SellerReturnProfileType $SellerReturnProfile
+ * @property \DTS\eBaySDK\Trading\Types\SellerShippingProfileType $SellerShippingProfile
  */
 class SellerProfilesType extends \DTS\eBaySDK\Types\BaseType
 {

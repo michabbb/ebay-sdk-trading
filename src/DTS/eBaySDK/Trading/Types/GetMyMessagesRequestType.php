@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $EndTime
- * @property DTS\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType $ExternalMessageIDs
+ * @property \DateTime $EndTime
+ * @property \DTS\eBaySDK\Trading\Types\MyMessagesExternalMessageIDArrayType $ExternalMessageIDs
  * @property integer $FolderID
  * @property boolean $IncludeHighPriorityMessageOnly
- * @property DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $MessageIDs
- * @property DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property DateTime $StartTime
+ * @property \DTS\eBaySDK\Trading\Types\MyMessagesMessageIDArrayType $MessageIDs
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DateTime $StartTime
  */
 class GetMyMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

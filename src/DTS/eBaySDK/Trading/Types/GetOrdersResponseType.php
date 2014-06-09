@@ -20,10 +20,10 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $HasMoreOrders
- * @property DTS\eBaySDK\Trading\Types\OrderArrayType $OrderArray
+ * @property \DTS\eBaySDK\Trading\Types\OrderArrayType $OrderArray
  * @property integer $OrdersPerPage
  * @property integer $PageNumber
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  * @property integer $ReturnedOrderCountActual
  */
 class GetOrdersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

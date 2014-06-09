@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $TimeFrom
- * @property DateTime $TimeTo
+ * @property \DateTime $TimeFrom
+ * @property \DateTime $TimeTo
  */
 class TimeRangeType extends \DTS\eBaySDK\Types\BaseType
 {

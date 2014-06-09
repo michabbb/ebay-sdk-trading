@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $EndTime
- * @property DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType $MarkUpMarkDownHistory
- * @property DTS\eBaySDK\Trading\Types\NotificationDetailsArrayType $NotificationDetailsArray
- * @property DTS\eBaySDK\Trading\Types\NotificationStatisticsType $NotificationStatistics
- * @property DateTime $StartTime
+ * @property \DateTime $EndTime
+ * @property \DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType $MarkUpMarkDownHistory
+ * @property \DTS\eBaySDK\Trading\Types\NotificationDetailsArrayType $NotificationDetailsArray
+ * @property \DTS\eBaySDK\Trading\Types\NotificationStatisticsType $NotificationStatistics
+ * @property \DateTime $StartTime
  */
 class GetNotificationsUsageResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\AckCodeType(string) $Ack
+ * @property \DTS\eBaySDK\Trading\Enums\AckCodeType(string) $Ack
  * @property string $CorrelationID
  */
 class AddMemberMessagesAAQToBidderResponseContainerType extends \DTS\eBaySDK\Types\BaseType

@@ -20,11 +20,11 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $CategoryID
- * @property DTS\eBaySDK\Trading\Types\CategoryItemSpecificsType $CategorySpecific
+ * @property \DTS\eBaySDK\Trading\Types\CategoryItemSpecificsType $CategorySpecific
  * @property boolean $CategorySpecificsFileInfo
  * @property boolean $ExcludeRelationships
  * @property boolean $IncludeConfidence
- * @property DateTime $LastUpdateTime
+ * @property \DateTime $LastUpdateTime
  * @property integer $MaxNames
  * @property integer $MaxValuesPerName
  * @property string $Name

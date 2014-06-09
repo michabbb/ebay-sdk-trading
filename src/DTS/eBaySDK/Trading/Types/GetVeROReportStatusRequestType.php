@@ -21,9 +21,9 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $IncludeReportedItemDetails
  * @property string $ItemID
- * @property DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property DateTime $TimeFrom
- * @property DateTime $TimeTo
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DateTime $TimeFrom
+ * @property \DateTime $TimeTo
  * @property integer $VeROReportPacketID
  */
 class GetVeROReportStatusRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

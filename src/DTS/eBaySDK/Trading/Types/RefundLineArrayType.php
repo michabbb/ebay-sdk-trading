@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\RefundLineType $RefundLine
+ * @property \DTS\eBaySDK\Trading\Types\RefundLineType $RefundLine
  */
 class RefundLineArrayType extends \DTS\eBaySDK\Types\BaseType
 {

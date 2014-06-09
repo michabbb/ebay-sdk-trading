@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType $ChildFolder
- * @property DateTime $CreationTime
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType $ChildFolder
+ * @property \DateTime $CreationTime
  * @property string $FolderComment
  * @property integer $FolderID
  * @property integer $FolderLevel

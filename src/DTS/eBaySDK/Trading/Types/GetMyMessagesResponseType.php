@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MyMessagesMessageArrayType $Messages
- * @property DTS\eBaySDK\Trading\Types\MyMessagesSummaryType $Summary
+ * @property \DTS\eBaySDK\Trading\Types\MyMessagesMessageArrayType $Messages
+ * @property \DTS\eBaySDK\Trading\Types\MyMessagesSummaryType $Summary
  */
 class GetMyMessagesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
