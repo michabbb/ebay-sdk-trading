@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerInventoryPropertyTypeCodeType(string) $Filter
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerInventoryPropertyTypeCodeType(string) $Filter
  * @property integer $FolderID
- * @property DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property DTS\eBaySDK\Trading\Types\SellingManagerSearchType $Search
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerProductSortCodeType(string) $Sort
- * @property DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $SortOrder
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerSearchType $Search
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerProductSortCodeType(string) $Sort
+ * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $SortOrder
  * @property integer $StoreCategoryID
  */
 class GetSellingManagerInventoryRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

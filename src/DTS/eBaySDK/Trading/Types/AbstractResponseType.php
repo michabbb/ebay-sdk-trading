@@ -19,20 +19,20 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\AckCodeType(string) $Ack
- * @property DTS\eBaySDK\Trading\Types\BotBlockResponseType $BotBlock
+ * @property \DTS\eBaySDK\Trading\Enums\AckCodeType(string) $Ack
+ * @property \DTS\eBaySDK\Trading\Types\BotBlockResponseType $BotBlock
  * @property string $Build
  * @property string $CorrelationID
- * @property DTS\eBaySDK\Trading\Types\DuplicateInvocationDetailsType $DuplicateInvocationDetails
+ * @property \DTS\eBaySDK\Trading\Types\DuplicateInvocationDetailsType $DuplicateInvocationDetails
  * @property string $EIASToken
- * @property DTS\eBaySDK\Trading\Types\ErrorType $Errors
+ * @property \DTS\eBaySDK\Trading\Types\ErrorType $Errors
  * @property string $ExternalUserData
  * @property string $HardExpirationWarning
  * @property string $Message
  * @property string $NotificationEventName
  * @property string $NotificationSignature
  * @property string $RecipientUserID
- * @property DateTime $Timestamp
+ * @property \DateTime $Timestamp
  * @property string $Version
  */
 class AbstractResponseType extends \DTS\eBaySDK\Types\BaseType

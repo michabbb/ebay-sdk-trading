@@ -23,8 +23,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $Description
  * @property string $PostID
  * @property integer $ResponseCount
- * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
- * @property DateTime $StartTime
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
+ * @property \DateTime $StartTime
  * @property string $Title
  */
 class WantItNowPostType extends \DTS\eBaySDK\Types\BaseType

@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AttributeRecommendationsType $AttributeRecommendations
+ * @property \DTS\eBaySDK\Trading\Types\AttributeRecommendationsType $AttributeRecommendations
  * @property string $CorrelationID
- * @property DTS\eBaySDK\Trading\Types\ListingAnalyzerRecommendationsType $ListingAnalyzerRecommendations
- * @property DTS\eBaySDK\Trading\Types\PricingRecommendationsType $PricingRecommendations
- * @property DTS\eBaySDK\Trading\Types\ProductListingDetailsType $ProductListingDetails
- * @property DTS\eBaySDK\Trading\Types\ProductRecommendationsType $ProductRecommendations
- * @property DTS\eBaySDK\Trading\Types\RecommendationsType $Recommendations
- * @property DTS\eBaySDK\Trading\Types\SIFFTASRecommendationsType $SIFFTASRecommendations
+ * @property \DTS\eBaySDK\Trading\Types\ListingAnalyzerRecommendationsType $ListingAnalyzerRecommendations
+ * @property \DTS\eBaySDK\Trading\Types\PricingRecommendationsType $PricingRecommendations
+ * @property \DTS\eBaySDK\Trading\Types\ProductListingDetailsType $ProductListingDetails
+ * @property \DTS\eBaySDK\Trading\Types\ProductRecommendationsType $ProductRecommendations
+ * @property \DTS\eBaySDK\Trading\Types\RecommendationsType $Recommendations
+ * @property \DTS\eBaySDK\Trading\Types\SIFFTASRecommendationsType $SIFFTASRecommendations
  * @property string $Title
  */
 class GetRecommendationsResponseContainerType extends \DTS\eBaySDK\Types\BaseType

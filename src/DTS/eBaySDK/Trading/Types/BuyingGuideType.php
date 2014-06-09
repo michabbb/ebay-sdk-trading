@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $CategoryID
- * @property DateTime $CreationTime
+ * @property \DateTime $CreationTime
  * @property string $Name
  * @property string $Text
  * @property string $Title

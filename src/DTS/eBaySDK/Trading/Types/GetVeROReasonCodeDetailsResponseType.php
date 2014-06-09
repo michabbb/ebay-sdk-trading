@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\VeROReasonCodeDetailsType $VeROReasonCodeDetails
+ * @property \DTS\eBaySDK\Trading\Types\VeROReasonCodeDetailsType $VeROReasonCodeDetails
  */
 class GetVeROReasonCodeDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

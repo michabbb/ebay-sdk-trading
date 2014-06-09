@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CategoryArrayType $CategoryArray
+ * @property \DTS\eBaySDK\Trading\Types\CategoryArrayType $CategoryArray
  * @property integer $CategoryCount
  * @property string $CategoryVersion
  * @property double $MinimumReservePrice
  * @property boolean $ReduceReserveAllowed
  * @property boolean $ReservePriceAllowed
- * @property DateTime $UpdateTime
+ * @property \DateTime $UpdateTime
  */
 class GetCategoriesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

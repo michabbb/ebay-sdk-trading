@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\StoreLogoType $Logo
+ * @property \DTS\eBaySDK\Trading\Types\StoreLogoType $Logo
  */
 class StoreLogoArrayType extends \DTS\eBaySDK\Types\BaseType
 {

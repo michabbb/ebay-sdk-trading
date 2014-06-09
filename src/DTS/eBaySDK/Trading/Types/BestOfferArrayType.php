@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BestOfferType $BestOffer
+ * @property \DTS\eBaySDK\Trading\Types\BestOfferType $BestOffer
  */
 class BestOfferArrayType extends \DTS\eBaySDK\Types\BaseType
 {

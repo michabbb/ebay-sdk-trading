@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType(string) $DisputeFilterType
- * @property DTS\eBaySDK\Trading\Enums\DisputeSortTypeCodeType(string) $DisputeSortType
- * @property DateTime $ModTimeFrom
- * @property DateTime $ModTimeTo
- * @property DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeFilterTypeCodeType(string) $DisputeFilterType
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeSortTypeCodeType(string) $DisputeSortType
+ * @property \DateTime $ModTimeFrom
+ * @property \DateTime $ModTimeTo
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
  */
 class GetUserDisputesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

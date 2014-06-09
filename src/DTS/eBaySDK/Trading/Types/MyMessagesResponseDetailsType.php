@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $ResponseEnabled
  * @property string $ResponseURL
- * @property DateTime $UserResponseDate
+ * @property \DateTime $UserResponseDate
  */
 class MyMessagesResponseDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

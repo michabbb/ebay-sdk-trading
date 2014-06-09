@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CharityAffiliationType $CharityAffiliation
- * @property DTS\eBaySDK\Trading\Enums\CharitySellerStatusCodeType(string) $CharitySellerStatus
+ * @property \DTS\eBaySDK\Trading\Types\CharityAffiliationType $CharityAffiliation
+ * @property \DTS\eBaySDK\Trading\Enums\CharitySellerStatusCodeType(string) $CharitySellerStatus
  * @property boolean $TermsAndConditionsAccepted
  */
 class CharitySellerType extends \DTS\eBaySDK\Types\BaseType

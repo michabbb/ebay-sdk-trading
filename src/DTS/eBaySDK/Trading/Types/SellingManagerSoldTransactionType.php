@@ -23,22 +23,22 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $CustomLabel
  * @property string $InvoiceNumber
  * @property string $ItemID
- * @property DTS\eBaySDK\Trading\Types\AmountType $ItemPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ItemPrice
  * @property string $ItemTitle
- * @property DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $ListedOn
- * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
+ * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $ListedOn
+ * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
  * @property string $OrderLineItemID
  * @property integer $QuantitySold
  * @property boolean $Relisted
- * @property DTS\eBaySDK\Trading\Types\AmountType $ReservePrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ReservePrice
  * @property integer $SaleRecordID
  * @property boolean $SecondChanceOfferSent
- * @property DTS\eBaySDK\Trading\Types\ShipmentType $Shipment
- * @property DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $SoldOn
- * @property DTS\eBaySDK\Trading\Types\AmountType $StartPrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $SubtotalAmount
+ * @property \DTS\eBaySDK\Trading\Types\ShipmentType $Shipment
+ * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $SoldOn
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $SubtotalAmount
  * @property integer $TransactionID
- * @property DTS\eBaySDK\Trading\Types\VariationType $Variation
+ * @property \DTS\eBaySDK\Trading\Types\VariationType $Variation
  * @property integer $WatchCount
  */
 class SellingManagerSoldTransactionType extends \DTS\eBaySDK\Types\BaseType

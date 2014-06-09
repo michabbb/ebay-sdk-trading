@@ -20,16 +20,16 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $Delete
- * @property DTS\eBaySDK\Trading\Types\DiscountPriceInfoType $DiscountPriceInfo
+ * @property \DTS\eBaySDK\Trading\Types\DiscountPriceInfoType $DiscountPriceInfo
  * @property string $PrivateNotes
  * @property integer $Quantity
  * @property string $SKU
- * @property DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
- * @property DTS\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
- * @property DTS\eBaySDK\Trading\Types\AmountType $StartPrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $UnitCost
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
+ * @property \DTS\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $UnitCost
  * @property integer $UnitsAvailable
- * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
  * @property string $VariationTitle
  * @property string $VariationViewItemURL
  * @property integer $WatchCount

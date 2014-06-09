@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemRatingDetailsType $ItemRatingDetails
+ * @property \DTS\eBaySDK\Trading\Types\ItemRatingDetailsType $ItemRatingDetails
  */
 class ItemRatingDetailArrayType extends \DTS\eBaySDK\Types\BaseType
 {

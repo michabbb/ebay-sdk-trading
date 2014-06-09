@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemArrayType $BidItemArray
- * @property DTS\eBaySDK\Trading\Types\UserType $Bidder
+ * @property \DTS\eBaySDK\Trading\Types\ItemArrayType $BidItemArray
+ * @property \DTS\eBaySDK\Trading\Types\UserType $Bidder
  */
 class GetBidderListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

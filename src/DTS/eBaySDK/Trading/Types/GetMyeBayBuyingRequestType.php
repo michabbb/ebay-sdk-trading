@@ -19,20 +19,20 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BestOfferList
- * @property DTS\eBaySDK\Trading\Types\BidAssistantListType $BidAssistantList
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BidList
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BuyingSummary
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromLostList
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromWonList
- * @property DTS\eBaySDK\Trading\Types\MyeBaySelectionType $FavoriteSearches
- * @property DTS\eBaySDK\Trading\Types\MyeBaySelectionType $FavoriteSellers
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BestOfferList
+ * @property \DTS\eBaySDK\Trading\Types\BidAssistantListType $BidAssistantList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BidList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BuyingSummary
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromLostList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromWonList
+ * @property \DTS\eBaySDK\Trading\Types\MyeBaySelectionType $FavoriteSearches
+ * @property \DTS\eBaySDK\Trading\Types\MyeBaySelectionType $FavoriteSellers
  * @property boolean $HideVariations
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $LostList
- * @property DTS\eBaySDK\Trading\Types\MyeBaySelectionType $SecondChanceOffer
- * @property DTS\eBaySDK\Trading\Types\MyeBaySelectionType $UserDefinedLists
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $WatchList
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $WonList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $LostList
+ * @property \DTS\eBaySDK\Trading\Types\MyeBaySelectionType $SecondChanceOffer
+ * @property \DTS\eBaySDK\Trading\Types\MyeBaySelectionType $UserDefinedLists
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $WatchList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $WonList
  */
 class GetMyeBayBuyingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

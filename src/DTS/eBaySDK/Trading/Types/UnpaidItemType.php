@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\UnpaidItemCaseStatusTypeCodeType(string) $Status
- * @property DTS\eBaySDK\Trading\Enums\UnpaidItemCaseOpenTypeCodeType(string) $Type
+ * @property \DTS\eBaySDK\Trading\Enums\UnpaidItemCaseStatusTypeCodeType(string) $Status
+ * @property \DTS\eBaySDK\Trading\Enums\UnpaidItemCaseOpenTypeCodeType(string) $Type
  */
 class UnpaidItemType extends \DTS\eBaySDK\Types\BaseType
 {

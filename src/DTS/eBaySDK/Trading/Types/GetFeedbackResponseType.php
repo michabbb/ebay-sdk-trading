@@ -20,12 +20,12 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $EntriesPerPage
- * @property DTS\eBaySDK\Trading\Types\FeedbackDetailArrayType $FeedbackDetailArray
+ * @property \DTS\eBaySDK\Trading\Types\FeedbackDetailArrayType $FeedbackDetailArray
  * @property integer $FeedbackDetailItemTotal
  * @property integer $FeedbackScore
- * @property DTS\eBaySDK\Trading\Types\FeedbackSummaryType $FeedbackSummary
+ * @property \DTS\eBaySDK\Trading\Types\FeedbackSummaryType $FeedbackSummary
  * @property integer $PageNumber
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
 class GetFeedbackResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

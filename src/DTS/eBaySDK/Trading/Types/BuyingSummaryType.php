@@ -21,8 +21,8 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property integer $BestOfferCount
  * @property integer $BiddingCount
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalWinningCost
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalWonCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalWinningCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalWonCost
  * @property integer $WinningCount
  * @property integer $WonCount
  * @property integer $WonDurationInDays

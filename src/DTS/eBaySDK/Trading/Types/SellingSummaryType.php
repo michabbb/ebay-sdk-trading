@@ -23,9 +23,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $AuctionBidCount
  * @property integer $AuctionSellingCount
  * @property integer $SoldDurationInDays
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalAuctionSellingValue
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalAuctionSellingValue
  * @property integer $TotalSoldCount
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalSoldValue
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalSoldValue
  */
 class SellingSummaryType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\EndItemRequestContainerType $EndItemRequestContainer
+ * @property \DTS\eBaySDK\Trading\Types\EndItemRequestContainerType $EndItemRequestContainer
  */
 class EndItemsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

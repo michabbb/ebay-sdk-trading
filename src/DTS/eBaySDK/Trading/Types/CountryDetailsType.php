@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $Country
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $Country
  * @property string $Description
  * @property string $DetailVersion
- * @property DateTime $UpdateTime
+ * @property \DateTime $UpdateTime
  */
 class CountryDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

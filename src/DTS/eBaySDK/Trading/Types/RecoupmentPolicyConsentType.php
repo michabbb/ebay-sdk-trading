@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
  */
 class RecoupmentPolicyConsentType extends \DTS\eBaySDK\Types\BaseType
 {

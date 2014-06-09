@@ -19,46 +19,46 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
- * @property DTS\eBaySDK\Trading\Types\AmountType $AmountSaved
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountSaved
  * @property string $BuyerCheckoutMessage
  * @property string $BuyerUserID
- * @property DTS\eBaySDK\Trading\Types\CancelDetailType $CancelDetail
+ * @property \DTS\eBaySDK\Trading\Types\CancelDetailType $CancelDetail
  * @property string $CancelReason
  * @property string $CancelReasonDetails
- * @property DTS\eBaySDK\Trading\Enums\CancelStatusCodeType(string) $CancelStatus
- * @property DTS\eBaySDK\Trading\Types\CheckoutStatusType $CheckoutStatus
- * @property DateTime $CreatedTime
- * @property DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $CreatingUserRole
+ * @property \DTS\eBaySDK\Trading\Enums\CancelStatusCodeType(string) $CancelStatus
+ * @property \DTS\eBaySDK\Trading\Types\CheckoutStatusType $CheckoutStatus
+ * @property \DateTime $CreatedTime
+ * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $CreatingUserRole
  * @property string $EIASToken
- * @property DTS\eBaySDK\Trading\Types\ExternalTransactionType $ExternalTransaction
+ * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType $ExternalTransaction
  * @property boolean $IntegratedMerchantCreditCardEnabled
  * @property boolean $IsMultiLegShipping
- * @property DTS\eBaySDK\Trading\Types\PaymentsInformationType $MonetaryDetails
- * @property DTS\eBaySDK\Trading\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
+ * @property \DTS\eBaySDK\Trading\Types\PaymentsInformationType $MonetaryDetails
+ * @property \DTS\eBaySDK\Trading\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
  * @property string $OrderID
- * @property DTS\eBaySDK\Trading\Enums\OrderStatusCodeType(string) $OrderStatus
- * @property DateTime $PaidTime
- * @property DTS\eBaySDK\Trading\Types\PaymentHoldDetailType $PaymentHoldDetails
- * @property DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType(string) $PaymentHoldStatus
- * @property DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $PaymentMethods
- * @property DTS\eBaySDK\Trading\Types\PickupDetailsType $PickupDetails
- * @property DTS\eBaySDK\Trading\Types\PickupMethodSelectedType $PickupMethodSelected
- * @property DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
- * @property DTS\eBaySDK\Trading\Types\RefundArrayType $RefundArray
+ * @property \DTS\eBaySDK\Trading\Enums\OrderStatusCodeType(string) $OrderStatus
+ * @property \DateTime $PaidTime
+ * @property \DTS\eBaySDK\Trading\Types\PaymentHoldDetailType $PaymentHoldDetails
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType(string) $PaymentHoldStatus
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $PaymentMethods
+ * @property \DTS\eBaySDK\Trading\Types\PickupDetailsType $PickupDetails
+ * @property \DTS\eBaySDK\Trading\Types\PickupMethodSelectedType $PickupMethodSelected
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
+ * @property \DTS\eBaySDK\Trading\Types\RefundArrayType $RefundArray
  * @property string $RefundStatus
  * @property string $SellerEIASToken
  * @property string $SellerEmail
  * @property string $SellerUserID
- * @property DateTime $ShippedTime
- * @property DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
- * @property DTS\eBaySDK\Trading\Types\AmountType $ShippingConvenienceCharge
- * @property DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
- * @property DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType $ShippingServiceSelected
- * @property DTS\eBaySDK\Trading\Types\AmountType $Subtotal
- * @property DTS\eBaySDK\Trading\Types\AmountType $Total
- * @property DTS\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
+ * @property \DateTime $ShippedTime
+ * @property \DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingConvenienceCharge
+ * @property \DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType $ShippingServiceSelected
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Subtotal
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Total
+ * @property \DTS\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
  */
 class OrderType extends \DTS\eBaySDK\Types\BaseType
 {

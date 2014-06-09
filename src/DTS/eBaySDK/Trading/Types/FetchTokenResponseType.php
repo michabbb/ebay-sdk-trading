@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $HardExpirationTime
+ * @property \DateTime $HardExpirationTime
  * @property string $RESTToken
  * @property string $eBayAuthToken
  */

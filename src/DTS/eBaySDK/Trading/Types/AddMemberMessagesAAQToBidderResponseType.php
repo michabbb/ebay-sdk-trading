@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderResponseContainerType $AddMemberMessagesAAQToBidderResponseContainer
+ * @property \DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderResponseContainerType $AddMemberMessagesAAQToBidderResponseContainer
  */
 class AddMemberMessagesAAQToBidderResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

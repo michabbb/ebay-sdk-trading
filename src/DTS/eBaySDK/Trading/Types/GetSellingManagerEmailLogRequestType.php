@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\TimeRangeType $EmailDateRange
+ * @property \DTS\eBaySDK\Trading\Types\TimeRangeType $EmailDateRange
  * @property string $ItemID
  * @property string $OrderID
  * @property string $OrderLineItemID

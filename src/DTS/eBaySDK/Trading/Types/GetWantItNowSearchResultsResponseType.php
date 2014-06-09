@@ -22,8 +22,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $HasMoreItems
  * @property integer $ItemsPerPage
  * @property integer $PageNumber
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
- * @property DTS\eBaySDK\Trading\Types\WantItNowPostArrayType $WantItNowPostArray
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\WantItNowPostArrayType $WantItNowPostArray
  */
 class GetWantItNowSearchResultsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AccountEntriesType $AccountEntries
+ * @property \DTS\eBaySDK\Trading\Types\AccountEntriesType $AccountEntries
  * @property string $AccountID
- * @property DTS\eBaySDK\Trading\Types\AccountSummaryType $AccountSummary
- * @property DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $Currency
+ * @property \DTS\eBaySDK\Trading\Types\AccountSummaryType $AccountSummary
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $Currency
  * @property integer $EntriesPerPage
  * @property boolean $HasMoreEntries
  * @property integer $PageNumber
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
 class GetAccountResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

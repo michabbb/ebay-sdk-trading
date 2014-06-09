@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $RefundFromSeller
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalRefundToBuyer
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundFromSeller
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalRefundToBuyer
  */
 class IssueRefundResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

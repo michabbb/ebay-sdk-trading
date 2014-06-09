@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $EndTime
+ * @property \DateTime $EndTime
  * @property string $ItemID
- * @property DateTime $StartTime
+ * @property \DateTime $StartTime
  */
 class GetNotificationsUsageRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

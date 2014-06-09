@@ -24,10 +24,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $EmailCopyToSender
  * @property boolean $HideSendersEmailAddress
  * @property string $MessageID
- * @property DTS\eBaySDK\Trading\Types\MessageMediaType $MessageMedia
- * @property DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $MessageType
+ * @property \DTS\eBaySDK\Trading\Types\MessageMediaType $MessageMedia
+ * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $MessageType
  * @property string $ParentMessageID
- * @property DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType(string) $QuestionType
+ * @property \DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType(string) $QuestionType
  * @property string $RecipientID
  * @property string $SenderEmail
  * @property string $SenderID

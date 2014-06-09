@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $LastUpdateTime
- * @property DTS\eBaySDK\Trading\Types\TaxTableType $TaxTable
+ * @property \DateTime $LastUpdateTime
+ * @property \DTS\eBaySDK\Trading\Types\TaxTableType $TaxTable
  */
 class GetTaxTableResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $Name
- * @property DTS\eBaySDK\Trading\Enums\ItemSpecificSourceCodeType(string) $Source
+ * @property \DTS\eBaySDK\Trading\Enums\ItemSpecificSourceCodeType(string) $Source
  * @property string $Value
  */
 class NameValueListType extends \DTS\eBaySDK\Types\BaseType

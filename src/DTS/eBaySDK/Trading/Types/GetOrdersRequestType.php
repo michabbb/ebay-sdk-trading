@@ -19,18 +19,18 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $CreateTimeFrom
- * @property DateTime $CreateTimeTo
+ * @property \DateTime $CreateTimeFrom
+ * @property \DateTime $CreateTimeTo
  * @property boolean $IncludeFinalValueFee
- * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
- * @property DateTime $ModTimeFrom
- * @property DateTime $ModTimeTo
+ * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
+ * @property \DateTime $ModTimeFrom
+ * @property \DateTime $ModTimeTo
  * @property integer $NumberOfDays
- * @property DTS\eBaySDK\Trading\Types\OrderIDArrayType $OrderIDArray
- * @property DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $OrderRole
- * @property DTS\eBaySDK\Trading\Enums\OrderStatusCodeType(string) $OrderStatus
- * @property DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $SortingOrder
+ * @property \DTS\eBaySDK\Trading\Types\OrderIDArrayType $OrderIDArray
+ * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $OrderRole
+ * @property \DTS\eBaySDK\Trading\Enums\OrderStatusCodeType(string) $OrderStatus
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $SortingOrder
  */
 class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

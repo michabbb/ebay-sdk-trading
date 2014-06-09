@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $ItemID
  * @property string $OrderID
- * @property DTS\eBaySDK\Trading\Types\RefundLineArrayType $RefundLineArray
+ * @property \DTS\eBaySDK\Trading\Types\RefundLineArrayType $RefundLineArray
  * @property string $TransactionID
  */
 class RefundTransactionType extends \DTS\eBaySDK\Types\BaseType

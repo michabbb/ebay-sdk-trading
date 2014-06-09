@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType(string) $measurementSystem
+ * @property \DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType(string) $measurementSystem
  * @property string $unit
  */
 class MeasureType extends \DTS\eBaySDK\Types\DecimalType

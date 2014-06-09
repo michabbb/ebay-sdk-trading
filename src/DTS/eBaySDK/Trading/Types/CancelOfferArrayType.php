@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CancelOfferType $CancelOffer
+ * @property \DTS\eBaySDK\Trading\Types\CancelOfferType $CancelOffer
  */
 class CancelOfferArrayType extends \DTS\eBaySDK\Types\BaseType
 {

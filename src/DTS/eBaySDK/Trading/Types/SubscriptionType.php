@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $Active
  * @property string $EIASToken
- * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $SiteID
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $SiteID
  */
 class SubscriptionType extends \DTS\eBaySDK\Types\BaseType
 {

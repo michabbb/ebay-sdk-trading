@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $DetailVersion
  * @property boolean $EnforcedOnListingSite
  * @property boolean $EnforcedOnRegistrationSite
- * @property DateTime $UpdateTime
+ * @property \DateTime $UpdateTime
  */
 class RecoupmentPolicyDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

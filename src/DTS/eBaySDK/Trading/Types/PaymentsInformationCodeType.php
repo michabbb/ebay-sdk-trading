@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PaymentInformationCodeType $Payments
+ * @property \DTS\eBaySDK\Trading\Types\PaymentInformationCodeType $Payments
  */
 class PaymentsInformationCodeType extends \DTS\eBaySDK\Types\BaseType
 {

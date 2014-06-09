@@ -21,9 +21,9 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $Description
  * @property string $DetailVersion
- * @property DTS\eBaySDK\Trading\Enums\ShippingCarrierCodeType(string) $ShippingCarrier
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingCarrierCodeType(string) $ShippingCarrier
  * @property integer $ShippingCarrierID
- * @property DateTime $UpdateTime
+ * @property \DateTime $UpdateTime
  */
 class ShippingCarrierDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

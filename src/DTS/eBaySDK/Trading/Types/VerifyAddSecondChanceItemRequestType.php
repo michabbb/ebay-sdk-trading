@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $BuyItNowPrice
- * @property DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType(string) $Duration
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $BuyItNowPrice
+ * @property \DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType(string) $Duration
  * @property string $ItemID
  * @property string $RecipientBidderUserID
  * @property string $SellerMessage

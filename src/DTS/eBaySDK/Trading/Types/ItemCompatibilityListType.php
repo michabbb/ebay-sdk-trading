@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemCompatibilityType $Compatibility
+ * @property \DTS\eBaySDK\Trading\Types\ItemCompatibilityType $Compatibility
  * @property boolean $ReplaceAll
  */
 class ItemCompatibilityListType extends \DTS\eBaySDK\Types\BaseType

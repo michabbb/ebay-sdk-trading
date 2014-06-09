@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
  */
 class VerifyAddItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $Fee
- * @property DTS\eBaySDK\Trading\Enums\StoreSubscriptionLevelCodeType(string) $Level
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Fee
+ * @property \DTS\eBaySDK\Trading\Enums\StoreSubscriptionLevelCodeType(string) $Level
  */
 class StoreSubscriptionType extends \DTS\eBaySDK\Types\BaseType
 {

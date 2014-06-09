@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PickupInStoreDetailsType $PickUpInStoreDetails
- * @property DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
+ * @property \DTS\eBaySDK\Trading\Types\PickupInStoreDetailsType $PickUpInStoreDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
  */
 class GetItemShippingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

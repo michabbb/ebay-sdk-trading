@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\DiscountCodeType(string) $DiscountType
+ * @property \DTS\eBaySDK\Trading\Enums\DiscountCodeType(string) $DiscountType
  * @property double $DiscountValue
- * @property DateTime $PromotionalSaleEndTime
+ * @property \DateTime $PromotionalSaleEndTime
  * @property integer $PromotionalSaleID
- * @property DTS\eBaySDK\Trading\Types\ItemIDArrayType $PromotionalSaleItemIDArray
+ * @property \DTS\eBaySDK\Trading\Types\ItemIDArrayType $PromotionalSaleItemIDArray
  * @property string $PromotionalSaleName
- * @property DateTime $PromotionalSaleStartTime
- * @property DTS\eBaySDK\Trading\Enums\PromotionalSaleTypeCodeType(string) $PromotionalSaleType
- * @property DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType(string) $Status
+ * @property \DateTime $PromotionalSaleStartTime
+ * @property \DTS\eBaySDK\Trading\Enums\PromotionalSaleTypeCodeType(string) $PromotionalSaleType
+ * @property \DTS\eBaySDK\Trading\Enums\PromotionalSaleStatusCodeType(string) $Status
  */
 class PromotionalSaleType extends \DTS\eBaySDK\Types\BaseType
 {

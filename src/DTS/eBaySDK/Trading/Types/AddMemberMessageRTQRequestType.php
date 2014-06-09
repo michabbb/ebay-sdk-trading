@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $ItemID
- * @property DTS\eBaySDK\Trading\Types\MemberMessageType $MemberMessage
+ * @property \DTS\eBaySDK\Trading\Types\MemberMessageType $MemberMessage
  */
 class AddMemberMessageRTQRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

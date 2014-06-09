@@ -21,8 +21,8 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $DetailVersion
  * @property string $URL
- * @property DTS\eBaySDK\Trading\Enums\URLTypeCodeType(string) $URLType
- * @property DateTime $UpdateTime
+ * @property \DTS\eBaySDK\Trading\Enums\URLTypeCodeType(string) $URLType
+ * @property \DateTime $UpdateTime
  */
 class URLDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

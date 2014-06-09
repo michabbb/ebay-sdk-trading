@@ -22,13 +22,13 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $AttributeSetID
  * @property string $DetailsURL
  * @property boolean $DisplayStockPhotos
- * @property DTS\eBaySDK\Trading\Types\ExternalProductIDType $ExternalProductID
+ * @property \DTS\eBaySDK\Trading\Types\ExternalProductIDType $ExternalProductID
  * @property integer $ItemCount
- * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $ItemSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $ItemSpecifics
  * @property integer $ProductReferenceID
- * @property DTS\eBaySDK\Trading\Enums\ProductStateCodeType(string) $ProductState
+ * @property \DTS\eBaySDK\Trading\Enums\ProductStateCodeType(string) $ProductState
  * @property integer $ReviewCount
- * @property DTS\eBaySDK\Trading\Types\ReviewDetailsType $ReviewDetails
+ * @property \DTS\eBaySDK\Trading\Types\ReviewDetailsType $ReviewDetails
  * @property string $StockPhotoURL
  * @property string $Title
  */

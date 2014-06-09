@@ -19,17 +19,17 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BotBlockRequestType $BotBlock
- * @property DTS\eBaySDK\Trading\Enums\DetailLevelCodeType(string) $DetailLevel
+ * @property \DTS\eBaySDK\Trading\Types\BotBlockRequestType $BotBlock
+ * @property \DTS\eBaySDK\Trading\Enums\DetailLevelCodeType(string) $DetailLevel
  * @property string $EndUserIP
- * @property DTS\eBaySDK\Trading\Enums\ErrorHandlingCodeType(string) $ErrorHandling
+ * @property \DTS\eBaySDK\Trading\Enums\ErrorHandlingCodeType(string) $ErrorHandling
  * @property string $ErrorLanguage
  * @property string $InvocationID
  * @property string $MessageID
  * @property string $OutputSelector
- * @property DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType $RequesterCredentials
+ * @property \DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType $RequesterCredentials
  * @property string $Version
- * @property DTS\eBaySDK\Trading\Enums\WarningLevelCodeType(string) $WarningLevel
+ * @property \DTS\eBaySDK\Trading\Enums\WarningLevelCodeType(string) $WarningLevel
  */
 class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
 {

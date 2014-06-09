@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $HasMoreItems
  * @property integer $ItemsPerPage
  * @property integer $PageNumber
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
- * @property DTS\eBaySDK\Trading\Types\VeROReportedItemDetailsType $ReportedItemDetails
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\VeROReportedItemDetailsType $ReportedItemDetails
  * @property integer $VeROReportPacketID
- * @property DTS\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType(string) $VeROReportPacketStatus
+ * @property \DTS\eBaySDK\Trading\Enums\VeROReportPacketStatusCodeType(string) $VeROReportPacketStatus
  */
 class GetVeROReportStatusResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

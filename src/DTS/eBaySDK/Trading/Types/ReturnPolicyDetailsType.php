@@ -22,15 +22,15 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $Description
  * @property string $DetailVersion
  * @property boolean $EAN
- * @property DTS\eBaySDK\Trading\Types\RefundDetailsType $Refund
- * @property DTS\eBaySDK\Trading\Types\RestockingFeeValueDetailsType $RestockingFeeValue
- * @property DTS\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType $ReturnsAccepted
- * @property DTS\eBaySDK\Trading\Types\ReturnsWithinDetailsType $ReturnsWithin
- * @property DTS\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType $ShippingCostPaidBy
- * @property DateTime $UpdateTime
- * @property DTS\eBaySDK\Trading\Types\WarrantyDurationDetailsType $WarrantyDuration
- * @property DTS\eBaySDK\Trading\Types\WarrantyOfferedDetailsType $WarrantyOffered
- * @property DTS\eBaySDK\Trading\Types\WarrantyTypeDetailsType $WarrantyType
+ * @property \DTS\eBaySDK\Trading\Types\RefundDetailsType $Refund
+ * @property \DTS\eBaySDK\Trading\Types\RestockingFeeValueDetailsType $RestockingFeeValue
+ * @property \DTS\eBaySDK\Trading\Types\ReturnsAcceptedDetailsType $ReturnsAccepted
+ * @property \DTS\eBaySDK\Trading\Types\ReturnsWithinDetailsType $ReturnsWithin
+ * @property \DTS\eBaySDK\Trading\Types\ShippingCostPaidByDetailsType $ShippingCostPaidBy
+ * @property \DateTime $UpdateTime
+ * @property \DTS\eBaySDK\Trading\Types\WarrantyDurationDetailsType $WarrantyDuration
+ * @property \DTS\eBaySDK\Trading\Types\WarrantyOfferedDetailsType $WarrantyOffered
+ * @property \DTS\eBaySDK\Trading\Types\WarrantyTypeDetailsType $WarrantyType
  */
 class ReturnPolicyDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

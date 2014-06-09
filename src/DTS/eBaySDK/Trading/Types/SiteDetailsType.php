@@ -20,9 +20,9 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $DetailVersion
- * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
  * @property integer $SiteID
- * @property DateTime $UpdateTime
+ * @property \DateTime $UpdateTime
  */
 class SiteDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

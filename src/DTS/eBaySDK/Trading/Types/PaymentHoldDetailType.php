@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $ExpectedReleaseDate
+ * @property \DateTime $ExpectedReleaseDate
  * @property integer $NumOfReqSellerActions
- * @property DTS\eBaySDK\Trading\Enums\PaymentHoldReasonCodeType(string) $PaymentHoldReason
- * @property DTS\eBaySDK\Trading\Types\RequiredSellerActionArrayType $RequiredSellerActionArray
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentHoldReasonCodeType(string) $PaymentHoldReason
+ * @property \DTS\eBaySDK\Trading\Types\RequiredSellerActionArrayType $RequiredSellerActionArray
  */
 class PaymentHoldDetailType extends \DTS\eBaySDK\Types\BaseType
 {

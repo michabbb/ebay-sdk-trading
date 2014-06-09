@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $DetailVersion
  * @property string $Location
  * @property string $Region
- * @property DateTime $UpdateTime
+ * @property \DateTime $UpdateTime
  */
 class ExcludeShippingLocationDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

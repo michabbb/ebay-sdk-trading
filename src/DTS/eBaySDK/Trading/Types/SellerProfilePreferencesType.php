@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $SellerProfileOptedIn
- * @property DTS\eBaySDK\Trading\Types\SupportedSellerProfilesType $SupportedSellerProfiles
+ * @property \DTS\eBaySDK\Trading\Types\SupportedSellerProfilesType $SupportedSellerProfiles
  */
 class SellerProfilePreferencesType extends \DTS\eBaySDK\Types\BaseType
 {

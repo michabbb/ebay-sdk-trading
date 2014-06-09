@@ -20,41 +20,41 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $AllowPaymentEdit
- * @property DTS\eBaySDK\Trading\Types\AmountType $CODCost
- * @property DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
- * @property DTS\eBaySDK\Trading\Types\CalculatedShippingRateType $CalculatedShippingRate
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $CODCost
+ * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
+ * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingRateType $CalculatedShippingRate
  * @property boolean $ChangePaymentInstructions
- * @property DTS\eBaySDK\Trading\Types\AmountType $DefaultShippingCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $DefaultShippingCost
  * @property string $ExcludeShipToLocation
- * @property DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
+ * @property \DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
  * @property boolean $GetItFast
  * @property boolean $GlobalShipping
- * @property DTS\eBaySDK\Trading\Types\InsuranceDetailsType $InsuranceDetails
- * @property DTS\eBaySDK\Trading\Types\AmountType $InsuranceFee
- * @property DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType(string) $InsuranceOption
+ * @property \DTS\eBaySDK\Trading\Types\InsuranceDetailsType $InsuranceDetails
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $InsuranceFee
+ * @property \DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType(string) $InsuranceOption
  * @property boolean $InsuranceWanted
- * @property DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $InternationalCalculatedShippingDiscount
- * @property DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $InternationalFlatShippingDiscount
- * @property DTS\eBaySDK\Trading\Types\InsuranceDetailsType $InternationalInsuranceDetails
+ * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $InternationalCalculatedShippingDiscount
+ * @property \DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $InternationalFlatShippingDiscount
+ * @property \DTS\eBaySDK\Trading\Types\InsuranceDetailsType $InternationalInsuranceDetails
  * @property boolean $InternationalPromotionalShippingDiscount
  * @property string $InternationalShippingDiscountProfileID
- * @property DTS\eBaySDK\Trading\Types\InternationalShippingServiceOptionsType $InternationalShippingServiceOption
+ * @property \DTS\eBaySDK\Trading\Types\InternationalShippingServiceOptionsType $InternationalShippingServiceOption
  * @property boolean $PaymentEdited
  * @property string $PaymentInstructions
  * @property boolean $PromotionalShippingDiscount
- * @property DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
- * @property DTS\eBaySDK\Trading\Types\RateTableDetailsType $RateTableDetails
- * @property DTS\eBaySDK\Trading\Types\SalesTaxType $SalesTax
+ * @property \DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
+ * @property \DTS\eBaySDK\Trading\Types\RateTableDetailsType $RateTableDetails
+ * @property \DTS\eBaySDK\Trading\Types\SalesTaxType $SalesTax
  * @property boolean $SellerExcludeShipToLocationsPreference
  * @property integer $SellingManagerSalesRecordNumber
- * @property DTS\eBaySDK\Trading\Types\ShipmentTrackingDetailsType $ShipmentTrackingDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShipmentTrackingDetailsType $ShipmentTrackingDetails
  * @property string $ShippingDiscountProfileID
  * @property string $ShippingRateErrorMessage
- * @property DTS\eBaySDK\Trading\Enums\ShippingRateTypeCodeType(string) $ShippingRateType
- * @property DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType $ShippingServiceOptions
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingRateTypeCodeType(string) $ShippingRateType
+ * @property \DTS\eBaySDK\Trading\Types\ShippingServiceOptionsType $ShippingServiceOptions
  * @property string $ShippingServiceUsed
- * @property DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType(string) $ShippingType
- * @property DTS\eBaySDK\Trading\Types\TaxTableType $TaxTable
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType(string) $ShippingType
+ * @property \DTS\eBaySDK\Trading\Types\TaxTableType $TaxTable
  * @property boolean $ThirdPartyCheckout
  */
 class ShippingDetailsType extends \DTS\eBaySDK\Types\BaseType

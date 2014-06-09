@@ -19,20 +19,20 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $EstimatedRefundCompletionTime
+ * @property \DateTime $EstimatedRefundCompletionTime
  * @property string $ExternalReferenceID
- * @property DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
- * @property DateTime $RefundCompletionTime
- * @property DTS\eBaySDK\Trading\Types\RefundFailureReasonType $RefundFailureReason
- * @property DTS\eBaySDK\Trading\Types\AmountType $RefundFromSeller
- * @property DTS\eBaySDK\Trading\Types\RefundFundingSourceArrayType $RefundFundingSourceArray
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
+ * @property \DateTime $RefundCompletionTime
+ * @property \DTS\eBaySDK\Trading\Types\RefundFailureReasonType $RefundFailureReason
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundFromSeller
+ * @property \DTS\eBaySDK\Trading\Types\RefundFundingSourceArrayType $RefundFundingSourceArray
  * @property string $RefundID
- * @property DateTime $RefundRequestedTime
- * @property DTS\eBaySDK\Trading\Enums\RefundStatusCodeType(string) $RefundStatus
- * @property DateTime $RefundTime
- * @property DTS\eBaySDK\Trading\Types\RefundTransactionArrayType $RefundTransactionArray
+ * @property \DateTime $RefundRequestedTime
+ * @property \DTS\eBaySDK\Trading\Enums\RefundStatusCodeType(string) $RefundStatus
+ * @property \DateTime $RefundTime
+ * @property \DTS\eBaySDK\Trading\Types\RefundTransactionArrayType $RefundTransactionArray
  * @property string $SellerNoteToBuyer
- * @property DTS\eBaySDK\Trading\Types\AmountType $TotalRefundToBuyer
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalRefundToBuyer
  */
 class RefundType extends \DTS\eBaySDK\Types\BaseType
 {

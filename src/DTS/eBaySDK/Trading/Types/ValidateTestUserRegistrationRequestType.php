@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $FeedbackScore
- * @property DateTime $RegistrationDate
+ * @property \DateTime $RegistrationDate
  * @property boolean $SubscribeSA
  * @property boolean $SubscribeSAPro
  * @property boolean $SubscribeSM

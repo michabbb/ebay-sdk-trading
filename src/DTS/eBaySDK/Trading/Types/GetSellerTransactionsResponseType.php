@@ -21,11 +21,11 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $HasMoreTransactions
  * @property integer $PageNumber
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  * @property boolean $PayPalPreferred
  * @property integer $ReturnedTransactionCountActual
- * @property DTS\eBaySDK\Trading\Types\UserType $Seller
- * @property DTS\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
+ * @property \DTS\eBaySDK\Trading\Types\UserType $Seller
+ * @property \DTS\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
  * @property integer $TransactionsPerPage
  */
 class GetSellerTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

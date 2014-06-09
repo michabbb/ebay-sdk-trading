@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
+ * @property \DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
  */
 class BuyerType extends \DTS\eBaySDK\Types\BaseType
 {

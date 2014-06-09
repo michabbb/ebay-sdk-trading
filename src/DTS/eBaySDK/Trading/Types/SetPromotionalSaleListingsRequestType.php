@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\ModifyActionCodeType(string) $Action
+ * @property \DTS\eBaySDK\Trading\Enums\ModifyActionCodeType(string) $Action
  * @property boolean $AllAuctionItems
  * @property boolean $AllFixedPriceItems
  * @property boolean $AllStoreInventoryItems
  * @property integer $CategoryID
  * @property integer $PromotionalSaleID
- * @property DTS\eBaySDK\Trading\Types\ItemIDArrayType $PromotionalSaleItemIDArray
+ * @property \DTS\eBaySDK\Trading\Types\ItemIDArrayType $PromotionalSaleItemIDArray
  * @property integer $StoreCategoryID
  */
 class SetPromotionalSaleListingsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
- * @property DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType $SaleRecord
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldOrderType $SaleRecord
  */
 class GetSellingManagerSoldListingsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

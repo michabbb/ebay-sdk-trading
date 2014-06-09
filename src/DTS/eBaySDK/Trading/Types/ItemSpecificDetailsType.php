@@ -24,7 +24,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $MaxCharactersPerValue
  * @property integer $MaxItemSpecificsPerItem
  * @property integer $MaxValuesPerName
- * @property DateTime $UpdateTime
+ * @property \DateTime $UpdateTime
  */
 class ItemSpecificDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

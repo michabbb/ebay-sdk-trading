@@ -19,18 +19,18 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\BestOfferTypeCodeType(string) $BestOfferCodeType
+ * @property \DTS\eBaySDK\Trading\Enums\BestOfferTypeCodeType(string) $BestOfferCodeType
  * @property string $BestOfferID
- * @property DTS\eBaySDK\Trading\Types\UserType $Buyer
+ * @property \DTS\eBaySDK\Trading\Types\UserType $Buyer
  * @property string $BuyerMessage
  * @property string $CallStatus
- * @property DateTime $ExpirationTime
+ * @property \DateTime $ExpirationTime
  * @property boolean $ImmediatePayEligible
  * @property boolean $NewBestOffer
- * @property DTS\eBaySDK\Trading\Types\AmountType $Price
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Price
  * @property integer $Quantity
  * @property string $SellerMessage
- * @property DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType(string) $Status
+ * @property \DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType(string) $Status
  */
 class BestOfferType extends \DTS\eBaySDK\Types\BaseType
 {

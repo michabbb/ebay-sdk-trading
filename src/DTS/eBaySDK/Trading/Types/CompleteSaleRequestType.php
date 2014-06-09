@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\FeedbackInfoType $FeedbackInfo
+ * @property \DTS\eBaySDK\Trading\Types\FeedbackInfoType $FeedbackInfo
  * @property string $ItemID
- * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
+ * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
  * @property string $OrderID
  * @property string $OrderLineItemID
  * @property boolean $Paid
- * @property DTS\eBaySDK\Trading\Types\ShipmentType $Shipment
+ * @property \DTS\eBaySDK\Trading\Types\ShipmentType $Shipment
  * @property boolean $Shipped
  * @property string $TransactionID
  */

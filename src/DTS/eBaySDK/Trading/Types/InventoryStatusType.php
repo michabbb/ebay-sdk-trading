@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ItemID
  * @property integer $Quantity
  * @property string $SKU
- * @property DTS\eBaySDK\Trading\Types\AmountType $StartPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
  */
 class InventoryStatusType extends \DTS\eBaySDK\Types\BaseType
 {

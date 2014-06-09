@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerAlertTypeCodeType(string) $AlertType
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerAutomationPropertyTypeCodeType(string) $AutomationAlert
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerAlertTypeCodeType(string) $AlertType
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerAutomationPropertyTypeCodeType(string) $AutomationAlert
  * @property integer $Count
  * @property integer $DurationInDays
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerGeneralPropertyTypeCodeType(string) $GeneralAlert
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerInventoryPropertyTypeCodeType(string) $InventoryAlert
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerPaisaPayPropertyTypeCodeType(string) $PaisaPayAlert
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsPropertyTypeCodeType(string) $SoldAlert
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerGeneralPropertyTypeCodeType(string) $GeneralAlert
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerInventoryPropertyTypeCodeType(string) $InventoryAlert
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerPaisaPayPropertyTypeCodeType(string) $PaisaPayAlert
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsPropertyTypeCodeType(string) $SoldAlert
  */
 class SellingManagerAlertType extends \DTS\eBaySDK\Types\BaseType
 {

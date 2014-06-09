@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ModifyNameType $ModifyName
+ * @property \DTS\eBaySDK\Trading\Types\ModifyNameType $ModifyName
  */
 class ModifyNameArrayType extends \DTS\eBaySDK\Types\BaseType
 {

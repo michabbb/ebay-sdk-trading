@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\StoreVacationPreferencesType $VacationPreferences
+ * @property \DTS\eBaySDK\Trading\Types\StoreVacationPreferencesType $VacationPreferences
  */
 class StorePreferencesType extends \DTS\eBaySDK\Types\BaseType
 {

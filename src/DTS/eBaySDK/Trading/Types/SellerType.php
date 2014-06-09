@@ -20,36 +20,36 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $AllowPaymentEdit
- * @property DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $BillingCurrency
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $BillingCurrency
  * @property boolean $CIPBankAccountStored
- * @property DTS\eBaySDK\Trading\Types\CharityAffiliationDetailsType $CharityAffiliationDetails
+ * @property \DTS\eBaySDK\Trading\Types\CharityAffiliationDetailsType $CharityAffiliationDetails
  * @property boolean $CharityRegistered
  * @property boolean $CheckoutEnabled
  * @property boolean $DomesticRateTable
- * @property DTS\eBaySDK\Trading\Types\FeatureEligibilityType $FeatureEligibility
+ * @property \DTS\eBaySDK\Trading\Types\FeatureEligibilityType $FeatureEligibility
  * @property boolean $GoodStanding
- * @property DTS\eBaySDK\Trading\Types\IntegratedMerchantCreditCardInfoType $IntegratedMerchantCreditCardInfo
- * @property DTS\eBaySDK\Trading\Enums\MerchandizingPrefCodeType(string) $MerchandizingPref
+ * @property \DTS\eBaySDK\Trading\Types\IntegratedMerchantCreditCardInfoType $IntegratedMerchantCreditCardInfo
+ * @property \DTS\eBaySDK\Trading\Enums\MerchandizingPrefCodeType(string) $MerchandizingPref
  * @property integer $PaisaPayEscrowEMIStatus
  * @property integer $PaisaPayStatus
- * @property DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType(string) $PaymentMethod
- * @property DTS\eBaySDK\Trading\Types\ProStoresCheckoutPreferenceType $ProStoresPreference
+ * @property \DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType(string) $PaymentMethod
+ * @property \DTS\eBaySDK\Trading\Types\ProStoresCheckoutPreferenceType $ProStoresPreference
  * @property boolean $QualifiesForB2BVAT
- * @property DTS\eBaySDK\Trading\Types\RecoupmentPolicyConsentType $RecoupmentPolicyConsent
+ * @property \DTS\eBaySDK\Trading\Types\RecoupmentPolicyConsentType $RecoupmentPolicyConsent
  * @property boolean $RegisteredBusinessSeller
  * @property boolean $SafePaymentExempt
- * @property DTS\eBaySDK\Trading\Types\SchedulingInfoType $SchedulingInfo
- * @property DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType(string) $SellerBusinessType
- * @property DTS\eBaySDK\Trading\Enums\SellerGuaranteeLevelCodeType(string) $SellerGuaranteeLevel
- * @property DTS\eBaySDK\Trading\Enums\SellerLevelCodeType(string) $SellerLevel
- * @property DTS\eBaySDK\Trading\Types\AddressType $SellerPaymentAddress
- * @property DTS\eBaySDK\Trading\Types\SellereBayPaymentProcessConsentCodeType $SellereBayPaymentProcessConsent
- * @property DTS\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType(string) $SellereBayPaymentProcessStatus
+ * @property \DTS\eBaySDK\Trading\Types\SchedulingInfoType $SchedulingInfo
+ * @property \DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType(string) $SellerBusinessType
+ * @property \DTS\eBaySDK\Trading\Enums\SellerGuaranteeLevelCodeType(string) $SellerGuaranteeLevel
+ * @property \DTS\eBaySDK\Trading\Enums\SellerLevelCodeType(string) $SellerLevel
+ * @property \DTS\eBaySDK\Trading\Types\AddressType $SellerPaymentAddress
+ * @property \DTS\eBaySDK\Trading\Types\SellereBayPaymentProcessConsentCodeType $SellereBayPaymentProcessConsent
+ * @property \DTS\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType(string) $SellereBayPaymentProcessStatus
  * @property boolean $StoreOwner
- * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $StoreSite
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $StoreSite
  * @property string $StoreURL
  * @property boolean $TopRatedSeller
- * @property DTS\eBaySDK\Trading\Types\TopRatedSellerDetailsType $TopRatedSellerDetails
+ * @property \DTS\eBaySDK\Trading\Types\TopRatedSellerDetailsType $TopRatedSellerDetails
  * @property double $TransactionPercent
  */
 class SellerType extends \DTS\eBaySDK\Types\BaseType

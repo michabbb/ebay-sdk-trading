@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $Description
  * @property string $DetailVersion
  * @property string $ShippingLocation
- * @property DateTime $UpdateTime
+ * @property \DateTime $UpdateTime
  */
 class ShippingLocationDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

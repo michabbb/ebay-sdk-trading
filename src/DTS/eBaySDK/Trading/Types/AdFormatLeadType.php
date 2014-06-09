@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $AdditionalInformation
- * @property DTS\eBaySDK\Trading\Types\AddressType $Address
+ * @property \DTS\eBaySDK\Trading\Types\AddressType $Address
  * @property boolean $Answer1
  * @property boolean $Answer2
  * @property string $BestTimeToCall
@@ -29,10 +29,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $FinancingAnswer
  * @property string $ItemID
  * @property string $ItemTitle
- * @property DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
+ * @property \DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
  * @property string $PurchaseTimeFrame
- * @property DTS\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType(string) $Status
- * @property DateTime $SubmittedTime
+ * @property \DTS\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType(string) $Status
+ * @property \DateTime $SubmittedTime
  * @property string $TradeInMake
  * @property string $TradeInModel
  * @property string $TradeInYear

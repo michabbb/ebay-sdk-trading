@@ -20,23 +20,23 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $Adult
- * @property DTS\eBaySDK\Trading\Types\AmountType $BestOfferAutoAcceptPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $BestOfferAutoAcceptPrice
  * @property boolean $BindingAuction
  * @property boolean $BuyItNowAvailable
  * @property boolean $CheckoutEnabled
- * @property DTS\eBaySDK\Trading\Types\AmountType $ConvertedBuyItNowPrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $ConvertedReservePrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $ConvertedStartPrice
- * @property DateTime $EndTime
- * @property DTS\eBaySDK\Trading\Enums\EndReasonCodeType(string) $EndingReason
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedBuyItNowPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedReservePrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedStartPrice
+ * @property \DateTime $EndTime
+ * @property \DTS\eBaySDK\Trading\Enums\EndReasonCodeType(string) $EndingReason
  * @property boolean $HasPublicMessages
  * @property boolean $HasReservePrice
  * @property boolean $HasUnansweredQuestions
  * @property string $LocalListingDistance
- * @property DTS\eBaySDK\Trading\Types\AmountType $MinimumBestOfferPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $MinimumBestOfferPrice
  * @property string $RelistedItemID
  * @property string $SecondChanceOriginalItemID
- * @property DateTime $StartTime
+ * @property \DateTime $StartTime
  * @property string $TCROriginalItemID
  * @property string $ViewItemURL
  * @property string $ViewItemURLForNaturalSearch

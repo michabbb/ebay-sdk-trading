@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AddressType $ContactAddress
- * @property DateTime $RegistrationDate
+ * @property \DTS\eBaySDK\Trading\Types\AddressType $ContactAddress
+ * @property \DateTime $RegistrationDate
  * @property string $UserID
  */
 class GetUserContactDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

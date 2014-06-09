@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $ActiveList
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BidList
- * @property DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $DeletedFromSoldList
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $DeletedFromUnsoldList
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $ScheduledList
- * @property DTS\eBaySDK\Trading\Types\SellingSummaryType $SellingSummary
- * @property DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $SoldList
- * @property DTS\eBaySDK\Trading\Types\MyeBaySellingSummaryType $Summary
- * @property DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $UnsoldList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $ActiveList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $BidList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $DeletedFromSoldList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $DeletedFromUnsoldList
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $ScheduledList
+ * @property \DTS\eBaySDK\Trading\Types\SellingSummaryType $SellingSummary
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $SoldList
+ * @property \DTS\eBaySDK\Trading\Types\MyeBaySellingSummaryType $Summary
+ * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $UnsoldList
  */
 class GetMyeBaySellingResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

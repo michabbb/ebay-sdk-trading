@@ -19,22 +19,22 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $CustomCategories
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $CustomCategories
  * @property string $CustomHeader
- * @property DTS\eBaySDK\Trading\Enums\StoreCustomHeaderLayoutCodeType(string) $CustomHeaderLayout
- * @property DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderType $CustomListingHeader
+ * @property \DTS\eBaySDK\Trading\Enums\StoreCustomHeaderLayoutCodeType(string) $CustomHeaderLayout
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderType $CustomListingHeader
  * @property string $Description
  * @property boolean $ExportListings
- * @property DTS\eBaySDK\Trading\Enums\StoreHeaderStyleCodeType(string) $HeaderStyle
+ * @property \DTS\eBaySDK\Trading\Enums\StoreHeaderStyleCodeType(string) $HeaderStyle
  * @property integer $HomePage
- * @property DTS\eBaySDK\Trading\Enums\StoreItemListLayoutCodeType(string) $ItemListLayout
- * @property DTS\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType(string) $ItemListSortOrder
- * @property DateTime $LastOpenedTime
- * @property DTS\eBaySDK\Trading\Types\StoreLogoType $Logo
- * @property DTS\eBaySDK\Trading\Enums\MerchDisplayCodeType(string) $MerchDisplay
+ * @property \DTS\eBaySDK\Trading\Enums\StoreItemListLayoutCodeType(string) $ItemListLayout
+ * @property \DTS\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType(string) $ItemListSortOrder
+ * @property \DateTime $LastOpenedTime
+ * @property \DTS\eBaySDK\Trading\Types\StoreLogoType $Logo
+ * @property \DTS\eBaySDK\Trading\Enums\MerchDisplayCodeType(string) $MerchDisplay
  * @property string $Name
- * @property DTS\eBaySDK\Trading\Enums\StoreSubscriptionLevelCodeType(string) $SubscriptionLevel
- * @property DTS\eBaySDK\Trading\Types\StoreThemeType $Theme
+ * @property \DTS\eBaySDK\Trading\Enums\StoreSubscriptionLevelCodeType(string) $SubscriptionLevel
+ * @property \DTS\eBaySDK\Trading\Types\StoreThemeType $Theme
  * @property boolean $TitleWithCompatibility
  * @property string $URL
  * @property string $URLPath

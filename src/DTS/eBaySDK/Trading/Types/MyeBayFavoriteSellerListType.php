@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerType $FavoriteSeller
+ * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerType $FavoriteSeller
  * @property integer $TotalAvailable
  */
 class MyeBayFavoriteSellerListType extends \DTS\eBaySDK\Types\BaseType

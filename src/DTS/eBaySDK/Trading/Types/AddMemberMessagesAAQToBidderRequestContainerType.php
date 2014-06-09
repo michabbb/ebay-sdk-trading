@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $CorrelationID
  * @property string $ItemID
- * @property DTS\eBaySDK\Trading\Types\MemberMessageType $MemberMessage
+ * @property \DTS\eBaySDK\Trading\Types\MemberMessageType $MemberMessage
  */
 class AddMemberMessagesAAQToBidderRequestContainerType extends \DTS\eBaySDK\Types\BaseType
 {

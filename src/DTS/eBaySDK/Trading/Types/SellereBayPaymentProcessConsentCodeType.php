@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\PayoutMethodType(string) $PayoutMethod
+ * @property \DTS\eBaySDK\Trading\Enums\PayoutMethodType(string) $PayoutMethod
  * @property boolean $PayoutMethodSet
- * @property DTS\eBaySDK\Trading\Types\UserAgreementInfoType $UserAgreementInfo
+ * @property \DTS\eBaySDK\Trading\Types\UserAgreementInfoType $UserAgreementInfo
  */
 class SellereBayPaymentProcessConsentCodeType extends \DTS\eBaySDK\Types\BaseType
 {

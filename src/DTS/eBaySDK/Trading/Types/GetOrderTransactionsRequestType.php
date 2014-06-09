@@ -20,9 +20,9 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $IncludeFinalValueFees
- * @property DTS\eBaySDK\Trading\Types\ItemTransactionIDArrayType $ItemTransactionIDArray
- * @property DTS\eBaySDK\Trading\Types\OrderIDArrayType $OrderIDArray
- * @property DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $Platform
+ * @property \DTS\eBaySDK\Trading\Types\ItemTransactionIDArrayType $ItemTransactionIDArray
+ * @property \DTS\eBaySDK\Trading\Types\OrderIDArrayType $OrderIDArray
+ * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $Platform
  */
 class GetOrderTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

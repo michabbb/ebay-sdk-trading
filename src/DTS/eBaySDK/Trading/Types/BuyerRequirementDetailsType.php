@@ -20,12 +20,12 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $LinkedPayPalAccount
- * @property DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsType $MaximumBuyerPolicyViolations
- * @property DTS\eBaySDK\Trading\Types\MaximumItemRequirementsType $MaximumItemRequirements
- * @property DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoType $MaximumUnpaidItemStrikesInfo
+ * @property \DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsType $MaximumBuyerPolicyViolations
+ * @property \DTS\eBaySDK\Trading\Types\MaximumItemRequirementsType $MaximumItemRequirements
+ * @property \DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoType $MaximumUnpaidItemStrikesInfo
  * @property integer $MinimumFeedbackScore
  * @property boolean $ShipToRegistrationCountry
- * @property DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsType $VerifiedUserRequirements
+ * @property \DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsType $VerifiedUserRequirements
  * @property boolean $ZeroFeedbackScore
  */
 class BuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType

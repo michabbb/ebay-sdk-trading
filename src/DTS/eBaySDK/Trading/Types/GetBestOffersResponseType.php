@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BestOfferArrayType $BestOfferArray
- * @property DTS\eBaySDK\Trading\Types\ItemType $Item
- * @property DTS\eBaySDK\Trading\Types\ItemBestOffersArrayType $ItemBestOffersArray
+ * @property \DTS\eBaySDK\Trading\Types\BestOfferArrayType $BestOfferArray
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DTS\eBaySDK\Trading\Types\ItemBestOffersArrayType $ItemBestOffersArray
  * @property integer $PageNumber
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  */
 class GetBestOffersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

@@ -21,16 +21,16 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $AdminEnded
  * @property integer $BidCount
- * @property DTS\eBaySDK\Trading\Types\AmountType $BidIncrement
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $BidIncrement
  * @property integer $BidderCount
- * @property DTS\eBaySDK\Trading\Types\AmountType $ConvertedCurrentPrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $CurrentPrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $FinalValueFee
- * @property DTS\eBaySDK\Trading\Types\UserType $HighBidder
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedCurrentPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $CurrentPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $FinalValueFee
+ * @property \DTS\eBaySDK\Trading\Types\UserType $HighBidder
  * @property integer $LeadCount
- * @property DTS\eBaySDK\Trading\Enums\ListingStatusCodeType(string) $ListingStatus
- * @property DTS\eBaySDK\Trading\Types\AmountType $MinimumToBid
- * @property DTS\eBaySDK\Trading\Types\PromotionalSaleDetailsType $PromotionalSaleDetails
+ * @property \DTS\eBaySDK\Trading\Enums\ListingStatusCodeType(string) $ListingStatus
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $MinimumToBid
+ * @property \DTS\eBaySDK\Trading\Types\PromotionalSaleDetailsType $PromotionalSaleDetails
  * @property integer $QuantitySold
  * @property integer $QuantitySoldByPickupInStore
  * @property boolean $ReserveMet

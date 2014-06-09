@@ -19,26 +19,26 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\AccountStateCodeType(string) $AccountState
- * @property DTS\eBaySDK\Trading\Types\AdditionalAccountType $AdditionalAccount
- * @property DTS\eBaySDK\Trading\Types\AmountType $AmountPastDue
+ * @property \DTS\eBaySDK\Trading\Enums\AccountStateCodeType(string) $AccountState
+ * @property \DTS\eBaySDK\Trading\Types\AdditionalAccountType $AdditionalAccount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPastDue
  * @property string $BankAccountInfo
- * @property DateTime $BankModifyDate
+ * @property \DateTime $BankModifyDate
  * @property integer $BillingCycleDate
- * @property DateTime $CreditCardExpiration
+ * @property \DateTime $CreditCardExpiration
  * @property string $CreditCardInfo
- * @property DateTime $CreditCardModifyDate
- * @property DTS\eBaySDK\Trading\Types\AmountType $CurrentBalance
+ * @property \DateTime $CreditCardModifyDate
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $CurrentBalance
  * @property string $Email
- * @property DTS\eBaySDK\Trading\Types\AmountType $InvoiceBalance
- * @property DTS\eBaySDK\Trading\Types\AmountType $InvoiceCredit
- * @property DateTime $InvoiceDate
- * @property DTS\eBaySDK\Trading\Types\AmountType $InvoiceNewFee
- * @property DTS\eBaySDK\Trading\Types\AmountType $InvoicePayment
- * @property DTS\eBaySDK\Trading\Types\AmountType $LastAmountPaid
- * @property DateTime $LastPaymentDate
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoiceBalance
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoiceCredit
+ * @property \DateTime $InvoiceDate
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoiceNewFee
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $InvoicePayment
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $LastAmountPaid
+ * @property \DateTime $LastPaymentDate
  * @property boolean $PastDue
- * @property DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType(string) $PaymentMethod
+ * @property \DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType(string) $PaymentMethod
  */
 class AccountSummaryType extends \DTS\eBaySDK\Types\BaseType
 {

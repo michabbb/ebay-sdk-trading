@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AttributeType $Attribute
+ * @property \DTS\eBaySDK\Trading\Types\AttributeType $Attribute
  */
 class AttributeArrayType extends \DTS\eBaySDK\Types\BaseType
 {

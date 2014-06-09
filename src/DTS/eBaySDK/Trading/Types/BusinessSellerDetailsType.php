@@ -20,13 +20,13 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $AdditionalContactInformation
- * @property DTS\eBaySDK\Trading\Types\AddressType $Address
+ * @property \DTS\eBaySDK\Trading\Types\AddressType $Address
  * @property string $Email
  * @property string $Fax
  * @property boolean $LegalInvoice
  * @property string $TermsAndConditions
  * @property string $TradeRegistrationNumber
- * @property DTS\eBaySDK\Trading\Types\VATDetailsType $VATDetails
+ * @property \DTS\eBaySDK\Trading\Types\VATDetailsType $VATDetails
  */
 class BusinessSellerDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

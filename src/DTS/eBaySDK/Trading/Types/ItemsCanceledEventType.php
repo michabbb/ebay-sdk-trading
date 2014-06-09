@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemIDArrayType $CanceledItemIDArray
+ * @property \DTS\eBaySDK\Trading\Types\ItemIDArrayType $CanceledItemIDArray
  * @property boolean $EligibleForRelist
  * @property string $SellerID
  */

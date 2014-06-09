@@ -28,7 +28,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $SKU
  * @property string $TransactionID
  * @property string $VariationSKU
- * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
  */
 class GetItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

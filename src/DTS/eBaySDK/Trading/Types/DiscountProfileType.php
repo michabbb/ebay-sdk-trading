@@ -21,11 +21,11 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $DiscountProfileID
  * @property string $DiscountProfileName
- * @property DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmountOff
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmountOff
  * @property double $EachAdditionalPercentOff
  * @property string $MappedDiscountProfileID
- * @property DTS\eBaySDK\Trading\Types\MeasureType $WeightOff
+ * @property \DTS\eBaySDK\Trading\Types\MeasureType $WeightOff
  */
 class DiscountProfileType extends \DTS\eBaySDK\Types\BaseType
 {

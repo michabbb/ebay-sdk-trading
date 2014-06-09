@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType $CalculatedHandlingDiscount
- * @property DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
- * @property DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType(string) $CombinedDuration
- * @property DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $CurrencyID
- * @property DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
- * @property DTS\eBaySDK\Trading\Types\ShippingInsuranceType $InternationalShippingInsurance
+ * @property \DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType $CalculatedHandlingDiscount
+ * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
+ * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType(string) $CombinedDuration
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $CurrencyID
+ * @property \DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
+ * @property \DTS\eBaySDK\Trading\Types\ShippingInsuranceType $InternationalShippingInsurance
  * @property boolean $PromotionalShippingDiscount
- * @property DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
- * @property DTS\eBaySDK\Trading\Types\ShippingInsuranceType $ShippingInsurance
+ * @property \DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingInsuranceType $ShippingInsurance
  */
 class GetShippingDiscountProfilesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

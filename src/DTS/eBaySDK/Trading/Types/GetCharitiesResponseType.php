@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CharityInfoType $Charity
+ * @property \DTS\eBaySDK\Trading\Types\CharityInfoType $Charity
  */
 class GetCharitiesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

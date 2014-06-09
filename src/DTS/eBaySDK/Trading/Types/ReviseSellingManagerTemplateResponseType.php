@@ -21,10 +21,10 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $Category2ID
  * @property string $CategoryID
- * @property DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
  * @property integer $SaleTemplateID
  * @property string $SaleTemplateName
- * @property DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
  * @property boolean $VerifyOnly
  */
 class ReviseSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

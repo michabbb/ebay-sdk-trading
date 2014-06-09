@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MultiLegShipmentType $SellerShipmentToLogisticsProvider
+ * @property \DTS\eBaySDK\Trading\Types\MultiLegShipmentType $SellerShipmentToLogisticsProvider
  */
 class MultiLegShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

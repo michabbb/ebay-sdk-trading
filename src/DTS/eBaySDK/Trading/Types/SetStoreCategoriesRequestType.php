@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\StoreCategoryUpdateActionCodeType(string) $Action
+ * @property \DTS\eBaySDK\Trading\Enums\StoreCategoryUpdateActionCodeType(string) $Action
  * @property integer $DestinationParentCategoryID
  * @property integer $ItemDestinationCategoryID
- * @property DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $StoreCategories
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $StoreCategories
  */
 class SetStoreCategoriesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

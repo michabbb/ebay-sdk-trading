@@ -20,12 +20,12 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $CrossPromotionEnabled
- * @property DTS\eBaySDK\Trading\Enums\GallerySortFilterCodeType(string) $CrossSellGallerySortFilter
- * @property DTS\eBaySDK\Trading\Enums\ItemFormatSortFilterCodeType(string) $CrossSellItemFormatSortFilter
- * @property DTS\eBaySDK\Trading\Enums\ItemSortFilterCodeType(string) $CrossSellItemSortFilter
- * @property DTS\eBaySDK\Trading\Enums\GallerySortFilterCodeType(string) $UpSellGallerySortFilter
- * @property DTS\eBaySDK\Trading\Enums\ItemFormatSortFilterCodeType(string) $UpSellItemFormatSortFilter
- * @property DTS\eBaySDK\Trading\Enums\ItemSortFilterCodeType(string) $UpSellItemSortFilter
+ * @property \DTS\eBaySDK\Trading\Enums\GallerySortFilterCodeType(string) $CrossSellGallerySortFilter
+ * @property \DTS\eBaySDK\Trading\Enums\ItemFormatSortFilterCodeType(string) $CrossSellItemFormatSortFilter
+ * @property \DTS\eBaySDK\Trading\Enums\ItemSortFilterCodeType(string) $CrossSellItemSortFilter
+ * @property \DTS\eBaySDK\Trading\Enums\GallerySortFilterCodeType(string) $UpSellGallerySortFilter
+ * @property \DTS\eBaySDK\Trading\Enums\ItemFormatSortFilterCodeType(string) $UpSellItemFormatSortFilter
+ * @property \DTS\eBaySDK\Trading\Enums\ItemSortFilterCodeType(string) $UpSellItemSortFilter
  */
 class CrossPromotionPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {

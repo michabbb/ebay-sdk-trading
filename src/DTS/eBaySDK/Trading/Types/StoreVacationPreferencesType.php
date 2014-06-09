@@ -25,7 +25,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $MessageStore
  * @property string $MessageStoreCustomText
  * @property boolean $OnVacation
- * @property DateTime $ReturnDate
+ * @property \DateTime $ReturnDate
  */
 class StoreVacationPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -21,9 +21,9 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $SaleTemplateID
  * @property string $SaleTemplateName
- * @property DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
  * @property double $SuccessPercent
- * @property DTS\eBaySDK\Trading\Types\ItemType $Template
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Template
  */
 class SellingManagerTemplateDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

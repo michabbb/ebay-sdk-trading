@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ValType $Value
+ * @property \DTS\eBaySDK\Trading\Types\ValType $Value
  * @property integer $attributeID
  * @property string $attributeLabel
  */

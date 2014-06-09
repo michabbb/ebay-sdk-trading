@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\CharityAffiliationTypeCodeType(string) $AffiliationType
+ * @property \DTS\eBaySDK\Trading\Enums\CharityAffiliationTypeCodeType(string) $AffiliationType
  * @property string $CharityID
- * @property DateTime $LastUsedTime
+ * @property \DateTime $LastUsedTime
  */
 class CharityAffiliationDetailType extends \DTS\eBaySDK\Types\BaseType
 {

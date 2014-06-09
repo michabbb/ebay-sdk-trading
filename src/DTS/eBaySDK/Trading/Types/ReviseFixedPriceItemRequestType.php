@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $DeletedField
- * @property DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
  */
 class ReviseFixedPriceItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

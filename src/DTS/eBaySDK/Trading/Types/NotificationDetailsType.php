@@ -19,16 +19,16 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\NotificationEventStateCodeType(string) $DeliveryStatus
- * @property DateTime $DeliveryTime
+ * @property \DTS\eBaySDK\Trading\Enums\NotificationEventStateCodeType(string) $DeliveryStatus
+ * @property \DateTime $DeliveryTime
  * @property string $DeliveryURL
  * @property string $DeliveryURLName
  * @property string $ErrorMessage
- * @property DateTime $ExpirationTime
- * @property DateTime $NextRetryTime
+ * @property \DateTime $ExpirationTime
+ * @property \DateTime $NextRetryTime
  * @property string $ReferenceID
  * @property integer $Retries
- * @property DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType(string) $Type
+ * @property \DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType(string) $Type
  */
 class NotificationDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

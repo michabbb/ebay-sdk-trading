@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $FeeOrCreditAmount
- * @property DTS\eBaySDK\Trading\Types\UserIdentityType $Payee
- * @property DTS\eBaySDK\Trading\Types\UserIdentityType $Payer
- * @property DTS\eBaySDK\Trading\Types\AmountType $PaymentAmount
- * @property DTS\eBaySDK\Trading\Types\TransactionReferenceType $PaymentReferenceID
- * @property DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType(string) $PaymentStatus
- * @property DateTime $PaymentTime
- * @property DTS\eBaySDK\Trading\Types\TransactionReferenceType $ReferenceID
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $FeeOrCreditAmount
+ * @property \DTS\eBaySDK\Trading\Types\UserIdentityType $Payee
+ * @property \DTS\eBaySDK\Trading\Types\UserIdentityType $Payer
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $PaymentAmount
+ * @property \DTS\eBaySDK\Trading\Types\TransactionReferenceType $PaymentReferenceID
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType(string) $PaymentStatus
+ * @property \DateTime $PaymentTime
+ * @property \DTS\eBaySDK\Trading\Types\TransactionReferenceType $ReferenceID
  */
 class PaymentTransactionCodeType extends \DTS\eBaySDK\Types\BaseType
 {

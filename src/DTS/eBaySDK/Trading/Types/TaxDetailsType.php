@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\TaxTypeCodeType(string) $Imposition
- * @property DTS\eBaySDK\Trading\Types\AmountType $TaxAmount
- * @property DTS\eBaySDK\Trading\Enums\TaxDescriptionCodeType(string) $TaxDescription
- * @property DTS\eBaySDK\Trading\Types\AmountType $TaxOnHandlingAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $TaxOnShippingAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $TaxOnSubtotalAmount
+ * @property \DTS\eBaySDK\Trading\Enums\TaxTypeCodeType(string) $Imposition
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TaxAmount
+ * @property \DTS\eBaySDK\Trading\Enums\TaxDescriptionCodeType(string) $TaxDescription
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TaxOnHandlingAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TaxOnShippingAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TaxOnSubtotalAmount
  */
 class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

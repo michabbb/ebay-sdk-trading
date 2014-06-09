@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType $BuyerSatisfaction
- * @property DTS\eBaySDK\Trading\Types\PerformanceDashboardType $Performance
- * @property DTS\eBaySDK\Trading\Types\PowerSellerDashboardType $PowerSellerStatus
- * @property DTS\eBaySDK\Trading\Types\SearchStandingDashboardType $SearchStanding
- * @property DTS\eBaySDK\Trading\Types\SellerAccountDashboardType $SellerAccount
- * @property DTS\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType $SellerFeeDiscount
+ * @property \DTS\eBaySDK\Trading\Types\BuyerSatisfactionDashboardType $BuyerSatisfaction
+ * @property \DTS\eBaySDK\Trading\Types\PerformanceDashboardType $Performance
+ * @property \DTS\eBaySDK\Trading\Types\PowerSellerDashboardType $PowerSellerStatus
+ * @property \DTS\eBaySDK\Trading\Types\SearchStandingDashboardType $SearchStanding
+ * @property \DTS\eBaySDK\Trading\Types\SellerAccountDashboardType $SellerAccount
+ * @property \DTS\eBaySDK\Trading\Types\SellerFeeDiscountDashboardType $SellerFeeDiscount
  */
 class GetSellerDashboardResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

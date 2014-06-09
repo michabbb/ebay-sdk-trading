@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $CreatedTime
+ * @property \DateTime $CreatedTime
  * @property string $OrderID
  */
 class AddOrderResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

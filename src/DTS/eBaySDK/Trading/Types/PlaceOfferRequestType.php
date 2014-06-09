@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType $AffiliateTrackingDetails
+ * @property \DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType $AffiliateTrackingDetails
  * @property boolean $BlockOnWarning
  * @property string $ItemID
- * @property DTS\eBaySDK\Trading\Types\OfferType $Offer
- * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\OfferType $Offer
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
  */
 class PlaceOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

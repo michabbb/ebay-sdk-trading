@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CategoryType $Category
+ * @property \DTS\eBaySDK\Trading\Types\CategoryType $Category
  * @property integer $PercentItemFound
  */
 class SuggestedCategoryType extends \DTS\eBaySDK\Types\BaseType

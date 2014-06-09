@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\BestOfferActionCodeType(string) $Action
+ * @property \DTS\eBaySDK\Trading\Enums\BestOfferActionCodeType(string) $Action
  * @property string $BestOfferID
- * @property DTS\eBaySDK\Trading\Types\AmountType $CounterOfferPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $CounterOfferPrice
  * @property integer $CounterOfferQuantity
  * @property string $ItemID
  * @property string $SellerResponse

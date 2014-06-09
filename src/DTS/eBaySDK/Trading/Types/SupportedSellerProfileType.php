@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CategoryGroupType $CategoryGroup
+ * @property \DTS\eBaySDK\Trading\Types\CategoryGroupType $CategoryGroup
  * @property integer $ProfileID
  * @property string $ProfileName
  * @property string $ProfileType

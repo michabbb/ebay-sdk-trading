@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\MemberMessageExchangeType $MemberMessageExchange
+ * @property \DTS\eBaySDK\Trading\Types\MemberMessageExchangeType $MemberMessageExchange
  */
 class MemberMessageExchangeArrayType extends \DTS\eBaySDK\Types\BaseType
 {
