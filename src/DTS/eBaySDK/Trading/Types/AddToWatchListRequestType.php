@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Types\VariationKeyType $VariationKey
+ * @property string[] $ItemID
+ * @property \DTS\eBaySDK\Trading\Types\VariationKeyType[] $VariationKey
  */
 class AddToWatchListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

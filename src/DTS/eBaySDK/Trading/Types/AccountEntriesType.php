@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AccountEntryType $AccountEntry
+ * @property \DTS\eBaySDK\Trading\Types\AccountEntryType[] $AccountEntry
  */
 class AccountEntriesType extends \DTS\eBaySDK\Types\BaseType
 {

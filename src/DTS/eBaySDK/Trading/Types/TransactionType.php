@@ -28,7 +28,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\UserType $Buyer
  * @property string $BuyerCheckoutMessage
  * @property \DTS\eBaySDK\Trading\Types\AmountType $BuyerGuaranteePrice
- * @property \DTS\eBaySDK\Trading\Enums\PaidStatusCodeType(string) $BuyerPaidStatus
+ * @property \DTS\eBaySDK\Trading\Enums\PaidStatusCodeType $BuyerPaidStatus
  * @property string $CartID
  * @property string $CodiceFiscale
  * @property \DTS\eBaySDK\Trading\Types\OrderType $ContainingOrder
@@ -36,9 +36,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedAmountPaid
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedTransactionPrice
  * @property \DateTime $CreatedDate
- * @property \DTS\eBaySDK\Trading\Enums\DepositTypeCodeType(string) $DepositType
+ * @property \DTS\eBaySDK\Trading\Enums\DepositTypeCodeType $DepositType
  * @property \DTS\eBaySDK\Trading\Types\AmountType $DutchAuctionBid
- * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType $ExternalTransaction
+ * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType[] $ExternalTransaction
  * @property \DTS\eBaySDK\Trading\Types\FeedbackInfoType $FeedbackLeft
  * @property \DTS\eBaySDK\Trading\Types\FeedbackInfoType $FeedbackReceived
  * @property \DTS\eBaySDK\Trading\Types\AmountType $FinalValueFee
@@ -56,14 +56,14 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\PaymentHoldDetailType $PaymentHoldDetails
  * @property \DTS\eBaySDK\Trading\Types\PickupDetailsType $PickupDetails
  * @property \DTS\eBaySDK\Trading\Types\PickupMethodSelectedType $PickupMethodSelected
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $Platform
+ * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform
  * @property integer $QuantityPurchased
  * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
  * @property \DTS\eBaySDK\Trading\Types\RefundArrayType $RefundArray
  * @property string $RefundStatus
  * @property boolean $SellerContactBuyerByEmail
  * @property \DTS\eBaySDK\Trading\Types\SellerDiscountsType $SellerDiscounts
- * @property \DTS\eBaySDK\Trading\Enums\PaidStatusCodeType(string) $SellerPaidStatus
+ * @property \DTS\eBaySDK\Trading\Enums\PaidStatusCodeType $SellerPaidStatus
  * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
  * @property \DateTime $ShippedTime
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingConvenienceCharge
@@ -74,7 +74,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalPrice
  * @property string $TransactionID
  * @property \DTS\eBaySDK\Trading\Types\AmountType $TransactionPrice
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $TransactionSiteID
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $TransactionSiteID
  * @property \DTS\eBaySDK\Trading\Types\UnpaidItemType $UnpaidItem
  * @property integer $VATPercent
  * @property \DTS\eBaySDK\Trading\Types\VariationType $Variation

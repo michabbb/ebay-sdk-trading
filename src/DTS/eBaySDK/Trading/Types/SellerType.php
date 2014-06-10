@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $AllowPaymentEdit
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $BillingCurrency
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $BillingCurrency
  * @property boolean $CIPBankAccountStored
  * @property \DTS\eBaySDK\Trading\Types\CharityAffiliationDetailsType $CharityAffiliationDetails
  * @property boolean $CharityRegistered
@@ -29,24 +29,24 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\FeatureEligibilityType $FeatureEligibility
  * @property boolean $GoodStanding
  * @property \DTS\eBaySDK\Trading\Types\IntegratedMerchantCreditCardInfoType $IntegratedMerchantCreditCardInfo
- * @property \DTS\eBaySDK\Trading\Enums\MerchandizingPrefCodeType(string) $MerchandizingPref
+ * @property \DTS\eBaySDK\Trading\Enums\MerchandizingPrefCodeType $MerchandizingPref
  * @property integer $PaisaPayEscrowEMIStatus
  * @property integer $PaisaPayStatus
- * @property \DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType(string) $PaymentMethod
+ * @property \DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType $PaymentMethod
  * @property \DTS\eBaySDK\Trading\Types\ProStoresCheckoutPreferenceType $ProStoresPreference
  * @property boolean $QualifiesForB2BVAT
  * @property \DTS\eBaySDK\Trading\Types\RecoupmentPolicyConsentType $RecoupmentPolicyConsent
  * @property boolean $RegisteredBusinessSeller
  * @property boolean $SafePaymentExempt
  * @property \DTS\eBaySDK\Trading\Types\SchedulingInfoType $SchedulingInfo
- * @property \DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType(string) $SellerBusinessType
- * @property \DTS\eBaySDK\Trading\Enums\SellerGuaranteeLevelCodeType(string) $SellerGuaranteeLevel
- * @property \DTS\eBaySDK\Trading\Enums\SellerLevelCodeType(string) $SellerLevel
+ * @property \DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType $SellerBusinessType
+ * @property \DTS\eBaySDK\Trading\Enums\SellerGuaranteeLevelCodeType $SellerGuaranteeLevel
+ * @property \DTS\eBaySDK\Trading\Enums\SellerLevelCodeType $SellerLevel
  * @property \DTS\eBaySDK\Trading\Types\AddressType $SellerPaymentAddress
  * @property \DTS\eBaySDK\Trading\Types\SellereBayPaymentProcessConsentCodeType $SellereBayPaymentProcessConsent
- * @property \DTS\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType(string) $SellereBayPaymentProcessStatus
+ * @property \DTS\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType $SellereBayPaymentProcessStatus
  * @property boolean $StoreOwner
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $StoreSite
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $StoreSite
  * @property string $StoreURL
  * @property boolean $TopRatedSeller
  * @property \DTS\eBaySDK\Trading\Types\TopRatedSellerDetailsType $TopRatedSellerDetails

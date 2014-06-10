@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\AccountDetailEntryCodeType(string) $AccountDetailsEntryType
+ * @property \DTS\eBaySDK\Trading\Enums\AccountDetailEntryCodeType $AccountDetailsEntryType
  * @property \DTS\eBaySDK\Trading\Types\AmountType $Balance
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ConversionRate
  * @property \DateTime $Date

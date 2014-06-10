@@ -28,7 +28,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\RefundFundingSourceArrayType $RefundFundingSourceArray
  * @property string $RefundID
  * @property \DateTime $RefundRequestedTime
- * @property \DTS\eBaySDK\Trading\Enums\RefundStatusCodeType(string) $RefundStatus
+ * @property \DTS\eBaySDK\Trading\Enums\RefundStatusCodeType $RefundStatus
  * @property \DateTime $RefundTime
  * @property \DTS\eBaySDK\Trading\Types\RefundTransactionArrayType $RefundTransactionArray
  * @property string $SellerNoteToBuyer

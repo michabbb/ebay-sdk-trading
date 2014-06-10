@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $Currency
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
  * @property string $Description
  * @property string $DetailVersion
  * @property \DateTime $UpdateTime

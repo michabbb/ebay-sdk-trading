@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DayOfWeekCodeType(string) $DayOfWeek
+ * @property \DTS\eBaySDK\Trading\Enums\DayOfWeekCodeType[] $DayOfWeek
  * @property \DateTime $EndTime
  * @property string $ListAtSpecificTimeOfDay
  * @property integer $ListingHoldInventoryLevel

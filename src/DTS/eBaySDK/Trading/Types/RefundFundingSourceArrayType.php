@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\RefundFundingSourceType $RefundFundingSource
+ * @property \DTS\eBaySDK\Trading\Types\RefundFundingSourceType[] $RefundFundingSource
  */
 class RefundFundingSourceArrayType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -22,30 +22,30 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $BidCountMax
  * @property integer $BidCountMin
  * @property string $CategoryID
- * @property \DTS\eBaySDK\Trading\Enums\ItemConditionCodeType(string) $Condition
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $Currency
+ * @property \DTS\eBaySDK\Trading\Enums\ItemConditionCodeType $Condition
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
  * @property \DateTime $EndTimeFrom
  * @property \DateTime $EndTimeTo
- * @property \DTS\eBaySDK\Trading\Enums\SimpleItemSortCodeType(string) $ItemSort
- * @property \DTS\eBaySDK\Trading\Enums\ItemTypeCodeType(string) $ItemType
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $ItemsAvailableTo
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $ItemsLocatedIn
+ * @property \DTS\eBaySDK\Trading\Enums\SimpleItemSortCodeType $ItemSort
+ * @property \DTS\eBaySDK\Trading\Enums\ItemTypeCodeType $ItemType
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $ItemsAvailableTo
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $ItemsLocatedIn
  * @property integer $MaxDistance
- * @property \DTS\eBaySDK\Trading\Enums\PaymentMethodSearchCodeType(string) $PaymentMethod
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentMethodSearchCodeType $PaymentMethod
  * @property string $PostalCode
- * @property \DTS\eBaySDK\Trading\Enums\PreferredLocationCodeType(string) $PreferredLocation
+ * @property \DTS\eBaySDK\Trading\Enums\PreferredLocationCodeType $PreferredLocation
  * @property \DTS\eBaySDK\Trading\Types\AmountType $PriceMax
  * @property \DTS\eBaySDK\Trading\Types\AmountType $PriceMin
  * @property integer $Quantity
- * @property \DTS\eBaySDK\Trading\Enums\QuantityOperatorCodeType(string) $QuantityOperator
+ * @property \DTS\eBaySDK\Trading\Enums\QuantityOperatorCodeType $QuantityOperator
  * @property string $QueryKeywords
- * @property \DTS\eBaySDK\Trading\Enums\SearchFlagCodeType(string) $SearchFlag
+ * @property \DTS\eBaySDK\Trading\Enums\SearchFlagCodeType[] $SearchFlag
  * @property string $SearchName
  * @property string $SearchQuery
- * @property \DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType(string) $SellerBusinessType
- * @property string $SellerID
- * @property string $SellerIDExclude
- * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $SortOrder
+ * @property \DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType $SellerBusinessType
+ * @property string[] $SellerID
+ * @property string[] $SellerIDExclude
+ * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
  */
 class MyeBayFavoriteSearchType extends \DTS\eBaySDK\Types\BaseType
 {

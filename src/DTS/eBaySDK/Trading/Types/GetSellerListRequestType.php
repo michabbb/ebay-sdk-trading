@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $CategoryID
  * @property \DateTime $EndTimeFrom
  * @property \DateTime $EndTimeTo
- * @property \DTS\eBaySDK\Trading\Enums\GranularityLevelCodeType(string) $GranularityLevel
+ * @property \DTS\eBaySDK\Trading\Enums\GranularityLevelCodeType $GranularityLevel
  * @property boolean $IncludeVariations
  * @property boolean $IncludeWatchCount
  * @property \DTS\eBaySDK\Trading\Types\UserIDArrayType $MotorsDealerUsers

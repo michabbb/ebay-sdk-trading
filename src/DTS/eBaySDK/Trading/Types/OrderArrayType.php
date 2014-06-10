@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\OrderType $Order
+ * @property \DTS\eBaySDK\Trading\Types\OrderType[] $Order
  */
 class OrderArrayType extends \DTS\eBaySDK\Types\BaseType
 {

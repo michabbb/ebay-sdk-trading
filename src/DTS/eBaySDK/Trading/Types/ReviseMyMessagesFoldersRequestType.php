@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $FolderID
- * @property string $FolderName
- * @property \DTS\eBaySDK\Trading\Enums\MyMessagesFolderOperationCodeType(string) $Operation
+ * @property integer[] $FolderID
+ * @property string[] $FolderName
+ * @property \DTS\eBaySDK\Trading\Enums\MyMessagesFolderOperationCodeType $Operation
  */
 class ReviseMyMessagesFoldersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

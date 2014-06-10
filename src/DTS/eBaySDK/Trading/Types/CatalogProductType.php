@@ -26,7 +26,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $ItemCount
  * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $ItemSpecifics
  * @property integer $ProductReferenceID
- * @property \DTS\eBaySDK\Trading\Enums\ProductStateCodeType(string) $ProductState
+ * @property \DTS\eBaySDK\Trading\Enums\ProductStateCodeType $ProductState
  * @property integer $ReviewCount
  * @property \DTS\eBaySDK\Trading\Types\ReviewDetailsType $ReviewDetails
  * @property string $StockPhotoURL

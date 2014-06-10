@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\BidderDetailType $BidderDetail
+ * @property \DTS\eBaySDK\Trading\Types\BidderDetailType[] $BidderDetail
  */
 class BidderDetailArrayType extends \DTS\eBaySDK\Types\BaseType
 {

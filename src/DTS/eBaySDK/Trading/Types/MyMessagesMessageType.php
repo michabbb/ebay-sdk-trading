@@ -31,11 +31,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DateTime $ItemEndTime
  * @property string $ItemID
  * @property string $ItemTitle
- * @property \DTS\eBaySDK\Trading\Enums\ListingStatusCodeType(string) $ListingStatus
+ * @property \DTS\eBaySDK\Trading\Enums\ListingStatusCodeType $ListingStatus
  * @property string $MessageID
- * @property \DTS\eBaySDK\Trading\Types\MessageMediaType $MessageMedia
- * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $MessageType
- * @property \DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType(string) $QuestionType
+ * @property \DTS\eBaySDK\Trading\Types\MessageMediaType[] $MessageMedia
+ * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType $MessageType
+ * @property \DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType $QuestionType
  * @property boolean $Read
  * @property \DateTime $ReceiveDate
  * @property string $RecipientUserID

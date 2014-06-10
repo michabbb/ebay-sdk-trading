@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $ExternalPictureURL
+ * @property string[] $ExternalPictureURL
  * @property string $GalleryDuration
  * @property string $GalleryErrorInfo
- * @property \DTS\eBaySDK\Trading\Enums\GalleryStatusCodeType(string) $GalleryStatus
- * @property \DTS\eBaySDK\Trading\Enums\GalleryTypeCodeType(string) $GalleryType
+ * @property \DTS\eBaySDK\Trading\Enums\GalleryStatusCodeType $GalleryStatus
+ * @property \DTS\eBaySDK\Trading\Enums\GalleryTypeCodeType $GalleryType
  * @property string $GalleryURL
- * @property \DTS\eBaySDK\Trading\Enums\PhotoDisplayCodeType(string) $PhotoDisplay
- * @property \DTS\eBaySDK\Trading\Enums\PictureSourceCodeType(string) $PictureSource
- * @property string $PictureURL
+ * @property \DTS\eBaySDK\Trading\Enums\PhotoDisplayCodeType $PhotoDisplay
+ * @property \DTS\eBaySDK\Trading\Enums\PictureSourceCodeType $PictureSource
+ * @property string[] $PictureURL
  */
 class PictureDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

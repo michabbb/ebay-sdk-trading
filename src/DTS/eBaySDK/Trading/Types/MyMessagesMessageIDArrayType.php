@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $MessageID
+ * @property string[] $MessageID
  */
 class MyMessagesMessageIDArrayType extends \DTS\eBaySDK\Types\BaseType
 {

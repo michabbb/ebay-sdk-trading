@@ -24,25 +24,25 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountSaved
  * @property string $BuyerCheckoutMessage
  * @property string $BuyerUserID
- * @property \DTS\eBaySDK\Trading\Types\CancelDetailType $CancelDetail
+ * @property \DTS\eBaySDK\Trading\Types\CancelDetailType[] $CancelDetail
  * @property string $CancelReason
  * @property string $CancelReasonDetails
- * @property \DTS\eBaySDK\Trading\Enums\CancelStatusCodeType(string) $CancelStatus
+ * @property \DTS\eBaySDK\Trading\Enums\CancelStatusCodeType $CancelStatus
  * @property \DTS\eBaySDK\Trading\Types\CheckoutStatusType $CheckoutStatus
  * @property \DateTime $CreatedTime
- * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $CreatingUserRole
+ * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $CreatingUserRole
  * @property string $EIASToken
- * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType $ExternalTransaction
+ * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType[] $ExternalTransaction
  * @property boolean $IntegratedMerchantCreditCardEnabled
  * @property boolean $IsMultiLegShipping
  * @property \DTS\eBaySDK\Trading\Types\PaymentsInformationType $MonetaryDetails
  * @property \DTS\eBaySDK\Trading\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
  * @property string $OrderID
- * @property \DTS\eBaySDK\Trading\Enums\OrderStatusCodeType(string) $OrderStatus
+ * @property \DTS\eBaySDK\Trading\Enums\OrderStatusCodeType $OrderStatus
  * @property \DateTime $PaidTime
  * @property \DTS\eBaySDK\Trading\Types\PaymentHoldDetailType $PaymentHoldDetails
- * @property \DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType(string) $PaymentHoldStatus
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $PaymentMethods
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType[] $PaymentMethods
  * @property \DTS\eBaySDK\Trading\Types\PickupDetailsType $PickupDetails
  * @property \DTS\eBaySDK\Trading\Types\PickupMethodSelectedType $PickupMethodSelected
  * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount

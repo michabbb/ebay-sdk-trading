@@ -24,7 +24,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $Group
  * @property string $Message
  * @property string $Type
- * @property string $Value
+ * @property string[] $Value
  */
 class ListingRecommendationType extends \DTS\eBaySDK\Types\BaseType
 {

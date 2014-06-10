@@ -21,21 +21,21 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $CODService
  * @property string $CostGroupFlat
- * @property \DTS\eBaySDK\Trading\Types\AnnouncementMessageType $DeprecationDetails
+ * @property \DTS\eBaySDK\Trading\Types\AnnouncementMessageType[] $DeprecationDetails
  * @property string $Description
  * @property string $DetailVersion
  * @property boolean $DimensionsRequired
  * @property boolean $ExpeditedService
  * @property boolean $InternationalService
  * @property integer $MappedToShippingServiceID
- * @property \DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType(string) $ServiceType
- * @property \DTS\eBaySDK\Trading\Enums\ShippingCarrierCodeType(string) $ShippingCarrier
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType[] $ServiceType
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingCarrierCodeType[] $ShippingCarrier
  * @property string $ShippingCategory
- * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType(string) $ShippingPackage
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType[] $ShippingPackage
  * @property string $ShippingService
- * @property \DTS\eBaySDK\Trading\Enums\ShippingServiceCodeType(string) $ShippingServiceCode
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingServiceCodeType $ShippingServiceCode
  * @property integer $ShippingServiceID
- * @property \DTS\eBaySDK\Trading\Types\ShippingServicePackageDetailsType $ShippingServicePackageDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingServicePackageDetailsType[] $ShippingServicePackageDetails
  * @property integer $ShippingTimeMax
  * @property integer $ShippingTimeMin
  * @property boolean $SurchargeApplicable

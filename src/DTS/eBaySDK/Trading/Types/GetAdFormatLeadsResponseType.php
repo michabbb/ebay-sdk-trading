@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AdFormatLeadType $AdFormatLead
+ * @property \DTS\eBaySDK\Trading\Types\AdFormatLeadType[] $AdFormatLead
  * @property integer $AdFormatLeadCount
  */
 class GetAdFormatLeadsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

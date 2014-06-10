@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property \DTS\eBaySDK\Trading\Types\AmountType $AverageSoldPrice
  * @property \DTS\eBaySDK\Trading\Types\AmountType $AverageStartPrice
- * @property \DTS\eBaySDK\Trading\Enums\ProductStateCodeType(string) $ProductState
+ * @property \DTS\eBaySDK\Trading\Enums\ProductStateCodeType $ProductState
  * @property string $Title
  * @property string $productInfoID
  */

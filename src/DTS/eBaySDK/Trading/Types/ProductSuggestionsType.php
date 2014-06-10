@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ProductSuggestionType $ProductSuggestion
+ * @property \DTS\eBaySDK\Trading\Types\ProductSuggestionType[] $ProductSuggestion
  */
 class ProductSuggestionsType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\OfferType $Offer
+ * @property \DTS\eBaySDK\Trading\Types\OfferType[] $Offer
  */
 class OfferArrayType extends \DTS\eBaySDK\Types\BaseType
 {

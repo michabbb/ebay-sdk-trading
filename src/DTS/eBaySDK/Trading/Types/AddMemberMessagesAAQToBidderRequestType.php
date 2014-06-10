@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderRequestContainerType $AddMemberMessagesAAQToBidderRequestContainer
+ * @property \DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderRequestContainerType[] $AddMemberMessagesAAQToBidderRequestContainer
  */
 class AddMemberMessagesAAQToBidderRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

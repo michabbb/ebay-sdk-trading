@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\NotificationEnableType $NotificationEnable
+ * @property \DTS\eBaySDK\Trading\Types\NotificationEnableType[] $NotificationEnable
  */
 class NotificationEnableArrayType extends \DTS\eBaySDK\Types\BaseType
 {

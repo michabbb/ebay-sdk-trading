@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $CategoryID
- * @property \DTS\eBaySDK\Trading\Types\CategoryItemSpecificsType $CategorySpecific
+ * @property string[] $CategoryID
+ * @property \DTS\eBaySDK\Trading\Types\CategoryItemSpecificsType[] $CategorySpecific
  * @property boolean $CategorySpecificsFileInfo
  * @property boolean $ExcludeRelationships
  * @property boolean $IncludeConfidence

@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\TaxDetailsType $TaxDetails
+ * @property \DTS\eBaySDK\Trading\Types\TaxDetailsType[] $TaxDetails
  * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalTaxAmount
  */
 class TaxesType extends \DTS\eBaySDK\Types\BaseType

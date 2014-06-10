@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $DeletedField
+ * @property string[] $DeletedField
  * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
  */
 class RelistItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

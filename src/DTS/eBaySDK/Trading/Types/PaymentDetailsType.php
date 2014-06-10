@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property integer $DaysToFullPayment
  * @property \DTS\eBaySDK\Trading\Types\AmountType $DepositAmount
- * @property \DTS\eBaySDK\Trading\Enums\DepositTypeCodeType(string) $DepositType
+ * @property \DTS\eBaySDK\Trading\Enums\DepositTypeCodeType $DepositType
  * @property integer $HoursToDeposit
  */
 class PaymentDetailsType extends \DTS\eBaySDK\Types\BaseType

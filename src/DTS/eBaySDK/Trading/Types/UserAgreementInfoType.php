@@ -21,8 +21,8 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property \DateTime $AcceptedTime
  * @property \DateTime $SellereBayPaymentProcessEnableTime
- * @property \DTS\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType(string) $SellereBayPaymentProcessStatus
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
+ * @property \DTS\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType $SellereBayPaymentProcessStatus
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $Site
  * @property string $UserAgreementURL
  */
 class UserAgreementInfoType extends \DTS\eBaySDK\Types\BaseType

@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $SuggestedValueLiteral
+ * @property string[] $SuggestedValueLiteral
  * @property integer $ValueID
  * @property string $ValueLiteral
  */

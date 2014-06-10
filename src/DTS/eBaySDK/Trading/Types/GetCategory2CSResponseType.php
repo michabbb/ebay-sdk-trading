@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $AttributeSystemVersion
  * @property \DTS\eBaySDK\Trading\Types\CategoryArrayType $MappedCategoryArray
- * @property \DTS\eBaySDK\Trading\Types\SiteWideCharacteristicsType $SiteWideCharacteristicSets
+ * @property \DTS\eBaySDK\Trading\Types\SiteWideCharacteristicsType[] $SiteWideCharacteristicSets
  * @property \DTS\eBaySDK\Trading\Types\CategoryArrayType $UnmappedCategoryArray
  */
 class GetCategory2CSResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

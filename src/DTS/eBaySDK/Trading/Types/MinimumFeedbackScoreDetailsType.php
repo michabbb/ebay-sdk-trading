@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $FeedbackScore
+ * @property integer[] $FeedbackScore
  */
 class MinimumFeedbackScoreDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

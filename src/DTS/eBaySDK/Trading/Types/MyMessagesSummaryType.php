@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $FlaggedMessageCount
- * @property \DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType $FolderSummary
+ * @property \DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType[] $FolderSummary
  * @property integer $NewAlertCount
  * @property integer $NewHighPriorityCount
  * @property integer $NewMessageCount

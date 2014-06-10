@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $DetailVersion
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $Site
  * @property integer $SiteID
  * @property \DateTime $UpdateTime
  */

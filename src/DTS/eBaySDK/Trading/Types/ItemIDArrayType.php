@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $ItemID
+ * @property string[] $ItemID
  */
 class ItemIDArrayType extends \DTS\eBaySDK\Types\BaseType
 {

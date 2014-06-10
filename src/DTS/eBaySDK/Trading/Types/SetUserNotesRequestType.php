@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SetUserNotesActionCodeType(string) $Action
+ * @property \DTS\eBaySDK\Trading\Enums\SetUserNotesActionCodeType $Action
  * @property string $ItemID
  * @property string $NoteText
  * @property string $OrderLineItemID

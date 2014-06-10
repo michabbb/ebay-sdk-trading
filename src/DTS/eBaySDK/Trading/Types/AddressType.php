@@ -20,13 +20,13 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $AddressID
- * @property \DTS\eBaySDK\Trading\Enums\AddressOwnerCodeType(string) $AddressOwner
- * @property \DTS\eBaySDK\Trading\Enums\AddressRecordTypeCodeType(string) $AddressRecordType
- * @property \DTS\eBaySDK\Trading\Enums\AddressStatusCodeType(string) $AddressStatus
- * @property \DTS\eBaySDK\Trading\Enums\AddressUsageCodeType(string) $AddressUsage
+ * @property \DTS\eBaySDK\Trading\Enums\AddressOwnerCodeType $AddressOwner
+ * @property \DTS\eBaySDK\Trading\Enums\AddressRecordTypeCodeType $AddressRecordType
+ * @property \DTS\eBaySDK\Trading\Enums\AddressStatusCodeType $AddressStatus
+ * @property \DTS\eBaySDK\Trading\Enums\AddressUsageCodeType $AddressUsage
  * @property string $CityName
  * @property string $CompanyName
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $Country
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $Country
  * @property string $CountryName
  * @property string $County
  * @property string $ExternalAddressID
@@ -39,11 +39,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $Phone
  * @property string $Phone2
  * @property string $Phone2AreaOrCityCode
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $Phone2CountryCode
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $Phone2CountryCode
  * @property string $Phone2CountryPrefix
  * @property string $Phone2LocalNumber
  * @property string $PhoneAreaOrCityCode
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $PhoneCountryCode
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $PhoneCountryCode
  * @property string $PhoneCountryPrefix
  * @property string $PhoneLocalNumber
  * @property string $PostalCode

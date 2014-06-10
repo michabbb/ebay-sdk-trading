@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $DisputeID
- * @property \DTS\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType(string) $DisputeResolutionReason
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeResolutionReasonCodeType $DisputeResolutionReason
  */
 class SellerReverseDisputeRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

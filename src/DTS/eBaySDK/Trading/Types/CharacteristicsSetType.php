@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property integer $AttributeSetID
  * @property string $AttributeSetVersion
- * @property \DTS\eBaySDK\Trading\Types\CharacteristicType $Characteristics
+ * @property \DTS\eBaySDK\Trading\Types\CharacteristicType[] $Characteristics
  * @property string $Name
  */
 class CharacteristicsSetType extends \DTS\eBaySDK\Types\BaseType

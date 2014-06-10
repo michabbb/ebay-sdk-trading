@@ -29,7 +29,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\BusinessSellerDetailsType $BusinessSellerDetails
  * @property \DTS\eBaySDK\Trading\Types\AmountType $BuyItNowPrice
  * @property \DTS\eBaySDK\Trading\Types\AmountType $BuyerGuaranteePrice
- * @property \DTS\eBaySDK\Trading\Enums\BuyerProtectionCodeType(string) $BuyerProtection
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerProtectionCodeType $BuyerProtection
  * @property \DTS\eBaySDK\Trading\Types\BuyerRequirementDetailsType $BuyerRequirementDetails
  * @property boolean $BuyerResponsibleForShipping
  * @property boolean $CategoryBasedAttributesPrefill
@@ -39,12 +39,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ConditionDescription
  * @property string $ConditionDisplayName
  * @property integer $ConditionID
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $Country
- * @property string $CrossBorderTrade
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $Country
+ * @property string[] $CrossBorderTrade
  * @property \DTS\eBaySDK\Trading\Types\CrossPromotionsType $CrossPromotion
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $Currency
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
  * @property string $Description
- * @property \DTS\eBaySDK\Trading\Enums\DescriptionReviseModeCodeType(string) $DescriptionReviseMode
+ * @property \DTS\eBaySDK\Trading\Enums\DescriptionReviseModeCodeType $DescriptionReviseMode
  * @property boolean $DisableBuyerRequirements
  * @property \DTS\eBaySDK\Trading\Types\DiscountPriceInfoType $DiscountPriceInfo
  * @property integer $DispatchTimeMax
@@ -54,13 +54,13 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\CategoryType $FreeAddedCategory
  * @property boolean $GetItFast
  * @property integer $GiftIcon
- * @property \DTS\eBaySDK\Trading\Enums\GiftServicesCodeType(string) $GiftServices
+ * @property \DTS\eBaySDK\Trading\Enums\GiftServicesCodeType[] $GiftServices
  * @property boolean $HideFromSearch
  * @property integer $HitCount
- * @property \DTS\eBaySDK\Trading\Enums\HitCounterCodeType(string) $HitCounter
+ * @property \DTS\eBaySDK\Trading\Enums\HitCounterCodeType $HitCounter
  * @property boolean $IncludeRecommendations
  * @property boolean $IntegratedMerchantCreditCardEnabled
- * @property \DTS\eBaySDK\Trading\Enums\InventoryTrackingMethodCodeType(string) $InventoryTrackingMethod
+ * @property \DTS\eBaySDK\Trading\Enums\InventoryTrackingMethodCodeType $InventoryTrackingMethod
  * @property boolean $IsIntermediatedShippingEligible
  * @property integer $ItemCompatibilityCount
  * @property \DTS\eBaySDK\Trading\Types\ItemCompatibilityListType $ItemCompatibilityList
@@ -72,9 +72,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\ListingDesignerType $ListingDesigner
  * @property \DTS\eBaySDK\Trading\Types\ListingDetailsType $ListingDetails
  * @property string $ListingDuration
- * @property \DTS\eBaySDK\Trading\Enums\ListingEnhancementsCodeType(string) $ListingEnhancement
- * @property \DTS\eBaySDK\Trading\Enums\ListingSubtypeCodeType(string) $ListingSubtype2
- * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
+ * @property \DTS\eBaySDK\Trading\Enums\ListingEnhancementsCodeType[] $ListingEnhancement
+ * @property \DTS\eBaySDK\Trading\Enums\ListingSubtypeCodeType $ListingSubtype2
+ * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
  * @property string $Location
  * @property boolean $LocationDefaulted
  * @property \DTS\eBaySDK\Trading\Types\LookupAttributeArrayType $LookupAttributeArray
@@ -86,9 +86,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $PartnerCode
  * @property string $PartnerName
  * @property string $PayPalEmailAddress
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $PaymentAllowedSite
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType[] $PaymentAllowedSite
  * @property \DTS\eBaySDK\Trading\Types\PaymentDetailsType $PaymentDetails
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $PaymentMethods
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType[] $PaymentMethods
  * @property \DTS\eBaySDK\Trading\Types\PickupInStoreDetailsType $PickupInStoreDetails
  * @property \DTS\eBaySDK\Trading\Types\PictureDetailsType $PictureDetails
  * @property boolean $PostCheckoutExperienceEnabled
@@ -100,12 +100,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $ProxyItem
  * @property integer $Quantity
  * @property integer $QuantityAvailable
- * @property \DTS\eBaySDK\Trading\Enums\QuantityAvailableHintCodeType(string) $QuantityAvailableHint
+ * @property \DTS\eBaySDK\Trading\Enums\QuantityAvailableHintCodeType $QuantityAvailableHint
  * @property \DTS\eBaySDK\Trading\Types\QuantityInfoType $QuantityInfo
  * @property \DTS\eBaySDK\Trading\Types\QuantityRestrictionPerBuyerInfoType $QuantityRestrictionPerBuyer
  * @property integer $QuantityThreshold
  * @property integer $QuestionCount
- * @property \DTS\eBaySDK\Trading\Enums\ReasonHideFromSearchCodeType(string) $ReasonHideFromSearch
+ * @property \DTS\eBaySDK\Trading\Enums\ReasonHideFromSearchCodeType $ReasonHideFromSearch
  * @property string $RegionID
  * @property boolean $RelistLink
  * @property integer $RelistParentID
@@ -124,13 +124,13 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $SellerProvidedTitle
  * @property string $SellerVacationNote
  * @property \DTS\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
- * @property string $ShipToLocations
+ * @property string[] $ShipToLocations
  * @property \DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
  * @property \DTS\eBaySDK\Trading\Types\ShipPackageDetailsType $ShippingPackageDetails
  * @property \DTS\eBaySDK\Trading\Types\ShippingServiceCostOverrideListType $ShippingServiceCostOverrideList
  * @property boolean $ShippingTermsInDescription
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
- * @property \DTS\eBaySDK\Trading\Enums\SkypeContactOptionCodeType(string) $SkypeContactOption
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $Site
+ * @property \DTS\eBaySDK\Trading\Enums\SkypeContactOptionCodeType[] $SkypeContactOption
  * @property boolean $SkypeEnabled
  * @property string $SkypeID
  * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice

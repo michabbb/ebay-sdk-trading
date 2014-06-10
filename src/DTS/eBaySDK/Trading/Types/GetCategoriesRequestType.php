@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $CategoryParent
+ * @property string[] $CategoryParent
  * @property string $CategorySiteID
  * @property integer $LevelLimit
  * @property boolean $ViewAllNodes

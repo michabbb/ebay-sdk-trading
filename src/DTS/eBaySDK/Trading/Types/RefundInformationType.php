@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\RefundTransactionInfoType $Refund
+ * @property \DTS\eBaySDK\Trading\Types\RefundTransactionInfoType[] $Refund
  */
 class RefundInformationType extends \DTS\eBaySDK\Types\BaseType
 {

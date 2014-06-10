@@ -26,16 +26,16 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $CategoryID
  * @property integer $CategoryLevel
  * @property string $CategoryName
- * @property string $CategoryParentID
- * @property string $CategoryParentName
- * @property \DTS\eBaySDK\Trading\Types\CharacteristicsSetType $CharacteristicsSets
+ * @property string[] $CategoryParentID
+ * @property string[] $CategoryParentName
+ * @property \DTS\eBaySDK\Trading\Types\CharacteristicsSetType[] $CharacteristicsSets
  * @property boolean $Expired
  * @property boolean $IntlAutosFixedCat
  * @property boolean $LSD
  * @property boolean $LeafCategory
  * @property boolean $ORPA
  * @property boolean $ORRA
- * @property \DTS\eBaySDK\Trading\Types\ExtendedProductFinderIDType $ProductFinderIDs
+ * @property \DTS\eBaySDK\Trading\Types\ExtendedProductFinderIDType[] $ProductFinderIDs
  * @property boolean $ProductSearchPageAvailable
  * @property boolean $SellerGuaranteeEligible
  * @property boolean $Virtual

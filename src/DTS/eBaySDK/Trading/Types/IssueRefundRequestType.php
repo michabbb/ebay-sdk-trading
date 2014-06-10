@@ -23,8 +23,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $OrderLineItemID
  * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
  * @property string $RefundMessage
- * @property \DTS\eBaySDK\Trading\Enums\RefundReasonCodeType(string) $RefundReason
- * @property \DTS\eBaySDK\Trading\Enums\RefundTypeCodeType(string) $RefundType
+ * @property \DTS\eBaySDK\Trading\Enums\RefundReasonCodeType $RefundReason
+ * @property \DTS\eBaySDK\Trading\Enums\RefundTypeCodeType $RefundType
  * @property string $TransactionID
  */
 class IssueRefundRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

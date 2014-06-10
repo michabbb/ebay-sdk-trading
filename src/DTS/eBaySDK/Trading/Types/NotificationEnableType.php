@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\EnableCodeType(string) $EventEnable
- * @property \DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType(string) $EventType
+ * @property \DTS\eBaySDK\Trading\Enums\EnableCodeType $EventEnable
+ * @property \DTS\eBaySDK\Trading\Enums\NotificationEventTypeCodeType $EventType
  */
 class NotificationEnableType extends \DTS\eBaySDK\Types\BaseType
 {

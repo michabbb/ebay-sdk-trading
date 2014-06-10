@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $CategoryID
- * @property \DTS\eBaySDK\Trading\Types\NameRecommendationType $NameRecommendation
+ * @property \DTS\eBaySDK\Trading\Types\NameRecommendationType[] $NameRecommendation
  * @property boolean $Updated
  */
 class RecommendationsType extends \DTS\eBaySDK\Types\BaseType

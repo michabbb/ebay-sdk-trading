@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $MaximumItemCount
- * @property integer $MinimumFeedbackScore
+ * @property integer[] $MaximumItemCount
+ * @property integer[] $MinimumFeedbackScore
  */
 class MaximumItemRequirementsDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $FeedbackScore
+ * @property integer[] $FeedbackScore
  * @property boolean $VerifiedUser
  */
 class VerifiedUserRequirementsDetailsType extends \DTS\eBaySDK\Types\BaseType

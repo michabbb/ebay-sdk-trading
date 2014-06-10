@@ -25,8 +25,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ItemID
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ItemPrice
  * @property string $ItemTitle
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $ListedOn
- * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
+ * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType[] $ListedOn
+ * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
  * @property string $OrderLineItemID
  * @property integer $QuantitySold
  * @property boolean $Relisted
@@ -34,7 +34,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $SaleRecordID
  * @property boolean $SecondChanceOfferSent
  * @property \DTS\eBaySDK\Trading\Types\ShipmentType $Shipment
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $SoldOn
+ * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $SoldOn
  * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
  * @property \DTS\eBaySDK\Trading\Types\AmountType $SubtotalAmount
  * @property integer $TransactionID

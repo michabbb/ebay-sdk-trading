@@ -24,7 +24,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $DetailVersion
  * @property boolean $DimensionsSupported
  * @property integer $PackageID
- * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType(string) $ShippingPackage
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType $ShippingPackage
  * @property \DateTime $UpdateTime
  */
 class ShippingPackageDetailsType extends \DTS\eBaySDK\Types\BaseType

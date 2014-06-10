@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property \DTS\eBaySDK\Trading\Types\AmountType $InsuranceFee
- * @property \DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType(string) $InsuranceOption
+ * @property \DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType $InsuranceOption
  */
 class InsuranceDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

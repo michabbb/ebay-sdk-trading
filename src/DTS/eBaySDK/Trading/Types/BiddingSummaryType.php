@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $BidRetractions
  * @property integer $BidsToUniqueCategories
  * @property integer $BidsToUniqueSellers
- * @property \DTS\eBaySDK\Trading\Types\ItemBidDetailsType $ItemBidDetails
+ * @property \DTS\eBaySDK\Trading\Types\ItemBidDetailsType[] $ItemBidDetails
  * @property integer $SummaryDays
  * @property integer $TotalBids
  */

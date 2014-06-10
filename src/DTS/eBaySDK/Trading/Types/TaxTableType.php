@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\TaxJurisdictionType $TaxJurisdiction
+ * @property \DTS\eBaySDK\Trading\Types\TaxJurisdictionType[] $TaxJurisdiction
  */
 class TaxTableType extends \DTS\eBaySDK\Types\BaseType
 {

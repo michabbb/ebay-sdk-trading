@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType $ChildFolder
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType[] $ChildFolder
  * @property \DateTime $CreationTime
  * @property string $FolderComment
  * @property integer $FolderID

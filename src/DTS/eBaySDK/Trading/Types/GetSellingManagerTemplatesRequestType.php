@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $SaleTemplateID
+ * @property integer[] $SaleTemplateID
  */
 class GetSellingManagerTemplatesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

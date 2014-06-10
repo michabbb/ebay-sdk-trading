@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $ExcludeShipToLocation
+ * @property string[] $ExcludeShipToLocation
  */
 class SellerExcludeShipToLocationPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -21,10 +21,10 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $Comments
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType(string) $ListingDuration
+ * @property \DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $ListingDuration
  * @property \DTS\eBaySDK\Trading\Types\AmountType $NegotiatedPrice
  * @property string $RecipientPostalCode
- * @property \DTS\eBaySDK\Trading\Enums\RecipientRelationCodeType(string) $RecipientRelationType
+ * @property \DTS\eBaySDK\Trading\Enums\RecipientRelationCodeType $RecipientRelationType
  * @property string $RecipientUserID
  * @property string $VerifyEligibilityOnly
  */

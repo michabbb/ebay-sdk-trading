@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\HandlingNameCodeType(string) $DiscountName
+ * @property \DTS\eBaySDK\Trading\Enums\HandlingNameCodeType $DiscountName
  * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
  * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalOffAmount
  * @property double $EachAdditionalPercentOff

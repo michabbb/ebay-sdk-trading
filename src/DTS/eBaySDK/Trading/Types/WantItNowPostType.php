@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $Description
  * @property string $PostID
  * @property integer $ResponseCount
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $Site
  * @property \DateTime $StartTime
  * @property string $Title
  */

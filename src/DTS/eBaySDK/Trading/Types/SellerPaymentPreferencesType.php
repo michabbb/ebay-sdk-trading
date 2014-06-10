@@ -21,13 +21,13 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $AlwaysUseThisPaymentAddress
  * @property string $DefaultPayPalEmailAddress
- * @property \DTS\eBaySDK\Trading\Enums\DisplayPayNowButtonCodeType(string) $DisplayPayNowButton
- * @property \DTS\eBaySDK\Trading\Enums\FedExRateOptionCodeType(string) $FedExRateOption
+ * @property \DTS\eBaySDK\Trading\Enums\DisplayPayNowButtonCodeType $DisplayPayNowButton
+ * @property \DTS\eBaySDK\Trading\Enums\FedExRateOptionCodeType $FedExRateOption
  * @property boolean $PayPalAlwaysOn
  * @property boolean $PayPalPreferred
  * @property \DTS\eBaySDK\Trading\Types\AddressType $SellerPaymentAddress
- * @property \DTS\eBaySDK\Trading\Enums\UPSRateOptionCodeType(string) $UPSRateOption
- * @property \DTS\eBaySDK\Trading\Enums\USPSRateOptionCodeType(string) $USPSRateOption
+ * @property \DTS\eBaySDK\Trading\Enums\UPSRateOptionCodeType $UPSRateOption
+ * @property \DTS\eBaySDK\Trading\Enums\USPSRateOptionCodeType $USPSRateOption
  */
 class SellerPaymentPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {

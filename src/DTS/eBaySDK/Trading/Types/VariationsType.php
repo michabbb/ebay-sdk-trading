@@ -20,8 +20,8 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property \DTS\eBaySDK\Trading\Types\ModifyNameArrayType $ModifyNameList
- * @property \DTS\eBaySDK\Trading\Types\PicturesType $Pictures
- * @property \DTS\eBaySDK\Trading\Types\VariationType $Variation
+ * @property \DTS\eBaySDK\Trading\Types\PicturesType[] $Pictures
+ * @property \DTS\eBaySDK\Trading\Types\VariationType[] $Variation
  * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecificsSet
  */
 class VariationsType extends \DTS\eBaySDK\Types\BaseType

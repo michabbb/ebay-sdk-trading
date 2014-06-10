@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType(string) $DiscountReason
+ * @property \DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
  * @property \DateTime $EndTime
  * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
  * @property string $ItemID

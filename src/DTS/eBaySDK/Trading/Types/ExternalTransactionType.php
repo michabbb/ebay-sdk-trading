@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $ExternalTransactionID
- * @property \DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType(string) $ExternalTransactionStatus
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType $ExternalTransactionStatus
  * @property \DateTime $ExternalTransactionTime
  * @property \DTS\eBaySDK\Trading\Types\AmountType $FeeOrCreditAmount
  * @property \DTS\eBaySDK\Trading\Types\AmountType $PaymentOrRefundAmount

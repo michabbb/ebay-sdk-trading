@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $Rating
- * @property \DTS\eBaySDK\Trading\Enums\FeedbackRatingDetailCodeType(string) $RatingDetail
+ * @property \DTS\eBaySDK\Trading\Enums\FeedbackRatingDetailCodeType $RatingDetail
  */
 class ItemRatingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

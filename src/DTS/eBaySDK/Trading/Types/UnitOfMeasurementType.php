@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $AlternateText
+ * @property string[] $AlternateText
  * @property string $SuggestedText
  */
 class UnitOfMeasurementType extends \DTS\eBaySDK\Types\BaseType

@@ -31,7 +31,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ItemTitle
  * @property \DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
  * @property string $PurchaseTimeFrame
- * @property \DTS\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType(string) $Status
+ * @property \DTS\eBaySDK\Trading\Enums\AdFormatLeadStatusCodeType $Status
  * @property \DateTime $SubmittedTime
  * @property string $TradeInMake
  * @property string $TradeInModel
