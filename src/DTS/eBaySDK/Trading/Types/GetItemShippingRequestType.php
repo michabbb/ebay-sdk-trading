@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $DestinationCountryCode
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType $DestinationCountryCode
  * @property string $DestinationPostalCode
  * @property string $ItemID
  * @property integer $QuantitySold

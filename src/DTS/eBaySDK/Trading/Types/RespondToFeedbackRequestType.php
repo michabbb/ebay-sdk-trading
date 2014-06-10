@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ItemID
  * @property string $OrderLineItemID
  * @property string $ResponseText
- * @property \DTS\eBaySDK\Trading\Enums\FeedbackResponseCodeType(string) $ResponseType
+ * @property \DTS\eBaySDK\Trading\Enums\FeedbackResponseCodeType $ResponseType
  * @property string $TargetUserID
  * @property string $TransactionID
  */

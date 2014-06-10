@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchType $FavoriteSearch
+ * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchType[] $FavoriteSearch
  * @property integer $TotalAvailable
  */
 class MyeBayFavoriteSearchListType extends \DTS\eBaySDK\Types\BaseType

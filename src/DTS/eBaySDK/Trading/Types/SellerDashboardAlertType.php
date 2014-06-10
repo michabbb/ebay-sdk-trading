@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SellerDashboardAlertSeverityCodeType(string) $Severity
+ * @property \DTS\eBaySDK\Trading\Enums\SellerDashboardAlertSeverityCodeType $Severity
  * @property string $Text
  */
 class SellerDashboardAlertType extends \DTS\eBaySDK\Types\BaseType

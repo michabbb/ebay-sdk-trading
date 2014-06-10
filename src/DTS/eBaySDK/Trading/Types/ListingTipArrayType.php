@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ListingTipType $ListingTip
+ * @property \DTS\eBaySDK\Trading\Types\ListingTipType[] $ListingTip
  */
 class ListingTipArrayType extends \DTS\eBaySDK\Types\BaseType
 {

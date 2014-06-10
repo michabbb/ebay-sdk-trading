@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\OfferArrayType $BidArray
  * @property string $HighBidder
  * @property \DTS\eBaySDK\Trading\Types\AmountType $HighestBid
- * @property \DTS\eBaySDK\Trading\Enums\ListingStatusCodeType(string) $ListingStatus
+ * @property \DTS\eBaySDK\Trading\Enums\ListingStatusCodeType $ListingStatus
  */
 class GetAllBiddersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

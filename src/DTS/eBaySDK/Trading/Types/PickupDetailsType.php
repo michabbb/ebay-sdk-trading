@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\PickupOptionsType $PickupOptions
+ * @property \DTS\eBaySDK\Trading\Types\PickupOptionsType[] $PickupOptions
  */
 class PickupDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

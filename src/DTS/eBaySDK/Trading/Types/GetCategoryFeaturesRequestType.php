@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $AllFeaturesForCategory
  * @property string $CategoryID
- * @property \DTS\eBaySDK\Trading\Enums\FeatureIDCodeType(string) $FeatureID
+ * @property \DTS\eBaySDK\Trading\Enums\FeatureIDCodeType[] $FeatureID
  * @property integer $LevelLimit
  * @property boolean $ViewAllNodes
  */

@@ -39,14 +39,14 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $RefundStatus
  * @property \DTS\eBaySDK\Trading\Types\AmountType $SalePrice
  * @property integer $SaleRecordID
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldTransactionType $SellingManagerSoldTransaction
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldTransactionType[] $SellingManagerSoldTransaction
  * @property \DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
  * @property \DTS\eBaySDK\Trading\Types\ShippingDetailsType $ShippingDetails
  * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalAmount
  * @property integer $TotalQuantity
- * @property \DTS\eBaySDK\Trading\Enums\UnpaidItemStatusTypeCodeType(string) $UnpaidItemStatus
+ * @property \DTS\eBaySDK\Trading\Enums\UnpaidItemStatusTypeCodeType $UnpaidItemStatus
  * @property \DTS\eBaySDK\Trading\Types\AmountType $VATInsuranceFee
- * @property \DTS\eBaySDK\Trading\Types\VATRateType $VATRate
+ * @property \DTS\eBaySDK\Trading\Types\VATRateType[] $VATRate
  * @property \DTS\eBaySDK\Trading\Types\AmountType $VATShippingFee
  * @property \DTS\eBaySDK\Trading\Types\AmountType $VATTotalAmount
  */

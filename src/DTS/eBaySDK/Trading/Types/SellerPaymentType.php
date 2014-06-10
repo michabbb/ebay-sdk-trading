@@ -26,7 +26,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $OrderID
  * @property string $OrderLineItemID
  * @property \DateTime $PaidTime
- * @property \DTS\eBaySDK\Trading\Enums\PaymentTypeCodeType(string) $PaymentType
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentTypeCodeType $PaymentType
  * @property string $PrivateNotes
  * @property string $SellerInventoryID
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingReimbursement

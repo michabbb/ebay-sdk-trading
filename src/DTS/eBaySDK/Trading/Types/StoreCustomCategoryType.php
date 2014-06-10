@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $CategoryID
- * @property \DTS\eBaySDK\Trading\Types\StoreCustomCategoryType $ChildCategory
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomCategoryType[] $ChildCategory
  * @property string $Name
  * @property integer $Order
  */

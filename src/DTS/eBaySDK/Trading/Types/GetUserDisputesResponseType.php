@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property \DTS\eBaySDK\Trading\Types\DisputeArrayType $DisputeArray
- * @property \DTS\eBaySDK\Trading\Types\DisputeFilterCountType $DisputeFilterCount
+ * @property \DTS\eBaySDK\Trading\Types\DisputeFilterCountType[] $DisputeFilterCount
  * @property string $EndingDisputeID
  * @property integer $ItemsPerPage
  * @property integer $PageNumber

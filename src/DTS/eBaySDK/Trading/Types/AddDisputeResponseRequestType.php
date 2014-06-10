@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DisputeActivityCodeType(string) $DisputeActivity
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeActivityCodeType $DisputeActivity
  * @property string $DisputeID
  * @property string $MessageText
  * @property string $ShipmentTrackNumber

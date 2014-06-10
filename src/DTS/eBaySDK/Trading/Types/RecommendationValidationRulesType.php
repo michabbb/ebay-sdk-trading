@@ -22,12 +22,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $Confidence
  * @property integer $MaxValues
  * @property integer $MinValues
- * @property \DTS\eBaySDK\Trading\Types\NameValueRelationshipType $Relationship
- * @property \DTS\eBaySDK\Trading\Enums\SelectionModeCodeType(string) $SelectionMode
- * @property \DTS\eBaySDK\Trading\Enums\ValueFormatCodeType(string) $ValueFormat
- * @property \DTS\eBaySDK\Trading\Enums\ValueTypeCodeType(string) $ValueType
- * @property \DTS\eBaySDK\Trading\Enums\VariationPictureRuleCodeType(string) $VariationPicture
- * @property \DTS\eBaySDK\Trading\Enums\VariationSpecificsRuleCodeType(string) $VariationSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\NameValueRelationshipType[] $Relationship
+ * @property \DTS\eBaySDK\Trading\Enums\SelectionModeCodeType $SelectionMode
+ * @property \DTS\eBaySDK\Trading\Enums\ValueFormatCodeType $ValueFormat
+ * @property \DTS\eBaySDK\Trading\Enums\ValueTypeCodeType $ValueType
+ * @property \DTS\eBaySDK\Trading\Enums\VariationPictureRuleCodeType $VariationPicture
+ * @property \DTS\eBaySDK\Trading\Enums\VariationSpecificsRuleCodeType $VariationSpecifics
  */
 class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
 {

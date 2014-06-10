@@ -23,16 +23,16 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
  * @property string $BuyerID
  * @property \DTS\eBaySDK\Trading\Types\AmountType $CODCost
- * @property \DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType(string) $CheckoutStatus
+ * @property \DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType $CheckoutStatus
  * @property string $EncryptedID
  * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType $ExternalTransaction
- * @property \DTS\eBaySDK\Trading\Enums\InsuranceSelectedCodeType(string) $InsuranceType
+ * @property \DTS\eBaySDK\Trading\Enums\InsuranceSelectedCodeType $InsuranceType
  * @property string $ItemID
  * @property string $MultipleSellerPaymentID
  * @property string $OrderID
  * @property string $OrderLineItemID
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $PaymentMethodUsed
- * @property \DTS\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType(string) $PaymentStatus
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
+ * @property \DTS\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType $PaymentStatus
  * @property \DTS\eBaySDK\Trading\Types\AmountType $SalesTax
  * @property \DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingCost

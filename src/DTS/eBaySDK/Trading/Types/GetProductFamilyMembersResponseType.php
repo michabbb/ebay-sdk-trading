@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\DataElementSetType $DataElementSets
- * @property \DTS\eBaySDK\Trading\Types\ProductSearchResultType $ProductSearchResult
+ * @property \DTS\eBaySDK\Trading\Types\DataElementSetType[] $DataElementSets
+ * @property \DTS\eBaySDK\Trading\Types\ProductSearchResultType[] $ProductSearchResult
  */
 class GetProductFamilyMembersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

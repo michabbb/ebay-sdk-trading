@@ -19,22 +19,22 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType(string) $CheckoutStatus
- * @property \DTS\eBaySDK\Trading\Enums\CommentTypeCodeType(string) $FeedbackReceived
+ * @property \DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType $CheckoutStatus
+ * @property \DTS\eBaySDK\Trading\Enums\CommentTypeCodeType $FeedbackReceived
  * @property boolean $FeedbackSent
  * @property boolean $IntegratedMerchantCreditCardEnabled
  * @property \DateTime $LastEmailSentTime
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerPaidStatusCodeType(string) $PaidStatus
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerPaidStatusCodeType $PaidStatus
  * @property \DateTime $PaidTime
  * @property string $PayPalTransactionID
- * @property \DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType(string) $PaymentHoldStatus
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $PaymentMethodUsed
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
  * @property string $SellerInvoiceNumber
  * @property \DateTime $SellerInvoiceTime
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerShippedStatusCodeType(string) $ShippedStatus
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerShippedStatusCodeType $ShippedStatus
  * @property \DateTime $ShippedTime
  * @property integer $TotalEmailsSent
- * @property \DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType(string) $eBayPaymentStatus
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType $eBayPaymentStatus
  */
 class SellingManagerOrderStatusType extends \DTS\eBaySDK\Types\BaseType
 {

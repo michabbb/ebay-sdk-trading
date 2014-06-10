@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\PictureManagerPictureDisplayType $PictureType
- * @property \DTS\eBaySDK\Trading\Types\PictureManagerSubscriptionType $Subscription
+ * @property \DTS\eBaySDK\Trading\Types\PictureManagerPictureDisplayType[] $PictureType
+ * @property \DTS\eBaySDK\Trading\Types\PictureManagerSubscriptionType[] $Subscription
  */
 class GetPictureManagerOptionsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

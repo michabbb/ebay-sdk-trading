@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $CorrelationID
  * @property \DateTime $EndTime
- * @property \DTS\eBaySDK\Trading\Types\ErrorType $Errors
+ * @property \DTS\eBaySDK\Trading\Types\ErrorType[] $Errors
  */
 class EndItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
 {

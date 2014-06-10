@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\CategoryMappingType $CategoryMapping
+ * @property \DTS\eBaySDK\Trading\Types\CategoryMappingType[] $CategoryMapping
  * @property string $CategoryVersion
  */
 class GetCategoryMappingsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType

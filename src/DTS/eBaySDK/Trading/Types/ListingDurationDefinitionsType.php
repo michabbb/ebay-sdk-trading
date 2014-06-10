@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ListingDurationDefinitionType $ListingDuration
+ * @property \DTS\eBaySDK\Trading\Types\ListingDurationDefinitionType[] $ListingDuration
  * @property integer $Version
  */
 class ListingDurationDefinitionsType extends \DTS\eBaySDK\Types\BaseType

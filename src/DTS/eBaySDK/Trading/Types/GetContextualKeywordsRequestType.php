@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $CategoryID
+ * @property string[] $CategoryID
  * @property string $Encoding
  * @property string $URL
  */

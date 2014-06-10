@@ -22,32 +22,32 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $AboutMePage
  * @property \DTS\eBaySDK\Trading\Types\BiddingSummaryType $BiddingSummary
  * @property string $BillingEmail
- * @property \DTS\eBaySDK\Trading\Enums\BusinessRoleType(string) $BusinessRole
+ * @property \DTS\eBaySDK\Trading\Enums\BusinessRoleType $BusinessRole
  * @property \DTS\eBaySDK\Trading\Types\BuyerType $BuyerInfo
  * @property \DTS\eBaySDK\Trading\Types\CharityAffiliationsType $CharityAffiliations
  * @property string $EIASToken
  * @property string $Email
  * @property boolean $EnterpriseSeller
  * @property boolean $FeedbackPrivate
- * @property \DTS\eBaySDK\Trading\Enums\FeedbackRatingStarCodeType(string) $FeedbackRatingStar
+ * @property \DTS\eBaySDK\Trading\Enums\FeedbackRatingStarCodeType $FeedbackRatingStar
  * @property integer $FeedbackScore
  * @property boolean $IDVerified
  * @property boolean $MotorsDealer
  * @property boolean $NewUser
- * @property \DTS\eBaySDK\Trading\Enums\PayPalAccountLevelCodeType(string) $PayPalAccountLevel
- * @property \DTS\eBaySDK\Trading\Enums\PayPalAccountStatusCodeType(string) $PayPalAccountStatus
- * @property \DTS\eBaySDK\Trading\Enums\PayPalAccountTypeCodeType(string) $PayPalAccountType
+ * @property \DTS\eBaySDK\Trading\Enums\PayPalAccountLevelCodeType $PayPalAccountLevel
+ * @property \DTS\eBaySDK\Trading\Enums\PayPalAccountStatusCodeType $PayPalAccountStatus
+ * @property \DTS\eBaySDK\Trading\Enums\PayPalAccountTypeCodeType $PayPalAccountType
  * @property double $PositiveFeedbackPercent
  * @property boolean $QualifiesForSelling
  * @property \DTS\eBaySDK\Trading\Types\AddressType $RegistrationAddress
  * @property \DateTime $RegistrationDate
  * @property \DTS\eBaySDK\Trading\Types\SellerType $SellerInfo
  * @property \DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $Site
  * @property boolean $SiteVerified
- * @property string $SkypeID
+ * @property string[] $SkypeID
  * @property string $StaticAlias
- * @property \DTS\eBaySDK\Trading\Enums\UserStatusCodeType(string) $Status
+ * @property \DTS\eBaySDK\Trading\Enums\UserStatusCodeType $Status
  * @property integer $TUVLevel
  * @property integer $UniqueNegativeFeedbackCount
  * @property integer $UniqueNeutralFeedbackCount
@@ -56,9 +56,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $UserID
  * @property boolean $UserIDChanged
  * @property \DateTime $UserIDLastChanged
- * @property \DTS\eBaySDK\Trading\Enums\EBaySubscriptionTypeCodeType(string) $UserSubscription
+ * @property \DTS\eBaySDK\Trading\Enums\EBaySubscriptionTypeCodeType[] $UserSubscription
  * @property string $VATID
- * @property \DTS\eBaySDK\Trading\Enums\VATStatusCodeType(string) $VATStatus
+ * @property \DTS\eBaySDK\Trading\Enums\VATStatusCodeType $VATStatus
  * @property boolean $eBayGoodStanding
  * @property boolean $eBayWikiReadOnly
  */

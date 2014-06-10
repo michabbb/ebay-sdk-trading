@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property \DTS\eBaySDK\Trading\Types\NumberOfPolicyViolationsDetailsType $NumberOfPolicyViolations
- * @property \DTS\eBaySDK\Trading\Types\PolicyViolationDurationDetailsType $PolicyViolationDuration
+ * @property \DTS\eBaySDK\Trading\Types\PolicyViolationDurationDetailsType[] $PolicyViolationDuration
  */
 class MaximumBuyerPolicyViolationsDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

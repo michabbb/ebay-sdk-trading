@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\AccountStateCodeType(string) $AccountState
- * @property \DTS\eBaySDK\Trading\Types\AdditionalAccountType $AdditionalAccount
+ * @property \DTS\eBaySDK\Trading\Enums\AccountStateCodeType $AccountState
+ * @property \DTS\eBaySDK\Trading\Types\AdditionalAccountType[] $AdditionalAccount
  * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPastDue
  * @property string $BankAccountInfo
  * @property \DateTime $BankModifyDate
@@ -38,7 +38,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $LastAmountPaid
  * @property \DateTime $LastPaymentDate
  * @property boolean $PastDue
- * @property \DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType(string) $PaymentMethod
+ * @property \DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType $PaymentMethod
  */
 class AccountSummaryType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property \DTS\eBaySDK\Trading\Types\StoreColorSchemeArrayType $GenericColorSchemeArray
- * @property \DTS\eBaySDK\Trading\Types\StoreThemeType $Theme
+ * @property \DTS\eBaySDK\Trading\Types\StoreThemeType[] $Theme
  */
 class StoreThemeArrayType extends \DTS\eBaySDK\Types\BaseType
 {

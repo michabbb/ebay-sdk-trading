@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\FlatRateInsuranceRangeCostType $FlatRateInsuranceRangeCost
- * @property \DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType(string) $InsuranceOption
+ * @property \DTS\eBaySDK\Trading\Types\FlatRateInsuranceRangeCostType[] $FlatRateInsuranceRangeCost
+ * @property \DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType $InsuranceOption
  */
 class ShippingInsuranceType extends \DTS\eBaySDK\Types\BaseType
 {

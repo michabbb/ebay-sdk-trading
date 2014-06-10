@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellerDashboardAlertType $Alert
- * @property \DTS\eBaySDK\Trading\Enums\SellerLevelCodeType(string) $Level
+ * @property \DTS\eBaySDK\Trading\Types\SellerDashboardAlertType[] $Alert
+ * @property \DTS\eBaySDK\Trading\Enums\SellerLevelCodeType $Level
  */
 class PowerSellerDashboardType extends \DTS\eBaySDK\Types\BaseType
 {

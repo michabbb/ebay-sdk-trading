@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\CategoryFeatureType $Category
+ * @property \DTS\eBaySDK\Trading\Types\CategoryFeatureType[] $Category
  * @property string $CategoryVersion
  * @property \DTS\eBaySDK\Trading\Types\FeatureDefinitionsType $FeatureDefinitions
  * @property \DTS\eBaySDK\Trading\Types\SiteDefaultsType $SiteDefaults

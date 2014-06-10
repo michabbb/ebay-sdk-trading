@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\BidActionCodeType(string) $Action
+ * @property \DTS\eBaySDK\Trading\Enums\BidActionCodeType $Action
  * @property string $BestOfferID
  * @property integer $BidCount
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedPrice
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $Currency
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
  * @property \DTS\eBaySDK\Trading\Types\AmountType $HighestBid
  * @property string $ItemID
  * @property \DTS\eBaySDK\Trading\Types\AmountType $MaxBid
@@ -31,7 +31,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $MyMaxBid
  * @property integer $Quantity
  * @property boolean $SecondChanceEnabled
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $SiteCurrency
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $SiteCurrency
  * @property \DateTime $TimeBid
  * @property string $TransactionID
  * @property \DTS\eBaySDK\Trading\Types\UserType $User

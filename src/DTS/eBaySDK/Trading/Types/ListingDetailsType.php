@@ -28,7 +28,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedReservePrice
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ConvertedStartPrice
  * @property \DateTime $EndTime
- * @property \DTS\eBaySDK\Trading\Enums\EndReasonCodeType(string) $EndingReason
+ * @property \DTS\eBaySDK\Trading\Enums\EndReasonCodeType $EndingReason
  * @property boolean $HasPublicMessages
  * @property boolean $HasReservePrice
  * @property boolean $HasUnansweredQuestions

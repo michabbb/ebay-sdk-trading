@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\InventoryFeesType $Fees
- * @property \DTS\eBaySDK\Trading\Types\InventoryStatusType $InventoryStatus
+ * @property \DTS\eBaySDK\Trading\Types\InventoryFeesType[] $Fees
+ * @property \DTS\eBaySDK\Trading\Types\InventoryStatusType[] $InventoryStatus
  */
 class ReviseInventoryStatusResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

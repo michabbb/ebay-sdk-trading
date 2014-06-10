@@ -24,8 +24,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $DisplaySequence
  * @property string $DisplayUOM
  * @property \DTS\eBaySDK\Trading\Types\LabelType $Label
- * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $SortOrder
- * @property \DTS\eBaySDK\Trading\Types\ValType $ValueList
+ * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
+ * @property \DTS\eBaySDK\Trading\Types\ValType[] $ValueList
  */
 class CharacteristicType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -24,7 +24,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ImportCharge
  * @property boolean $LocalPickup
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingInsuranceCost
- * @property \DTS\eBaySDK\Trading\Types\ShippingPackageInfoType $ShippingPackageInfo
+ * @property \DTS\eBaySDK\Trading\Types\ShippingPackageInfoType[] $ShippingPackageInfo
  * @property string $ShippingService
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost

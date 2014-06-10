@@ -19,29 +19,29 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SiteBuyerRequirementDetailsType $BuyerRequirementDetails
- * @property \DTS\eBaySDK\Trading\Types\CountryDetailsType $CountryDetails
- * @property \DTS\eBaySDK\Trading\Types\CurrencyDetailsType $CurrencyDetails
- * @property \DTS\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType $DispatchTimeMaxDetails
- * @property \DTS\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType $ExcludeShippingLocationDetails
- * @property \DTS\eBaySDK\Trading\Types\ItemSpecificDetailsType $ItemSpecificDetails
- * @property \DTS\eBaySDK\Trading\Types\ListingFeatureDetailsType $ListingFeatureDetails
- * @property \DTS\eBaySDK\Trading\Types\ListingStartPriceDetailsType $ListingStartPriceDetails
- * @property \DTS\eBaySDK\Trading\Types\PaymentOptionDetailsType $PaymentOptionDetails
- * @property \DTS\eBaySDK\Trading\Types\RecoupmentPolicyDetailsType $RecoupmentPolicyDetails
- * @property \DTS\eBaySDK\Trading\Types\RegionDetailsType $RegionDetails
- * @property \DTS\eBaySDK\Trading\Types\RegionOfOriginDetailsType $RegionOfOriginDetails
+ * @property \DTS\eBaySDK\Trading\Types\SiteBuyerRequirementDetailsType[] $BuyerRequirementDetails
+ * @property \DTS\eBaySDK\Trading\Types\CountryDetailsType[] $CountryDetails
+ * @property \DTS\eBaySDK\Trading\Types\CurrencyDetailsType[] $CurrencyDetails
+ * @property \DTS\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType[] $DispatchTimeMaxDetails
+ * @property \DTS\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType[] $ExcludeShippingLocationDetails
+ * @property \DTS\eBaySDK\Trading\Types\ItemSpecificDetailsType[] $ItemSpecificDetails
+ * @property \DTS\eBaySDK\Trading\Types\ListingFeatureDetailsType[] $ListingFeatureDetails
+ * @property \DTS\eBaySDK\Trading\Types\ListingStartPriceDetailsType[] $ListingStartPriceDetails
+ * @property \DTS\eBaySDK\Trading\Types\PaymentOptionDetailsType[] $PaymentOptionDetails
+ * @property \DTS\eBaySDK\Trading\Types\RecoupmentPolicyDetailsType[] $RecoupmentPolicyDetails
+ * @property \DTS\eBaySDK\Trading\Types\RegionDetailsType[] $RegionDetails
+ * @property \DTS\eBaySDK\Trading\Types\RegionOfOriginDetailsType[] $RegionOfOriginDetails
  * @property \DTS\eBaySDK\Trading\Types\ReturnPolicyDetailsType $ReturnPolicyDetails
- * @property \DTS\eBaySDK\Trading\Types\ShippingCarrierDetailsType $ShippingCarrierDetails
- * @property \DTS\eBaySDK\Trading\Types\ShippingCategoryDetailsType $ShippingCategoryDetails
- * @property \DTS\eBaySDK\Trading\Types\ShippingLocationDetailsType $ShippingLocationDetails
- * @property \DTS\eBaySDK\Trading\Types\ShippingPackageDetailsType $ShippingPackageDetails
- * @property \DTS\eBaySDK\Trading\Types\ShippingServiceDetailsType $ShippingServiceDetails
- * @property \DTS\eBaySDK\Trading\Types\SiteDetailsType $SiteDetails
- * @property \DTS\eBaySDK\Trading\Types\TaxJurisdictionType $TaxJurisdiction
- * @property \DTS\eBaySDK\Trading\Types\TimeZoneDetailsType $TimeZoneDetails
- * @property \DTS\eBaySDK\Trading\Types\URLDetailsType $URLDetails
- * @property \DTS\eBaySDK\Trading\Types\UnitOfMeasurementDetailsType $UnitOfMeasurementDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingCarrierDetailsType[] $ShippingCarrierDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingCategoryDetailsType[] $ShippingCategoryDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingLocationDetailsType[] $ShippingLocationDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingPackageDetailsType[] $ShippingPackageDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingServiceDetailsType[] $ShippingServiceDetails
+ * @property \DTS\eBaySDK\Trading\Types\SiteDetailsType[] $SiteDetails
+ * @property \DTS\eBaySDK\Trading\Types\TaxJurisdictionType[] $TaxJurisdiction
+ * @property \DTS\eBaySDK\Trading\Types\TimeZoneDetailsType[] $TimeZoneDetails
+ * @property \DTS\eBaySDK\Trading\Types\URLDetailsType[] $URLDetails
+ * @property \DTS\eBaySDK\Trading\Types\UnitOfMeasurementDetailsType[] $UnitOfMeasurementDetails
  * @property \DateTime $UpdateTime
  * @property \DTS\eBaySDK\Trading\Types\VariationDetailsType $VariationDetails
  */

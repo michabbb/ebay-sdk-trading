@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $CopyEmail
  * @property boolean $EmailCustomized
  * @property boolean $LogoCustomized
- * @property \DTS\eBaySDK\Trading\Enums\EndOfAuctionLogoTypeCodeType(string) $LogoType
+ * @property \DTS\eBaySDK\Trading\Enums\EndOfAuctionLogoTypeCodeType $LogoType
  * @property string $LogoURL
  * @property string $TemplateText
  * @property boolean $TextCustomized

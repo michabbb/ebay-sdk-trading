@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $BaseURL
  * @property string $ExternalPictureURL
  * @property string $FullURL
- * @property \DTS\eBaySDK\Trading\Enums\PictureFormatCodeType(string) $PictureFormat
+ * @property \DTS\eBaySDK\Trading\Enums\PictureFormatCodeType $PictureFormat
  * @property string $PictureName
- * @property \DTS\eBaySDK\Trading\Enums\PictureSetCodeType(string) $PictureSet
- * @property \DTS\eBaySDK\Trading\Types\PictureSetMemberType $PictureSetMember
+ * @property \DTS\eBaySDK\Trading\Enums\PictureSetCodeType $PictureSet
+ * @property \DTS\eBaySDK\Trading\Types\PictureSetMemberType[] $PictureSetMember
  * @property \DateTime $UseByDate
  */
 class SiteHostedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType

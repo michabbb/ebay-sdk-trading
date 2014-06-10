@@ -19,8 +19,8 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellerDashboardAlertType $Alert
- * @property \DTS\eBaySDK\Trading\Enums\BuyerSatisfactionStatusCodeType(string) $Status
+ * @property \DTS\eBaySDK\Trading\Types\SellerDashboardAlertType[] $Alert
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerSatisfactionStatusCodeType $Status
  */
 class BuyerSatisfactionDashboardType extends \DTS\eBaySDK\Types\BaseType
 {

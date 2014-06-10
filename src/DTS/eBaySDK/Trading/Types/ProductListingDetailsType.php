@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property \DTS\eBaySDK\Trading\Types\BrandMPNType $BrandMPN
- * @property string $Copyright
+ * @property string[] $Copyright
  * @property string $DetailsURL
  * @property string $EAN
  * @property string $GTIN

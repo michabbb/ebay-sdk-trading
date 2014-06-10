@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\FeeType $Fee
+ * @property \DTS\eBaySDK\Trading\Types\FeeType[] $Fee
  */
 class FeesType extends \DTS\eBaySDK\Types\BaseType
 {

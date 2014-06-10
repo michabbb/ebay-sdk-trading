@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $SKU
+ * @property string[] $SKU
  */
 class SKUArrayType extends \DTS\eBaySDK\Types\BaseType
 {

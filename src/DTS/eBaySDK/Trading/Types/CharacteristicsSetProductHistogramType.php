@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\HistogramEntryType $HistogramEntry
+ * @property \DTS\eBaySDK\Trading\Types\HistogramEntryType[] $HistogramEntry
  */
 class CharacteristicsSetProductHistogramType extends \DTS\eBaySDK\Types\BaseType
 {

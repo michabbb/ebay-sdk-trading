@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $AutoOptDonationRefund
  * @property boolean $AutoRelist
  * @property integer $DelayBeforeOpeningDispute
- * @property string $ExcludedUser
+ * @property string[] $ExcludedUser
  * @property boolean $OptInStatus
  * @property boolean $RemoveAllExcludedUsers
  */

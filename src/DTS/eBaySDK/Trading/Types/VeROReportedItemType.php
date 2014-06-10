@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $ItemID
  * @property string $ItemReasonForFailure
- * @property \DTS\eBaySDK\Trading\Enums\VeROItemStatusCodeType(string) $ItemStatus
+ * @property \DTS\eBaySDK\Trading\Enums\VeROItemStatusCodeType $ItemStatus
  */
 class VeROReportedItemType extends \DTS\eBaySDK\Types\BaseType
 {

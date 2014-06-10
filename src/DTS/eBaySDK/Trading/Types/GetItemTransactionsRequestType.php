@@ -28,7 +28,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $NumberOfDays
  * @property string $OrderLineItemID
  * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $Platform
+ * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform
  * @property string $TransactionID
  */
 class GetItemTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $HelpURL
  * @property string $Name
  * @property \DTS\eBaySDK\Trading\Types\RecommendationValidationRulesType $ValidationRules
- * @property \DTS\eBaySDK\Trading\Types\ValueRecommendationType $ValueRecommendation
+ * @property \DTS\eBaySDK\Trading\Types\ValueRecommendationType[] $ValueRecommendation
  */
 class NameRecommendationType extends \DTS\eBaySDK\Types\BaseType
 {

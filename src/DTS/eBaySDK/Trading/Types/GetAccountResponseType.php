@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AccountEntriesType $AccountEntries
  * @property string $AccountID
  * @property \DTS\eBaySDK\Trading\Types\AccountSummaryType $AccountSummary
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $Currency
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
  * @property integer $EntriesPerPage
  * @property boolean $HasMoreEntries
  * @property integer $PageNumber

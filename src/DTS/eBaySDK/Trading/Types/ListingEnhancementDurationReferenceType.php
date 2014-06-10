@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $Duration
+ * @property string[] $Duration
  */
 class ListingEnhancementDurationReferenceType extends \DTS\eBaySDK\Types\BaseType
 {

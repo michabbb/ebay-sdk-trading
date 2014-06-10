@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $IncludeMemberMessages
  * @property string $ItemID
  * @property \DateTime $StartCreationTime
- * @property \DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType(string) $Status
+ * @property \DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType $Status
  */
 class GetAdFormatLeadsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

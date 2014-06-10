@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\PictureManagerActionCodeType(string) $Action
+ * @property \DTS\eBaySDK\Trading\Enums\PictureManagerActionCodeType $Action
  * @property \DTS\eBaySDK\Trading\Types\PictureManagerDetailsType $PictureManagerDetails
  */
 class SetPictureManagerDetailsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

@@ -27,8 +27,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
  * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
  * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $LostList
- * @property \DTS\eBaySDK\Trading\Types\ItemType $SecondChanceOffer
- * @property \DTS\eBaySDK\Trading\Types\UserDefinedListType $UserDefinedList
+ * @property \DTS\eBaySDK\Trading\Types\ItemType[] $SecondChanceOffer
+ * @property \DTS\eBaySDK\Trading\Types\UserDefinedListType[] $UserDefinedList
  * @property \DTS\eBaySDK\Trading\Types\PaginatedItemArrayType $WatchList
  * @property \DTS\eBaySDK\Trading\Types\PaginatedOrderTransactionArrayType $WonList
  */

@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $ExternalPictureURL
+ * @property string[] $ExternalPictureURL
  * @property string $GalleryURL
- * @property string $PictureURL
+ * @property string[] $PictureURL
  * @property string $VariationSpecificValue
  */
 class VariationSpecificPictureSetType extends \DTS\eBaySDK\Types\BaseType

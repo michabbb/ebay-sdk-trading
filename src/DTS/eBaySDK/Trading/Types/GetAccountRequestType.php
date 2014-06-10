@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\AccountEntrySortTypeCodeType(string) $AccountEntrySortType
- * @property \DTS\eBaySDK\Trading\Enums\AccountHistorySelectionCodeType(string) $AccountHistorySelection
+ * @property \DTS\eBaySDK\Trading\Enums\AccountEntrySortTypeCodeType $AccountEntrySortType
+ * @property \DTS\eBaySDK\Trading\Enums\AccountHistorySelectionCodeType $AccountHistorySelection
  * @property \DateTime $BeginDate
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $Currency
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
  * @property \DateTime $EndDate
  * @property boolean $ExcludeBalance
  * @property boolean $ExcludeSummary

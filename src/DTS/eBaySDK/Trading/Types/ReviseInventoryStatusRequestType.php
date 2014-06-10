@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\InventoryStatusType $InventoryStatus
+ * @property \DTS\eBaySDK\Trading\Types\InventoryStatusType[] $InventoryStatus
  */
 class ReviseInventoryStatusRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {

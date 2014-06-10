@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\CharityAffiliationDetailType $CharityAffiliationDetail
+ * @property \DTS\eBaySDK\Trading\Types\CharityAffiliationDetailType[] $CharityAffiliationDetail
  */
 class CharityAffiliationDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

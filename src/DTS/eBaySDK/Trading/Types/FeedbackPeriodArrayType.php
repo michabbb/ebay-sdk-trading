@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\FeedbackPeriodType $FeedbackPeriod
+ * @property \DTS\eBaySDK\Trading\Types\FeedbackPeriodType[] $FeedbackPeriod
  */
 class FeedbackPeriodArrayType extends \DTS\eBaySDK\Types\BaseType
 {

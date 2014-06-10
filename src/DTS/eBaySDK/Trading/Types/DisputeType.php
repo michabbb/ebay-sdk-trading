@@ -21,25 +21,25 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $BuyerUserID
  * @property \DateTime $DisputeCreatedTime
- * @property \DTS\eBaySDK\Trading\Enums\DisputeCreditEligibilityCodeType(string) $DisputeCreditEligibility
- * @property \DTS\eBaySDK\Trading\Enums\DisputeExplanationCodeType(string) $DisputeExplanation
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeCreditEligibilityCodeType $DisputeCreditEligibility
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeExplanationCodeType $DisputeExplanation
  * @property string $DisputeID
- * @property \DTS\eBaySDK\Trading\Types\DisputeMessageType $DisputeMessage
+ * @property \DTS\eBaySDK\Trading\Types\DisputeMessageType[] $DisputeMessage
  * @property \DateTime $DisputeModifiedTime
- * @property \DTS\eBaySDK\Trading\Enums\DisputeReasonCodeType(string) $DisputeReason
- * @property \DTS\eBaySDK\Trading\Enums\DisputeRecordTypeCodeType(string) $DisputeRecordType
- * @property \DTS\eBaySDK\Trading\Types\DisputeResolutionType $DisputeResolution
- * @property \DTS\eBaySDK\Trading\Enums\DisputeStateCodeType(string) $DisputeState
- * @property \DTS\eBaySDK\Trading\Enums\DisputeStatusCodeType(string) $DisputeStatus
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeReasonCodeType $DisputeReason
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeRecordTypeCodeType $DisputeRecordType
+ * @property \DTS\eBaySDK\Trading\Types\DisputeResolutionType[] $DisputeResolution
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeStateCodeType $DisputeState
+ * @property \DTS\eBaySDK\Trading\Enums\DisputeStatusCodeType $DisputeStatus
  * @property boolean $Escalation
  * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
  * @property string $OrderLineItemID
  * @property string $OtherPartyName
- * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $OtherPartyRole
+ * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $OtherPartyRole
  * @property boolean $PurchaseProtection
  * @property string $SellerUserID
  * @property string $TransactionID
- * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType(string) $UserRole
+ * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $UserRole
  */
 class DisputeType extends \DTS\eBaySDK\Types\BaseType
 {

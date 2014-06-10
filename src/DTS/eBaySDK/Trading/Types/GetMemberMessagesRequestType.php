@@ -22,9 +22,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $DisplayToPublic
  * @property \DateTime $EndCreationTime
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $MailMessageType
+ * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType $MailMessageType
  * @property string $MemberMessageID
- * @property \DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType(string) $MessageStatus
+ * @property \DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType $MessageStatus
  * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
  * @property string $SenderID
  * @property \DateTime $StartCreationTime

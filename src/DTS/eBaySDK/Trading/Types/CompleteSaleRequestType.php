@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property \DTS\eBaySDK\Trading\Types\FeedbackInfoType $FeedbackInfo
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $ListingType
+ * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
  * @property string $OrderID
  * @property string $OrderLineItemID
  * @property boolean $Paid

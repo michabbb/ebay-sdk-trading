@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property integer $Count
- * @property \DTS\eBaySDK\Trading\Enums\PeriodCodeType(string) $Period
+ * @property \DTS\eBaySDK\Trading\Enums\PeriodCodeType $Period
  */
 class MaximumUnpaidItemStrikesInfoType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property \DTS\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType(string) $PaymentStatus
+ * @property \DTS\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType $PaymentStatus
  * @property \DateTime $PaymentTimeFrom
  * @property \DateTime $PaymentTimeTo
  */

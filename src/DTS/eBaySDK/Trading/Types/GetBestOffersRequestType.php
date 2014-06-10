@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property string $BestOfferID
- * @property \DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType(string) $BestOfferStatus
+ * @property \DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType $BestOfferStatus
  * @property string $ItemID
  * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
  */

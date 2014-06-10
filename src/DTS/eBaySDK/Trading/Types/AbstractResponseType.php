@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\AckCodeType(string) $Ack
+ * @property \DTS\eBaySDK\Trading\Enums\AckCodeType $Ack
  * @property \DTS\eBaySDK\Trading\Types\BotBlockResponseType $BotBlock
  * @property string $Build
  * @property string $CorrelationID
  * @property \DTS\eBaySDK\Trading\Types\DuplicateInvocationDetailsType $DuplicateInvocationDetails
  * @property string $EIASToken
- * @property \DTS\eBaySDK\Trading\Types\ErrorType $Errors
+ * @property \DTS\eBaySDK\Trading\Types\ErrorType[] $Errors
  * @property string $ExternalUserData
  * @property string $HardExpirationWarning
  * @property string $Message

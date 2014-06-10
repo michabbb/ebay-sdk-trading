@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $Count
+ * @property integer[] $Count
  */
 class MaximumUnpaidItemStrikesCountDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

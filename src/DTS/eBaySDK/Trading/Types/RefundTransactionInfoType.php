@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $FeeOrCreditAmount
  * @property \DTS\eBaySDK\Trading\Types\TransactionReferenceType $ReferenceID
  * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
- * @property \DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType(string) $RefundStatus
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentTransactionStatusCodeType $RefundStatus
  * @property \DateTime $RefundTime
  * @property \DTS\eBaySDK\Trading\Types\UserIdentityType $RefundTo
- * @property \DTS\eBaySDK\Trading\Enums\RefundSourceTypeCodeType(string) $RefundType
+ * @property \DTS\eBaySDK\Trading\Enums\RefundSourceTypeCodeType $RefundType
  */
 class RefundTransactionInfoType extends \DTS\eBaySDK\Types\BaseType
 {

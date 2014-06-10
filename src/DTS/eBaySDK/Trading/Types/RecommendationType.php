@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $FieldName
  * @property string $Message
  * @property string $RecommendationCode
- * @property string $RecommendedValue
+ * @property string[] $RecommendedValue
  */
 class RecommendationType extends \DTS\eBaySDK\Types\BaseType
 {

@@ -20,8 +20,8 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property \DTS\eBaySDK\Trading\Types\SellerDashboardAlertType $Alert
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $Site
- * @property \DTS\eBaySDK\Trading\Enums\PerformanceStatusCodeType(string) $Status
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType[] $Site
+ * @property \DTS\eBaySDK\Trading\Enums\PerformanceStatusCodeType $Status
  */
 class PerformanceDashboardType extends \DTS\eBaySDK\Types\BaseType
 {

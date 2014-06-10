@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\AutomatedLeaveFeedbackEventCodeType(string) $AutomatedLeaveFeedbackEvent
+ * @property \DTS\eBaySDK\Trading\Enums\AutomatedLeaveFeedbackEventCodeType $AutomatedLeaveFeedbackEvent
  * @property \DTS\eBaySDK\Trading\Types\FeedbackCommentArrayType $StoredComments
  */
 class SetSellingManagerFeedbackOptionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType

@@ -21,8 +21,8 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property \DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType $CalculatedHandlingDiscount
  * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
- * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType(string) $CombinedDuration
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $CurrencyID
+ * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType $CombinedDuration
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $CurrencyID
  * @property \DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
  * @property \DTS\eBaySDK\Trading\Types\ShippingInsuranceType $InternationalShippingInsurance
  * @property boolean $PromotionalShippingDiscount

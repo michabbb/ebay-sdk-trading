@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MarkUpMarkDownEventType $MarkUpMarkDownEvent
+ * @property \DTS\eBaySDK\Trading\Types\MarkUpMarkDownEventType[] $MarkUpMarkDownEvent
  */
 class MarkUpMarkDownHistoryType extends \DTS\eBaySDK\Types\BaseType
 {

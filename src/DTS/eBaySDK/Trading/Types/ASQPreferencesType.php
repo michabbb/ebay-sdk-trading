@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $ResetDefaultSubjects
- * @property string $Subject
+ * @property string[] $Subject
  */
 class ASQPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {

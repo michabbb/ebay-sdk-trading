@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\GetRecommendationsResponseContainerType $GetRecommendationsResponseContainer
+ * @property \DTS\eBaySDK\Trading\Types\GetRecommendationsResponseContainerType[] $GetRecommendationsResponseContainer
  */
 class GetItemRecommendationsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {

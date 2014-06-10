@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $DimensionsRequired
- * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType(string) $Name
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType $Name
  */
 class ShippingServicePackageDetailsType extends \DTS\eBaySDK\Types\BaseType
 {

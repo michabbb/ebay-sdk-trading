@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
  * @property integer $ShippingServicePriority
- * @property \DTS\eBaySDK\Trading\Enums\ShippingServiceType(string) $ShippingServiceType
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingServiceType $ShippingServiceType
  * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingSurcharge
  */
 class ShippingServiceCostOverrideType extends \DTS\eBaySDK\Types\BaseType
