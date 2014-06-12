@@ -19,16 +19,16 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\BoldTitleCodeType(string) $boldTitle
- * @property DTS\eBaySDK\Trading\Enums\BorderCodeType(string) $border
- * @property string $detailVersion
- * @property DTS\eBaySDK\Trading\Enums\FeaturedFirstCodeType(string) $featuredFirst
- * @property DTS\eBaySDK\Trading\Enums\FeaturedPlusCodeType(string) $featuredPlus
- * @property DTS\eBaySDK\Trading\Enums\GiftIconCodeType(string) $giftIcon
- * @property DTS\eBaySDK\Trading\Enums\HighlightCodeType(string) $highlight
- * @property DTS\eBaySDK\Trading\Enums\HomePageFeaturedCodeType(string) $homePageFeatured
- * @property DTS\eBaySDK\Trading\Enums\ProPackCodeType(string) $proPack
- * @property DateTime $updateTime
+ * @property \DTS\eBaySDK\Trading\Enums\BoldTitleCodeType $BoldTitle
+ * @property \DTS\eBaySDK\Trading\Enums\BorderCodeType $Border
+ * @property string $DetailVersion
+ * @property \DTS\eBaySDK\Trading\Enums\FeaturedFirstCodeType $FeaturedFirst
+ * @property \DTS\eBaySDK\Trading\Enums\FeaturedPlusCodeType $FeaturedPlus
+ * @property \DTS\eBaySDK\Trading\Enums\GiftIconCodeType $GiftIcon
+ * @property \DTS\eBaySDK\Trading\Enums\HighlightCodeType $Highlight
+ * @property \DTS\eBaySDK\Trading\Enums\HomePageFeaturedCodeType $HomePageFeatured
+ * @property \DTS\eBaySDK\Trading\Enums\ProPackCodeType $ProPack
+ * @property \DateTime $UpdateTime
  */
 class ListingFeatureDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -36,61 +36,61 @@ class ListingFeatureDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'boldTitle' => array(
+        'BoldTitle' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BoldTitle'
         ),
-        'border' => array(
+        'Border' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Border'
         ),
-        'detailVersion' => array(
+        'DetailVersion' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DetailVersion'
         ),
-        'featuredFirst' => array(
+        'FeaturedFirst' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FeaturedFirst'
         ),
-        'featuredPlus' => array(
+        'FeaturedPlus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FeaturedPlus'
         ),
-        'giftIcon' => array(
+        'GiftIcon' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'GiftIcon'
         ),
-        'highlight' => array(
+        'Highlight' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Highlight'
         ),
-        'homePageFeatured' => array(
+        'HomePageFeatured' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HomePageFeatured'
         ),
-        'proPack' => array(
+        'ProPack' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ProPack'
         ),
-        'updateTime' => array(
+        'UpdateTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
@@ -103,18 +103,12 @@ class ListingFeatureDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

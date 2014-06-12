@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerAlertTypeCodeType(string) $alertType
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerAutomationPropertyTypeCodeType(string) $automationAlert
- * @property integer $count
- * @property integer $durationInDays
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerGeneralPropertyTypeCodeType(string) $generalAlert
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerInventoryPropertyTypeCodeType(string) $inventoryAlert
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerPaisaPayPropertyTypeCodeType(string) $paisaPayAlert
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsPropertyTypeCodeType(string) $soldAlert
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerAlertTypeCodeType $AlertType
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerAutomationPropertyTypeCodeType $AutomationAlert
+ * @property integer $Count
+ * @property integer $DurationInDays
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerGeneralPropertyTypeCodeType $GeneralAlert
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerInventoryPropertyTypeCodeType $InventoryAlert
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerPaisaPayPropertyTypeCodeType $PaisaPayAlert
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerSoldListingsPropertyTypeCodeType $SoldAlert
  */
 class SellingManagerAlertType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -34,49 +34,49 @@ class SellingManagerAlertType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'alertType' => array(
+        'AlertType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AlertType'
         ),
-        'automationAlert' => array(
+        'AutomationAlert' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AutomationAlert'
         ),
-        'count' => array(
+        'Count' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Count'
         ),
-        'durationInDays' => array(
+        'DurationInDays' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DurationInDays'
         ),
-        'generalAlert' => array(
+        'GeneralAlert' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'GeneralAlert'
         ),
-        'inventoryAlert' => array(
+        'InventoryAlert' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'InventoryAlert'
         ),
-        'paisaPayAlert' => array(
+        'PaisaPayAlert' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaisaPayAlert'
         ),
-        'soldAlert' => array(
+        'SoldAlert' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -89,18 +89,12 @@ class SellingManagerAlertType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $crossPromotionEnabled
- * @property DTS\eBaySDK\Trading\Enums\GallerySortFilterCodeType(string) $crossSellGallerySortFilter
- * @property DTS\eBaySDK\Trading\Enums\ItemFormatSortFilterCodeType(string) $crossSellItemFormatSortFilter
- * @property DTS\eBaySDK\Trading\Enums\ItemSortFilterCodeType(string) $crossSellItemSortFilter
- * @property DTS\eBaySDK\Trading\Enums\GallerySortFilterCodeType(string) $upSellGallerySortFilter
- * @property DTS\eBaySDK\Trading\Enums\ItemFormatSortFilterCodeType(string) $upSellItemFormatSortFilter
- * @property DTS\eBaySDK\Trading\Enums\ItemSortFilterCodeType(string) $upSellItemSortFilter
+ * @property boolean $CrossPromotionEnabled
+ * @property \DTS\eBaySDK\Trading\Enums\GallerySortFilterCodeType $CrossSellGallerySortFilter
+ * @property \DTS\eBaySDK\Trading\Enums\ItemFormatSortFilterCodeType $CrossSellItemFormatSortFilter
+ * @property \DTS\eBaySDK\Trading\Enums\ItemSortFilterCodeType $CrossSellItemSortFilter
+ * @property \DTS\eBaySDK\Trading\Enums\GallerySortFilterCodeType $UpSellGallerySortFilter
+ * @property \DTS\eBaySDK\Trading\Enums\ItemFormatSortFilterCodeType $UpSellItemFormatSortFilter
+ * @property \DTS\eBaySDK\Trading\Enums\ItemSortFilterCodeType $UpSellItemSortFilter
  */
 class CrossPromotionPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,43 +33,43 @@ class CrossPromotionPreferencesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'crossPromotionEnabled' => array(
+        'CrossPromotionEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CrossPromotionEnabled'
         ),
-        'crossSellGallerySortFilter' => array(
+        'CrossSellGallerySortFilter' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CrossSellGallerySortFilter'
         ),
-        'crossSellItemFormatSortFilter' => array(
+        'CrossSellItemFormatSortFilter' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CrossSellItemFormatSortFilter'
         ),
-        'crossSellItemSortFilter' => array(
+        'CrossSellItemSortFilter' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CrossSellItemSortFilter'
         ),
-        'upSellGallerySortFilter' => array(
+        'UpSellGallerySortFilter' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UpSellGallerySortFilter'
         ),
-        'upSellItemFormatSortFilter' => array(
+        'UpSellItemFormatSortFilter' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UpSellItemFormatSortFilter'
         ),
-        'upSellItemSortFilter' => array(
+        'UpSellItemSortFilter' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class CrossPromotionPreferencesType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

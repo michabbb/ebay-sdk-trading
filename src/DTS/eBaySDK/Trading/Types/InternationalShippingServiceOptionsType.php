@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $importCharge
- * @property string $shipToLocation
- * @property DTS\eBaySDK\Trading\Types\AmountType $shippingInsuranceCost
- * @property string $shippingService
- * @property DTS\eBaySDK\Trading\Types\AmountType $shippingServiceAdditionalCost
- * @property DTS\eBaySDK\Trading\Types\AmountType $shippingServiceCost
- * @property DateTime $shippingServiceCutOffTime
- * @property integer $shippingServicePriority
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ImportCharge
+ * @property string[] $ShipToLocation
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingInsuranceCost
+ * @property string $ShippingService
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
+ * @property \DateTime $ShippingServiceCutOffTime
+ * @property integer $ShippingServicePriority
  */
 class InternationalShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -34,49 +34,49 @@ class InternationalShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseTyp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'importCharge' => array(
+        'ImportCharge' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ImportCharge'
         ),
-        'shipToLocation' => array(
+        'ShipToLocation' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ShipToLocation'
         ),
-        'shippingInsuranceCost' => array(
+        'ShippingInsuranceCost' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingInsuranceCost'
         ),
-        'shippingService' => array(
+        'ShippingService' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingService'
         ),
-        'shippingServiceAdditionalCost' => array(
+        'ShippingServiceAdditionalCost' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceAdditionalCost'
         ),
-        'shippingServiceCost' => array(
+        'ShippingServiceCost' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCost'
         ),
-        'shippingServiceCutOffTime' => array(
+        'ShippingServiceCutOffTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCutOffTime'
         ),
-        'shippingServicePriority' => array(
+        'ShippingServicePriority' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -89,18 +89,12 @@ class InternationalShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseTyp
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

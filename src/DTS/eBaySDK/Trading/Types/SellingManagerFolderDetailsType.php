@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType $childFolder
- * @property DateTime $creationTime
- * @property string $folderComment
- * @property integer $folderId
- * @property integer $folderLevel
- * @property string $folderName
- * @property integer $parentFolderId
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType[] $ChildFolder
+ * @property \DateTime $CreationTime
+ * @property string $FolderComment
+ * @property integer $FolderID
+ * @property integer $FolderLevel
+ * @property string $FolderName
+ * @property integer $ParentFolderID
  */
 class SellingManagerFolderDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,43 +33,43 @@ class SellingManagerFolderDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'childFolder' => array(
+        'ChildFolder' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerFolderDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ChildFolder'
         ),
-        'creationTime' => array(
+        'CreationTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CreationTime'
         ),
-        'folderComment' => array(
+        'FolderComment' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FolderComment'
         ),
-        'folderId' => array(
+        'FolderID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FolderID'
         ),
-        'folderLevel' => array(
+        'FolderLevel' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FolderLevel'
         ),
-        'folderName' => array(
+        'FolderName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FolderName'
         ),
-        'parentFolderId' => array(
+        'ParentFolderID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class SellingManagerFolderDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

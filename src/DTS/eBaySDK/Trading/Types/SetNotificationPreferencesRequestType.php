@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ApplicationDeliveryPreferencesType $applicationDeliveryPreferences
- * @property string $deliveryUrlnAme
- * @property DTS\eBaySDK\Trading\Types\NotificationEventPropertyType $eventProperty
- * @property DTS\eBaySDK\Trading\Types\NotificationUserDataType $userData
- * @property DTS\eBaySDK\Trading\Types\NotificationEnableArrayType $userDeliveryPreferenceArray
+ * @property \DTS\eBaySDK\Trading\Types\ApplicationDeliveryPreferencesType $ApplicationDeliveryPreferences
+ * @property string $DeliveryURLName
+ * @property \DTS\eBaySDK\Trading\Types\NotificationEventPropertyType[] $EventProperty
+ * @property \DTS\eBaySDK\Trading\Types\NotificationUserDataType $UserData
+ * @property \DTS\eBaySDK\Trading\Types\NotificationEnableArrayType $UserDeliveryPreferenceArray
  */
 class SetNotificationPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -31,31 +31,31 @@ class SetNotificationPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\A
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'applicationDeliveryPreferences' => array(
+        'ApplicationDeliveryPreferences' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ApplicationDeliveryPreferencesType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ApplicationDeliveryPreferences'
         ),
-        'deliveryUrlnAme' => array(
+        'DeliveryURLName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DeliveryURLName'
         ),
-        'eventProperty' => array(
+        'EventProperty' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\NotificationEventPropertyType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'EventProperty'
         ),
-        'userData' => array(
+        'UserData' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\NotificationUserDataType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UserData'
         ),
-        'userDeliveryPreferenceArray' => array(
+        'UserDeliveryPreferenceArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\NotificationEnableArrayType',
             'unbound' => false,
             'attribute' => false,
@@ -68,18 +68,12 @@ class SetNotificationPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\A
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

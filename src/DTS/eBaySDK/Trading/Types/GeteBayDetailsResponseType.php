@@ -19,31 +19,31 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\SiteBuyerRequirementDetailsType $buyerRequirementDetails
- * @property DTS\eBaySDK\Trading\Types\CountryDetailsType $countryDetails
- * @property DTS\eBaySDK\Trading\Types\CurrencyDetailsType $currencyDetails
- * @property DTS\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType $dispatchTimeMaxDetails
- * @property DTS\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType $excludeShippingLocationDetails
- * @property DTS\eBaySDK\Trading\Types\ItemSpecificDetailsType $itemSpecificDetails
- * @property DTS\eBaySDK\Trading\Types\ListingFeatureDetailsType $listingFeatureDetails
- * @property DTS\eBaySDK\Trading\Types\ListingStartPriceDetailsType $listingStartPriceDetails
- * @property DTS\eBaySDK\Trading\Types\PaymentOptionDetailsType $paymentOptionDetails
- * @property DTS\eBaySDK\Trading\Types\RecoupmentPolicyDetailsType $recoupmentPolicyDetails
- * @property DTS\eBaySDK\Trading\Types\RegionDetailsType $regionDetails
- * @property DTS\eBaySDK\Trading\Types\RegionOfOriginDetailsType $regionOfOriginDetails
- * @property DTS\eBaySDK\Trading\Types\ReturnPolicyDetailsType $returnPolicyDetails
- * @property DTS\eBaySDK\Trading\Types\ShippingCarrierDetailsType $shippingCarrierDetails
- * @property DTS\eBaySDK\Trading\Types\ShippingCategoryDetailsType $shippingCategoryDetails
- * @property DTS\eBaySDK\Trading\Types\ShippingLocationDetailsType $shippingLocationDetails
- * @property DTS\eBaySDK\Trading\Types\ShippingPackageDetailsType $shippingPackageDetails
- * @property DTS\eBaySDK\Trading\Types\ShippingServiceDetailsType $shippingServiceDetails
- * @property DTS\eBaySDK\Trading\Types\SiteDetailsType $siteDetails
- * @property DTS\eBaySDK\Trading\Types\TaxJurisdictionType $taxJurisdiction
- * @property DTS\eBaySDK\Trading\Types\TimeZoneDetailsType $timeZoneDetails
- * @property DTS\eBaySDK\Trading\Types\UnitOfMeasurementDetailsType $unitOfMeasurementDetails
- * @property DateTime $updateTime
- * @property DTS\eBaySDK\Trading\Types\URLDetailsType $urldEtails
- * @property DTS\eBaySDK\Trading\Types\VariationDetailsType $variationDetails
+ * @property \DTS\eBaySDK\Trading\Types\SiteBuyerRequirementDetailsType[] $BuyerRequirementDetails
+ * @property \DTS\eBaySDK\Trading\Types\CountryDetailsType[] $CountryDetails
+ * @property \DTS\eBaySDK\Trading\Types\CurrencyDetailsType[] $CurrencyDetails
+ * @property \DTS\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType[] $DispatchTimeMaxDetails
+ * @property \DTS\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType[] $ExcludeShippingLocationDetails
+ * @property \DTS\eBaySDK\Trading\Types\ItemSpecificDetailsType[] $ItemSpecificDetails
+ * @property \DTS\eBaySDK\Trading\Types\ListingFeatureDetailsType[] $ListingFeatureDetails
+ * @property \DTS\eBaySDK\Trading\Types\ListingStartPriceDetailsType[] $ListingStartPriceDetails
+ * @property \DTS\eBaySDK\Trading\Types\PaymentOptionDetailsType[] $PaymentOptionDetails
+ * @property \DTS\eBaySDK\Trading\Types\RecoupmentPolicyDetailsType[] $RecoupmentPolicyDetails
+ * @property \DTS\eBaySDK\Trading\Types\RegionDetailsType[] $RegionDetails
+ * @property \DTS\eBaySDK\Trading\Types\RegionOfOriginDetailsType[] $RegionOfOriginDetails
+ * @property \DTS\eBaySDK\Trading\Types\ReturnPolicyDetailsType $ReturnPolicyDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingCarrierDetailsType[] $ShippingCarrierDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingCategoryDetailsType[] $ShippingCategoryDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingLocationDetailsType[] $ShippingLocationDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingPackageDetailsType[] $ShippingPackageDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingServiceDetailsType[] $ShippingServiceDetails
+ * @property \DTS\eBaySDK\Trading\Types\SiteDetailsType[] $SiteDetails
+ * @property \DTS\eBaySDK\Trading\Types\TaxJurisdictionType[] $TaxJurisdiction
+ * @property \DTS\eBaySDK\Trading\Types\TimeZoneDetailsType[] $TimeZoneDetails
+ * @property \DTS\eBaySDK\Trading\Types\URLDetailsType[] $URLDetails
+ * @property \DTS\eBaySDK\Trading\Types\UnitOfMeasurementDetailsType[] $UnitOfMeasurementDetails
+ * @property \DateTime $UpdateTime
+ * @property \DTS\eBaySDK\Trading\Types\VariationDetailsType $VariationDetails
  */
 class GeteBayDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -51,151 +51,151 @@ class GeteBayDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'buyerRequirementDetails' => array(
+        'BuyerRequirementDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SiteBuyerRequirementDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'BuyerRequirementDetails'
         ),
-        'countryDetails' => array(
+        'CountryDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\CountryDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'CountryDetails'
         ),
-        'currencyDetails' => array(
+        'CurrencyDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\CurrencyDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'CurrencyDetails'
         ),
-        'dispatchTimeMaxDetails' => array(
+        'DispatchTimeMaxDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\DispatchTimeMaxDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'DispatchTimeMaxDetails'
         ),
-        'excludeShippingLocationDetails' => array(
+        'ExcludeShippingLocationDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ExcludeShippingLocationDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ExcludeShippingLocationDetails'
         ),
-        'itemSpecificDetails' => array(
+        'ItemSpecificDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemSpecificDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ItemSpecificDetails'
         ),
-        'listingFeatureDetails' => array(
+        'ListingFeatureDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ListingFeatureDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ListingFeatureDetails'
         ),
-        'listingStartPriceDetails' => array(
+        'ListingStartPriceDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ListingStartPriceDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ListingStartPriceDetails'
         ),
-        'paymentOptionDetails' => array(
+        'PaymentOptionDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaymentOptionDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'PaymentOptionDetails'
         ),
-        'recoupmentPolicyDetails' => array(
+        'RecoupmentPolicyDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\RecoupmentPolicyDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'RecoupmentPolicyDetails'
         ),
-        'regionDetails' => array(
+        'RegionDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\RegionDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'RegionDetails'
         ),
-        'regionOfOriginDetails' => array(
+        'RegionOfOriginDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\RegionOfOriginDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'RegionOfOriginDetails'
         ),
-        'returnPolicyDetails' => array(
+        'ReturnPolicyDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ReturnPolicyDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReturnPolicyDetails'
         ),
-        'shippingCarrierDetails' => array(
+        'ShippingCarrierDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingCarrierDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ShippingCarrierDetails'
         ),
-        'shippingCategoryDetails' => array(
+        'ShippingCategoryDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingCategoryDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ShippingCategoryDetails'
         ),
-        'shippingLocationDetails' => array(
+        'ShippingLocationDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingLocationDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ShippingLocationDetails'
         ),
-        'shippingPackageDetails' => array(
+        'ShippingPackageDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingPackageDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ShippingPackageDetails'
         ),
-        'shippingServiceDetails' => array(
+        'ShippingServiceDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingServiceDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ShippingServiceDetails'
         ),
-        'siteDetails' => array(
+        'SiteDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SiteDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'SiteDetails'
         ),
-        'taxJurisdiction' => array(
+        'TaxJurisdiction' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\TaxJurisdictionType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'TaxJurisdiction'
         ),
-        'timeZoneDetails' => array(
+        'TimeZoneDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\TimeZoneDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'TimeZoneDetails'
         ),
-        'unitOfMeasurementDetails' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\UnitOfMeasurementDetailsType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'UnitOfMeasurementDetails'
-        ),
-        'updateTime' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'UpdateTime'
-        ),
-        'urldEtails' => array(
+        'URLDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\URLDetailsType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'URLDetails'
         ),
-        'variationDetails' => array(
+        'UnitOfMeasurementDetails' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\UnitOfMeasurementDetailsType',
+            'unbound' => true,
+            'attribute' => false,
+            'elementName' => 'UnitOfMeasurementDetails'
+        ),
+        'UpdateTime' => array(
+            'type' => 'DateTime',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'UpdateTime'
+        ),
+        'VariationDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\VariationDetailsType',
             'unbound' => false,
             'attribute' => false,
@@ -208,18 +208,12 @@ class GeteBayDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResp
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

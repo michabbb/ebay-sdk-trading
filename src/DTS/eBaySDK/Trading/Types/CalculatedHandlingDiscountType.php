@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\HandlingNameCodeType(string) $discountName
- * @property DTS\eBaySDK\Trading\Types\AmountType $eachAdditionalAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $eachAdditionalOffAmount
- * @property double $eachAdditionalPercentOff
- * @property DTS\eBaySDK\Trading\Types\AmountType $orderHandlingAmount
+ * @property \DTS\eBaySDK\Trading\Enums\HandlingNameCodeType $DiscountName
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalOffAmount
+ * @property double $EachAdditionalPercentOff
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $OrderHandlingAmount
  */
 class CalculatedHandlingDiscountType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -31,31 +31,31 @@ class CalculatedHandlingDiscountType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'discountName' => array(
+        'DiscountName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DiscountName'
         ),
-        'eachAdditionalAmount' => array(
+        'EachAdditionalAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalAmount'
         ),
-        'eachAdditionalOffAmount' => array(
+        'EachAdditionalOffAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalOffAmount'
         ),
-        'eachAdditionalPercentOff' => array(
+        'EachAdditionalPercentOff' => array(
             'type' => 'double',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalPercentOff'
         ),
-        'orderHandlingAmount' => array(
+        'OrderHandlingAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
@@ -68,18 +68,12 @@ class CalculatedHandlingDiscountType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,17 +19,17 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\AccountEntrySortTypeCodeType(string) $accountEntrySortType
- * @property DTS\eBaySDK\Trading\Enums\AccountHistorySelectionCodeType(string) $accountHistorySelection
- * @property DateTime $beginDate
- * @property DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $currency
- * @property DateTime $endDate
- * @property boolean $excludeBalance
- * @property boolean $excludeSummary
- * @property boolean $includeConversionRate
- * @property DateTime $invoiceDate
- * @property string $itemId
- * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
+ * @property \DTS\eBaySDK\Trading\Enums\AccountEntrySortTypeCodeType $AccountEntrySortType
+ * @property \DTS\eBaySDK\Trading\Enums\AccountHistorySelectionCodeType $AccountHistorySelection
+ * @property \DateTime $BeginDate
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
+ * @property \DateTime $EndDate
+ * @property boolean $ExcludeBalance
+ * @property boolean $ExcludeSummary
+ * @property boolean $IncludeConversionRate
+ * @property \DateTime $InvoiceDate
+ * @property string $ItemID
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
  */
 class GetAccountRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -37,67 +37,67 @@ class GetAccountRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'accountEntrySortType' => array(
+        'AccountEntrySortType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AccountEntrySortType'
         ),
-        'accountHistorySelection' => array(
+        'AccountHistorySelection' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AccountHistorySelection'
         ),
-        'beginDate' => array(
+        'BeginDate' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BeginDate'
         ),
-        'currency' => array(
+        'Currency' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Currency'
         ),
-        'endDate' => array(
+        'EndDate' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EndDate'
         ),
-        'excludeBalance' => array(
+        'ExcludeBalance' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExcludeBalance'
         ),
-        'excludeSummary' => array(
+        'ExcludeSummary' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExcludeSummary'
         ),
-        'includeConversionRate' => array(
+        'IncludeConversionRate' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IncludeConversionRate'
         ),
-        'invoiceDate' => array(
+        'InvoiceDate' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'InvoiceDate'
         ),
-        'itemId' => array(
+        'ItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemID'
         ),
-        'pagination' => array(
+        'Pagination' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'unbound' => false,
             'attribute' => false,
@@ -110,18 +110,12 @@ class GetAccountRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $discountProfileId
- * @property string $discountProfileName
- * @property DTS\eBaySDK\Trading\Types\AmountType $eachAdditionalAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $eachAdditionalAmountOff
- * @property double $eachAdditionalPercentOff
- * @property string $mappedDiscountProfileId
- * @property DTS\eBaySDK\Trading\Types\MeasureType $weightOff
+ * @property string $DiscountProfileID
+ * @property string $DiscountProfileName
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $EachAdditionalAmountOff
+ * @property double $EachAdditionalPercentOff
+ * @property string $MappedDiscountProfileID
+ * @property \DTS\eBaySDK\Trading\Types\MeasureType $WeightOff
  */
 class DiscountProfileType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,43 +33,43 @@ class DiscountProfileType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'discountProfileId' => array(
+        'DiscountProfileID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DiscountProfileID'
         ),
-        'discountProfileName' => array(
+        'DiscountProfileName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DiscountProfileName'
         ),
-        'eachAdditionalAmount' => array(
+        'EachAdditionalAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalAmount'
         ),
-        'eachAdditionalAmountOff' => array(
+        'EachAdditionalAmountOff' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalAmountOff'
         ),
-        'eachAdditionalPercentOff' => array(
+        'EachAdditionalPercentOff' => array(
             'type' => 'double',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalPercentOff'
         ),
-        'mappedDiscountProfileId' => array(
+        'MappedDiscountProfileID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MappedDiscountProfileID'
         ),
-        'weightOff' => array(
+        'WeightOff' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class DiscountProfileType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

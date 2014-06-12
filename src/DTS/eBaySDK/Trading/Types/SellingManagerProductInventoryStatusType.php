@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $averageSellingPrice
- * @property integer $quantityActive
- * @property integer $quantityScheduled
- * @property integer $quantitySold
- * @property integer $quantityUnsold
- * @property double $successPercent
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AverageSellingPrice
+ * @property integer $QuantityActive
+ * @property integer $QuantityScheduled
+ * @property integer $QuantitySold
+ * @property integer $QuantityUnsold
+ * @property double $SuccessPercent
  */
 class SellingManagerProductInventoryStatusType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -32,37 +32,37 @@ class SellingManagerProductInventoryStatusType extends \DTS\eBaySDK\Types\BaseTy
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'averageSellingPrice' => array(
+        'AverageSellingPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AverageSellingPrice'
         ),
-        'quantityActive' => array(
+        'QuantityActive' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'QuantityActive'
         ),
-        'quantityScheduled' => array(
+        'QuantityScheduled' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'QuantityScheduled'
         ),
-        'quantitySold' => array(
+        'QuantitySold' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'QuantitySold'
         ),
-        'quantityUnsold' => array(
+        'QuantityUnsold' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'QuantityUnsold'
         ),
-        'successPercent' => array(
+        'SuccessPercent' => array(
             'type' => 'double',
             'unbound' => false,
             'attribute' => false,
@@ -75,18 +75,12 @@ class SellingManagerProductInventoryStatusType extends \DTS\eBaySDK\Types\BaseTy
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

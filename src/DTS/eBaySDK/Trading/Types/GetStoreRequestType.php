@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $categoryStructureOnly
- * @property integer $levelLimit
- * @property integer $rootCategoryId
- * @property string $userId
+ * @property boolean $CategoryStructureOnly
+ * @property integer $LevelLimit
+ * @property integer $RootCategoryID
+ * @property string $UserID
  */
 class GetStoreRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -30,25 +30,25 @@ class GetStoreRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'categoryStructureOnly' => array(
+        'CategoryStructureOnly' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryStructureOnly'
         ),
-        'levelLimit' => array(
+        'LevelLimit' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LevelLimit'
         ),
-        'rootCategoryId' => array(
+        'RootCategoryID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RootCategoryID'
         ),
-        'userId' => array(
+        'UserID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -61,18 +61,12 @@ class GetStoreRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

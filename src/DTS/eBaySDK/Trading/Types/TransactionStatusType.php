@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $buyerSelectedShipping
- * @property DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType(string) $checkoutStatus
- * @property DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType(string) $completeStatus
- * @property DTS\eBaySDK\Trading\Types\EBayPaymentMismatchDetailsType $eBayPaymentMismatchDetails
- * @property DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType(string) $eBayPaymentStatus
- * @property boolean $integratedMerchantCreditCardEnabled
- * @property DateTime $lastTimeModified
- * @property DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType(string) $paymentHoldStatus
- * @property DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType(string) $paymentMethodUsed
+ * @property boolean $BuyerSelectedShipping
+ * @property \DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType $CheckoutStatus
+ * @property \DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType $CompleteStatus
+ * @property boolean $IntegratedMerchantCreditCardEnabled
+ * @property \DateTime $LastTimeModified
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
+ * @property \DTS\eBaySDK\Trading\Types\EBayPaymentMismatchDetailsType $eBayPaymentMismatchDetails
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType $eBayPaymentStatus
  */
 class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,23 +35,47 @@ class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'buyerSelectedShipping' => array(
+        'BuyerSelectedShipping' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyerSelectedShipping'
         ),
-        'checkoutStatus' => array(
+        'CheckoutStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CheckoutStatus'
         ),
-        'completeStatus' => array(
+        'CompleteStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CompleteStatus'
+        ),
+        'IntegratedMerchantCreditCardEnabled' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'IntegratedMerchantCreditCardEnabled'
+        ),
+        'LastTimeModified' => array(
+            'type' => 'DateTime',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'LastTimeModified'
+        ),
+        'PaymentHoldStatus' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PaymentHoldStatus'
+        ),
+        'PaymentMethodUsed' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PaymentMethodUsed'
         ),
         'eBayPaymentMismatchDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\EBayPaymentMismatchDetailsType',
@@ -64,30 +88,6 @@ class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'eBayPaymentStatus'
-        ),
-        'integratedMerchantCreditCardEnabled' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'IntegratedMerchantCreditCardEnabled'
-        ),
-        'lastTimeModified' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'LastTimeModified'
-        ),
-        'paymentHoldStatus' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PaymentHoldStatus'
-        ),
-        'paymentMethodUsed' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PaymentMethodUsed'
         )
     );
 
@@ -96,18 +96,12 @@ class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

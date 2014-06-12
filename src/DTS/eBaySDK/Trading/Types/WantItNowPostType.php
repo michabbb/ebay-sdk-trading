@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $categoryId
- * @property string $description
- * @property string $postId
- * @property integer $responseCount
- * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $site
- * @property DateTime $startTime
- * @property string $title
+ * @property string $CategoryID
+ * @property string $Description
+ * @property string $PostID
+ * @property integer $ResponseCount
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $Site
+ * @property \DateTime $StartTime
+ * @property string $Title
  */
 class WantItNowPostType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,43 +33,43 @@ class WantItNowPostType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'categoryId' => array(
+        'CategoryID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryID'
         ),
-        'description' => array(
+        'Description' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Description'
         ),
-        'postId' => array(
+        'PostID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PostID'
         ),
-        'responseCount' => array(
+        'ResponseCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ResponseCount'
         ),
-        'site' => array(
+        'Site' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Site'
         ),
-        'startTime' => array(
+        'StartTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StartTime'
         ),
-        'title' => array(
+        'Title' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class WantItNowPostType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

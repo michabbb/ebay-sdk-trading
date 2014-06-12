@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DisputeArrayType $disputeArray
- * @property DTS\eBaySDK\Trading\Types\DisputeFilterCountType $disputeFilterCount
- * @property string $endingDisputeId
- * @property integer $itemsPerPage
- * @property integer $pageNumber
- * @property DTS\eBaySDK\Trading\Types\PaginationResultType $paginationResult
- * @property string $startingDisputeId
+ * @property \DTS\eBaySDK\Trading\Types\DisputeArrayType $DisputeArray
+ * @property \DTS\eBaySDK\Trading\Types\DisputeFilterCountType[] $DisputeFilterCount
+ * @property string $EndingDisputeID
+ * @property integer $ItemsPerPage
+ * @property integer $PageNumber
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property string $StartingDisputeID
  */
 class GetUserDisputesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -33,43 +33,43 @@ class GetUserDisputesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'disputeArray' => array(
+        'DisputeArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\DisputeArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DisputeArray'
         ),
-        'disputeFilterCount' => array(
+        'DisputeFilterCount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\DisputeFilterCountType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'DisputeFilterCount'
         ),
-        'endingDisputeId' => array(
+        'EndingDisputeID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EndingDisputeID'
         ),
-        'itemsPerPage' => array(
+        'ItemsPerPage' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemsPerPage'
         ),
-        'pageNumber' => array(
+        'PageNumber' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PageNumber'
         ),
-        'paginationResult' => array(
+        'PaginationResult' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'
         ),
-        'startingDisputeId' => array(
+        'StartingDisputeID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class GetUserDisputesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRes
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

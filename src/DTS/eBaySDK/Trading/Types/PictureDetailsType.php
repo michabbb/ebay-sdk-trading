@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $externalPictureUrl
- * @property string $galleryDuration
- * @property string $galleryErrorInfo
- * @property DTS\eBaySDK\Trading\Enums\GalleryStatusCodeType(string) $galleryStatus
- * @property DTS\eBaySDK\Trading\Enums\GalleryTypeCodeType(string) $galleryType
- * @property string $galleryUrl
- * @property DTS\eBaySDK\Trading\Enums\PhotoDisplayCodeType(string) $photoDisplay
- * @property DTS\eBaySDK\Trading\Enums\PictureSourceCodeType(string) $pictureSource
- * @property string $pictureUrl
+ * @property string[] $ExternalPictureURL
+ * @property string $GalleryDuration
+ * @property string $GalleryErrorInfo
+ * @property \DTS\eBaySDK\Trading\Enums\GalleryStatusCodeType $GalleryStatus
+ * @property \DTS\eBaySDK\Trading\Enums\GalleryTypeCodeType $GalleryType
+ * @property string $GalleryURL
+ * @property \DTS\eBaySDK\Trading\Enums\PhotoDisplayCodeType $PhotoDisplay
+ * @property \DTS\eBaySDK\Trading\Enums\PictureSourceCodeType $PictureSource
+ * @property string[] $PictureURL
  */
 class PictureDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,55 +35,55 @@ class PictureDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'externalPictureUrl' => array(
+        'ExternalPictureURL' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ExternalPictureURL'
         ),
-        'galleryDuration' => array(
+        'GalleryDuration' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'GalleryDuration'
         ),
-        'galleryErrorInfo' => array(
+        'GalleryErrorInfo' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'GalleryErrorInfo'
         ),
-        'galleryStatus' => array(
+        'GalleryStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'GalleryStatus'
         ),
-        'galleryType' => array(
+        'GalleryType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'GalleryType'
         ),
-        'galleryUrl' => array(
+        'GalleryURL' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'GalleryURL'
         ),
-        'photoDisplay' => array(
+        'PhotoDisplay' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PhotoDisplay'
         ),
-        'pictureSource' => array(
+        'PictureSource' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PictureSource'
         ),
-        'pictureUrl' => array(
+        'PictureURL' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
@@ -96,18 +96,12 @@ class PictureDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

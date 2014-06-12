@@ -19,25 +19,25 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $customCategories
- * @property string $customHeader
- * @property DTS\eBaySDK\Trading\Enums\StoreCustomHeaderLayoutCodeType(string) $customHeaderLayout
- * @property DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderType $customListingHeader
- * @property string $description
- * @property boolean $exportListings
- * @property DTS\eBaySDK\Trading\Enums\StoreHeaderStyleCodeType(string) $headerStyle
- * @property integer $homePage
- * @property DTS\eBaySDK\Trading\Enums\StoreItemListLayoutCodeType(string) $itemListLayout
- * @property DTS\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType(string) $itemListSortOrder
- * @property DateTime $lastOpenedTime
- * @property DTS\eBaySDK\Trading\Types\StoreLogoType $logo
- * @property DTS\eBaySDK\Trading\Enums\MerchDisplayCodeType(string) $merchDisplay
- * @property string $name
- * @property DTS\eBaySDK\Trading\Enums\StoreSubscriptionLevelCodeType(string) $subscriptionLevel
- * @property DTS\eBaySDK\Trading\Types\StoreThemeType $theme
- * @property boolean $titleWithCompatibility
- * @property string $url
- * @property string $urlpAth
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType $CustomCategories
+ * @property string $CustomHeader
+ * @property \DTS\eBaySDK\Trading\Enums\StoreCustomHeaderLayoutCodeType $CustomHeaderLayout
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderType $CustomListingHeader
+ * @property string $Description
+ * @property boolean $ExportListings
+ * @property \DTS\eBaySDK\Trading\Enums\StoreHeaderStyleCodeType $HeaderStyle
+ * @property integer $HomePage
+ * @property \DTS\eBaySDK\Trading\Enums\StoreItemListLayoutCodeType $ItemListLayout
+ * @property \DTS\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType $ItemListSortOrder
+ * @property \DateTime $LastOpenedTime
+ * @property \DTS\eBaySDK\Trading\Types\StoreLogoType $Logo
+ * @property \DTS\eBaySDK\Trading\Enums\MerchDisplayCodeType $MerchDisplay
+ * @property string $Name
+ * @property \DTS\eBaySDK\Trading\Enums\StoreSubscriptionLevelCodeType $SubscriptionLevel
+ * @property \DTS\eBaySDK\Trading\Types\StoreThemeType $Theme
+ * @property boolean $TitleWithCompatibility
+ * @property string $URL
+ * @property string $URLPath
  */
 class StoreType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -45,115 +45,115 @@ class StoreType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'customCategories' => array(
+        'CustomCategories' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomCategoryArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CustomCategories'
         ),
-        'customHeader' => array(
+        'CustomHeader' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CustomHeader'
         ),
-        'customHeaderLayout' => array(
+        'CustomHeaderLayout' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CustomHeaderLayout'
         ),
-        'customListingHeader' => array(
+        'CustomListingHeader' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CustomListingHeader'
         ),
-        'description' => array(
+        'Description' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Description'
         ),
-        'exportListings' => array(
+        'ExportListings' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExportListings'
         ),
-        'headerStyle' => array(
+        'HeaderStyle' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HeaderStyle'
         ),
-        'homePage' => array(
+        'HomePage' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HomePage'
         ),
-        'itemListLayout' => array(
+        'ItemListLayout' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemListLayout'
         ),
-        'itemListSortOrder' => array(
+        'ItemListSortOrder' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemListSortOrder'
         ),
-        'lastOpenedTime' => array(
+        'LastOpenedTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LastOpenedTime'
         ),
-        'logo' => array(
+        'Logo' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\StoreLogoType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Logo'
         ),
-        'merchDisplay' => array(
+        'MerchDisplay' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MerchDisplay'
         ),
-        'name' => array(
+        'Name' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Name'
         ),
-        'subscriptionLevel' => array(
+        'SubscriptionLevel' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SubscriptionLevel'
         ),
-        'theme' => array(
+        'Theme' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\StoreThemeType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Theme'
         ),
-        'titleWithCompatibility' => array(
+        'TitleWithCompatibility' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TitleWithCompatibility'
         ),
-        'url' => array(
+        'URL' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'URL'
         ),
-        'urlpAth' => array(
+        'URLPath' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -166,18 +166,12 @@ class StoreType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

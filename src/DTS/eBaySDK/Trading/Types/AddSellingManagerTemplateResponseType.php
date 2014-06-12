@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $category2Id
- * @property integer $categoryId
- * @property DTS\eBaySDK\Trading\Types\FeesType $fees
- * @property integer $saleTemplateGroupId
- * @property integer $saleTemplateId
- * @property string $saleTemplateName
- * @property DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $sellingManagerProductDetails
+ * @property integer $Category2ID
+ * @property integer $CategoryID
+ * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property integer $SaleTemplateGroupID
+ * @property integer $SaleTemplateID
+ * @property string $SaleTemplateName
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
  */
 class AddSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -33,43 +33,43 @@ class AddSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\A
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'category2Id' => array(
+        'Category2ID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Category2ID'
         ),
-        'categoryId' => array(
+        'CategoryID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryID'
         ),
-        'fees' => array(
+        'Fees' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Fees'
         ),
-        'saleTemplateGroupId' => array(
+        'SaleTemplateGroupID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SaleTemplateGroupID'
         ),
-        'saleTemplateId' => array(
+        'SaleTemplateID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SaleTemplateID'
         ),
-        'saleTemplateName' => array(
+        'SaleTemplateName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SaleTemplateName'
         ),
-        'sellingManagerProductDetails' => array(
+        'SellingManagerProductDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class AddSellingManagerTemplateResponseType extends \DTS\eBaySDK\Trading\Types\A
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

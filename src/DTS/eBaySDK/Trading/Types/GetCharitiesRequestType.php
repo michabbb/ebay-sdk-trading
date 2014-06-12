@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $charityDomain
- * @property string $charityId
- * @property string $charityName
- * @property integer $charityRegion
- * @property boolean $featured
- * @property boolean $includeDescription
- * @property DTS\eBaySDK\Trading\Enums\StringMatchCodeType(string) $matchType
- * @property string $query
+ * @property integer $CharityDomain
+ * @property string $CharityID
+ * @property string $CharityName
+ * @property integer $CharityRegion
+ * @property boolean $Featured
+ * @property boolean $IncludeDescription
+ * @property \DTS\eBaySDK\Trading\Enums\StringMatchCodeType $MatchType
+ * @property string $Query
  */
 class GetCharitiesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -34,49 +34,49 @@ class GetCharitiesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequest
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'charityDomain' => array(
+        'CharityDomain' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CharityDomain'
         ),
-        'charityId' => array(
+        'CharityID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CharityID'
         ),
-        'charityName' => array(
+        'CharityName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CharityName'
         ),
-        'charityRegion' => array(
+        'CharityRegion' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CharityRegion'
         ),
-        'featured' => array(
+        'Featured' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Featured'
         ),
-        'includeDescription' => array(
+        'IncludeDescription' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IncludeDescription'
         ),
-        'matchType' => array(
+        'MatchType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MatchType'
         ),
-        'query' => array(
+        'Query' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -89,18 +89,12 @@ class GetCharitiesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequest
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

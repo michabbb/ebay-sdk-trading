@@ -19,17 +19,17 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $endTimeFrom
- * @property DateTime $endTimeTo
- * @property boolean $hideVariations
- * @property boolean $includeVariationSpecifics
- * @property boolean $includeWatchCount
- * @property DateTime $modTimeFrom
- * @property DateTime $modTimeTo
- * @property boolean $newItemFilter
- * @property DateTime $startTimeFrom
- * @property DateTime $startTimeTo
- * @property string $userId
+ * @property \DateTime $EndTimeFrom
+ * @property \DateTime $EndTimeTo
+ * @property boolean $HideVariations
+ * @property boolean $IncludeVariationSpecifics
+ * @property boolean $IncludeWatchCount
+ * @property \DateTime $ModTimeFrom
+ * @property \DateTime $ModTimeTo
+ * @property boolean $NewItemFilter
+ * @property \DateTime $StartTimeFrom
+ * @property \DateTime $StartTimeTo
+ * @property string $UserID
  */
 class GetSellerEventsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -37,67 +37,67 @@ class GetSellerEventsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'endTimeFrom' => array(
+        'EndTimeFrom' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EndTimeFrom'
         ),
-        'endTimeTo' => array(
+        'EndTimeTo' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EndTimeTo'
         ),
-        'hideVariations' => array(
+        'HideVariations' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HideVariations'
         ),
-        'includeVariationSpecifics' => array(
+        'IncludeVariationSpecifics' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IncludeVariationSpecifics'
         ),
-        'includeWatchCount' => array(
+        'IncludeWatchCount' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IncludeWatchCount'
         ),
-        'modTimeFrom' => array(
+        'ModTimeFrom' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ModTimeFrom'
         ),
-        'modTimeTo' => array(
+        'ModTimeTo' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ModTimeTo'
         ),
-        'newItemFilter' => array(
+        'NewItemFilter' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NewItemFilter'
         ),
-        'startTimeFrom' => array(
+        'StartTimeFrom' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StartTimeFrom'
         ),
-        'startTimeTo' => array(
+        'StartTimeTo' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StartTimeTo'
         ),
-        'userId' => array(
+        'UserID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -110,18 +110,12 @@ class GetSellerEventsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

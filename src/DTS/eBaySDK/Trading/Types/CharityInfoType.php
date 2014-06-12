@@ -19,24 +19,24 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $charityDomain
- * @property integer $charityRegion
- * @property string $description
- * @property boolean $displayLogoSelling
- * @property string $ein
- * @property string $externalId
+ * @property integer[] $CharityDomain
+ * @property integer $CharityRegion
+ * @property string $Description
+ * @property boolean $DisplayLogoSelling
+ * @property string $EIN
+ * @property string $ExternalID
+ * @property string $ListingNPContactName
+ * @property string $ListingNPEmail
+ * @property boolean $ListingNPEmailNotifPref
+ * @property string $LogoURL
+ * @property string $LogoURLSelling
+ * @property string $Mission
+ * @property string $Name
+ * @property \DTS\eBaySDK\Trading\Types\NonProfitAddressType[] $NonProfitAddress
+ * @property string $NonProfitSecondName
+ * @property \DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType[] $NonProfitSocialAddress
+ * @property integer $PopularityIndex
  * @property string $id
- * @property string $listingNpcOntactName
- * @property string $listingNpeMail
- * @property boolean $listingNpeMailNotifPref
- * @property string $logoUrl
- * @property string $logoUrlsElling
- * @property string $mission
- * @property string $name
- * @property DTS\eBaySDK\Trading\Types\NonProfitAddressType $nonProfitAddress
- * @property string $nonProfitSecondName
- * @property DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType $nonProfitSocialAddress
- * @property integer $popularityIndex
  */
 class CharityInfoType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -44,113 +44,113 @@ class CharityInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'charityDomain' => array(
+        'CharityDomain' => array(
             'type' => 'integer',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'CharityDomain'
         ),
-        'charityRegion' => array(
+        'CharityRegion' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CharityRegion'
         ),
-        'description' => array(
+        'Description' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Description'
         ),
-        'displayLogoSelling' => array(
+        'DisplayLogoSelling' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DisplayLogoSelling'
         ),
-        'ein' => array(
+        'EIN' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EIN'
         ),
-        'externalId' => array(
+        'ExternalID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExternalID'
+        ),
+        'ListingNPContactName' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ListingNPContactName'
+        ),
+        'ListingNPEmail' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ListingNPEmail'
+        ),
+        'ListingNPEmailNotifPref' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ListingNPEmailNotifPref'
+        ),
+        'LogoURL' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'LogoURL'
+        ),
+        'LogoURLSelling' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'LogoURLSelling'
+        ),
+        'Mission' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'Mission'
+        ),
+        'Name' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'Name'
+        ),
+        'NonProfitAddress' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\NonProfitAddressType',
+            'unbound' => true,
+            'attribute' => false,
+            'elementName' => 'NonProfitAddress'
+        ),
+        'NonProfitSecondName' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'NonProfitSecondName'
+        ),
+        'NonProfitSocialAddress' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType',
+            'unbound' => true,
+            'attribute' => false,
+            'elementName' => 'NonProfitSocialAddress'
+        ),
+        'PopularityIndex' => array(
+            'type' => 'integer',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PopularityIndex'
         ),
         'id' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => true,
             'attributeName' => 'id'
-        ),
-        'listingNpcOntactName' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ListingNPContactName'
-        ),
-        'listingNpeMail' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ListingNPEmail'
-        ),
-        'listingNpeMailNotifPref' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ListingNPEmailNotifPref'
-        ),
-        'logoUrl' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'LogoURL'
-        ),
-        'logoUrlsElling' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'LogoURLSelling'
-        ),
-        'mission' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Mission'
-        ),
-        'name' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Name'
-        ),
-        'nonProfitAddress' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\NonProfitAddressType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'NonProfitAddress'
-        ),
-        'nonProfitSecondName' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'NonProfitSecondName'
-        ),
-        'nonProfitSocialAddress' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'NonProfitSocialAddress'
-        ),
-        'popularityIndex' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PopularityIndex'
         )
     );
 
@@ -159,18 +159,12 @@ class CharityInfoType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,17 +19,17 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $category2Id
- * @property string $categoryId
- * @property string $correlationId
- * @property DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType(string) $discountReason
- * @property DateTime $endTime
- * @property DTS\eBaySDK\Trading\Types\ErrorType $errors
- * @property DTS\eBaySDK\Trading\Types\FeesType $fees
- * @property string $itemId
- * @property DTS\eBaySDK\Trading\Types\ListingRecommendationsType $listingRecommendations
- * @property string $message
- * @property DateTime $startTime
+ * @property string $Category2ID
+ * @property string $CategoryID
+ * @property string $CorrelationID
+ * @property \DTS\eBaySDK\Trading\Enums\DiscountReasonCodeType[] $DiscountReason
+ * @property \DateTime $EndTime
+ * @property \DTS\eBaySDK\Trading\Types\ErrorType[] $Errors
+ * @property \DTS\eBaySDK\Trading\Types\FeesType $Fees
+ * @property string $ItemID
+ * @property \DTS\eBaySDK\Trading\Types\ListingRecommendationsType $ListingRecommendations
+ * @property string $Message
+ * @property \DateTime $StartTime
  */
 class AddItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -37,67 +37,67 @@ class AddItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'category2Id' => array(
+        'Category2ID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Category2ID'
         ),
-        'categoryId' => array(
+        'CategoryID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryID'
         ),
-        'correlationId' => array(
+        'CorrelationID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CorrelationID'
         ),
-        'discountReason' => array(
+        'DiscountReason' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'DiscountReason'
         ),
-        'endTime' => array(
+        'EndTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EndTime'
         ),
-        'errors' => array(
+        'Errors' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ErrorType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'Errors'
         ),
-        'fees' => array(
+        'Fees' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FeesType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Fees'
         ),
-        'itemId' => array(
+        'ItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemID'
         ),
-        'listingRecommendations' => array(
+        'ListingRecommendations' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ListingRecommendationsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingRecommendations'
         ),
-        'message' => array(
+        'Message' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Message'
         ),
-        'startTime' => array(
+        'StartTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
@@ -110,18 +110,12 @@ class AddItemResponseContainerType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

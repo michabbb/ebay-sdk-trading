@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $baseUrl
- * @property string $externalPictureUrl
- * @property string $fullUrl
- * @property DTS\eBaySDK\Trading\Enums\PictureFormatCodeType(string) $pictureFormat
- * @property string $pictureName
- * @property DTS\eBaySDK\Trading\Enums\PictureSetCodeType(string) $pictureSet
- * @property DTS\eBaySDK\Trading\Types\PictureSetMemberType $pictureSetMember
- * @property DateTime $useByDate
+ * @property string $BaseURL
+ * @property string $ExternalPictureURL
+ * @property string $FullURL
+ * @property \DTS\eBaySDK\Trading\Enums\PictureFormatCodeType $PictureFormat
+ * @property string $PictureName
+ * @property \DTS\eBaySDK\Trading\Enums\PictureSetCodeType $PictureSet
+ * @property \DTS\eBaySDK\Trading\Types\PictureSetMemberType[] $PictureSetMember
+ * @property \DateTime $UseByDate
  */
 class SiteHostedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -34,49 +34,49 @@ class SiteHostedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'baseUrl' => array(
+        'BaseURL' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BaseURL'
         ),
-        'externalPictureUrl' => array(
+        'ExternalPictureURL' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExternalPictureURL'
         ),
-        'fullUrl' => array(
+        'FullURL' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FullURL'
         ),
-        'pictureFormat' => array(
+        'PictureFormat' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PictureFormat'
         ),
-        'pictureName' => array(
+        'PictureName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PictureName'
         ),
-        'pictureSet' => array(
+        'PictureSet' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PictureSet'
         ),
-        'pictureSetMember' => array(
+        'PictureSetMember' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PictureSetMemberType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'PictureSetMember'
         ),
-        'useByDate' => array(
+        'UseByDate' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
@@ -89,18 +89,12 @@ class SiteHostedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

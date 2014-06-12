@@ -19,20 +19,20 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $expeditedService
- * @property boolean $freeShipping
- * @property DTS\eBaySDK\Trading\Types\AmountType $importCharge
- * @property boolean $localPickup
- * @property DTS\eBaySDK\Trading\Types\AmountType $shippingInsuranceCost
- * @property DTS\eBaySDK\Trading\Types\ShippingPackageInfoType $shippingPackageInfo
- * @property string $shippingService
- * @property DTS\eBaySDK\Trading\Types\AmountType $shippingServiceAdditionalCost
- * @property DTS\eBaySDK\Trading\Types\AmountType $shippingServiceCost
- * @property DateTime $shippingServiceCutOffTime
- * @property integer $shippingServicePriority
- * @property DTS\eBaySDK\Trading\Types\AmountType $shippingSurcharge
- * @property integer $shippingTimeMax
- * @property integer $shippingTimeMin
+ * @property boolean $ExpeditedService
+ * @property boolean $FreeShipping
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ImportCharge
+ * @property boolean $LocalPickup
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingInsuranceCost
+ * @property \DTS\eBaySDK\Trading\Types\ShippingPackageInfoType[] $ShippingPackageInfo
+ * @property string $ShippingService
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
+ * @property \DateTime $ShippingServiceCutOffTime
+ * @property integer $ShippingServicePriority
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingSurcharge
+ * @property integer $ShippingTimeMax
+ * @property integer $ShippingTimeMin
  */
 class ShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -40,85 +40,85 @@ class ShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'expeditedService' => array(
+        'ExpeditedService' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExpeditedService'
         ),
-        'freeShipping' => array(
+        'FreeShipping' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FreeShipping'
         ),
-        'importCharge' => array(
+        'ImportCharge' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ImportCharge'
         ),
-        'localPickup' => array(
+        'LocalPickup' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LocalPickup'
         ),
-        'shippingInsuranceCost' => array(
+        'ShippingInsuranceCost' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingInsuranceCost'
         ),
-        'shippingPackageInfo' => array(
+        'ShippingPackageInfo' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingPackageInfoType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ShippingPackageInfo'
         ),
-        'shippingService' => array(
+        'ShippingService' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingService'
         ),
-        'shippingServiceAdditionalCost' => array(
+        'ShippingServiceAdditionalCost' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceAdditionalCost'
         ),
-        'shippingServiceCost' => array(
+        'ShippingServiceCost' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCost'
         ),
-        'shippingServiceCutOffTime' => array(
+        'ShippingServiceCutOffTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCutOffTime'
         ),
-        'shippingServicePriority' => array(
+        'ShippingServicePriority' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingServicePriority'
         ),
-        'shippingSurcharge' => array(
+        'ShippingSurcharge' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingSurcharge'
         ),
-        'shippingTimeMax' => array(
+        'ShippingTimeMax' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingTimeMax'
         ),
-        'shippingTimeMin' => array(
+        'ShippingTimeMin' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -131,18 +131,12 @@ class ShippingServiceOptionsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

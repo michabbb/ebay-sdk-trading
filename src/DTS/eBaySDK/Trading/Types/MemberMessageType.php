@@ -19,19 +19,19 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $body
- * @property boolean $displayToPublic
- * @property boolean $emailCopyToSender
- * @property boolean $hideSendersEmailAddress
- * @property string $messageId
- * @property DTS\eBaySDK\Trading\Types\MessageMediaType $messageMedia
- * @property DTS\eBaySDK\Trading\Enums\MessageTypeCodeType(string) $messageType
- * @property string $parentMessageId
- * @property DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType(string) $questionType
- * @property string $recipientId
- * @property string $senderEmail
- * @property string $senderId
- * @property string $subject
+ * @property string $Body
+ * @property boolean $DisplayToPublic
+ * @property boolean $EmailCopyToSender
+ * @property boolean $HideSendersEmailAddress
+ * @property string $MessageID
+ * @property \DTS\eBaySDK\Trading\Types\MessageMediaType[] $MessageMedia
+ * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType $MessageType
+ * @property string $ParentMessageID
+ * @property \DTS\eBaySDK\Trading\Enums\QuestionTypeCodeType $QuestionType
+ * @property string[] $RecipientID
+ * @property string $SenderEmail
+ * @property string $SenderID
+ * @property string $Subject
  */
 class MemberMessageType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -39,79 +39,79 @@ class MemberMessageType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'body' => array(
+        'Body' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Body'
         ),
-        'displayToPublic' => array(
+        'DisplayToPublic' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DisplayToPublic'
         ),
-        'emailCopyToSender' => array(
+        'EmailCopyToSender' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EmailCopyToSender'
         ),
-        'hideSendersEmailAddress' => array(
+        'HideSendersEmailAddress' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HideSendersEmailAddress'
         ),
-        'messageId' => array(
+        'MessageID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MessageID'
         ),
-        'messageMedia' => array(
+        'MessageMedia' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MessageMediaType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'MessageMedia'
         ),
-        'messageType' => array(
+        'MessageType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MessageType'
         ),
-        'parentMessageId' => array(
+        'ParentMessageID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ParentMessageID'
         ),
-        'questionType' => array(
+        'QuestionType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'QuestionType'
         ),
-        'recipientId' => array(
+        'RecipientID' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'RecipientID'
         ),
-        'senderEmail' => array(
+        'SenderEmail' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SenderEmail'
         ),
-        'senderId' => array(
+        'SenderID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SenderID'
         ),
-        'subject' => array(
+        'Subject' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -124,18 +124,12 @@ class MemberMessageType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

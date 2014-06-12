@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $groupId
- * @property integer $id
- * @property string $imageUrl
- * @property string $name
- * @property string $templateXml
- * @property DTS\eBaySDK\Trading\Enums\DescriptionTemplateCodeType(string) $type
+ * @property integer $GroupID
+ * @property integer $ID
+ * @property string $ImageURL
+ * @property string $Name
+ * @property string $TemplateXML
+ * @property \DTS\eBaySDK\Trading\Enums\DescriptionTemplateCodeType $Type
  */
 class DescriptionTemplateType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -32,37 +32,37 @@ class DescriptionTemplateType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'groupId' => array(
+        'GroupID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'GroupID'
         ),
-        'id' => array(
+        'ID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ID'
         ),
-        'imageUrl' => array(
+        'ImageURL' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ImageURL'
         ),
-        'name' => array(
+        'Name' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Name'
         ),
-        'templateXml' => array(
+        'TemplateXML' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TemplateXML'
         ),
-        'type' => array(
+        'Type' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -75,18 +75,12 @@ class DescriptionTemplateType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

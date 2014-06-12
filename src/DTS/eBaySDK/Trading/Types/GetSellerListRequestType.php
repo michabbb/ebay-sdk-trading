@@ -19,20 +19,20 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $adminEndedItemsOnly
- * @property integer $categoryId
- * @property DateTime $endTimeFrom
- * @property DateTime $endTimeTo
- * @property DTS\eBaySDK\Trading\Enums\GranularityLevelCodeType(string) $granularityLevel
- * @property boolean $includeVariations
- * @property boolean $includeWatchCount
- * @property DTS\eBaySDK\Trading\Types\UserIDArrayType $motorsDealerUsers
- * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
- * @property DTS\eBaySDK\Trading\Types\SKUArrayType $skuaRray
- * @property integer $sort
- * @property DateTime $startTimeFrom
- * @property DateTime $startTimeTo
- * @property string $userId
+ * @property boolean $AdminEndedItemsOnly
+ * @property integer $CategoryID
+ * @property \DateTime $EndTimeFrom
+ * @property \DateTime $EndTimeTo
+ * @property \DTS\eBaySDK\Trading\Enums\GranularityLevelCodeType $GranularityLevel
+ * @property boolean $IncludeVariations
+ * @property boolean $IncludeWatchCount
+ * @property \DTS\eBaySDK\Trading\Types\UserIDArrayType $MotorsDealerUsers
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Types\SKUArrayType $SKUArray
+ * @property integer $Sort
+ * @property \DateTime $StartTimeFrom
+ * @property \DateTime $StartTimeTo
+ * @property string $UserID
  */
 class GetSellerListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -40,85 +40,85 @@ class GetSellerListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'adminEndedItemsOnly' => array(
+        'AdminEndedItemsOnly' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AdminEndedItemsOnly'
         ),
-        'categoryId' => array(
+        'CategoryID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CategoryID'
         ),
-        'endTimeFrom' => array(
+        'EndTimeFrom' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EndTimeFrom'
         ),
-        'endTimeTo' => array(
+        'EndTimeTo' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EndTimeTo'
         ),
-        'granularityLevel' => array(
+        'GranularityLevel' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'GranularityLevel'
         ),
-        'includeVariations' => array(
+        'IncludeVariations' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IncludeVariations'
         ),
-        'includeWatchCount' => array(
+        'IncludeWatchCount' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IncludeWatchCount'
         ),
-        'motorsDealerUsers' => array(
+        'MotorsDealerUsers' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\UserIDArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MotorsDealerUsers'
         ),
-        'pagination' => array(
+        'Pagination' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Pagination'
         ),
-        'skuaRray' => array(
+        'SKUArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SKUArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SKUArray'
         ),
-        'sort' => array(
+        'Sort' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Sort'
         ),
-        'startTimeFrom' => array(
+        'StartTimeFrom' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StartTimeFrom'
         ),
-        'startTimeTo' => array(
+        'StartTimeTo' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StartTimeTo'
         ),
-        'userId' => array(
+        'UserID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -131,18 +131,12 @@ class GetSellerListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReques
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

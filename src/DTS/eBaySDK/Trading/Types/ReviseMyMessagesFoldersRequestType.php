@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $folderId
- * @property string $folderName
- * @property DTS\eBaySDK\Trading\Enums\MyMessagesFolderOperationCodeType(string) $operation
+ * @property integer[] $FolderID
+ * @property string[] $FolderName
+ * @property \DTS\eBaySDK\Trading\Enums\MyMessagesFolderOperationCodeType $Operation
  */
 class ReviseMyMessagesFoldersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -29,19 +29,19 @@ class ReviseMyMessagesFoldersRequestType extends \DTS\eBaySDK\Trading\Types\Abst
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'folderId' => array(
+        'FolderID' => array(
             'type' => 'integer',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'FolderID'
         ),
-        'folderName' => array(
+        'FolderName' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'FolderName'
         ),
-        'operation' => array(
+        'Operation' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -54,18 +54,12 @@ class ReviseMyMessagesFoldersRequestType extends \DTS\eBaySDK\Trading\Types\Abst
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

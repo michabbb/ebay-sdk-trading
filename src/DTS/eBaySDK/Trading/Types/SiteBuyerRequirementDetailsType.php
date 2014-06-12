@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $detailVersion
- * @property boolean $linkedPayPalAccount
- * @property DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsDetailsType $maximumBuyerPolicyViolations
- * @property DTS\eBaySDK\Trading\Types\MaximumItemRequirementsDetailsType $maximumItemRequirements
- * @property DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoDetailsType $maximumUnpaidItemStrikesInfo
- * @property DTS\eBaySDK\Trading\Types\MinimumFeedbackScoreDetailsType $minimumFeedbackScore
- * @property boolean $shipToRegistrationCountry
- * @property DateTime $updateTime
- * @property DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsDetailsType $verifiedUserRequirements
+ * @property string $DetailVersion
+ * @property boolean $LinkedPayPalAccount
+ * @property \DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsDetailsType $MaximumBuyerPolicyViolations
+ * @property \DTS\eBaySDK\Trading\Types\MaximumItemRequirementsDetailsType $MaximumItemRequirements
+ * @property \DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoDetailsType $MaximumUnpaidItemStrikesInfo
+ * @property \DTS\eBaySDK\Trading\Types\MinimumFeedbackScoreDetailsType $MinimumFeedbackScore
+ * @property boolean $ShipToRegistrationCountry
+ * @property \DateTime $UpdateTime
+ * @property \DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsDetailsType $VerifiedUserRequirements
  */
 class SiteBuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,55 +35,55 @@ class SiteBuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'detailVersion' => array(
+        'DetailVersion' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DetailVersion'
         ),
-        'linkedPayPalAccount' => array(
+        'LinkedPayPalAccount' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LinkedPayPalAccount'
         ),
-        'maximumBuyerPolicyViolations' => array(
+        'MaximumBuyerPolicyViolations' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MaximumBuyerPolicyViolations'
         ),
-        'maximumItemRequirements' => array(
+        'MaximumItemRequirements' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MaximumItemRequirementsDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MaximumItemRequirements'
         ),
-        'maximumUnpaidItemStrikesInfo' => array(
+        'MaximumUnpaidItemStrikesInfo' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MaximumUnpaidItemStrikesInfo'
         ),
-        'minimumFeedbackScore' => array(
+        'MinimumFeedbackScore' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MinimumFeedbackScoreDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MinimumFeedbackScore'
         ),
-        'shipToRegistrationCountry' => array(
+        'ShipToRegistrationCountry' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShipToRegistrationCountry'
         ),
-        'updateTime' => array(
+        'UpdateTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UpdateTime'
         ),
-        'verifiedUserRequirements' => array(
+        'VerifiedUserRequirements' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsDetailsType',
             'unbound' => false,
             'attribute' => false,
@@ -96,18 +96,12 @@ class SiteBuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

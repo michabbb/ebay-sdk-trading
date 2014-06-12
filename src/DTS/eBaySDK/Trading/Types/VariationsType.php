@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ModifyNameArrayType $modifyNameList
- * @property DTS\eBaySDK\Trading\Types\PicturesType $pictures
- * @property DTS\eBaySDK\Trading\Types\VariationType $variation
- * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $variationSpecificsSet
+ * @property \DTS\eBaySDK\Trading\Types\ModifyNameArrayType $ModifyNameList
+ * @property \DTS\eBaySDK\Trading\Types\PicturesType[] $Pictures
+ * @property \DTS\eBaySDK\Trading\Types\VariationType[] $Variation
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecificsSet
  */
 class VariationsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,25 +30,25 @@ class VariationsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'modifyNameList' => array(
+        'ModifyNameList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ModifyNameArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ModifyNameList'
         ),
-        'pictures' => array(
+        'Pictures' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PicturesType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'Pictures'
         ),
-        'variation' => array(
+        'Variation' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\VariationType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'Variation'
         ),
-        'variationSpecificsSet' => array(
+        'VariationSpecificsSet' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'unbound' => false,
             'attribute' => false,
@@ -61,18 +61,12 @@ class VariationsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

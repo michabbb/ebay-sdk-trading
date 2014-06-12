@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $groupId
- * @property string $groupName
- * @property integer $themeId
- * @property integer $themeTotal
+ * @property integer $GroupID
+ * @property string $GroupName
+ * @property integer[] $ThemeID
+ * @property integer $ThemeTotal
  */
 class ThemeGroupType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,25 +30,25 @@ class ThemeGroupType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'groupId' => array(
+        'GroupID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'GroupID'
         ),
-        'groupName' => array(
+        'GroupName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'GroupName'
         ),
-        'themeId' => array(
+        'ThemeID' => array(
             'type' => 'integer',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ThemeID'
         ),
-        'themeTotal' => array(
+        'ThemeTotal' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -61,18 +61,12 @@ class ThemeGroupType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

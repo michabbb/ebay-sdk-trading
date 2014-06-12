@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DateTime $endTime
- * @property DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType $markUpMarkDownHistory
- * @property DTS\eBaySDK\Trading\Types\NotificationDetailsArrayType $notificationDetailsArray
- * @property DTS\eBaySDK\Trading\Types\NotificationStatisticsType $notificationStatistics
- * @property DateTime $startTime
+ * @property \DateTime $EndTime
+ * @property \DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType $MarkUpMarkDownHistory
+ * @property \DTS\eBaySDK\Trading\Types\NotificationDetailsArrayType $NotificationDetailsArray
+ * @property \DTS\eBaySDK\Trading\Types\NotificationStatisticsType $NotificationStatistics
+ * @property \DateTime $StartTime
  */
 class GetNotificationsUsageResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -31,31 +31,31 @@ class GetNotificationsUsageResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'endTime' => array(
+        'EndTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EndTime'
         ),
-        'markUpMarkDownHistory' => array(
+        'MarkUpMarkDownHistory' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MarkUpMarkDownHistory'
         ),
-        'notificationDetailsArray' => array(
+        'NotificationDetailsArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\NotificationDetailsArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NotificationDetailsArray'
         ),
-        'notificationStatistics' => array(
+        'NotificationStatistics' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\NotificationStatisticsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NotificationStatistics'
         ),
-        'startTime' => array(
+        'StartTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
@@ -68,18 +68,12 @@ class GetNotificationsUsageResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

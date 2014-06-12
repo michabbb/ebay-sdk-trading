@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $totalAmount
- * @property DTS\eBaySDK\Trading\Types\AmountType $totalCartMerchandiseCost
- * @property DTS\eBaySDK\Trading\Types\AmountType $totalCartShippingCost
- * @property DTS\eBaySDK\Trading\Types\AmountType $totalTaxAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalAmount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalCartMerchandiseCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalCartShippingCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalTaxAmount
  */
 class CheckoutOrderDetailType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,25 +30,25 @@ class CheckoutOrderDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'totalAmount' => array(
+        'TotalAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TotalAmount'
         ),
-        'totalCartMerchandiseCost' => array(
+        'TotalCartMerchandiseCost' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TotalCartMerchandiseCost'
         ),
-        'totalCartShippingCost' => array(
+        'TotalCartShippingCost' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TotalCartShippingCost'
         ),
-        'totalTaxAmount' => array(
+        'TotalTaxAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
@@ -61,18 +61,12 @@ class CheckoutOrderDetailType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

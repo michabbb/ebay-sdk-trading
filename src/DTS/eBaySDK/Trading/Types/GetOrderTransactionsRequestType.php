@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $includeFinalValueFees
- * @property DTS\eBaySDK\Trading\Types\ItemTransactionIDArrayType $itemTransactionIdaRray
- * @property DTS\eBaySDK\Trading\Types\OrderIDArrayType $orderIdaRray
- * @property DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType(string) $platform
+ * @property boolean $IncludeFinalValueFees
+ * @property \DTS\eBaySDK\Trading\Types\ItemTransactionIDArrayType $ItemTransactionIDArray
+ * @property \DTS\eBaySDK\Trading\Types\OrderIDArrayType $OrderIDArray
+ * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $Platform
  */
 class GetOrderTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -30,25 +30,25 @@ class GetOrderTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'includeFinalValueFees' => array(
+        'IncludeFinalValueFees' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IncludeFinalValueFees'
         ),
-        'itemTransactionIdaRray' => array(
+        'ItemTransactionIDArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemTransactionIDArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemTransactionIDArray'
         ),
-        'orderIdaRray' => array(
+        'OrderIDArray' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\OrderIDArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OrderIDArray'
         ),
-        'platform' => array(
+        'Platform' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -61,18 +61,12 @@ class GetOrderTransactionsRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

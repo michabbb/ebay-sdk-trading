@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $content
- * @property boolean $leftNav
- * @property string $name
- * @property integer $order
- * @property integer $pageId
- * @property boolean $previewEnabled
- * @property DTS\eBaySDK\Trading\Enums\StoreCustomPageStatusCodeType(string) $status
- * @property string $url
- * @property string $urlpAth
+ * @property string $Content
+ * @property boolean $LeftNav
+ * @property string $Name
+ * @property integer $Order
+ * @property integer $PageID
+ * @property boolean $PreviewEnabled
+ * @property \DTS\eBaySDK\Trading\Enums\StoreCustomPageStatusCodeType $Status
+ * @property string $URL
+ * @property string $URLPath
  */
 class StoreCustomPageType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,55 +35,55 @@ class StoreCustomPageType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'content' => array(
+        'Content' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Content'
         ),
-        'leftNav' => array(
+        'LeftNav' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LeftNav'
         ),
-        'name' => array(
+        'Name' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Name'
         ),
-        'order' => array(
+        'Order' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Order'
         ),
-        'pageId' => array(
+        'PageID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PageID'
         ),
-        'previewEnabled' => array(
+        'PreviewEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PreviewEnabled'
         ),
-        'status' => array(
+        'Status' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Status'
         ),
-        'url' => array(
+        'URL' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'URL'
         ),
-        'urlpAth' => array(
+        'URLPath' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -96,18 +96,12 @@ class StoreCustomPageType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

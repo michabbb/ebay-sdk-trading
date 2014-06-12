@@ -19,11 +19,11 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType $affiliateTrackingDetails
- * @property boolean $blockOnWarning
- * @property string $itemId
- * @property DTS\eBaySDK\Trading\Types\OfferType $offer
- * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $variationSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType $AffiliateTrackingDetails
+ * @property boolean $BlockOnWarning
+ * @property string $ItemID
+ * @property \DTS\eBaySDK\Trading\Types\OfferType $Offer
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
  */
 class PlaceOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -31,31 +31,31 @@ class PlaceOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'affiliateTrackingDetails' => array(
+        'AffiliateTrackingDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AffiliateTrackingDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AffiliateTrackingDetails'
         ),
-        'blockOnWarning' => array(
+        'BlockOnWarning' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BlockOnWarning'
         ),
-        'itemId' => array(
+        'ItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemID'
         ),
-        'offer' => array(
+        'Offer' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\OfferType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Offer'
         ),
-        'variationSpecifics' => array(
+        'VariationSpecifics' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'unbound' => false,
             'attribute' => false,
@@ -68,18 +68,12 @@ class PlaceOfferRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

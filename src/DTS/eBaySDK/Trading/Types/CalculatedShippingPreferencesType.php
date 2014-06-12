@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $calculatedShippingAmountForEntireOrder
- * @property DTS\eBaySDK\Trading\Enums\CalculatedShippingChargeOptionCodeType(string) $calculatedShippingChargeOption
- * @property DTS\eBaySDK\Trading\Enums\CalculatedShippingRateOptionCodeType(string) $calculatedShippingRateOption
- * @property DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType(string) $insuranceOption
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $CalculatedShippingAmountForEntireOrder
+ * @property \DTS\eBaySDK\Trading\Enums\CalculatedShippingChargeOptionCodeType $CalculatedShippingChargeOption
+ * @property \DTS\eBaySDK\Trading\Enums\CalculatedShippingRateOptionCodeType $CalculatedShippingRateOption
+ * @property \DTS\eBaySDK\Trading\Enums\InsuranceOptionCodeType $InsuranceOption
  */
 class CalculatedShippingPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,25 +30,25 @@ class CalculatedShippingPreferencesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'calculatedShippingAmountForEntireOrder' => array(
+        'CalculatedShippingAmountForEntireOrder' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CalculatedShippingAmountForEntireOrder'
         ),
-        'calculatedShippingChargeOption' => array(
+        'CalculatedShippingChargeOption' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CalculatedShippingChargeOption'
         ),
-        'calculatedShippingRateOption' => array(
+        'CalculatedShippingRateOption' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CalculatedShippingRateOption'
         ),
-        'insuranceOption' => array(
+        'InsuranceOption' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -61,18 +61,12 @@ class CalculatedShippingPreferencesType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

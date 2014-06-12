@@ -19,10 +19,10 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CalculatedShippingPreferencesType $calculatedShippingPreferences
- * @property DTS\eBaySDK\Trading\Enums\CombinedPaymentOptionCodeType(string) $combinedPaymentOption
- * @property DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType(string) $combinedPaymentPeriod
- * @property DTS\eBaySDK\Trading\Types\FlatShippingPreferencesType $flatShippingPreferences
+ * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingPreferencesType $CalculatedShippingPreferences
+ * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentOptionCodeType $CombinedPaymentOption
+ * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType $CombinedPaymentPeriod
+ * @property \DTS\eBaySDK\Trading\Types\FlatShippingPreferencesType $FlatShippingPreferences
  */
 class CombinedPaymentPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -30,25 +30,25 @@ class CombinedPaymentPreferencesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'calculatedShippingPreferences' => array(
+        'CalculatedShippingPreferences' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\CalculatedShippingPreferencesType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CalculatedShippingPreferences'
         ),
-        'combinedPaymentOption' => array(
+        'CombinedPaymentOption' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CombinedPaymentOption'
         ),
-        'combinedPaymentPeriod' => array(
+        'CombinedPaymentPeriod' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CombinedPaymentPeriod'
         ),
-        'flatShippingPreferences' => array(
+        'FlatShippingPreferences' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FlatShippingPreferencesType',
             'unbound' => false,
             'attribute' => false,
@@ -61,18 +61,12 @@ class CombinedPaymentPreferencesType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

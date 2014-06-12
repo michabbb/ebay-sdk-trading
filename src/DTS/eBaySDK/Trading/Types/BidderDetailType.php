@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $email
- * @property integer $feedbackScore
- * @property integer $uniqueNegativeFeedbackCount
- * @property integer $uniqueNeutralFeedbackCount
- * @property integer $uniquePositiveFeedbackCount
- * @property string $userId
+ * @property string $Email
+ * @property integer $FeedbackScore
+ * @property integer $UniqueNegativeFeedbackCount
+ * @property integer $UniqueNeutralFeedbackCount
+ * @property integer $UniquePositiveFeedbackCount
+ * @property string $UserID
  */
 class BidderDetailType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -32,37 +32,37 @@ class BidderDetailType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'email' => array(
+        'Email' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Email'
         ),
-        'feedbackScore' => array(
+        'FeedbackScore' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FeedbackScore'
         ),
-        'uniqueNegativeFeedbackCount' => array(
+        'UniqueNegativeFeedbackCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UniqueNegativeFeedbackCount'
         ),
-        'uniqueNeutralFeedbackCount' => array(
+        'UniqueNeutralFeedbackCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UniqueNeutralFeedbackCount'
         ),
-        'uniquePositiveFeedbackCount' => array(
+        'UniquePositiveFeedbackCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UniquePositiveFeedbackCount'
         ),
-        'userId' => array(
+        'UserID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -75,18 +75,12 @@ class BidderDetailType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

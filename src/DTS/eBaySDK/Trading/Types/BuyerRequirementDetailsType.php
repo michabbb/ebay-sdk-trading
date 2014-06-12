@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $linkedPayPalAccount
- * @property DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsType $maximumBuyerPolicyViolations
- * @property DTS\eBaySDK\Trading\Types\MaximumItemRequirementsType $maximumItemRequirements
- * @property DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoType $maximumUnpaidItemStrikesInfo
- * @property integer $minimumFeedbackScore
- * @property boolean $shipToRegistrationCountry
- * @property DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsType $verifiedUserRequirements
- * @property boolean $zeroFeedbackScore
+ * @property boolean $LinkedPayPalAccount
+ * @property \DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsType $MaximumBuyerPolicyViolations
+ * @property \DTS\eBaySDK\Trading\Types\MaximumItemRequirementsType $MaximumItemRequirements
+ * @property \DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoType $MaximumUnpaidItemStrikesInfo
+ * @property integer $MinimumFeedbackScore
+ * @property boolean $ShipToRegistrationCountry
+ * @property \DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsType $VerifiedUserRequirements
+ * @property boolean $ZeroFeedbackScore
  */
 class BuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -34,49 +34,49 @@ class BuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'linkedPayPalAccount' => array(
+        'LinkedPayPalAccount' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LinkedPayPalAccount'
         ),
-        'maximumBuyerPolicyViolations' => array(
+        'MaximumBuyerPolicyViolations' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MaximumBuyerPolicyViolationsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MaximumBuyerPolicyViolations'
         ),
-        'maximumItemRequirements' => array(
+        'MaximumItemRequirements' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MaximumItemRequirementsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MaximumItemRequirements'
         ),
-        'maximumUnpaidItemStrikesInfo' => array(
+        'MaximumUnpaidItemStrikesInfo' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MaximumUnpaidItemStrikesInfoType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MaximumUnpaidItemStrikesInfo'
         ),
-        'minimumFeedbackScore' => array(
+        'MinimumFeedbackScore' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MinimumFeedbackScore'
         ),
-        'shipToRegistrationCountry' => array(
+        'ShipToRegistrationCountry' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShipToRegistrationCountry'
         ),
-        'verifiedUserRequirements' => array(
+        'VerifiedUserRequirements' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\VerifiedUserRequirementsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'VerifiedUserRequirements'
         ),
-        'zeroFeedbackScore' => array(
+        'ZeroFeedbackScore' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
@@ -89,18 +89,12 @@ class BuyerRequirementDetailsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

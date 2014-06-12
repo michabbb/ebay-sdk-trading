@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\PayoutMethodType(string) $payoutMethod
- * @property boolean $payoutMethodSet
- * @property DTS\eBaySDK\Trading\Types\UserAgreementInfoType $userAgreementInfo
+ * @property \DTS\eBaySDK\Trading\Enums\PayoutMethodType $PayoutMethod
+ * @property boolean $PayoutMethodSet
+ * @property \DTS\eBaySDK\Trading\Types\UserAgreementInfoType[] $UserAgreementInfo
  */
 class SellereBayPaymentProcessConsentCodeType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -29,19 +29,19 @@ class SellereBayPaymentProcessConsentCodeType extends \DTS\eBaySDK\Types\BaseTyp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'payoutMethod' => array(
+        'PayoutMethod' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PayoutMethod'
         ),
-        'payoutMethodSet' => array(
+        'PayoutMethodSet' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PayoutMethodSet'
         ),
-        'userAgreementInfo' => array(
+        'UserAgreementInfo' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\UserAgreementInfoType',
             'unbound' => true,
             'attribute' => false,
@@ -54,18 +54,12 @@ class SellereBayPaymentProcessConsentCodeType extends \DTS\eBaySDK\Types\BaseTyp
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

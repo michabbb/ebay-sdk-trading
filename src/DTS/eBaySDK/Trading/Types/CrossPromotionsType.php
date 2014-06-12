@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $itemId
- * @property DTS\eBaySDK\Trading\Enums\PromotionSchemeCodeType(string) $primaryScheme
- * @property DTS\eBaySDK\Trading\Types\PromotedItemType $promotedItem
- * @property DTS\eBaySDK\Trading\Enums\PromotionMethodCodeType(string) $promotionMethod
- * @property string $sellerId
- * @property boolean $shippingDiscount
- * @property string $storeName
+ * @property string $ItemID
+ * @property \DTS\eBaySDK\Trading\Enums\PromotionSchemeCodeType $PrimaryScheme
+ * @property \DTS\eBaySDK\Trading\Types\PromotedItemType[] $PromotedItem
+ * @property \DTS\eBaySDK\Trading\Enums\PromotionMethodCodeType $PromotionMethod
+ * @property string $SellerID
+ * @property boolean $ShippingDiscount
+ * @property string $StoreName
  */
 class CrossPromotionsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,43 +33,43 @@ class CrossPromotionsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'itemId' => array(
+        'ItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemID'
         ),
-        'primaryScheme' => array(
+        'PrimaryScheme' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PrimaryScheme'
         ),
-        'promotedItem' => array(
+        'PromotedItem' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PromotedItemType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'PromotedItem'
         ),
-        'promotionMethod' => array(
+        'PromotionMethod' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PromotionMethod'
         ),
-        'sellerId' => array(
+        'SellerID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerID'
         ),
-        'shippingDiscount' => array(
+        'ShippingDiscount' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingDiscount'
         ),
-        'storeName' => array(
+        'StoreName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class CrossPromotionsType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

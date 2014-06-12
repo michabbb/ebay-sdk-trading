@@ -19,20 +19,20 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $amountPaid
- * @property DTS\eBaySDK\Trading\Types\AmountType $commission
- * @property DTS\eBaySDK\Trading\Types\ExternalProductIDType $externalProductId
- * @property string $itemId
- * @property string $orderId
- * @property string $orderLineItemId
- * @property DateTime $paidTime
- * @property DTS\eBaySDK\Trading\Enums\PaymentTypeCodeType(string) $paymentType
- * @property string $privateNotes
- * @property string $sellerInventoryId
- * @property DTS\eBaySDK\Trading\Types\AmountType $shippingReimbursement
- * @property string $title
- * @property string $transactionId
- * @property DTS\eBaySDK\Trading\Types\AmountType $transactionPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Commission
+ * @property \DTS\eBaySDK\Trading\Types\ExternalProductIDType $ExternalProductID
+ * @property string $ItemID
+ * @property string $OrderID
+ * @property string $OrderLineItemID
+ * @property \DateTime $PaidTime
+ * @property \DTS\eBaySDK\Trading\Enums\PaymentTypeCodeType $PaymentType
+ * @property string $PrivateNotes
+ * @property string $SellerInventoryID
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingReimbursement
+ * @property string $Title
+ * @property string $TransactionID
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TransactionPrice
  */
 class SellerPaymentType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -40,85 +40,85 @@ class SellerPaymentType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'amountPaid' => array(
+        'AmountPaid' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AmountPaid'
         ),
-        'commission' => array(
+        'Commission' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Commission'
         ),
-        'externalProductId' => array(
+        'ExternalProductID' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ExternalProductIDType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExternalProductID'
         ),
-        'itemId' => array(
+        'ItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemID'
         ),
-        'orderId' => array(
+        'OrderID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OrderID'
         ),
-        'orderLineItemId' => array(
+        'OrderLineItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OrderLineItemID'
         ),
-        'paidTime' => array(
+        'PaidTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaidTime'
         ),
-        'paymentType' => array(
+        'PaymentType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaymentType'
         ),
-        'privateNotes' => array(
+        'PrivateNotes' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PrivateNotes'
         ),
-        'sellerInventoryId' => array(
+        'SellerInventoryID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerInventoryID'
         ),
-        'shippingReimbursement' => array(
+        'ShippingReimbursement' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingReimbursement'
         ),
-        'title' => array(
+        'Title' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Title'
         ),
-        'transactionId' => array(
+        'TransactionID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TransactionID'
         ),
-        'transactionPrice' => array(
+        'TransactionPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
@@ -131,18 +131,12 @@ class SellerPaymentType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $deletedField
- * @property DTS\eBaySDK\Trading\Types\ItemType $item
- * @property integer $productId
- * @property integer $saleTemplateId
- * @property string $saleTemplateName
- * @property boolean $verifyOnly
+ * @property string[] $DeletedField
+ * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
+ * @property integer $ProductID
+ * @property integer $SaleTemplateID
+ * @property string $SaleTemplateName
+ * @property boolean $VerifyOnly
  */
 class ReviseSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -32,37 +32,37 @@ class ReviseSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'deletedField' => array(
+        'DeletedField' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'DeletedField'
         ),
-        'item' => array(
+        'Item' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Item'
         ),
-        'productId' => array(
+        'ProductID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ProductID'
         ),
-        'saleTemplateId' => array(
+        'SaleTemplateID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SaleTemplateID'
         ),
-        'saleTemplateName' => array(
+        'SaleTemplateName' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SaleTemplateName'
         ),
-        'verifyOnly' => array(
+        'VerifyOnly' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
@@ -75,18 +75,12 @@ class ReviseSellingManagerTemplateRequestType extends \DTS\eBaySDK\Trading\Types
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

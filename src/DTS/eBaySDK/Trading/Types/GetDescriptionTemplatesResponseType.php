@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\DescriptionTemplateType $descriptionTemplate
- * @property integer $layoutTotal
- * @property integer $obsoleteLayoutId
- * @property integer $obsoleteThemeId
- * @property DTS\eBaySDK\Trading\Types\ThemeGroupType $themeGroup
- * @property integer $themeTotal
+ * @property \DTS\eBaySDK\Trading\Types\DescriptionTemplateType[] $DescriptionTemplate
+ * @property integer $LayoutTotal
+ * @property integer[] $ObsoleteLayoutID
+ * @property integer[] $ObsoleteThemeID
+ * @property \DTS\eBaySDK\Trading\Types\ThemeGroupType[] $ThemeGroup
+ * @property integer $ThemeTotal
  */
 class GetDescriptionTemplatesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
@@ -32,37 +32,37 @@ class GetDescriptionTemplatesResponseType extends \DTS\eBaySDK\Trading\Types\Abs
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'descriptionTemplate' => array(
+        'DescriptionTemplate' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\DescriptionTemplateType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'DescriptionTemplate'
         ),
-        'layoutTotal' => array(
+        'LayoutTotal' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LayoutTotal'
         ),
-        'obsoleteLayoutId' => array(
+        'ObsoleteLayoutID' => array(
             'type' => 'integer',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ObsoleteLayoutID'
         ),
-        'obsoleteThemeId' => array(
+        'ObsoleteThemeID' => array(
             'type' => 'integer',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ObsoleteThemeID'
         ),
-        'themeGroup' => array(
+        'ThemeGroup' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ThemeGroupType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ThemeGroup'
         ),
-        'themeTotal' => array(
+        'ThemeTotal' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -75,18 +75,12 @@ class GetDescriptionTemplatesResponseType extends \DTS\eBaySDK\Trading\Types\Abs
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $favoriteItemId
- * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $listingType
- * @property DTS\eBaySDK\Trading\Types\AmountType $maxPrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $minPrice
- * @property string $searchKeywords
- * @property DTS\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType(string) $searchSortOrder
- * @property integer $storeCategoryId
+ * @property string[] $FavoriteItemID
+ * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $MaxPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $MinPrice
+ * @property string $SearchKeywords
+ * @property \DTS\eBaySDK\Trading\Enums\StoreItemListSortOrderCodeType $SearchSortOrder
+ * @property integer $StoreCategoryID
  */
 class SellerFavoriteItemPreferencesType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,43 +33,43 @@ class SellerFavoriteItemPreferencesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'favoriteItemId' => array(
+        'FavoriteItemID' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'FavoriteItemID'
         ),
-        'listingType' => array(
+        'ListingType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingType'
         ),
-        'maxPrice' => array(
+        'MaxPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MaxPrice'
         ),
-        'minPrice' => array(
+        'MinPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MinPrice'
         ),
-        'searchKeywords' => array(
+        'SearchKeywords' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SearchKeywords'
         ),
-        'searchSortOrder' => array(
+        'SearchSortOrder' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SearchSortOrder'
         ),
-        'storeCategoryId' => array(
+        'StoreCategoryID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class SellerFavoriteItemPreferencesType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $activeList
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $bidList
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $deletedFromSoldList
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $deletedFromUnsoldList
- * @property boolean $hideVariations
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $scheduledList
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $sellingSummary
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $soldList
- * @property DTS\eBaySDK\Trading\Types\ItemListCustomizationType $unsoldList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $ActiveList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BidList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromSoldList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromUnsoldList
+ * @property boolean $HideVariations
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $ScheduledList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $SellingSummary
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $SoldList
+ * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $UnsoldList
  */
 class GetMyeBaySellingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -35,55 +35,55 @@ class GetMyeBaySellingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'activeList' => array(
+        'ActiveList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ActiveList'
         ),
-        'bidList' => array(
+        'BidList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BidList'
         ),
-        'deletedFromSoldList' => array(
+        'DeletedFromSoldList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromSoldList'
         ),
-        'deletedFromUnsoldList' => array(
+        'DeletedFromUnsoldList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromUnsoldList'
         ),
-        'hideVariations' => array(
+        'HideVariations' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HideVariations'
         ),
-        'scheduledList' => array(
+        'ScheduledList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ScheduledList'
         ),
-        'sellingSummary' => array(
+        'SellingSummary' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellingSummary'
         ),
-        'soldList' => array(
+        'SoldList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SoldList'
         ),
-        'unsoldList' => array(
+        'UnsoldList' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
             'unbound' => false,
             'attribute' => false,
@@ -96,18 +96,12 @@ class GetMyeBaySellingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReq
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

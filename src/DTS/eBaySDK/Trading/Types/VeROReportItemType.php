@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $copyEmailToRightsOwner
- * @property DTS\eBaySDK\Trading\Enums\CountryCodeType(string) $country
- * @property string $detailedMessage
- * @property string $itemId
- * @property string $messageToSeller
- * @property string $patent
- * @property DTS\eBaySDK\Trading\Enums\ShippingRegionCodeType(string) $region
- * @property integer $veRorEasonCodeId
+ * @property boolean $CopyEmailToRightsOwner
+ * @property \DTS\eBaySDK\Trading\Enums\CountryCodeType[] $Country
+ * @property string $DetailedMessage
+ * @property string $ItemID
+ * @property string $MessageToSeller
+ * @property string $Patent
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingRegionCodeType[] $Region
+ * @property integer $VeROReasonCodeID
  */
 class VeROReportItemType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -34,49 +34,49 @@ class VeROReportItemType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'copyEmailToRightsOwner' => array(
+        'CopyEmailToRightsOwner' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CopyEmailToRightsOwner'
         ),
-        'country' => array(
+        'Country' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'Country'
         ),
-        'detailedMessage' => array(
+        'DetailedMessage' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DetailedMessage'
         ),
-        'itemId' => array(
+        'ItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemID'
         ),
-        'messageToSeller' => array(
+        'MessageToSeller' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MessageToSeller'
         ),
-        'patent' => array(
+        'Patent' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Patent'
         ),
-        'region' => array(
+        'Region' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'Region'
         ),
-        'veRorEasonCodeId' => array(
+        'VeROReasonCodeID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -89,18 +89,12 @@ class VeROReportItemType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

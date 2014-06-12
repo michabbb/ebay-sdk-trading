@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $flaggedMessageCount
- * @property DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType $folderSummary
- * @property integer $newAlertCount
- * @property integer $newHighPriorityCount
- * @property integer $newMessageCount
- * @property integer $totalAlertCount
- * @property integer $totalHighPriorityCount
- * @property integer $totalMessageCount
- * @property integer $unresolvedAlertCount
+ * @property integer $FlaggedMessageCount
+ * @property \DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType[] $FolderSummary
+ * @property integer $NewAlertCount
+ * @property integer $NewHighPriorityCount
+ * @property integer $NewMessageCount
+ * @property integer $TotalAlertCount
+ * @property integer $TotalHighPriorityCount
+ * @property integer $TotalMessageCount
+ * @property integer $UnresolvedAlertCount
  */
 class MyMessagesSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,55 +35,55 @@ class MyMessagesSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'flaggedMessageCount' => array(
+        'FlaggedMessageCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FlaggedMessageCount'
         ),
-        'folderSummary' => array(
+        'FolderSummary' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MyMessagesFolderSummaryType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'FolderSummary'
         ),
-        'newAlertCount' => array(
+        'NewAlertCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NewAlertCount'
         ),
-        'newHighPriorityCount' => array(
+        'NewHighPriorityCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NewHighPriorityCount'
         ),
-        'newMessageCount' => array(
+        'NewMessageCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NewMessageCount'
         ),
-        'totalAlertCount' => array(
+        'TotalAlertCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TotalAlertCount'
         ),
-        'totalHighPriorityCount' => array(
+        'TotalHighPriorityCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TotalHighPriorityCount'
         ),
-        'totalMessageCount' => array(
+        'TotalMessageCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TotalMessageCount'
         ),
-        'unresolvedAlertCount' => array(
+        'UnresolvedAlertCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -96,18 +96,12 @@ class MyMessagesSummaryType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

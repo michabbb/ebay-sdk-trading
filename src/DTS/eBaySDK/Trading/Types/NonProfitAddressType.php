@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $addressLine1
- * @property string $addressLine2
- * @property DTS\eBaySDK\Trading\Enums\AddressTypeCodeType(string) $addressType
- * @property string $city
- * @property integer $latitude
- * @property integer $longitude
- * @property string $state
- * @property string $zipCode
+ * @property string $AddressLine1
+ * @property string $AddressLine2
+ * @property \DTS\eBaySDK\Trading\Enums\AddressTypeCodeType $AddressType
+ * @property string $City
+ * @property integer $Latitude
+ * @property integer $Longitude
+ * @property string $State
+ * @property string $ZipCode
  */
 class NonProfitAddressType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -34,49 +34,49 @@ class NonProfitAddressType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'addressLine1' => array(
+        'AddressLine1' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AddressLine1'
         ),
-        'addressLine2' => array(
+        'AddressLine2' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AddressLine2'
         ),
-        'addressType' => array(
+        'AddressType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AddressType'
         ),
-        'city' => array(
+        'City' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'City'
         ),
-        'latitude' => array(
+        'Latitude' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Latitude'
         ),
-        'longitude' => array(
+        'Longitude' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Longitude'
         ),
-        'state' => array(
+        'State' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'State'
         ),
-        'zipCode' => array(
+        'ZipCode' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -89,18 +89,12 @@ class NonProfitAddressType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

@@ -19,17 +19,17 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\AmountType $internationalPackagingHandlingCosts
- * @property DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType(string) $measurementUnit
- * @property string $originatingPostalCode
- * @property DTS\eBaySDK\Trading\Types\MeasureType $packageDepth
- * @property DTS\eBaySDK\Trading\Types\MeasureType $packageLength
- * @property DTS\eBaySDK\Trading\Types\MeasureType $packageWidth
- * @property DTS\eBaySDK\Trading\Types\AmountType $packagingHandlingCosts
- * @property boolean $shippingIrregular
- * @property DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType(string) $shippingPackage
- * @property DTS\eBaySDK\Trading\Types\MeasureType $weightMajor
- * @property DTS\eBaySDK\Trading\Types\MeasureType $weightMinor
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $InternationalPackagingHandlingCosts
+ * @property \DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType $MeasurementUnit
+ * @property string $OriginatingPostalCode
+ * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageDepth
+ * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageLength
+ * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageWidth
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $PackagingHandlingCosts
+ * @property boolean $ShippingIrregular
+ * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType $ShippingPackage
+ * @property \DTS\eBaySDK\Trading\Types\MeasureType $WeightMajor
+ * @property \DTS\eBaySDK\Trading\Types\MeasureType $WeightMinor
  */
 class CalculatedShippingRateType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -37,67 +37,67 @@ class CalculatedShippingRateType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'internationalPackagingHandlingCosts' => array(
+        'InternationalPackagingHandlingCosts' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'InternationalPackagingHandlingCosts'
         ),
-        'measurementUnit' => array(
+        'MeasurementUnit' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MeasurementUnit'
         ),
-        'originatingPostalCode' => array(
+        'OriginatingPostalCode' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OriginatingPostalCode'
         ),
-        'packageDepth' => array(
+        'PackageDepth' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PackageDepth'
         ),
-        'packageLength' => array(
+        'PackageLength' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PackageLength'
         ),
-        'packageWidth' => array(
+        'PackageWidth' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PackageWidth'
         ),
-        'packagingHandlingCosts' => array(
+        'PackagingHandlingCosts' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PackagingHandlingCosts'
         ),
-        'shippingIrregular' => array(
+        'ShippingIrregular' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingIrregular'
         ),
-        'shippingPackage' => array(
+        'ShippingPackage' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingPackage'
         ),
-        'weightMajor' => array(
+        'WeightMajor' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'WeightMajor'
         ),
-        'weightMinor' => array(
+        'WeightMinor' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
             'unbound' => false,
             'attribute' => false,
@@ -110,18 +110,12 @@ class CalculatedShippingRateType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

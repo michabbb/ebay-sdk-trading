@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\FeedbackInfoType $feedbackInfo
- * @property string $itemId
- * @property DTS\eBaySDK\Trading\Enums\ListingTypeCodeType(string) $listingType
- * @property string $orderId
- * @property string $orderLineItemId
- * @property boolean $paid
- * @property DTS\eBaySDK\Trading\Types\ShipmentType $shipment
- * @property boolean $shipped
- * @property string $transactionId
+ * @property \DTS\eBaySDK\Trading\Types\FeedbackInfoType $FeedbackInfo
+ * @property string $ItemID
+ * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
+ * @property string $OrderID
+ * @property string $OrderLineItemID
+ * @property boolean $Paid
+ * @property \DTS\eBaySDK\Trading\Types\ShipmentType $Shipment
+ * @property boolean $Shipped
+ * @property string $TransactionID
  */
 class CompleteSaleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -35,55 +35,55 @@ class CompleteSaleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequest
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'feedbackInfo' => array(
+        'FeedbackInfo' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FeedbackInfoType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FeedbackInfo'
         ),
-        'itemId' => array(
+        'ItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemID'
         ),
-        'listingType' => array(
+        'ListingType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingType'
         ),
-        'orderId' => array(
+        'OrderID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OrderID'
         ),
-        'orderLineItemId' => array(
+        'OrderLineItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OrderLineItemID'
         ),
-        'paid' => array(
+        'Paid' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Paid'
         ),
-        'shipment' => array(
+        'Shipment' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ShipmentType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Shipment'
         ),
-        'shipped' => array(
+        'Shipped' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Shipped'
         ),
-        'transactionId' => array(
+        'TransactionID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -96,18 +96,12 @@ class CompleteSaleRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequest
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

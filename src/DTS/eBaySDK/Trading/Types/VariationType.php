@@ -19,20 +19,20 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $delete
- * @property DTS\eBaySDK\Trading\Types\DiscountPriceInfoType $discountPriceInfo
- * @property string $privateNotes
- * @property integer $quantity
- * @property DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $sellingManagerProductInventoryStatus
- * @property DTS\eBaySDK\Trading\Types\SellingStatusType $sellingStatus
- * @property string $sku
- * @property DTS\eBaySDK\Trading\Types\AmountType $startPrice
- * @property DTS\eBaySDK\Trading\Types\AmountType $unitCost
- * @property integer $unitsAvailable
- * @property DTS\eBaySDK\Trading\Types\NameValueListArrayType $variationSpecifics
- * @property string $variationTitle
- * @property string $variationViewItemUrl
- * @property integer $watchCount
+ * @property boolean $Delete
+ * @property \DTS\eBaySDK\Trading\Types\DiscountPriceInfoType $DiscountPriceInfo
+ * @property string $PrivateNotes
+ * @property integer $Quantity
+ * @property string $SKU
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType $SellingManagerProductInventoryStatus
+ * @property \DTS\eBaySDK\Trading\Types\SellingStatusType $SellingStatus
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $UnitCost
+ * @property integer $UnitsAvailable
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property string $VariationTitle
+ * @property string $VariationViewItemURL
+ * @property integer $WatchCount
  */
 class VariationType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -40,85 +40,85 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'delete' => array(
+        'Delete' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Delete'
         ),
-        'discountPriceInfo' => array(
+        'DiscountPriceInfo' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\DiscountPriceInfoType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DiscountPriceInfo'
         ),
-        'privateNotes' => array(
+        'PrivateNotes' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PrivateNotes'
         ),
-        'quantity' => array(
+        'Quantity' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Quantity'
         ),
-        'sellingManagerProductInventoryStatus' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellingManagerProductInventoryStatus'
-        ),
-        'sellingStatus' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingStatusType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellingStatus'
-        ),
-        'sku' => array(
+        'SKU' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SKU'
         ),
-        'startPrice' => array(
+        'SellingManagerProductInventoryStatus' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'SellingManagerProductInventoryStatus'
+        ),
+        'SellingStatus' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\SellingStatusType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'SellingStatus'
+        ),
+        'StartPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'StartPrice'
         ),
-        'unitCost' => array(
+        'UnitCost' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UnitCost'
         ),
-        'unitsAvailable' => array(
+        'UnitsAvailable' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UnitsAvailable'
         ),
-        'variationSpecifics' => array(
+        'VariationSpecifics' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'VariationSpecifics'
         ),
-        'variationTitle' => array(
+        'VariationTitle' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'VariationTitle'
         ),
-        'variationViewItemUrl' => array(
+        'VariationViewItemURL' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'VariationViewItemURL'
         ),
-        'watchCount' => array(
+        'WatchCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -131,18 +131,12 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

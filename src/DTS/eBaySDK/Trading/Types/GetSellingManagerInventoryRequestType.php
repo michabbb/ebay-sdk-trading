@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerInventoryPropertyTypeCodeType(string) $filter
- * @property integer $folderId
- * @property DTS\eBaySDK\Trading\Types\PaginationType $pagination
- * @property DTS\eBaySDK\Trading\Types\SellingManagerSearchType $search
- * @property DTS\eBaySDK\Trading\Enums\SellingManagerProductSortCodeType(string) $sort
- * @property DTS\eBaySDK\Trading\Enums\SortOrderCodeType(string) $sortOrder
- * @property integer $storeCategoryId
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerInventoryPropertyTypeCodeType[] $Filter
+ * @property integer $FolderID
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \DTS\eBaySDK\Trading\Types\SellingManagerSearchType $Search
+ * @property \DTS\eBaySDK\Trading\Enums\SellingManagerProductSortCodeType $Sort
+ * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
+ * @property integer $StoreCategoryID
  */
 class GetSellingManagerInventoryRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -33,43 +33,43 @@ class GetSellingManagerInventoryRequestType extends \DTS\eBaySDK\Trading\Types\A
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'filter' => array(
+        'Filter' => array(
             'type' => 'string',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'Filter'
         ),
-        'folderId' => array(
+        'FolderID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FolderID'
         ),
-        'pagination' => array(
+        'Pagination' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Pagination'
         ),
-        'search' => array(
+        'Search' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSearchType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Search'
         ),
-        'sort' => array(
+        'Sort' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Sort'
         ),
-        'sortOrder' => array(
+        'SortOrder' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SortOrder'
         ),
-        'storeCategoryId' => array(
+        'StoreCategoryID' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class GetSellingManagerInventoryRequestType extends \DTS\eBaySDK\Trading\Types\A
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

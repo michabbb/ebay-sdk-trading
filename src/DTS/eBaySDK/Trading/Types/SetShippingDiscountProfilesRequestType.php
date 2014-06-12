@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType $calculatedHandlingDiscount
- * @property DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $calculatedShippingDiscount
- * @property DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType(string) $combinedDuration
- * @property DTS\eBaySDK\Trading\Enums\CurrencyCodeType(string) $currencyId
- * @property DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $flatShippingDiscount
- * @property DTS\eBaySDK\Trading\Types\ShippingInsuranceType $internationalShippingInsurance
- * @property DTS\eBaySDK\Trading\Enums\ModifyActionCodeType(string) $modifyActionCode
- * @property DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType $promotionalShippingDiscountDetails
- * @property DTS\eBaySDK\Trading\Types\ShippingInsuranceType $shippingInsurance
+ * @property \DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType $CalculatedHandlingDiscount
+ * @property \DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType $CalculatedShippingDiscount
+ * @property \DTS\eBaySDK\Trading\Enums\CombinedPaymentPeriodCodeType $CombinedDuration
+ * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $CurrencyID
+ * @property \DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
+ * @property \DTS\eBaySDK\Trading\Types\ShippingInsuranceType $InternationalShippingInsurance
+ * @property \DTS\eBaySDK\Trading\Enums\ModifyActionCodeType $ModifyActionCode
+ * @property \DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType $PromotionalShippingDiscountDetails
+ * @property \DTS\eBaySDK\Trading\Types\ShippingInsuranceType $ShippingInsurance
  */
 class SetShippingDiscountProfilesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -35,55 +35,55 @@ class SetShippingDiscountProfilesRequestType extends \DTS\eBaySDK\Trading\Types\
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'calculatedHandlingDiscount' => array(
+        'CalculatedHandlingDiscount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\CalculatedHandlingDiscountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CalculatedHandlingDiscount'
         ),
-        'calculatedShippingDiscount' => array(
+        'CalculatedShippingDiscount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\CalculatedShippingDiscountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CalculatedShippingDiscount'
         ),
-        'combinedDuration' => array(
+        'CombinedDuration' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CombinedDuration'
         ),
-        'currencyId' => array(
+        'CurrencyID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CurrencyID'
         ),
-        'flatShippingDiscount' => array(
+        'FlatShippingDiscount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FlatShippingDiscountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FlatShippingDiscount'
         ),
-        'internationalShippingInsurance' => array(
+        'InternationalShippingInsurance' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingInsuranceType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'InternationalShippingInsurance'
         ),
-        'modifyActionCode' => array(
+        'ModifyActionCode' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ModifyActionCode'
         ),
-        'promotionalShippingDiscountDetails' => array(
+        'PromotionalShippingDiscountDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PromotionalShippingDiscountDetails'
         ),
-        'shippingInsurance' => array(
+        'ShippingInsurance' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ShippingInsuranceType',
             'unbound' => false,
             'attribute' => false,
@@ -96,18 +96,12 @@ class SetShippingDiscountProfilesRequestType extends \DTS\eBaySDK\Trading\Types\
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

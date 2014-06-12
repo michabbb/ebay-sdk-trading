@@ -19,13 +19,13 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $bestOfferCount
- * @property integer $biddingCount
- * @property DTS\eBaySDK\Trading\Types\AmountType $totalWinningCost
- * @property DTS\eBaySDK\Trading\Types\AmountType $totalWonCost
- * @property integer $winningCount
- * @property integer $wonCount
- * @property integer $wonDurationInDays
+ * @property integer $BestOfferCount
+ * @property integer $BiddingCount
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalWinningCost
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalWonCost
+ * @property integer $WinningCount
+ * @property integer $WonCount
+ * @property integer $WonDurationInDays
  */
 class BuyingSummaryType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,43 +33,43 @@ class BuyingSummaryType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bestOfferCount' => array(
+        'BestOfferCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOfferCount'
         ),
-        'biddingCount' => array(
+        'BiddingCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BiddingCount'
         ),
-        'totalWinningCost' => array(
+        'TotalWinningCost' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TotalWinningCost'
         ),
-        'totalWonCost' => array(
+        'TotalWonCost' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TotalWonCost'
         ),
-        'winningCount' => array(
+        'WinningCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'WinningCount'
         ),
-        'wonCount' => array(
+        'WonCount' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'WonCount'
         ),
-        'wonDurationInDays' => array(
+        'WonDurationInDays' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
@@ -82,18 +82,12 @@ class BuyingSummaryType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

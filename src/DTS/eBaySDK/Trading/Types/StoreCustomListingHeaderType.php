@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $addToFavoriteStores
- * @property DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderDisplayCodeType(string) $displayType
- * @property DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType $linkToInclude
- * @property boolean $logo
- * @property boolean $searchBox
- * @property boolean $signUpForStoreNewsletter
+ * @property boolean $AddToFavoriteStores
+ * @property \DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderDisplayCodeType $DisplayType
+ * @property \DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType[] $LinkToInclude
+ * @property boolean $Logo
+ * @property boolean $SearchBox
+ * @property boolean $SignUpForStoreNewsletter
  */
 class StoreCustomListingHeaderType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -32,37 +32,37 @@ class StoreCustomListingHeaderType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'addToFavoriteStores' => array(
+        'AddToFavoriteStores' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AddToFavoriteStores'
         ),
-        'displayType' => array(
+        'DisplayType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DisplayType'
         ),
-        'linkToInclude' => array(
+        'LinkToInclude' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\StoreCustomListingHeaderLinkType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'LinkToInclude'
         ),
-        'logo' => array(
+        'Logo' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Logo'
         ),
-        'searchBox' => array(
+        'SearchBox' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SearchBox'
         ),
-        'signUpForStoreNewsletter' => array(
+        'SignUpForStoreNewsletter' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
@@ -75,18 +75,12 @@ class StoreCustomListingHeaderType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

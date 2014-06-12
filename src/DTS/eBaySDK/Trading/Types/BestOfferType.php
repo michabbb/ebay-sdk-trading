@@ -19,18 +19,18 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property DTS\eBaySDK\Trading\Enums\BestOfferTypeCodeType(string) $bestOfferCodeType
- * @property string $bestOfferId
- * @property DTS\eBaySDK\Trading\Types\UserType $buyer
- * @property string $buyerMessage
- * @property string $callStatus
- * @property DateTime $expirationTime
- * @property boolean $immediatePayEligible
- * @property boolean $newBestOffer
- * @property DTS\eBaySDK\Trading\Types\AmountType $price
- * @property integer $quantity
- * @property string $sellerMessage
- * @property DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType(string) $status
+ * @property \DTS\eBaySDK\Trading\Enums\BestOfferTypeCodeType $BestOfferCodeType
+ * @property string $BestOfferID
+ * @property \DTS\eBaySDK\Trading\Types\UserType $Buyer
+ * @property string $BuyerMessage
+ * @property string $CallStatus
+ * @property \DateTime $ExpirationTime
+ * @property boolean $ImmediatePayEligible
+ * @property boolean $NewBestOffer
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $Price
+ * @property integer $Quantity
+ * @property string $SellerMessage
+ * @property \DTS\eBaySDK\Trading\Enums\BestOfferStatusCodeType $Status
  */
 class BestOfferType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -38,73 +38,73 @@ class BestOfferType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'bestOfferCodeType' => array(
+        'BestOfferCodeType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOfferCodeType'
         ),
-        'bestOfferId' => array(
+        'BestOfferID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BestOfferID'
         ),
-        'buyer' => array(
+        'Buyer' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\UserType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Buyer'
         ),
-        'buyerMessage' => array(
+        'BuyerMessage' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyerMessage'
         ),
-        'callStatus' => array(
+        'CallStatus' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'CallStatus'
         ),
-        'expirationTime' => array(
+        'ExpirationTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExpirationTime'
         ),
-        'immediatePayEligible' => array(
+        'ImmediatePayEligible' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ImmediatePayEligible'
         ),
-        'newBestOffer' => array(
+        'NewBestOffer' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NewBestOffer'
         ),
-        'price' => array(
+        'Price' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Price'
         ),
-        'quantity' => array(
+        'Quantity' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Quantity'
         ),
-        'sellerMessage' => array(
+        'SellerMessage' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerMessage'
         ),
-        'status' => array(
+        'Status' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -117,18 +117,12 @@ class BestOfferType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

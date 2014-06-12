@@ -19,15 +19,15 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $confidence
- * @property integer $maxValues
- * @property integer $minValues
- * @property DTS\eBaySDK\Trading\Types\NameValueRelationshipType $relationship
- * @property DTS\eBaySDK\Trading\Enums\SelectionModeCodeType(string) $selectionMode
- * @property DTS\eBaySDK\Trading\Enums\ValueFormatCodeType(string) $valueFormat
- * @property DTS\eBaySDK\Trading\Enums\ValueTypeCodeType(string) $valueType
- * @property DTS\eBaySDK\Trading\Enums\VariationPictureRuleCodeType(string) $variationPicture
- * @property DTS\eBaySDK\Trading\Enums\VariationSpecificsRuleCodeType(string) $variationSpecifics
+ * @property integer $Confidence
+ * @property integer $MaxValues
+ * @property integer $MinValues
+ * @property \DTS\eBaySDK\Trading\Types\NameValueRelationshipType[] $Relationship
+ * @property \DTS\eBaySDK\Trading\Enums\SelectionModeCodeType $SelectionMode
+ * @property \DTS\eBaySDK\Trading\Enums\ValueFormatCodeType $ValueFormat
+ * @property \DTS\eBaySDK\Trading\Enums\ValueTypeCodeType $ValueType
+ * @property \DTS\eBaySDK\Trading\Enums\VariationPictureRuleCodeType $VariationPicture
+ * @property \DTS\eBaySDK\Trading\Enums\VariationSpecificsRuleCodeType $VariationSpecifics
  */
 class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,55 +35,55 @@ class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'confidence' => array(
+        'Confidence' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Confidence'
         ),
-        'maxValues' => array(
+        'MaxValues' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MaxValues'
         ),
-        'minValues' => array(
+        'MinValues' => array(
             'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'MinValues'
         ),
-        'relationship' => array(
+        'Relationship' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueRelationshipType',
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'Relationship'
         ),
-        'selectionMode' => array(
+        'SelectionMode' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SelectionMode'
         ),
-        'valueFormat' => array(
+        'ValueFormat' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ValueFormat'
         ),
-        'valueType' => array(
+        'ValueType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ValueType'
         ),
-        'variationPicture' => array(
+        'VariationPicture' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'VariationPicture'
         ),
-        'variationSpecifics' => array(
+        'VariationSpecifics' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -96,18 +96,12 @@ class RecommendationValidationRulesType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

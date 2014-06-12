@@ -19,14 +19,14 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $comments
- * @property string $itemId
- * @property DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType(string) $listingDuration
- * @property DTS\eBaySDK\Trading\Types\AmountType $negotiatedPrice
- * @property string $recipientPostalCode
- * @property DTS\eBaySDK\Trading\Enums\RecipientRelationCodeType(string) $recipientRelationType
- * @property string $recipientUserId
- * @property string $verifyEligibilityOnly
+ * @property string $Comments
+ * @property string $ItemID
+ * @property \DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $ListingDuration
+ * @property \DTS\eBaySDK\Trading\Types\AmountType $NegotiatedPrice
+ * @property string $RecipientPostalCode
+ * @property \DTS\eBaySDK\Trading\Enums\RecipientRelationCodeType $RecipientRelationType
+ * @property string $RecipientUserID
+ * @property string $VerifyEligibilityOnly
  */
 class AddTransactionConfirmationItemRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -34,49 +34,49 @@ class AddTransactionConfirmationItemRequestType extends \DTS\eBaySDK\Trading\Typ
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'comments' => array(
+        'Comments' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Comments'
         ),
-        'itemId' => array(
+        'ItemID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ItemID'
         ),
-        'listingDuration' => array(
+        'ListingDuration' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingDuration'
         ),
-        'negotiatedPrice' => array(
+        'NegotiatedPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NegotiatedPrice'
         ),
-        'recipientPostalCode' => array(
+        'RecipientPostalCode' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RecipientPostalCode'
         ),
-        'recipientRelationType' => array(
+        'RecipientRelationType' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RecipientRelationType'
         ),
-        'recipientUserId' => array(
+        'RecipientUserID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RecipientUserID'
         ),
-        'verifyEligibilityOnly' => array(
+        'VerifyEligibilityOnly' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -89,18 +89,12 @@ class AddTransactionConfirmationItemRequestType extends \DTS\eBaySDK\Trading\Typ
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {

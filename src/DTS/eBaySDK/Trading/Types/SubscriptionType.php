@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $active
- * @property string $eiastOken
- * @property DTS\eBaySDK\Trading\Enums\SiteCodeType(string) $siteId
+ * @property boolean $Active
+ * @property string $EIASToken
+ * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $SiteID
  */
 class SubscriptionType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -29,19 +29,19 @@ class SubscriptionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'active' => array(
+        'Active' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Active'
         ),
-        'eiastOken' => array(
+        'EIASToken' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EIASToken'
         ),
-        'siteId' => array(
+        'SiteID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
@@ -54,18 +54,12 @@ class SubscriptionType extends \DTS\eBaySDK\Types\BaseType
      */
     public function __construct(array $values = array())
     {
-        $elementNamesMap = self::buildElementNamesMap(self::$propertyTypes);
-
-        list($parentValues, $childValues) = self::getParentValues($elementNamesMap, self::$propertyTypes, $values);
+        list($parentValues, $childValues) = self::getParentValues(self::$propertyTypes, $values);
 
         parent::__construct($parentValues);
 
         if (!array_key_exists(__CLASS__, self::$properties)) {
             self::$properties[__CLASS__] = array_merge(self::$properties[get_parent_class()], self::$propertyTypes);
-        }
-
-        if (!array_key_exists(__CLASS__, self::$elementNames)) {
-            self::$elementNames[__CLASS__] = array_merge(self::$elementNames[get_parent_class()], $elementNamesMap);
         }
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {
