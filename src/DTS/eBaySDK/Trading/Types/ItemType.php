@@ -24,6 +24,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AttributeArrayType $AttributeArray
  * @property \DTS\eBaySDK\Trading\Types\AttributeSetArrayType $AttributeSetArray
  * @property boolean $AutoPay
+ * @property boolean $AvailableForPickupDropOff
  * @property \DTS\eBaySDK\Trading\Types\BestOfferDetailsType $BestOfferDetails
  * @property \DTS\eBaySDK\Trading\Types\BiddingDetailsType $BiddingDetails
  * @property \DTS\eBaySDK\Trading\Types\BusinessSellerDetailsType $BusinessSellerDetails
@@ -48,6 +49,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $DisableBuyerRequirements
  * @property \DTS\eBaySDK\Trading\Types\DiscountPriceInfoType $DiscountPriceInfo
  * @property integer $DispatchTimeMax
+ * @property boolean $EligibleForPickupDropOff
  * @property \DTS\eBaySDK\Trading\Types\ExtendedContactDetailsType $ExtendedSellerContactDetails
  * @property \DTS\eBaySDK\Trading\Types\ExternalProductIDType $ExternalProductID
  * @property \DTS\eBaySDK\Trading\Types\AmountType $FloorPrice
@@ -194,6 +196,12 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'AutoPay'
         ),
+        'AvailableForPickupDropOff' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'AvailableForPickupDropOff'
+        ),
         'BestOfferDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\BestOfferDetailsType',
             'unbound' => false,
@@ -337,6 +345,12 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DispatchTimeMax'
+        ),
+        'EligibleForPickupDropOff' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'EligibleForPickupDropOff'
         ),
         'ExtendedSellerContactDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ExtendedContactDetailsType',
