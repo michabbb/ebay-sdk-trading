@@ -1,6 +1,6 @@
 # EBAY-SDK-TRADING
 
-[![Build Status](https://travis-ci.org/davidtsadler/ebay-sdk-trading.svg?branch=develop)](https://travis-ci.org/davidtsadler/ebay-sdk-trading)
+[![Build Status](https://travis-ci.org/davidtsadler/ebay-sdk-trading.svg?branch=master)](https://travis-ci.org/davidtsadler/ebay-sdk-trading)
 
 This project enables PHP developers to use the [eBay API](https://go.developer.ebay.com/developers/ebay/documentation-tools/) in their PHP code, and build software using the [Trading](http://developer.ebay.com/DevZone/guides/ebayfeatures/index.html) service. You can get started by [installing the SDK via Composer](http://devbay.net/sdk/guides/installation/) and by following the [Getting Started Guide](http://devbay.net/sdk/guides/getting-started/).
 
