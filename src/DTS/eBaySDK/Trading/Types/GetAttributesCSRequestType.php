@@ -45,6 +45,10 @@ class GetAttributesCSRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
             self::$xmlNamespaces[__CLASS__] = 'urn:ebay:apis:eBLBaseComponents';
         }
 
+        if (!array_key_exists(__CLASS__, self::$requestXmlRootElementNames)) {
+            self::$requestXmlRootElementNames[__CLASS__] = 'GetAttributesCSRequest';
+        }
+
         $this->setValues(__CLASS__, $childValues);
     }
 }

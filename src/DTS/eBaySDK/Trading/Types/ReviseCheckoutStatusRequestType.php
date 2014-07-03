@@ -192,6 +192,10 @@ class ReviseCheckoutStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
             self::$xmlNamespaces[__CLASS__] = 'urn:ebay:apis:eBLBaseComponents';
         }
 
+        if (!array_key_exists(__CLASS__, self::$requestXmlRootElementNames)) {
+            self::$requestXmlRootElementNames[__CLASS__] = 'ReviseCheckoutStatusRequest';
+        }
+
         $this->setValues(__CLASS__, $childValues);
     }
 }

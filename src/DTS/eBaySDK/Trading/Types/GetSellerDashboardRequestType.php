@@ -45,6 +45,10 @@ class GetSellerDashboardRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             self::$xmlNamespaces[__CLASS__] = 'urn:ebay:apis:eBLBaseComponents';
         }
 
+        if (!array_key_exists(__CLASS__, self::$requestXmlRootElementNames)) {
+            self::$requestXmlRootElementNames[__CLASS__] = 'GetSellerDashboardRequest';
+        }
+
         $this->setValues(__CLASS__, $childValues);
     }
 }
