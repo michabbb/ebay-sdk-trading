@@ -36,7 +36,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddDispute',
-            $request->toXml('AddDisputeRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddDisputeResponseType'
         );
     }
@@ -49,7 +49,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddDisputeResponse',
-            $request->toXml('AddDisputeResponseRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddDisputeResponseResponseType'
         );
     }
@@ -62,7 +62,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddFixedPriceItem',
-            $request->toXml('AddFixedPriceItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddFixedPriceItemResponseType'
         );
     }
@@ -75,7 +75,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddItem',
-            $request->toXml('AddItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddItemResponseType'
         );
     }
@@ -88,7 +88,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddItemFromSellingManagerTemplate',
-            $request->toXml('AddItemFromSellingManagerTemplateRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddItemFromSellingManagerTemplateResponseType'
         );
     }
@@ -101,7 +101,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddItems',
-            $request->toXml('AddItemsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddItemsResponseType'
         );
     }
@@ -114,7 +114,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddMemberMessageAAQToPartner',
-            $request->toXml('AddMemberMessageAAQToPartnerRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddMemberMessageAAQToPartnerResponseType'
         );
     }
@@ -127,7 +127,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddMemberMessageRTQ',
-            $request->toXml('AddMemberMessageRTQRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddMemberMessageRTQResponseType'
         );
     }
@@ -140,7 +140,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddMemberMessagesAAQToBidder',
-            $request->toXml('AddMemberMessagesAAQToBidderRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderResponseType'
         );
     }
@@ -153,7 +153,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddOrder',
-            $request->toXml('AddOrderRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddOrderResponseType'
         );
     }
@@ -166,7 +166,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddSecondChanceItem',
-            $request->toXml('AddSecondChanceItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddSecondChanceItemResponseType'
         );
     }
@@ -179,7 +179,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddSellingManagerInventoryFolder',
-            $request->toXml('AddSellingManagerInventoryFolderRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddSellingManagerInventoryFolderResponseType'
         );
     }
@@ -192,7 +192,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddSellingManagerProduct',
-            $request->toXml('AddSellingManagerProductRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddSellingManagerProductResponseType'
         );
     }
@@ -205,7 +205,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddSellingManagerTemplate',
-            $request->toXml('AddSellingManagerTemplateRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddSellingManagerTemplateResponseType'
         );
     }
@@ -218,7 +218,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddToItemDescription',
-            $request->toXml('AddToItemDescriptionRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddToItemDescriptionResponseType'
         );
     }
@@ -231,7 +231,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddToWatchList',
-            $request->toXml('AddToWatchListRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddToWatchListResponseType'
         );
     }
@@ -244,7 +244,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'AddTransactionConfirmationItem',
-            $request->toXml('AddTransactionConfirmationItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\AddTransactionConfirmationItemResponseType'
         );
     }
@@ -257,7 +257,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'CompleteSale',
-            $request->toXml('CompleteSaleRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\CompleteSaleResponseType'
         );
     }
@@ -270,7 +270,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ConfirmIdentity',
-            $request->toXml('ConfirmIdentityRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ConfirmIdentityResponseType'
         );
     }
@@ -283,7 +283,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'DeleteMyMessages',
-            $request->toXml('DeleteMyMessagesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\DeleteMyMessagesResponseType'
         );
     }
@@ -296,7 +296,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'DeleteSellingManagerInventoryFolder',
-            $request->toXml('DeleteSellingManagerInventoryFolderRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\DeleteSellingManagerInventoryFolderResponseType'
         );
     }
@@ -309,7 +309,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'DeleteSellingManagerItemAutomationRule',
-            $request->toXml('DeleteSellingManagerItemAutomationRuleRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\DeleteSellingManagerItemAutomationRuleResponseType'
         );
     }
@@ -322,7 +322,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'DeleteSellingManagerProduct',
-            $request->toXml('DeleteSellingManagerProductRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\DeleteSellingManagerProductResponseType'
         );
     }
@@ -335,7 +335,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'DeleteSellingManagerTemplate',
-            $request->toXml('DeleteSellingManagerTemplateRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\DeleteSellingManagerTemplateResponseType'
         );
     }
@@ -348,7 +348,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'DeleteSellingManagerTemplateAutomationRule',
-            $request->toXml('DeleteSellingManagerTemplateAutomationRuleRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\DeleteSellingManagerTemplateAutomationRuleResponseType'
         );
     }
@@ -361,7 +361,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'DisableUnpaidItemAssistance',
-            $request->toXml('DisableUnpaidItemAssistanceRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\DisableUnpaidItemAssistanceResponseType'
         );
     }
@@ -374,7 +374,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'EndFixedPriceItem',
-            $request->toXml('EndFixedPriceItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\EndFixedPriceItemResponseType'
         );
     }
@@ -387,7 +387,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'EndItem',
-            $request->toXml('EndItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\EndItemResponseType'
         );
     }
@@ -400,7 +400,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'EndItems',
-            $request->toXml('EndItemsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\EndItemsResponseType'
         );
     }
@@ -413,7 +413,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ExtendSiteHostedPictures',
-            $request->toXml('ExtendSiteHostedPicturesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ExtendSiteHostedPicturesResponseType'
         );
     }
@@ -426,7 +426,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'FetchToken',
-            $request->toXml('FetchTokenRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\FetchTokenResponseType'
         );
     }
@@ -439,7 +439,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetAccount',
-            $request->toXml('GetAccountRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetAccountResponseType'
         );
     }
@@ -452,7 +452,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetAdFormatLeads',
-            $request->toXml('GetAdFormatLeadsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetAdFormatLeadsResponseType'
         );
     }
@@ -465,7 +465,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetAllBidders',
-            $request->toXml('GetAllBiddersRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetAllBiddersResponseType'
         );
     }
@@ -478,7 +478,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetApiAccessRules',
-            $request->toXml('GetApiAccessRulesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetApiAccessRulesResponseType'
         );
     }
@@ -491,7 +491,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetAttributesCS',
-            $request->toXml('GetAttributesCSRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetAttributesCSResponseType'
         );
     }
@@ -504,7 +504,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetAttributesXSL',
-            $request->toXml('GetAttributesXSLRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetAttributesXSLResponseType'
         );
     }
@@ -517,7 +517,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetBestOffers',
-            $request->toXml('GetBestOffersRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetBestOffersResponseType'
         );
     }
@@ -530,7 +530,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetBidderList',
-            $request->toXml('GetBidderListRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetBidderListResponseType'
         );
     }
@@ -543,7 +543,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetCategories',
-            $request->toXml('GetCategoriesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetCategoriesResponseType'
         );
     }
@@ -556,7 +556,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetCategory2CS',
-            $request->toXml('GetCategory2CSRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetCategory2CSResponseType'
         );
     }
@@ -569,7 +569,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetCategoryFeatures',
-            $request->toXml('GetCategoryFeaturesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetCategoryFeaturesResponseType'
         );
     }
@@ -582,7 +582,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetCategoryMappings',
-            $request->toXml('GetCategoryMappingsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetCategoryMappingsResponseType'
         );
     }
@@ -595,7 +595,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetCategorySpecifics',
-            $request->toXml('GetCategorySpecificsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetCategorySpecificsResponseType'
         );
     }
@@ -608,7 +608,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetChallengeToken',
-            $request->toXml('GetChallengeTokenRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetChallengeTokenResponseType'
         );
     }
@@ -621,7 +621,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetCharities',
-            $request->toXml('GetCharitiesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetCharitiesResponseType'
         );
     }
@@ -634,7 +634,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetClientAlertsAuthToken',
-            $request->toXml('GetClientAlertsAuthTokenRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetClientAlertsAuthTokenResponseType'
         );
     }
@@ -647,7 +647,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetContextualKeywords',
-            $request->toXml('GetContextualKeywordsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetContextualKeywordsResponseType'
         );
     }
@@ -660,7 +660,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetCrossPromotions',
-            $request->toXml('GetCrossPromotionsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetCrossPromotionsResponseType'
         );
     }
@@ -673,7 +673,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetDescriptionTemplates',
-            $request->toXml('GetDescriptionTemplatesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetDescriptionTemplatesResponseType'
         );
     }
@@ -686,7 +686,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetDispute',
-            $request->toXml('GetDisputeRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetDisputeResponseType'
         );
     }
@@ -699,7 +699,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetFeedback',
-            $request->toXml('GetFeedbackRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetFeedbackResponseType'
         );
     }
@@ -712,7 +712,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetHighBidders',
-            $request->toXml('GetHighBiddersRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetHighBiddersResponseType'
         );
     }
@@ -725,7 +725,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetItem',
-            $request->toXml('GetItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetItemResponseType'
         );
     }
@@ -738,7 +738,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetItemRecommendations',
-            $request->toXml('GetItemRecommendationsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetItemRecommendationsResponseType'
         );
     }
@@ -751,7 +751,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetItemShipping',
-            $request->toXml('GetItemShippingRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetItemShippingResponseType'
         );
     }
@@ -764,7 +764,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetItemTransactions',
-            $request->toXml('GetItemTransactionsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetItemTransactionsResponseType'
         );
     }
@@ -777,7 +777,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetItemsAwaitingFeedback',
-            $request->toXml('GetItemsAwaitingFeedbackRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetItemsAwaitingFeedbackResponseType'
         );
     }
@@ -790,7 +790,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetMemberMessages',
-            $request->toXml('GetMemberMessagesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetMemberMessagesResponseType'
         );
     }
@@ -803,7 +803,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetMessagePreferences',
-            $request->toXml('GetMessagePreferencesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetMessagePreferencesResponseType'
         );
     }
@@ -816,7 +816,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetMyMessages',
-            $request->toXml('GetMyMessagesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetMyMessagesResponseType'
         );
     }
@@ -829,7 +829,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetMyeBayBuying',
-            $request->toXml('GetMyeBayBuyingRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetMyeBayBuyingResponseType'
         );
     }
@@ -842,7 +842,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetMyeBayReminders',
-            $request->toXml('GetMyeBayRemindersRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetMyeBayRemindersResponseType'
         );
     }
@@ -855,7 +855,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetMyeBaySelling',
-            $request->toXml('GetMyeBaySellingRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetMyeBaySellingResponseType'
         );
     }
@@ -868,7 +868,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetNotificationPreferences',
-            $request->toXml('GetNotificationPreferencesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetNotificationPreferencesResponseType'
         );
     }
@@ -881,7 +881,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetNotificationsUsage',
-            $request->toXml('GetNotificationsUsageRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetNotificationsUsageResponseType'
         );
     }
@@ -894,7 +894,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetOrderTransactions',
-            $request->toXml('GetOrderTransactionsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetOrderTransactionsResponseType'
         );
     }
@@ -907,7 +907,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetOrders',
-            $request->toXml('GetOrdersRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetOrdersResponseType'
         );
     }
@@ -920,7 +920,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetPictureManagerDetails',
-            $request->toXml('GetPictureManagerDetailsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetPictureManagerDetailsResponseType'
         );
     }
@@ -933,7 +933,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetPictureManagerOptions',
-            $request->toXml('GetPictureManagerOptionsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetPictureManagerOptionsResponseType'
         );
     }
@@ -946,7 +946,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetProductFamilyMembers',
-            $request->toXml('GetProductFamilyMembersRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetProductFamilyMembersResponseType'
         );
     }
@@ -959,7 +959,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetProductFinder',
-            $request->toXml('GetProductFinderRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetProductFinderResponseType'
         );
     }
@@ -972,7 +972,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetProductFinderXSL',
-            $request->toXml('GetProductFinderXSLRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetProductFinderXSLResponseType'
         );
     }
@@ -985,7 +985,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetProductSearchPage',
-            $request->toXml('GetProductSearchPageRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetProductSearchPageResponseType'
         );
     }
@@ -998,7 +998,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetProductSearchResults',
-            $request->toXml('GetProductSearchResultsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetProductSearchResultsResponseType'
         );
     }
@@ -1011,7 +1011,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetProductSellingPages',
-            $request->toXml('GetProductSellingPagesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetProductSellingPagesResponseType'
         );
     }
@@ -1024,7 +1024,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetPromotionRules',
-            $request->toXml('GetPromotionRulesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetPromotionRulesResponseType'
         );
     }
@@ -1037,7 +1037,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetPromotionalSaleDetails',
-            $request->toXml('GetPromotionalSaleDetailsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetPromotionalSaleDetailsResponseType'
         );
     }
@@ -1050,7 +1050,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellerDashboard',
-            $request->toXml('GetSellerDashboardRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellerDashboardResponseType'
         );
     }
@@ -1063,7 +1063,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellerEvents',
-            $request->toXml('GetSellerEventsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellerEventsResponseType'
         );
     }
@@ -1076,7 +1076,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellerList',
-            $request->toXml('GetSellerListRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellerListResponseType'
         );
     }
@@ -1089,7 +1089,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellerPayments',
-            $request->toXml('GetSellerPaymentsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellerPaymentsResponseType'
         );
     }
@@ -1102,7 +1102,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellerTransactions',
-            $request->toXml('GetSellerTransactionsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellerTransactionsResponseType'
         );
     }
@@ -1115,7 +1115,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellingManagerAlerts',
-            $request->toXml('GetSellingManagerAlertsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellingManagerAlertsResponseType'
         );
     }
@@ -1128,7 +1128,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellingManagerEmailLog',
-            $request->toXml('GetSellingManagerEmailLogRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellingManagerEmailLogResponseType'
         );
     }
@@ -1141,7 +1141,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellingManagerInventory',
-            $request->toXml('GetSellingManagerInventoryRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellingManagerInventoryResponseType'
         );
     }
@@ -1154,7 +1154,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellingManagerInventoryFolder',
-            $request->toXml('GetSellingManagerInventoryFolderRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellingManagerInventoryFolderResponseType'
         );
     }
@@ -1167,7 +1167,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellingManagerItemAutomationRule',
-            $request->toXml('GetSellingManagerItemAutomationRuleRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellingManagerItemAutomationRuleResponseType'
         );
     }
@@ -1180,7 +1180,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellingManagerSaleRecord',
-            $request->toXml('GetSellingManagerSaleRecordRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellingManagerSaleRecordResponseType'
         );
     }
@@ -1193,7 +1193,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellingManagerSoldListings',
-            $request->toXml('GetSellingManagerSoldListingsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellingManagerSoldListingsResponseType'
         );
     }
@@ -1206,7 +1206,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellingManagerTemplateAutomationRule',
-            $request->toXml('GetSellingManagerTemplateAutomationRuleRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellingManagerTemplateAutomationRuleResponseType'
         );
     }
@@ -1219,7 +1219,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSellingManagerTemplates',
-            $request->toXml('GetSellingManagerTemplatesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSellingManagerTemplatesResponseType'
         );
     }
@@ -1232,7 +1232,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSessionID',
-            $request->toXml('GetSessionIDRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSessionIDResponseType'
         );
     }
@@ -1245,7 +1245,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetShippingDiscountProfiles',
-            $request->toXml('GetShippingDiscountProfilesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetShippingDiscountProfilesResponseType'
         );
     }
@@ -1258,7 +1258,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetStore',
-            $request->toXml('GetStoreRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetStoreResponseType'
         );
     }
@@ -1271,7 +1271,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetStoreCategoryUpdateStatus',
-            $request->toXml('GetStoreCategoryUpdateStatusRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetStoreCategoryUpdateStatusResponseType'
         );
     }
@@ -1284,7 +1284,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetStoreCustomPage',
-            $request->toXml('GetStoreCustomPageRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetStoreCustomPageResponseType'
         );
     }
@@ -1297,7 +1297,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetStoreOptions',
-            $request->toXml('GetStoreOptionsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetStoreOptionsResponseType'
         );
     }
@@ -1310,7 +1310,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetStorePreferences',
-            $request->toXml('GetStorePreferencesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetStorePreferencesResponseType'
         );
     }
@@ -1323,7 +1323,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetSuggestedCategories',
-            $request->toXml('GetSuggestedCategoriesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetSuggestedCategoriesResponseType'
         );
     }
@@ -1336,7 +1336,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetTaxTable',
-            $request->toXml('GetTaxTableRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetTaxTableResponseType'
         );
     }
@@ -1349,7 +1349,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetTokenStatus',
-            $request->toXml('GetTokenStatusRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetTokenStatusResponseType'
         );
     }
@@ -1362,7 +1362,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetUser',
-            $request->toXml('GetUserRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetUserResponseType'
         );
     }
@@ -1375,7 +1375,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetUserContactDetails',
-            $request->toXml('GetUserContactDetailsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetUserContactDetailsResponseType'
         );
     }
@@ -1388,7 +1388,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetUserDisputes',
-            $request->toXml('GetUserDisputesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetUserDisputesResponseType'
         );
     }
@@ -1401,7 +1401,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetUserPreferences',
-            $request->toXml('GetUserPreferencesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetUserPreferencesResponseType'
         );
     }
@@ -1414,7 +1414,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetVeROReasonCodeDetails',
-            $request->toXml('GetVeROReasonCodeDetailsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetVeROReasonCodeDetailsResponseType'
         );
     }
@@ -1427,7 +1427,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetVeROReportStatus',
-            $request->toXml('GetVeROReportStatusRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetVeROReportStatusResponseType'
         );
     }
@@ -1440,7 +1440,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetWantItNowPost',
-            $request->toXml('GetWantItNowPostRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetWantItNowPostResponseType'
         );
     }
@@ -1453,7 +1453,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GetWantItNowSearchResults',
-            $request->toXml('GetWantItNowSearchResultsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GetWantItNowSearchResultsResponseType'
         );
     }
@@ -1466,7 +1466,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GeteBayDetails',
-            $request->toXml('GeteBayDetailsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GeteBayDetailsResponseType'
         );
     }
@@ -1479,7 +1479,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'GeteBayOfficialTime',
-            $request->toXml('GeteBayOfficialTimeRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\GeteBayOfficialTimeResponseType'
         );
     }
@@ -1492,7 +1492,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'IssueRefund',
-            $request->toXml('IssueRefundRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\IssueRefundResponseType'
         );
     }
@@ -1505,7 +1505,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'LeaveFeedback',
-            $request->toXml('LeaveFeedbackRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\LeaveFeedbackResponseType'
         );
     }
@@ -1518,7 +1518,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'MoveSellingManagerInventoryFolder',
-            $request->toXml('MoveSellingManagerInventoryFolderRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\MoveSellingManagerInventoryFolderResponseType'
         );
     }
@@ -1531,7 +1531,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'PlaceOffer',
-            $request->toXml('PlaceOfferRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\PlaceOfferResponseType'
         );
     }
@@ -1544,7 +1544,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'RelistFixedPriceItem',
-            $request->toXml('RelistFixedPriceItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\RelistFixedPriceItemResponseType'
         );
     }
@@ -1557,7 +1557,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'RelistItem',
-            $request->toXml('RelistItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\RelistItemResponseType'
         );
     }
@@ -1570,7 +1570,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'RemoveFromWatchList',
-            $request->toXml('RemoveFromWatchListRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\RemoveFromWatchListResponseType'
         );
     }
@@ -1583,7 +1583,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'RespondToBestOffer',
-            $request->toXml('RespondToBestOfferRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\RespondToBestOfferResponseType'
         );
     }
@@ -1596,7 +1596,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'RespondToFeedback',
-            $request->toXml('RespondToFeedbackRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\RespondToFeedbackResponseType'
         );
     }
@@ -1609,7 +1609,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'RespondToWantItNowPost',
-            $request->toXml('RespondToWantItNowPostRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\RespondToWantItNowPostResponseType'
         );
     }
@@ -1622,7 +1622,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ReviseCheckoutStatus',
-            $request->toXml('ReviseCheckoutStatusRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ReviseCheckoutStatusResponseType'
         );
     }
@@ -1635,7 +1635,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ReviseFixedPriceItem',
-            $request->toXml('ReviseFixedPriceItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ReviseFixedPriceItemResponseType'
         );
     }
@@ -1648,7 +1648,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ReviseInventoryStatus',
-            $request->toXml('ReviseInventoryStatusRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ReviseInventoryStatusResponseType'
         );
     }
@@ -1661,7 +1661,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ReviseItem',
-            $request->toXml('ReviseItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ReviseItemResponseType'
         );
     }
@@ -1674,7 +1674,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ReviseMyMessages',
-            $request->toXml('ReviseMyMessagesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ReviseMyMessagesResponseType'
         );
     }
@@ -1687,7 +1687,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ReviseMyMessagesFolders',
-            $request->toXml('ReviseMyMessagesFoldersRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ReviseMyMessagesFoldersResponseType'
         );
     }
@@ -1700,7 +1700,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ReviseSellingManagerInventoryFolder',
-            $request->toXml('ReviseSellingManagerInventoryFolderRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ReviseSellingManagerInventoryFolderResponseType'
         );
     }
@@ -1713,7 +1713,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ReviseSellingManagerProduct',
-            $request->toXml('ReviseSellingManagerProductRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ReviseSellingManagerProductResponseType'
         );
     }
@@ -1726,7 +1726,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ReviseSellingManagerSaleRecord',
-            $request->toXml('ReviseSellingManagerSaleRecordRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ReviseSellingManagerSaleRecordResponseType'
         );
     }
@@ -1739,7 +1739,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ReviseSellingManagerTemplate',
-            $request->toXml('ReviseSellingManagerTemplateRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ReviseSellingManagerTemplateResponseType'
         );
     }
@@ -1752,7 +1752,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'RevokeToken',
-            $request->toXml('RevokeTokenRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\RevokeTokenResponseType'
         );
     }
@@ -1765,7 +1765,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SaveItemToSellingManagerTemplate',
-            $request->toXml('SaveItemToSellingManagerTemplateRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SaveItemToSellingManagerTemplateResponseType'
         );
     }
@@ -1778,7 +1778,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SellerReverseDispute',
-            $request->toXml('SellerReverseDisputeRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SellerReverseDisputeResponseType'
         );
     }
@@ -1791,7 +1791,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SendInvoice',
-            $request->toXml('SendInvoiceRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SendInvoiceResponseType'
         );
     }
@@ -1804,7 +1804,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetMessagePreferences',
-            $request->toXml('SetMessagePreferencesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetMessagePreferencesResponseType'
         );
     }
@@ -1817,7 +1817,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetNotificationPreferences',
-            $request->toXml('SetNotificationPreferencesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetNotificationPreferencesResponseType'
         );
     }
@@ -1830,7 +1830,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetPictureManagerDetails',
-            $request->toXml('SetPictureManagerDetailsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetPictureManagerDetailsResponseType'
         );
     }
@@ -1843,7 +1843,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetPromotionalSale',
-            $request->toXml('SetPromotionalSaleRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetPromotionalSaleResponseType'
         );
     }
@@ -1856,7 +1856,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetPromotionalSaleListings',
-            $request->toXml('SetPromotionalSaleListingsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetPromotionalSaleListingsResponseType'
         );
     }
@@ -1869,7 +1869,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetSellingManagerFeedbackOptions',
-            $request->toXml('SetSellingManagerFeedbackOptionsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetSellingManagerFeedbackOptionsResponseType'
         );
     }
@@ -1882,7 +1882,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetSellingManagerItemAutomationRule',
-            $request->toXml('SetSellingManagerItemAutomationRuleRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetSellingManagerItemAutomationRuleResponseType'
         );
     }
@@ -1895,7 +1895,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetSellingManagerTemplateAutomationRule',
-            $request->toXml('SetSellingManagerTemplateAutomationRuleRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetSellingManagerTemplateAutomationRuleResponseType'
         );
     }
@@ -1908,7 +1908,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetShippingDiscountProfiles',
-            $request->toXml('SetShippingDiscountProfilesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetShippingDiscountProfilesResponseType'
         );
     }
@@ -1921,7 +1921,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetStore',
-            $request->toXml('SetStoreRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetStoreResponseType'
         );
     }
@@ -1934,7 +1934,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetStoreCategories',
-            $request->toXml('SetStoreCategoriesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetStoreCategoriesResponseType'
         );
     }
@@ -1947,7 +1947,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetStoreCustomPage',
-            $request->toXml('SetStoreCustomPageRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetStoreCustomPageResponseType'
         );
     }
@@ -1960,7 +1960,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetStorePreferences',
-            $request->toXml('SetStorePreferencesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetStorePreferencesResponseType'
         );
     }
@@ -1973,7 +1973,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetTaxTable',
-            $request->toXml('SetTaxTableRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetTaxTableResponseType'
         );
     }
@@ -1986,7 +1986,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetUserNotes',
-            $request->toXml('SetUserNotesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetUserNotesResponseType'
         );
     }
@@ -1999,7 +1999,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'SetUserPreferences',
-            $request->toXml('SetUserPreferencesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\SetUserPreferencesResponseType'
         );
     }
@@ -2012,7 +2012,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'UploadSiteHostedPictures',
-            $request->toXml('UploadSiteHostedPicturesRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\UploadSiteHostedPicturesResponseType'
         );
     }
@@ -2025,7 +2025,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ValidateChallengeInput',
-            $request->toXml('ValidateChallengeInputRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ValidateChallengeInputResponseType'
         );
     }
@@ -2038,7 +2038,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'ValidateTestUserRegistration',
-            $request->toXml('ValidateTestUserRegistrationRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\ValidateTestUserRegistrationResponseType'
         );
     }
@@ -2051,7 +2051,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'VeROReportItems',
-            $request->toXml('VeROReportItemsRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\VeROReportItemsResponseType'
         );
     }
@@ -2064,7 +2064,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'VerifyAddFixedPriceItem',
-            $request->toXml('VerifyAddFixedPriceItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\VerifyAddFixedPriceItemResponseType'
         );
     }
@@ -2077,7 +2077,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'VerifyAddItem',
-            $request->toXml('VerifyAddItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\VerifyAddItemResponseType'
         );
     }
@@ -2090,7 +2090,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'VerifyAddSecondChanceItem',
-            $request->toXml('VerifyAddSecondChanceItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\VerifyAddSecondChanceItemResponseType'
         );
     }
@@ -2103,7 +2103,7 @@ class TradingService extends \DTS\eBaySDK\Trading\Services\TradingBaseService
     {
         return $this->callOperation(
             'VerifyRelistItem',
-            $request->toXml('VerifyRelistItemRequest', true),
+            $request->toRequestXml(),
             '\DTS\eBaySDK\Trading\Types\VerifyRelistItemResponseType'
         );
     }
