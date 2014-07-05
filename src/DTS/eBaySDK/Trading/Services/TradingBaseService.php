@@ -44,6 +44,7 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
             self::$configOptions[get_called_class()] = array(
                 'apiVersion' => array('required' => true),
                 'appId' => array('required' => false),
+                'authToken' => array('required' => true),
                 'certId' => array('required' => false),
                 'devId' => array('required' => false),
                 'siteId' => array('required' => true)
@@ -51,6 +52,38 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
         }
 
         parent::__construct('https://api.ebay.com/ws/api.dll', 'https://api.sandbox.ebay.com/ws/api.dll', $config, $httpClient);
+    }
+
+    /**
+     * Sends an API request.
+     *
+     * This method overrides the parent so that it can modify
+     * the request object before is handled by the parent class.
+     *
+     * @param string $name The name of the operation.
+     * @param \DTS\eBaySDK\Types\BaseType $request Request object containing the request information.
+     * @param string The name of the PHP class that will be created from the XML response.
+     *
+     * @return mixed A response object created from the XML respose.
+     */
+    protected function callOperation($name, \DTS\eBaySDK\Types\BaseType $request, $responseClass)
+    {
+        /**
+            Modify the request object to include the auth token that was set up in the configuration.
+         */
+        if ($this->config('authToken') !== null) {
+            /**
+                Don't modify a request if the token already exists.
+             */
+            if( !isset($request->RequesterCredentials)) {
+                $request->RequesterCredentials = new \DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType();
+            }
+            if(!isset($request->RequesterCredentials->eBayAuthToken)) {
+                $request->RequesterCredentials->eBayAuthToken = $this->config('authToken');
+            }
+        }
+
+        return parent::callOperation($name, $request, $responseClass);
     }
 
     /**
