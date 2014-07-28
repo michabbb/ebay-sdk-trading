@@ -28,6 +28,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $ShowGlobalShippingProgramListingPreference
  * @property boolean $ShowGlobalShippingProgramPreference
  * @property boolean $ShowOverrideGSPServiceWithIntlServicePreference
+ * @property boolean $ShowPickupDropoffPreferences
  * @property boolean $ShowProStoresPreferences
  * @property boolean $ShowPurchaseReminderEmailPreferences
  * @property boolean $ShowRequiredShipPhoneNumberPreference
@@ -98,6 +99,12 @@ class GetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowOverrideGSPServiceWithIntlServicePreference'
+        ),
+        'ShowPickupDropoffPreferences' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ShowPickupDropoffPreferences'
         ),
         'ShowProStoresPreferences' => array(
             'type' => 'boolean',

@@ -19,26 +19,33 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $EligibleForPickupDropOff
- * @property boolean $EligibleForPickupInStore
+ * @property \DTS\eBaySDK\Trading\Types\TaxIdentifierAttributeType[] $Attribute
+ * @property string $ID
+ * @property \DTS\eBaySDK\Trading\Enums\ValueTypeCodeType $Type
  */
-class PickupInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType
+class TaxIdentifierType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'EligibleForPickupDropOff' => array(
-            'type' => 'boolean',
-            'unbound' => false,
+        'Attribute' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\TaxIdentifierAttributeType',
+            'unbound' => true,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupDropOff'
+            'elementName' => 'Attribute'
         ),
-        'EligibleForPickupInStore' => array(
-            'type' => 'boolean',
+        'ID' => array(
+            'type' => 'string',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupInStore'
+            'elementName' => 'ID'
+        ),
+        'Type' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'Type'
         )
     );
 

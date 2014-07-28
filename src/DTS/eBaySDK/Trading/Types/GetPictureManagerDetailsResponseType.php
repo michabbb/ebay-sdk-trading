@@ -19,26 +19,19 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $EligibleForPickupDropOff
- * @property boolean $EligibleForPickupInStore
+ * @property \DTS\eBaySDK\Trading\Types\PictureManagerDetailsType $PictureManagerDetails
  */
-class PickupInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType
+class GetPictureManagerDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'EligibleForPickupDropOff' => array(
-            'type' => 'boolean',
+        'PictureManagerDetails' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\PictureManagerDetailsType',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupDropOff'
-        ),
-        'EligibleForPickupInStore' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'EligibleForPickupInStore'
+            'elementName' => 'PictureManagerDetails'
         )
     );
 

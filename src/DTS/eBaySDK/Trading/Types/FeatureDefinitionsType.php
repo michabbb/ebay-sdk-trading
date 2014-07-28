@@ -103,6 +103,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\PaymentMethodDefinitionType $PaymentMethod
  * @property \DTS\eBaySDK\Trading\Types\PaymentOptionsGroupEnabledDefinitionType $PaymentOptionsGroup
  * @property \DTS\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType $PaymentProfileCategoryGroup
+ * @property \DTS\eBaySDK\Trading\Types\PickupDropOffEnabledDefinitionType $PickupDropOffEnabled
  * @property \DTS\eBaySDK\Trading\Types\PremiumSubscriptionDefinitionType $PremiumSubscription
  * @property \DTS\eBaySDK\Trading\Types\ProPackEnabledDefinitionType $ProPackEnabled
  * @property \DTS\eBaySDK\Trading\Types\ProPackPlusEnabledDefinitionType $ProPackPlusEnabled
@@ -655,6 +656,12 @@ class FeatureDefinitionsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaymentProfileCategoryGroup'
+        ),
+        'PickupDropOffEnabled' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\PickupDropOffEnabledDefinitionType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PickupDropOffEnabled'
         ),
         'PremiumSubscription' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PremiumSubscriptionDefinitionType',

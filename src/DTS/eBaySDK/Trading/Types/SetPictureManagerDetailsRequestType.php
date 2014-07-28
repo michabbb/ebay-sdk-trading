@@ -19,26 +19,26 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $EligibleForPickupDropOff
- * @property boolean $EligibleForPickupInStore
+ * @property \DTS\eBaySDK\Trading\Enums\PictureManagerActionCodeType $Action
+ * @property \DTS\eBaySDK\Trading\Types\PictureManagerDetailsType $PictureManagerDetails
  */
-class PickupInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType
+class SetPictureManagerDetailsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'EligibleForPickupDropOff' => array(
-            'type' => 'boolean',
+        'Action' => array(
+            'type' => 'string',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupDropOff'
+            'elementName' => 'Action'
         ),
-        'EligibleForPickupInStore' => array(
-            'type' => 'boolean',
+        'PictureManagerDetails' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\PictureManagerDetailsType',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupInStore'
+            'elementName' => 'PictureManagerDetails'
         )
     );
 
@@ -57,6 +57,10 @@ class PickupInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {
             self::$xmlNamespaces[__CLASS__] = 'urn:ebay:apis:eBLBaseComponents';
+        }
+
+        if (!array_key_exists(__CLASS__, self::$requestXmlRootElementNames)) {
+            self::$requestXmlRootElementNames[__CLASS__] = 'SetPictureManagerDetailsRequest';
         }
 
         $this->setValues(__CLASS__, $childValues);

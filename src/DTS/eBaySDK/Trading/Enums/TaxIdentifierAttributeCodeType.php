@@ -20,22 +20,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 /**
  *
  */
-class ValueTypeCodeType
+class TaxIdentifierAttributeCodeType
 {
-    const C_CEDULA = 'CEDULA';
-    const C_CODICE_FISCALE = 'CodiceFiscale';
-    const C_CPF_TAXID = 'CPFTaxID';
     const C_CUSTOM_CODE = 'CustomCode';
-    const C_DATE = 'Date';
-    const C_DECIMAL = 'Decimal';
-    const C_DNI = 'DNI';
-    const C_EAN = 'EAN';
-    const C_ISBN = 'ISBN';
-    const C_NIE = 'NIE';
-    const C_NIF = 'NIF';
-    const C_NIT = 'NIT';
-    const C_RUSSIAN_PASSPORT = 'RussianPassport';
-    const C_TEXT = 'Text';
-    const C_TURKEYID = 'TurkeyID';
-    const C_UPC = 'UPC';
+    const C_ISSUING_COUNTRY = 'IssuingCountry';
 }
