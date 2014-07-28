@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+0.3.0 (2014-07-28)
+------------------
+
+### API
+
+* Support API version 879. ([75a7ddf](https://github.com/davidtsadler/ebay-sdk-trading/commit/75a7ddf8d36c9cdc330c9f8fbd51049ffe904d9f)) [David T. Sadler]
+
 0.2.0 (2014-07-28)
 ------------------
 
