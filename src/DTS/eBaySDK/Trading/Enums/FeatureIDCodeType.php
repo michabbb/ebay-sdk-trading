@@ -117,6 +117,7 @@ class FeatureIDCodeType
     const C_PAY_PAL_BUYER_PROTECTION_ENABLED = 'PayPalBuyerProtectionEnabled';
     const C_PAY_PAL_REQUIRED = 'PayPalRequired';
     const C_PAY_PAL_REQUIRED_FOR_STORE_OWNER = 'PayPalRequiredForStoreOwner';
+    const C_PICKUP_DROP_OFF_ENABLED = 'PickupDropOffEnabled';
     const C_PREMIUM_SUBSCRIPTION = 'PremiumSubscription';
     const C_PRODUCT_CREATION_ENABLED = 'ProductCreationEnabled';
     const C_PRO_PACK = 'ProPack';

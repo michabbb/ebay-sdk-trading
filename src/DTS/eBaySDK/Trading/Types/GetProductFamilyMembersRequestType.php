@@ -19,26 +19,19 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $EligibleForPickupDropOff
- * @property boolean $EligibleForPickupInStore
+ * @property \DTS\eBaySDK\Trading\Types\ProductSearchType[] $ProductSearch
  */
-class PickupInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType
+class GetProductFamilyMembersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'EligibleForPickupDropOff' => array(
-            'type' => 'boolean',
-            'unbound' => false,
+        'ProductSearch' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\ProductSearchType',
+            'unbound' => true,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupDropOff'
-        ),
-        'EligibleForPickupInStore' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'EligibleForPickupInStore'
+            'elementName' => 'ProductSearch'
         )
     );
 
@@ -57,6 +50,10 @@ class PickupInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {
             self::$xmlNamespaces[__CLASS__] = 'urn:ebay:apis:eBLBaseComponents';
+        }
+
+        if (!array_key_exists(__CLASS__, self::$requestXmlRootElementNames)) {
+            self::$requestXmlRootElementNames[__CLASS__] = 'GetProductFamilyMembersRequest';
         }
 
         $this->setValues(__CLASS__, $childValues);

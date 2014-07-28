@@ -19,26 +19,47 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $EligibleForPickupDropOff
- * @property boolean $EligibleForPickupInStore
+ * @property string $CategoryID
+ * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property string $Query
+ * @property boolean $SearchInDescription
+ * @property boolean $SearchWorldwide
  */
-class PickupInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType
+class GetWantItNowSearchResultsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'EligibleForPickupDropOff' => array(
-            'type' => 'boolean',
+        'CategoryID' => array(
+            'type' => 'string',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupDropOff'
+            'elementName' => 'CategoryID'
         ),
-        'EligibleForPickupInStore' => array(
+        'Pagination' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'Pagination'
+        ),
+        'Query' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'Query'
+        ),
+        'SearchInDescription' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupInStore'
+            'elementName' => 'SearchInDescription'
+        ),
+        'SearchWorldwide' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'SearchWorldwide'
         )
     );
 
@@ -57,6 +78,10 @@ class PickupInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {
             self::$xmlNamespaces[__CLASS__] = 'urn:ebay:apis:eBLBaseComponents';
+        }
+
+        if (!array_key_exists(__CLASS__, self::$requestXmlRootElementNames)) {
+            self::$requestXmlRootElementNames[__CLASS__] = 'GetWantItNowSearchResultsRequest';
         }
 
         $this->setValues(__CLASS__, $childValues);

@@ -23,6 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
  * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountSaved
  * @property string $BuyerCheckoutMessage
+ * @property \DTS\eBaySDK\Trading\Types\TaxIdentifierType[] $BuyerTaxIdentifier
  * @property string $BuyerUserID
  * @property \DTS\eBaySDK\Trading\Types\CancelDetailType[] $CancelDetail
  * @property string $CancelReason
@@ -90,6 +91,12 @@ class OrderType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyerCheckoutMessage'
+        ),
+        'BuyerTaxIdentifier' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\TaxIdentifierType',
+            'unbound' => true,
+            'attribute' => false,
+            'elementName' => 'BuyerTaxIdentifier'
         ),
         'BuyerUserID' => array(
             'type' => 'string',

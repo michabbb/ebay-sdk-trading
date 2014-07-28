@@ -103,6 +103,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType[] $PaymentMethod
  * @property \DTS\eBaySDK\Trading\Enums\PaymentOptionsGroupEnabledCodeType $PaymentOptionsGroup
  * @property \DTS\eBaySDK\Trading\Enums\ProfileCategoryGroupCodeType $PaymentProfileCategoryGroup
+ * @property boolean $PickupDropOffEnabled
  * @property \DTS\eBaySDK\Trading\Enums\GeographicExposureCodeType $PremiumSubscription
  * @property boolean $ProPackEnabled
  * @property boolean $ProPackPlusEnabled
@@ -655,6 +656,12 @@ class SiteDefaultsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaymentProfileCategoryGroup'
+        ),
+        'PickupDropOffEnabled' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PickupDropOffEnabled'
         ),
         'PremiumSubscription' => array(
             'type' => 'string',

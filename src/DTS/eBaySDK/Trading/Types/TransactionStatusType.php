@@ -22,10 +22,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $BuyerSelectedShipping
  * @property \DTS\eBaySDK\Trading\Enums\CheckoutStatusCodeType $CheckoutStatus
  * @property \DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType $CompleteStatus
+ * @property \DTS\eBaySDK\Trading\Enums\InquiryStatusCodeType $InquiryStatus
  * @property boolean $IntegratedMerchantCreditCardEnabled
  * @property \DateTime $LastTimeModified
  * @property \DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
  * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
+ * @property \DTS\eBaySDK\Trading\Enums\ReturnStatusCodeType $ReturnStatus
  * @property \DTS\eBaySDK\Trading\Types\EBayPaymentMismatchDetailsType $eBayPaymentMismatchDetails
  * @property \DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType $eBayPaymentStatus
  */
@@ -53,6 +55,12 @@ class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'CompleteStatus'
         ),
+        'InquiryStatus' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'InquiryStatus'
+        ),
         'IntegratedMerchantCreditCardEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
@@ -76,6 +84,12 @@ class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaymentMethodUsed'
+        ),
+        'ReturnStatus' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ReturnStatus'
         ),
         'eBayPaymentMismatchDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\EBayPaymentMismatchDetailsType',

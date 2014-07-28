@@ -19,26 +19,26 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $EligibleForPickupDropOff
- * @property boolean $EligibleForPickupInStore
+ * @property \DTS\eBaySDK\Trading\Types\DataElementSetType[] $DataElementSets
+ * @property \DTS\eBaySDK\Trading\Types\ProductSearchResultType[] $ProductSearchResult
  */
-class PickupInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType
+class GetProductFamilyMembersResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'EligibleForPickupDropOff' => array(
-            'type' => 'boolean',
-            'unbound' => false,
+        'DataElementSets' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\DataElementSetType',
+            'unbound' => true,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupDropOff'
+            'elementName' => 'DataElementSets'
         ),
-        'EligibleForPickupInStore' => array(
-            'type' => 'boolean',
-            'unbound' => false,
+        'ProductSearchResult' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\ProductSearchResultType',
+            'unbound' => true,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupInStore'
+            'elementName' => 'ProductSearchResult'
         )
     );
 

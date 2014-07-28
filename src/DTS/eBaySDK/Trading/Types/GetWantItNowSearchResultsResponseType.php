@@ -19,26 +19,47 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $EligibleForPickupDropOff
- * @property boolean $EligibleForPickupInStore
+ * @property boolean $HasMoreItems
+ * @property integer $ItemsPerPage
+ * @property integer $PageNumber
+ * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \DTS\eBaySDK\Trading\Types\WantItNowPostArrayType $WantItNowPostArray
  */
-class PickupInStoreDetailsType extends \DTS\eBaySDK\Types\BaseType
+class GetWantItNowSearchResultsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'EligibleForPickupDropOff' => array(
+        'HasMoreItems' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupDropOff'
+            'elementName' => 'HasMoreItems'
         ),
-        'EligibleForPickupInStore' => array(
-            'type' => 'boolean',
+        'ItemsPerPage' => array(
+            'type' => 'integer',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'EligibleForPickupInStore'
+            'elementName' => 'ItemsPerPage'
+        ),
+        'PageNumber' => array(
+            'type' => 'integer',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PageNumber'
+        ),
+        'PaginationResult' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PaginationResult'
+        ),
+        'WantItNowPostArray' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\WantItNowPostArrayType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'WantItNowPostArray'
         )
     );
 
