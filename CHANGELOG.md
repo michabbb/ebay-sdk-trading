@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+0.3.1 (2014-07-28)
+------------------
+
+### Fixes
+
+* Add missing class name to property list. ([00b46d2](https://github.com/davidtsadler/ebay-sdk-trading/commit/00b46d24d75629345330ea808ac28e2726dd4703)) [David T. Sadler]
+
 0.3.0 (2014-07-28)
 ------------------
 
