@@ -28,7 +28,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $GlobalShippingProgramListingPreference
  * @property boolean $OfferGlobalShippingProgramPreference
  * @property boolean $OverrideGSPServiceWithIntlServicePreference
- * @property boolean $PickupDropoffSellerPreference
  * @property \DTS\eBaySDK\Trading\Types\ProStoresCheckoutPreferenceType $ProStoresPreference
  * @property \DTS\eBaySDK\Trading\Types\PurchaseReminderEmailPreferencesType $PurchaseReminderEmailPreferences
  * @property boolean $RequiredShipPhoneNumberPreference
@@ -38,7 +37,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\SellerProfilePreferencesType $SellerProfilePreferences
  * @property \DTS\eBaySDK\Trading\Types\SellerReturnPreferencesType $SellerReturnPreferences
  * @property boolean $SellerThirdPartyCheckoutDisabled
- * @property \DTS\eBaySDK\Trading\Types\ $ShowPickupDropoffPreferences
+ * @property \DTS\eBaySDK\Trading\Types\ShowPickupDropoffPreferences $ShowPickupDropoffPreferences
  * @property \DTS\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType $UnpaidItemAssistancePreferences
  */
 class GetUserPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
@@ -101,12 +100,6 @@ class GetUserPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
             'attribute' => false,
             'elementName' => 'OverrideGSPServiceWithIntlServicePreference'
         ),
-        'PickupDropoffSellerPreference' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PickupDropoffSellerPreference'
-        ),
         'ProStoresPreference' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ProStoresCheckoutPreferenceType',
             'unbound' => false,
@@ -162,7 +155,7 @@ class GetUserPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
             'elementName' => 'SellerThirdPartyCheckoutDisabled'
         ),
         'ShowPickupDropoffPreferences' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\',
+            'type' => 'DTS\eBaySDK\Trading\Types\ShowPickupDropoffPreferences',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowPickupDropoffPreferences'
