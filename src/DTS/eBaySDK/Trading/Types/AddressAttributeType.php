@@ -19,47 +19,19 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $CategoryID
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property string $Query
- * @property boolean $SearchInDescription
- * @property boolean $SearchWorldwide
+ * @property \DTS\eBaySDK\Trading\Enums\AddressAttributeCodeType $type
  */
-class GetWantItNowSearchResultsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddressAttributeType extends \DTS\eBaySDK\Types\StringType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'CategoryID' => array(
+        'type' => array(
             'type' => 'string',
             'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'CategoryID'
-        ),
-        'Pagination' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Pagination'
-        ),
-        'Query' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Query'
-        ),
-        'SearchInDescription' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SearchInDescription'
-        ),
-        'SearchWorldwide' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SearchWorldwide'
+            'attribute' => true,
+            'attributeName' => 'type'
         )
     );
 
@@ -78,10 +50,6 @@ class GetWantItNowSearchResultsRequestType extends \DTS\eBaySDK\Trading\Types\Ab
 
         if (!array_key_exists(__CLASS__, self::$xmlNamespaces)) {
             self::$xmlNamespaces[__CLASS__] = 'urn:ebay:apis:eBLBaseComponents';
-        }
-
-        if (!array_key_exists(__CLASS__, self::$requestXmlRootElementNames)) {
-            self::$requestXmlRootElementNames[__CLASS__] = 'GetWantItNowSearchResultsRequest';
         }
 
         $this->setValues(__CLASS__, $childValues);

@@ -35,6 +35,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType[] $ExternalTransaction
  * @property boolean $IntegratedMerchantCreditCardEnabled
  * @property boolean $IsMultiLegShipping
+ * @property string $LogisticsPlanType
  * @property \DTS\eBaySDK\Trading\Types\PaymentsInformationType $MonetaryDetails
  * @property \DTS\eBaySDK\Trading\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
  * @property string $OrderID
@@ -161,6 +162,12 @@ class OrderType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IsMultiLegShipping'
+        ),
+        'LogisticsPlanType' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'LogisticsPlanType'
         ),
         'MonetaryDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaymentsInformationType',

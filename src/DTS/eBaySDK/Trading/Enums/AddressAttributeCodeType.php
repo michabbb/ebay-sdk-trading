@@ -20,9 +20,8 @@ namespace DTS\eBaySDK\Trading\Enums;
 /**
  *
  */
-class PickupMethodCodeType
+class AddressAttributeCodeType
 {
     const C_CUSTOM_CODE = 'CustomCode';
-    const C_IN_STORE_PICKUP = 'InStorePickup';
-    const C_PICK_UP_DROP_OFF = 'PickUpDropOff';
+    const C_REFERENCE_NUMBER = 'ReferenceNumber';
 }
