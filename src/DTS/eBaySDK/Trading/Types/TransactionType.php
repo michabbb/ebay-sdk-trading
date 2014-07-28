@@ -47,6 +47,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $IsMultiLegShipping
  * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
  * @property \DTS\eBaySDK\Trading\Types\ListingCheckoutRedirectPreferenceType $ListingCheckoutRedirectPreference
+ * @property string $LogisticsPlanType
  * @property \DTS\eBaySDK\Trading\Types\PaymentsInformationType $MonetaryDetails
  * @property \DTS\eBaySDK\Trading\Types\MultiLegShippingDetailsType $MultiLegShippingDetails
  * @property string $OrderLineItemID
@@ -252,6 +253,12 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingCheckoutRedirectPreference'
+        ),
+        'LogisticsPlanType' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'LogisticsPlanType'
         ),
         'MonetaryDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\PaymentsInformationType',

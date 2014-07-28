@@ -19,6 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
+ * @property \DTS\eBaySDK\Trading\Types\AddressAttributeType[] $AddressAttribute
  * @property string $AddressID
  * @property \DTS\eBaySDK\Trading\Enums\AddressOwnerCodeType $AddressOwner
  * @property \DTS\eBaySDK\Trading\Enums\AddressRecordTypeCodeType $AddressRecordType
@@ -59,6 +60,12 @@ class AddressType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
+        'AddressAttribute' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\AddressAttributeType',
+            'unbound' => true,
+            'attribute' => false,
+            'elementName' => 'AddressAttribute'
+        ),
         'AddressID' => array(
             'type' => 'string',
             'unbound' => false,

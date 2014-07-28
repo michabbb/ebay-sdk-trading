@@ -77,6 +77,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Enums\ListingEnhancementsCodeType[] $ListingEnhancement
  * @property \DTS\eBaySDK\Trading\Enums\ListingSubtypeCodeType $ListingSubtype2
  * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
+ * @property boolean $LiveAuction
  * @property string $Location
  * @property boolean $LocationDefaulted
  * @property \DTS\eBaySDK\Trading\Types\LookupAttributeArrayType $LookupAttributeArray
@@ -513,6 +514,12 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ListingType'
+        ),
+        'LiveAuction' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'LiveAuction'
         ),
         'Location' => array(
             'type' => 'string',

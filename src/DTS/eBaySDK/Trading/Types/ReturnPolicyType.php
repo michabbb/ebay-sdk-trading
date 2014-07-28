@@ -21,6 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property string $Description
  * @property string $EAN
+ * @property boolean $ExtendedHolidayReturns
  * @property string $Refund
  * @property string $RefundOption
  * @property string $RestockingFeeValue
@@ -55,6 +56,12 @@ class ReturnPolicyType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EAN'
+        ),
+        'ExtendedHolidayReturns' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ExtendedHolidayReturns'
         ),
         'Refund' => array(
             'type' => 'string',
