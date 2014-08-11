@@ -55,7 +55,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ShippingServiceUsed
  * @property \DTS\eBaySDK\Trading\Enums\ShippingTypeCodeType $ShippingType
  * @property \DTS\eBaySDK\Trading\Types\TaxTableType $TaxTable
- * @property boolean $ThirdPartyCheckout
  */
 class ShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -278,12 +277,6 @@ class ShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TaxTable'
-        ),
-        'ThirdPartyCheckout' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ThirdPartyCheckout'
         )
     );
 
