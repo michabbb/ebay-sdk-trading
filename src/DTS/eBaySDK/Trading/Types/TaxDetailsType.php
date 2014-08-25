@@ -21,6 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property \DTS\eBaySDK\Trading\Enums\TaxTypeCodeType $Imposition
  * @property \DTS\eBaySDK\Trading\Types\AmountType $TaxAmount
+ * @property string $TaxCode
  * @property \DTS\eBaySDK\Trading\Enums\TaxDescriptionCodeType $TaxDescription
  * @property \DTS\eBaySDK\Trading\Types\AmountType $TaxOnHandlingAmount
  * @property \DTS\eBaySDK\Trading\Types\AmountType $TaxOnShippingAmount
@@ -43,6 +44,12 @@ class TaxDetailsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TaxAmount'
+        ),
+        'TaxCode' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'TaxCode'
         ),
         'TaxDescription' => array(
             'type' => 'string',

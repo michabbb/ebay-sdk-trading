@@ -24,7 +24,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AttributeArrayType $AttributeArray
  * @property \DTS\eBaySDK\Trading\Types\AttributeSetArrayType $AttributeSetArray
  * @property boolean $AutoPay
- * @property boolean $AvailableForPickupDropOff
  * @property \DTS\eBaySDK\Trading\Types\BestOfferDetailsType $BestOfferDetails
  * @property \DTS\eBaySDK\Trading\Types\BiddingDetailsType $BiddingDetails
  * @property \DTS\eBaySDK\Trading\Types\BusinessSellerDetailsType $BusinessSellerDetails
@@ -196,12 +195,6 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AutoPay'
-        ),
-        'AvailableForPickupDropOff' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AvailableForPickupDropOff'
         ),
         'BestOfferDetails' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\BestOfferDetailsType',

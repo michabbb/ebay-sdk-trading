@@ -20,6 +20,8 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property \DateTime $ActualDeliveryTime
+ * @property \DateTime $EstimatedDeliveryTimeMax
+ * @property \DateTime $EstimatedDeliveryTimeMin
  * @property \DateTime $ScheduledDeliveryTimeMax
  * @property \DateTime $ScheduledDeliveryTimeMin
  * @property string $ShippingTrackingEvent
@@ -36,6 +38,18 @@ class ShippingPackageInfoType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ActualDeliveryTime'
+        ),
+        'EstimatedDeliveryTimeMax' => array(
+            'type' => 'DateTime',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'EstimatedDeliveryTimeMax'
+        ),
+        'EstimatedDeliveryTimeMin' => array(
+            'type' => 'DateTime',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'EstimatedDeliveryTimeMin'
         ),
         'ScheduledDeliveryTimeMax' => array(
             'type' => 'DateTime',
