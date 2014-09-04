@@ -16,6 +16,10 @@ CHANGELOG
 
 * Support API version 883. ([704d25e](https://github.com/davidtsadler/ebay-sdk-trading/commit/704d25e4f029c67b3d1fa7018e8ebbefdd97fece)) [David T. Sadler]
 
+### Documentation
+
+* Update requirements to recommend 64 bit systems. ([9f29bbb](https://github.com/davidtsadler/ebay-sdk-trading/commit/9f29bbb7044ad74eacb101e41969c51b051d36ff), [#6](https://github.com/davidtsadler/ebay-sdk-trading/issues/6)) [David T. Sadler]
+
 0.4.0 (2014-08-11)
 ------------------
 
