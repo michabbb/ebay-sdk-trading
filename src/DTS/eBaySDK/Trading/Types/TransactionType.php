@@ -28,6 +28,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\UserType $Buyer
  * @property string $BuyerCheckoutMessage
  * @property \DTS\eBaySDK\Trading\Types\AmountType $BuyerGuaranteePrice
+ * @property \DTS\eBaySDK\Trading\Types\BuyerPackageEnclosuresType $BuyerPackageEnclosures
  * @property \DTS\eBaySDK\Trading\Enums\PaidStatusCodeType $BuyerPaidStatus
  * @property string $CartID
  * @property string $CodiceFiscale
@@ -139,6 +140,12 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyerGuaranteePrice'
+        ),
+        'BuyerPackageEnclosures' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\BuyerPackageEnclosuresType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'BuyerPackageEnclosures'
         ),
         'BuyerPaidStatus' => array(
             'type' => 'string',
