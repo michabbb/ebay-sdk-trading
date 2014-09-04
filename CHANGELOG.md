@@ -1,6 +1,22 @@
 CHANGELOG
 =========
 
+0.10.0 (2014-11-16)
+------------------
+
+### API
+
+* Support API version 897. ([f14de44](https://github.com/davidtsadler/ebay-sdk-trading/commit/f14de4487f9bb8dad2a23a997b90b3701e6fcb75)) [David T. Sadler]
+
+### Documentation
+
+* State code is generated. ([456ff86](https://github.com/davidtsadler/ebay-sdk-trading/commit/456ff86644def39c65487282de68942695b1d063)) [David T. Sadler]
+* Update installation instructions in README. ([84bbfad](https://github.com/davidtsadler/ebay-sdk-trading/commit/84bbfad34d2c87ca00ae80cba6158f5d4e3ecc6c)) [David T. Sadler]
+
+### Tests
+
+* Add PHP 5.6 and HHVM to travis settings. ([85558e1](https://github.com/davidtsadler/ebay-sdk-trading/commit/85558e1f6808c95ad097aafe2f818fd21c5a19da)) [David T. Sadler]
+
 0.9.0 (2014-09-28)
 ------------------
 
