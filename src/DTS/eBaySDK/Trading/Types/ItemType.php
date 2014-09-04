@@ -59,6 +59,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $HideFromSearch
  * @property integer $HitCount
  * @property \DTS\eBaySDK\Trading\Enums\HitCounterCodeType $HitCounter
+ * @property boolean $IgnoreQuantity
  * @property boolean $IncludeRecommendations
  * @property boolean $IntegratedMerchantCreditCardEnabled
  * @property \DTS\eBaySDK\Trading\Enums\InventoryTrackingMethodCodeType $InventoryTrackingMethod
@@ -405,6 +406,12 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'HitCounter'
+        ),
+        'IgnoreQuantity' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'IgnoreQuantity'
         ),
         'IncludeRecommendations' => array(
             'type' => 'boolean',

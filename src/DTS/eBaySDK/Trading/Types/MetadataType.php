@@ -19,19 +19,26 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $PickupDropoffSellerPreference
+ * @property string $Name
+ * @property string[] $Value
  */
-class ShowPickupDropoffPreferences extends \DTS\eBaySDK\Types\BaseType
+class MetadataType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'PickupDropoffSellerPreference' => array(
-            'type' => 'boolean',
+        'Name' => array(
+            'type' => 'string',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'PickupDropoffSellerPreference'
+            'elementName' => 'Name'
+        ),
+        'Value' => array(
+            'type' => 'string',
+            'unbound' => true,
+            'attribute' => false,
+            'elementName' => 'Value'
         )
     );
 
