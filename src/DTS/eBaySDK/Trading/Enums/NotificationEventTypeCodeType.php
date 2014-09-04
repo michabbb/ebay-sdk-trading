@@ -80,6 +80,7 @@ class NotificationEventTypeCodeType
     const C_ITEM_SUSPENDED = 'ItemSuspended';
     const C_ITEM_UNSOLD = 'ItemUnsold';
     const C_ITEM_WON = 'ItemWon';
+    const C_M2M_MESSAGE_STATUS_CHANGE = 'M2MMessageStatusChange';
     const C_MY_MESSAGESE_BAY_MESSAGE = 'MyMessageseBayMessage';
     const C_MY_MESSAGESE_BAY_MESSAGE_HEADER = 'MyMessageseBayMessageHeader';
     const C_MY_MESSAGESM2M_MESSAGE = 'MyMessagesM2MMessage';

@@ -37,7 +37,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\SellerProfilePreferencesType $SellerProfilePreferences
  * @property \DTS\eBaySDK\Trading\Types\SellerReturnPreferencesType $SellerReturnPreferences
  * @property boolean $SellerThirdPartyCheckoutDisabled
- * @property \DTS\eBaySDK\Trading\Types\ShowPickupDropoffPreferences $ShowPickupDropoffPreferences
  * @property \DTS\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType $UnpaidItemAssistancePreferences
  */
 class GetUserPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
@@ -153,12 +152,6 @@ class GetUserPreferencesResponseType extends \DTS\eBaySDK\Trading\Types\Abstract
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerThirdPartyCheckoutDisabled'
-        ),
-        'ShowPickupDropoffPreferences' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ShowPickupDropoffPreferences',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ShowPickupDropoffPreferences'
         ),
         'UnpaidItemAssistancePreferences' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\UnpaidItemAssistancePreferencesType',

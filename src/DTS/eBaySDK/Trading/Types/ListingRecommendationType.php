@@ -23,6 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $FieldName
  * @property string $Group
  * @property string $Message
+ * @property \DTS\eBaySDK\Trading\Types\MetadataType[] $Metadata
  * @property string $Type
  * @property string[] $Value
  */
@@ -55,6 +56,12 @@ class ListingRecommendationType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Message'
+        ),
+        'Metadata' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\MetadataType',
+            'unbound' => true,
+            'attribute' => false,
+            'elementName' => 'Metadata'
         ),
         'Type' => array(
             'type' => 'string',
