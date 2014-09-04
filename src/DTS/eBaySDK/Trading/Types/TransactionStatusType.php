@@ -26,6 +26,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $IntegratedMerchantCreditCardEnabled
  * @property \DateTime $LastTimeModified
  * @property \DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType $PaymentHoldStatus
+ * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
  * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
  * @property \DTS\eBaySDK\Trading\Enums\ReturnStatusCodeType $ReturnStatus
  * @property \DTS\eBaySDK\Trading\Types\EBayPaymentMismatchDetailsType $eBayPaymentMismatchDetails
@@ -78,6 +79,12 @@ class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaymentHoldStatus'
+        ),
+        'PaymentInstrument' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'PaymentInstrument'
         ),
         'PaymentMethodUsed' => array(
             'type' => 'string',
