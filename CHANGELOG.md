@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+0.7.0 (2014-09-10)
+------------------
+
+### Fixes
+
+* Correct unbound elements. ([b430169](https://github.com/davidtsadler/ebay-sdk-trading/commit/b4301699ad27255aa6c40d3442d6f4551971e816)) [David T. Sadler]
+
+### API
+
+* Support API version 889. ([bbc0bad](https://github.com/davidtsadler/ebay-sdk-trading/commit/bbc0bad26750ddaed4d6a1cdbf0e595f9839c4d9)) [David T. Sadler]
+
 0.6.0 (2014-09-04)
 ------------------
 
