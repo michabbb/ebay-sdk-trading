@@ -29,7 +29,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
  * @property \DTS\eBaySDK\Trading\Types\AmountType $UnitCost
  * @property integer $UnitsAvailable
- * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $VariationSpecifics
+ * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType[] $VariationSpecifics
  * @property string $VariationTitle
  * @property string $VariationViewItemURL
  * @property integer $WatchCount
@@ -102,7 +102,7 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
         ),
         'VariationSpecifics' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
-            'unbound' => false,
+            'unbound' => true,
             'attribute' => false,
             'elementName' => 'VariationSpecifics'
         ),

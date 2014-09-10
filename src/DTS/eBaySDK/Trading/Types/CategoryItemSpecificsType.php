@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $CategoryID
+ * @property string[] $CategoryID
  * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType $ItemSpecifics
  */
 class CategoryItemSpecificsType extends \DTS\eBaySDK\Types\BaseType
@@ -30,7 +30,7 @@ class CategoryItemSpecificsType extends \DTS\eBaySDK\Types\BaseType
     private static $propertyTypes = array(
         'CategoryID' => array(
             'type' => 'string',
-            'unbound' => false,
+            'unbound' => true,
             'attribute' => false,
             'elementName' => 'CategoryID'
         ),
