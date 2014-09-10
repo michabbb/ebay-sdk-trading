@@ -19,47 +19,19 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType $ExtendedPictureDetails
- * @property string[] $ExternalPictureURL
- * @property string $GalleryURL
- * @property string[] $PictureURL
- * @property string $VariationSpecificValue
+ * @property \DTS\eBaySDK\Trading\Types\PictureURLsType[] $PictureURLs
  */
-class VariationSpecificPictureSetType extends \DTS\eBaySDK\Types\BaseType
+class ExtendedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'ExtendedPictureDetails' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExtendedPictureDetails'
-        ),
-        'ExternalPictureURL' => array(
-            'type' => 'string',
+        'PictureURLs' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\PictureURLsType',
             'unbound' => true,
             'attribute' => false,
-            'elementName' => 'ExternalPictureURL'
-        ),
-        'GalleryURL' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'GalleryURL'
-        ),
-        'PictureURL' => array(
-            'type' => 'string',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'PictureURL'
-        ),
-        'VariationSpecificValue' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'VariationSpecificValue'
+            'elementName' => 'PictureURLs'
         )
     );
 
