@@ -19,6 +19,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
+ * @property \DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType $ExtendedPictureDetails
  * @property string[] $ExternalPictureURL
  * @property string $GalleryDuration
  * @property string $GalleryErrorInfo
@@ -35,6 +36,12 @@ class PictureDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
+        'ExtendedPictureDetails' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ExtendedPictureDetails'
+        ),
         'ExternalPictureURL' => array(
             'type' => 'string',
             'unbound' => true,
