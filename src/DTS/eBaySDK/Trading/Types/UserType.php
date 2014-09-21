@@ -53,9 +53,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $UniqueNeutralFeedbackCount
  * @property integer $UniquePositiveFeedbackCount
  * @property boolean $UserAnonymized
+ * @property string $UserFirstName
  * @property string $UserID
  * @property boolean $UserIDChanged
  * @property \DateTime $UserIDLastChanged
+ * @property string $UserLastName
  * @property \DTS\eBaySDK\Trading\Enums\EBaySubscriptionTypeCodeType[] $UserSubscription
  * @property string $VATID
  * @property \DTS\eBaySDK\Trading\Enums\VATStatusCodeType $VATStatus
@@ -272,6 +274,12 @@ class UserType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'UserAnonymized'
         ),
+        'UserFirstName' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'UserFirstName'
+        ),
         'UserID' => array(
             'type' => 'string',
             'unbound' => false,
@@ -289,6 +297,12 @@ class UserType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UserIDLastChanged'
+        ),
+        'UserLastName' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'UserLastName'
         ),
         'UserSubscription' => array(
             'type' => 'string',
