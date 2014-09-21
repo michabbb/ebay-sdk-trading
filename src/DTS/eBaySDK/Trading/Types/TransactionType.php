@@ -44,6 +44,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\FeedbackInfoType $FeedbackReceived
  * @property \DTS\eBaySDK\Trading\Types\AmountType $FinalValueFee
  * @property boolean $IntangibleItem
+ * @property string $InventoryReservationID
  * @property \DateTime $InvoiceSentTime
  * @property boolean $IsMultiLegShipping
  * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
@@ -236,6 +237,12 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IntangibleItem'
+        ),
+        'InventoryReservationID' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'InventoryReservationID'
         ),
         'InvoiceSentTime' => array(
             'type' => 'DateTime',

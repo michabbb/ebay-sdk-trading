@@ -21,6 +21,7 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalItemPrice
  * @property \DTS\eBaySDK\Trading\Types\AmountType $OriginalItemShippingCost
+ * @property string $OriginalShippingService
  * @property \DTS\eBaySDK\Trading\Types\SellerDiscountType[] $SellerDiscount
  */
 class SellerDiscountsType extends \DTS\eBaySDK\Types\BaseType
@@ -40,6 +41,12 @@ class SellerDiscountsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OriginalItemShippingCost'
+        ),
+        'OriginalShippingService' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'OriginalShippingService'
         ),
         'SellerDiscount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\SellerDiscountType',
