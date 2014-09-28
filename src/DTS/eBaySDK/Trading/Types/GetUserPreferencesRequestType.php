@@ -27,6 +27,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $ShowEndOfAuctionEmailPreferences
  * @property boolean $ShowGlobalShippingProgramListingPreference
  * @property boolean $ShowGlobalShippingProgramPreference
+ * @property boolean $ShowOutOfStockControlPreference
  * @property boolean $ShowOverrideGSPServiceWithIntlServicePreference
  * @property boolean $ShowPickupDropoffPreferences
  * @property boolean $ShowProStoresPreferences
@@ -93,6 +94,12 @@ class GetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowGlobalShippingProgramPreference'
+        ),
+        'ShowOutOfStockControlPreference' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ShowOutOfStockControlPreference'
         ),
         'ShowOverrideGSPServiceWithIntlServicePreference' => array(
             'type' => 'boolean',

@@ -85,7 +85,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $MechanicalCheckAccepted
  * @property boolean $MotorsGermanySearchable
  * @property integer $NewLeadCount
- * @property boolean $OutOfStockControl
  * @property string $PartnerCode
  * @property string $PartnerName
  * @property string $PayPalEmailAddress
@@ -562,12 +561,6 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'NewLeadCount'
-        ),
-        'OutOfStockControl' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'OutOfStockControl'
         ),
         'PartnerCode' => array(
             'type' => 'string',

@@ -105,6 +105,7 @@ class AccountDetailEntryCodeType
     const C_CREDIT_PICTURE_PACK_PARTIAL = 'CreditPicturePackPartial';
     const C_CREDIT_PICTURE_SHOW = 'CreditPictureShow';
     const C_CREDIT_PRIVATE_LISTING = 'CreditPrivateListing';
+    const C_CREDIT_PROMOTED_LISTING_FEATURE = 'CreditPromotedListingFeature';
     const C_CREDIT_REAL_ESTATE30_DAYS_LISTING = 'CreditRealEstate30DaysListing';
     const C_CREDIT_REAL_ESTATE_PRO_FEATURE_FEE = 'CreditRealEstateProFeatureFee';
     const C_CREDIT_REAL_ESTATE_PRO_FEE = 'CreditRealEstateProFee';
@@ -169,6 +170,7 @@ class AccountDetailEntryCodeType
     const C_FEE_PARTIAL_SALE = 'FeePartialSale';
     const C_FEE_PICTURE_PACK = 'FeePicturePack';
     const C_FEE_PICTURE_SHOW = 'FeePictureShow';
+    const C_FEE_PROMOTED_LISTING_FEATURE = 'FeePromotedListingFeature';
     const C_FEE_REAL_ESTATE30_DAYS_LISTING = 'FeeRealEstate30DaysListing';
     const C_FEE_REDEPOSIT_CHECK = 'FeeRedepositCheck';
     const C_FEE_RESERVE = 'FeeReserve';
