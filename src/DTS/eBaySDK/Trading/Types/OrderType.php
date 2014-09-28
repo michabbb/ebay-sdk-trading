@@ -34,6 +34,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DateTime $CreatedTime
  * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $CreatingUserRole
  * @property string $EIASToken
+ * @property string $ExtendedOrderID
  * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType[] $ExternalTransaction
  * @property boolean $IntegratedMerchantCreditCardEnabled
  * @property boolean $IsMultiLegShipping
@@ -158,6 +159,12 @@ class OrderType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EIASToken'
+        ),
+        'ExtendedOrderID' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ExtendedOrderID'
         ),
         'ExternalTransaction' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ExternalTransactionType',

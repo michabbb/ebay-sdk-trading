@@ -39,6 +39,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DateTime $CreatedDate
  * @property \DTS\eBaySDK\Trading\Enums\DepositTypeCodeType $DepositType
  * @property \DTS\eBaySDK\Trading\Types\AmountType $DutchAuctionBid
+ * @property string $ExtendedOrderID
  * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType[] $ExternalTransaction
  * @property \DTS\eBaySDK\Trading\Types\FeedbackInfoType $FeedbackLeft
  * @property \DTS\eBaySDK\Trading\Types\FeedbackInfoType $FeedbackReceived
@@ -207,6 +208,12 @@ class TransactionType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DutchAuctionBid'
+        ),
+        'ExtendedOrderID' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ExtendedOrderID'
         ),
         'ExternalTransaction' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ExternalTransactionType',

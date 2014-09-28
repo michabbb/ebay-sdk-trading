@@ -26,6 +26,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $EmailShipmentTrackingNumberPreference
  * @property \DTS\eBaySDK\Trading\Types\EndOfAuctionEmailPreferencesType $EndOfAuctionEmailPreferences
  * @property boolean $GlobalShippingProgramListingPreference
+ * @property boolean $OutOfStockControlPreference
  * @property boolean $OverrideGSPserviceWithIntlService
  * @property \DTS\eBaySDK\Trading\Types\PurchaseReminderEmailPreferencesType $PurchaseReminderEmailPreferences
  * @property boolean $RequiredShipPhoneNumberPreference
@@ -81,6 +82,12 @@ class SetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'GlobalShippingProgramListingPreference'
+        ),
+        'OutOfStockControlPreference' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'OutOfStockControlPreference'
         ),
         'OverrideGSPserviceWithIntlService' => array(
             'type' => 'boolean',

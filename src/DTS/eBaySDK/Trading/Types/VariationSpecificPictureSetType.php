@@ -21,7 +21,6 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property \DTS\eBaySDK\Trading\Types\ExtendedPictureDetailsType $ExtendedPictureDetails
  * @property string[] $ExternalPictureURL
- * @property string $GalleryURL
  * @property string[] $PictureURL
  * @property string $VariationSpecificValue
  */
@@ -42,12 +41,6 @@ class VariationSpecificPictureSetType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => true,
             'attribute' => false,
             'elementName' => 'ExternalPictureURL'
-        ),
-        'GalleryURL' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'GalleryURL'
         ),
         'PictureURL' => array(
             'type' => 'string',
