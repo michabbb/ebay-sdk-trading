@@ -23,19 +23,12 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DateTime $EstimatedRefundCompletionTime
- * @property string $ExternalReferenceID
  * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
- * @property \DateTime $RefundCompletionTime
- * @property \DTS\eBaySDK\Trading\Types\RefundFailureReasonType $RefundFailureReason
  * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundFromSeller
- * @property \DTS\eBaySDK\Trading\Types\RefundFundingSourceArrayType $RefundFundingSourceArray
  * @property string $RefundID
- * @property \DateTime $RefundRequestedTime
  * @property \DTS\eBaySDK\Trading\Enums\RefundStatusCodeType $RefundStatus
  * @property \DateTime $RefundTime
  * @property \DTS\eBaySDK\Trading\Types\RefundTransactionArrayType $RefundTransactionArray
- * @property string $SellerNoteToBuyer
  * @property \DTS\eBaySDK\Trading\Types\AmountType $TotalRefundToBuyer
  */
 class RefundType extends \DTS\eBaySDK\Types\BaseType
@@ -44,35 +37,11 @@ class RefundType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'EstimatedRefundCompletionTime' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'EstimatedRefundCompletionTime'
-        ),
-        'ExternalReferenceID' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExternalReferenceID'
-        ),
         'RefundAmount' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RefundAmount'
-        ),
-        'RefundCompletionTime' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'RefundCompletionTime'
-        ),
-        'RefundFailureReason' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\RefundFailureReasonType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'RefundFailureReason'
         ),
         'RefundFromSeller' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
@@ -80,23 +49,11 @@ class RefundType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'RefundFromSeller'
         ),
-        'RefundFundingSourceArray' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\RefundFundingSourceArrayType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'RefundFundingSourceArray'
-        ),
         'RefundID' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RefundID'
-        ),
-        'RefundRequestedTime' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'RefundRequestedTime'
         ),
         'RefundStatus' => array(
             'type' => 'string',
@@ -115,12 +72,6 @@ class RefundType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'RefundTransactionArray'
-        ),
-        'SellerNoteToBuyer' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellerNoteToBuyer'
         ),
         'TotalRefundToBuyer' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',

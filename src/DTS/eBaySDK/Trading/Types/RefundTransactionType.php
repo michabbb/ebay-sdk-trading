@@ -23,10 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $ItemID
- * @property string $OrderID
- * @property \DTS\eBaySDK\Trading\Types\RefundLineArrayType $RefundLineArray
- * @property string $TransactionID
  */
 class RefundTransactionType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -34,30 +30,6 @@ class RefundTransactionType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'ItemID' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ItemID'
-        ),
-        'OrderID' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'OrderID'
-        ),
-        'RefundLineArray' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\RefundLineArrayType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'RefundLineArray'
-        ),
-        'TransactionID' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'TransactionID'
-        )
     );
 
     /**

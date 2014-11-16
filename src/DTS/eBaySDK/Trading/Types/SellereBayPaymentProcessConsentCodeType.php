@@ -23,9 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\PayoutMethodType $PayoutMethod
- * @property boolean $PayoutMethodSet
- * @property \DTS\eBaySDK\Trading\Types\UserAgreementInfoType[] $UserAgreementInfo
  */
 class SellereBayPaymentProcessConsentCodeType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,24 +30,6 @@ class SellereBayPaymentProcessConsentCodeType extends \DTS\eBaySDK\Types\BaseTyp
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'PayoutMethod' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PayoutMethod'
-        ),
-        'PayoutMethodSet' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PayoutMethodSet'
-        ),
-        'UserAgreementInfo' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\UserAgreementInfoType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'UserAgreementInfo'
-        )
     );
 
     /**

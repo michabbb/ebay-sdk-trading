@@ -23,11 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DateTime $AcceptedTime
- * @property \DateTime $SellereBayPaymentProcessEnableTime
- * @property \DTS\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType $SellereBayPaymentProcessStatus
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $Site
- * @property string $UserAgreementURL
  */
 class UserAgreementInfoType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,36 +30,6 @@ class UserAgreementInfoType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'AcceptedTime' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AcceptedTime'
-        ),
-        'SellereBayPaymentProcessEnableTime' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellereBayPaymentProcessEnableTime'
-        ),
-        'SellereBayPaymentProcessStatus' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellereBayPaymentProcessStatus'
-        ),
-        'Site' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Site'
-        ),
-        'UserAgreementURL' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'UserAgreementURL'
-        )
     );
 
     /**

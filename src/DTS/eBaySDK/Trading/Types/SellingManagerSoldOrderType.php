@@ -39,8 +39,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $NotesToBuyer
  * @property string $NotesToSeller
  * @property \DTS\eBaySDK\Trading\Types\SellingManagerOrderStatusType $OrderStatus
- * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
- * @property string $RefundStatus
  * @property \DTS\eBaySDK\Trading\Types\AmountType $SalePrice
  * @property integer $SaleRecordID
  * @property \DTS\eBaySDK\Trading\Types\SellingManagerSoldTransactionType[] $SellingManagerSoldTransaction
@@ -155,18 +153,6 @@ class SellingManagerSoldOrderType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'OrderStatus'
-        ),
-        'RefundAmount' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'RefundAmount'
-        ),
-        'RefundStatus' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'RefundStatus'
         ),
         'SalePrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',

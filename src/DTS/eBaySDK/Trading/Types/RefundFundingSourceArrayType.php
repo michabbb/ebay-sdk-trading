@@ -23,7 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\RefundFundingSourceType[] $RefundFundingSource
  */
 class RefundFundingSourceArrayType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -31,12 +30,6 @@ class RefundFundingSourceArrayType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'RefundFundingSource' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\RefundFundingSourceType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'RefundFundingSource'
-        )
     );
 
     /**

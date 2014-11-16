@@ -105,7 +105,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\PayPalRequiredDefinitionType $PayPalRequired
  * @property \DTS\eBaySDK\Trading\Types\PayPalRequiredForStoreOwnerDefinitionType $PayPalRequiredForStoreOwner
  * @property \DTS\eBaySDK\Trading\Types\PaymentMethodDefinitionType $PaymentMethod
- * @property \DTS\eBaySDK\Trading\Types\PaymentOptionsGroupEnabledDefinitionType $PaymentOptionsGroup
  * @property \DTS\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType $PaymentProfileCategoryGroup
  * @property \DTS\eBaySDK\Trading\Types\PickupDropOffEnabledDefinitionType $PickupDropOffEnabled
  * @property \DTS\eBaySDK\Trading\Types\PremiumSubscriptionDefinitionType $PremiumSubscription
@@ -648,12 +647,6 @@ class FeatureDefinitionsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'PaymentMethod'
-        ),
-        'PaymentOptionsGroup' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\PaymentOptionsGroupEnabledDefinitionType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PaymentOptionsGroup'
         ),
         'PaymentProfileCategoryGroup' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType',

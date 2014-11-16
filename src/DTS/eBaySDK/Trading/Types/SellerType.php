@@ -47,8 +47,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Enums\SellerGuaranteeLevelCodeType $SellerGuaranteeLevel
  * @property \DTS\eBaySDK\Trading\Enums\SellerLevelCodeType $SellerLevel
  * @property \DTS\eBaySDK\Trading\Types\AddressType $SellerPaymentAddress
- * @property \DTS\eBaySDK\Trading\Types\SellereBayPaymentProcessConsentCodeType $SellereBayPaymentProcessConsent
- * @property \DTS\eBaySDK\Trading\Enums\SellereBayPaymentProcessStatusCodeType $SellereBayPaymentProcessStatus
  * @property boolean $StoreOwner
  * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $StoreSite
  * @property string $StoreURL
@@ -205,18 +203,6 @@ class SellerType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerPaymentAddress'
-        ),
-        'SellereBayPaymentProcessConsent' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\SellereBayPaymentProcessConsentCodeType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellereBayPaymentProcessConsent'
-        ),
-        'SellereBayPaymentProcessStatus' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellereBayPaymentProcessStatus'
         ),
         'StoreOwner' => array(
             'type' => 'boolean',

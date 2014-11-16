@@ -60,6 +60,7 @@ class BuyerPaymentMethodCodeType
     const C_POSTAL_TRANSFER = 'PostalTransfer';
     const C_PRE_PAY_DELIVERY = 'PrePayDelivery';
     const C_PRO_PAY = 'ProPay';
+    const C_QIWI = 'QIWI';
     const C_STANDARD_PAYMENT = 'StandardPayment';
     const C_VISAMC = 'VisaMC';
 }
