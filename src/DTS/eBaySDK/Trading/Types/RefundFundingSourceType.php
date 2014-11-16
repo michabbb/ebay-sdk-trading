@@ -23,11 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $AccountNumber
- * @property string $BuyerExternalTransactionID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $RefundAmount
- * @property \DTS\eBaySDK\Trading\Enums\RefundingSourceTypeCodeType $RefundingSourceType
- * @property string $SellerExternalTransactionID
  */
 class RefundFundingSourceType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -35,36 +30,6 @@ class RefundFundingSourceType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'AccountNumber' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AccountNumber'
-        ),
-        'BuyerExternalTransactionID' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'BuyerExternalTransactionID'
-        ),
-        'RefundAmount' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'RefundAmount'
-        ),
-        'RefundingSourceType' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'RefundingSourceType'
-        ),
-        'SellerExternalTransactionID' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellerExternalTransactionID'
-        )
     );
 
     /**

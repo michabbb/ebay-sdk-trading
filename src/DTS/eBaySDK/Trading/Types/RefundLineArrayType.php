@@ -23,7 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\RefundLineType[] $RefundLine
  */
 class RefundLineArrayType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -31,12 +30,6 @@ class RefundLineArrayType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'RefundLine' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\RefundLineType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'RefundLine'
-        )
     );
 
     /**
