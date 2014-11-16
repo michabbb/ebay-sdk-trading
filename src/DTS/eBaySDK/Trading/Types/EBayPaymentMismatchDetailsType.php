@@ -23,9 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DateTime $ActionRequiredBy
- * @property \DTS\eBaySDK\Trading\Types\AmountType $MismatchAmount
- * @property \DTS\eBaySDK\Trading\Enums\MismatchTypeCodeType $MismatchType
  */
 class EBayPaymentMismatchDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -33,24 +30,6 @@ class EBayPaymentMismatchDetailsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'ActionRequiredBy' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ActionRequiredBy'
-        ),
-        'MismatchAmount' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'MismatchAmount'
-        ),
-        'MismatchType' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'MismatchType'
-        )
     );
 
     /**

@@ -33,7 +33,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentInstrumentCodeType $PaymentInstrument
  * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
  * @property \DTS\eBaySDK\Trading\Enums\ReturnStatusCodeType $ReturnStatus
- * @property \DTS\eBaySDK\Trading\Types\EBayPaymentMismatchDetailsType $eBayPaymentMismatchDetails
  * @property \DTS\eBaySDK\Trading\Enums\PaymentStatusCodeType $eBayPaymentStatus
  */
 class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
@@ -101,12 +100,6 @@ class TransactionStatusType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ReturnStatus'
-        ),
-        'eBayPaymentMismatchDetails' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayPaymentMismatchDetailsType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'eBayPaymentMismatchDetails'
         ),
         'eBayPaymentStatus' => array(
             'type' => 'string',
