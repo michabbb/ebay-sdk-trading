@@ -57,7 +57,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\ExternalProductIDType $ExternalProductID
  * @property \DTS\eBaySDK\Trading\Types\AmountType $FloorPrice
  * @property \DTS\eBaySDK\Trading\Types\CategoryType $FreeAddedCategory
- * @property boolean $GetItFast
  * @property integer $GiftIcon
  * @property \DTS\eBaySDK\Trading\Enums\GiftServicesCodeType[] $GiftServices
  * @property boolean $HideFromSearch
@@ -373,12 +372,6 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FreeAddedCategory'
-        ),
-        'GetItFast' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'GetItFast'
         ),
         'GiftIcon' => array(
             'type' => 'integer',

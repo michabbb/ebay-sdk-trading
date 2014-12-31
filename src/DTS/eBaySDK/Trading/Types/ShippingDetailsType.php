@@ -31,7 +31,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $DefaultShippingCost
  * @property string[] $ExcludeShipToLocation
  * @property \DTS\eBaySDK\Trading\Types\FlatShippingDiscountType $FlatShippingDiscount
- * @property boolean $GetItFast
  * @property boolean $GlobalShipping
  * @property \DTS\eBaySDK\Trading\Types\InsuranceDetailsType $InsuranceDetails
  * @property \DTS\eBaySDK\Trading\Types\AmountType $InsuranceFee
@@ -113,12 +112,6 @@ class ShippingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'FlatShippingDiscount'
-        ),
-        'GetItFast' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'GetItFast'
         ),
         'GlobalShipping' => array(
             'type' => 'boolean',
