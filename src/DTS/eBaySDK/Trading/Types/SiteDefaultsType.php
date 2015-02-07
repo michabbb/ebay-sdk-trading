@@ -55,9 +55,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $DepositSupported
  * @property boolean $DutchBINEnabled
  * @property boolean $EANIdentifierEnabled
- * @property boolean $ExpressConditionRequired
- * @property boolean $ExpressEnabled
- * @property boolean $ExpressPicturesRequired
  * @property boolean $FreeGalleryPlusEnabled
  * @property boolean $FreePicturePackEnabled
  * @property \DTS\eBaySDK\Trading\Types\ListingEnhancementDurationReferenceType $GalleryFeaturedDurations
@@ -348,24 +345,6 @@ class SiteDefaultsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EANIdentifierEnabled'
-        ),
-        'ExpressConditionRequired' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressConditionRequired'
-        ),
-        'ExpressEnabled' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressEnabled'
-        ),
-        'ExpressPicturesRequired' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressPicturesRequired'
         ),
         'FreeGalleryPlusEnabled' => array(
             'type' => 'boolean',

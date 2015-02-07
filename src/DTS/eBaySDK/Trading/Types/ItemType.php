@@ -26,7 +26,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ApplicationData
  * @property \DTS\eBaySDK\Trading\Types\BuyerProtectionDetailsType $ApplyBuyerProtection
  * @property \DTS\eBaySDK\Trading\Types\AttributeArrayType $AttributeArray
- * @property \DTS\eBaySDK\Trading\Types\AttributeSetArrayType $AttributeSetArray
  * @property boolean $AutoPay
  * @property \DTS\eBaySDK\Trading\Types\BestOfferDetailsType $BestOfferDetails
  * @property \DTS\eBaySDK\Trading\Types\BiddingDetailsType $BiddingDetails
@@ -54,7 +53,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $DispatchTimeMax
  * @property boolean $EligibleForPickupDropOff
  * @property \DTS\eBaySDK\Trading\Types\ExtendedContactDetailsType $ExtendedSellerContactDetails
- * @property \DTS\eBaySDK\Trading\Types\ExternalProductIDType $ExternalProductID
  * @property \DTS\eBaySDK\Trading\Types\AmountType $FloorPrice
  * @property \DTS\eBaySDK\Trading\Types\CategoryType $FreeAddedCategory
  * @property integer $GiftIcon
@@ -83,7 +81,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $LiveAuction
  * @property string $Location
  * @property boolean $LocationDefaulted
- * @property \DTS\eBaySDK\Trading\Types\LookupAttributeArrayType $LookupAttributeArray
  * @property integer $LotSize
  * @property boolean $MechanicalCheckAccepted
  * @property boolean $MotorsGermanySearchable
@@ -186,12 +183,6 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'AttributeArray'
-        ),
-        'AttributeSetArray' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\AttributeSetArrayType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeSetArray'
         ),
         'AutoPay' => array(
             'type' => 'boolean',
@@ -354,12 +345,6 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ExtendedSellerContactDetails'
-        ),
-        'ExternalProductID' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ExternalProductIDType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExternalProductID'
         ),
         'FloorPrice' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
@@ -528,12 +513,6 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'LocationDefaulted'
-        ),
-        'LookupAttributeArray' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\LookupAttributeArrayType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'LookupAttributeArray'
         ),
         'LotSize' => array(
             'type' => 'integer',

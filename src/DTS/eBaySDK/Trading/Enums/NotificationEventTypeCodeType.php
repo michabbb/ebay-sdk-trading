@@ -58,7 +58,6 @@ class NotificationEventTypeCodeType
     const C_EMAIL_ADDRESS_CHANGED = 'EmailAddressChanged';
     const C_END_OF_AUCTION = 'EndOfAuction';
     const C_FEEDBACK = 'Feedback';
-    const C_FEEDBACK_FOR_SELLER = 'FeedbackForSeller';
     const C_FEEDBACK_LEFT = 'FeedbackLeft';
     const C_FEEDBACK_RECEIVED = 'FeedbackReceived';
     const C_FEEDBACK_STAR_CHANGED = 'FeedbackStarChanged';
@@ -119,7 +118,6 @@ class NotificationEventTypeCodeType
     const C_SELLER_OPENED_DISPUTE = 'SellerOpenedDispute';
     const C_SELLER_RESPONDED_TO_DISPUTE = 'SellerRespondedToDispute';
     const C_SHOPPING_CART_ITEM_ENDING_SOON = 'ShoppingCartItemEndingSoon';
-    const C_THIRD_PARTY_CART_CHECKOUT = 'ThirdPartyCartCheckout';
     const C_TOKEN_REVOCATION = 'TokenRevocation';
     const C_UNMATCHED_PAYMENT_RECEIVED = 'UnmatchedPaymentReceived';
     const C_USERID_CHANGED = 'UserIDChanged';

@@ -23,10 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $AttributeSetID
- * @property string $AttributeSetVersion
- * @property \DTS\eBaySDK\Trading\Types\CharacteristicType[] $Characteristics
- * @property string $Name
  */
 class CharacteristicsSetType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -34,30 +30,6 @@ class CharacteristicsSetType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'AttributeSetID' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeSetID'
-        ),
-        'AttributeSetVersion' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeSetVersion'
-        ),
-        'Characteristics' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\CharacteristicType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'Characteristics'
-        ),
-        'Name' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Name'
-        )
     );
 
     /**

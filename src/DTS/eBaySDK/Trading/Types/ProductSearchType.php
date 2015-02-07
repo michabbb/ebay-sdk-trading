@@ -23,7 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ExternalProductIDType $ExternalProductID
  */
 class ProductSearchType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -31,12 +30,6 @@ class ProductSearchType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'ExternalProductID' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ExternalProductIDType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExternalProductID'
-        )
     );
 
     /**

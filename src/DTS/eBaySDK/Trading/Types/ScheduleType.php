@@ -23,8 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $ScheduleID
- * @property \DateTime $ScheduleTime
  */
 class ScheduleType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -32,18 +30,6 @@ class ScheduleType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'ScheduleID' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ScheduleID'
-        ),
-        'ScheduleTime' => array(
-            'type' => 'DateTime',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ScheduleTime'
-        )
     );
 
     /**

@@ -23,7 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property boolean $CopyEmail
  * @property boolean $EmailCustomized
  * @property boolean $LogoCustomized
  * @property \DTS\eBaySDK\Trading\Enums\EndOfAuctionLogoTypeCodeType $LogoType
@@ -37,12 +36,6 @@ class EndOfAuctionEmailPreferencesType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'CopyEmail' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'CopyEmail'
-        ),
         'EmailCustomized' => array(
             'type' => 'boolean',
             'unbound' => false,

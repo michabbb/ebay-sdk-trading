@@ -56,7 +56,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $DepositSupported
  * @property boolean $DutchBINEnabled
  * @property boolean $EANIdentifierEnabled
- * @property boolean $ExpressConditionRequired
  * @property boolean $ExpressEnabled
  * @property boolean $ExpressPicturesRequired
  * @property boolean $FreeGalleryPlusEnabled
@@ -351,12 +350,6 @@ class CategoryFeatureType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EANIdentifierEnabled'
-        ),
-        'ExpressConditionRequired' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressConditionRequired'
         ),
         'ExpressEnabled' => array(
             'type' => 'boolean',

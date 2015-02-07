@@ -55,9 +55,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\DepositSupportedDefinitionType $DepositSupported
  * @property \DTS\eBaySDK\Trading\Types\DutchBINEnabledDefinitionType $DutchBINEnabled
  * @property \DTS\eBaySDK\Trading\Types\EANIdentifierEnabledDefinitionType $EANIdentifierEnabled
- * @property \DTS\eBaySDK\Trading\Types\ExpressConditionRequiredDefinitionType $ExpressConditionRequired
- * @property \DTS\eBaySDK\Trading\Types\ExpressEnabledDefinitionType $ExpressEnabled
- * @property \DTS\eBaySDK\Trading\Types\ExpressPicturesRequiredDefinitionType $ExpressPicturesRequired
  * @property \DTS\eBaySDK\Trading\Types\FreeGalleryPlusEnabledDefinitionType $FreeGalleryPlusEnabled
  * @property \DTS\eBaySDK\Trading\Types\FreePicturePackEnabledDefinitionType $FreePicturePackEnabled
  * @property \DTS\eBaySDK\Trading\Types\ListingEnhancementDurationDefinitionType $GalleryFeaturedDurations
@@ -347,24 +344,6 @@ class FeatureDefinitionsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EANIdentifierEnabled'
-        ),
-        'ExpressConditionRequired' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ExpressConditionRequiredDefinitionType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressConditionRequired'
-        ),
-        'ExpressEnabled' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ExpressEnabledDefinitionType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressEnabled'
-        ),
-        'ExpressPicturesRequired' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ExpressPicturesRequiredDefinitionType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressPicturesRequired'
         ),
         'FreeGalleryPlusEnabled' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FreeGalleryPlusEnabledDefinitionType',
