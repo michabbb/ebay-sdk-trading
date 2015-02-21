@@ -1,29 +1,30 @@
-CHANGELOG
-=========
+# CHANGELOG
 
-0.13.0 (2015-02-07)
-------------------
+## Unreleased
+
+### Features
+
+* Allow manual installation of SDK via PHP Phar or Zip archive.
+
+## 0.13.0 - 2015-02-07
 
 ### API
 
 * Support API version 905.
 
-0.12.0 (2014-12-31)
-------------------
+## 0.12.0 - 2014-12-31
 
 ### API
 
 * Support API version 903. ([df2de7f](https://github.com/davidtsadler/ebay-sdk-trading/commit/df2de7f5fe1cfaa6bc71dc2ff1bb164c17d36379)) [David T. Sadler]
 
-0.11.0 (2014-11-16)
-------------------
+## 0.11.0 - 2014-11-16
 
 ### API
 
 * Support API version 899. ([21b9bf4](https://github.com/davidtsadler/ebay-sdk-trading/commit/21b9bf423947417d74d409303b83afa4b55a3fdf)) [David T. Sadler]
 
-0.10.0 (2014-11-16)
-------------------
+## 0.10.0 - 2014-11-16
 
 ### API
 
@@ -38,22 +39,19 @@ CHANGELOG
 
 * Add PHP 5.6 and HHVM to travis settings. ([85558e1](https://github.com/davidtsadler/ebay-sdk-trading/commit/85558e1f6808c95ad097aafe2f818fd21c5a19da)) [David T. Sadler]
 
-0.9.0 (2014-09-28)
-------------------
+## 0.9.0 - 2014-09-28
 
 ### API
 
 * Support API version 893. ([a336f77](https://github.com/davidtsadler/ebay-sdk-trading/commit/a336f77acb4ac325ce5d2ea28c6dd2c3966b1414)) [David T. Sadler]
 
-0.8.0 (2014-09-21)
-------------------
+## 0.8.0 - 2014-09-21
 
 ### API
 
 * Support API version 891. ([5c22948](https://github.com/davidtsadler/ebay-sdk-trading/commit/5c2294886550915a86f682d3341bc69082692fe)) [David T. Sadler]
 
-0.7.0 (2014-09-10)
-------------------
+## 0.7.0 - 2014-09-10
 
 ### Fixes
 
@@ -63,16 +61,14 @@ CHANGELOG
 
 * Support API version 889. ([bbc0bad](https://github.com/davidtsadler/ebay-sdk-trading/commit/bbc0bad26750ddaed4d6a1cdbf0e595f9839c4d9)) [David T. Sadler]
 
-0.6.0 (2014-09-04)
-------------------
+## 0.6.0 - 2014-09-04
 
 ### API
 
 * Support API version 887. ([a490821](https://github.com/davidtsadler/ebay-sdk-trading/commit/a4908214a058de17d1478330d52e3d6a1fd2e9fe)) [David T. Sadler]
 * Support API version 885. ([6e2bccf](https://github.com/davidtsadler/ebay-sdk-trading/commit/6e2bccf3813e9f1e9dd30234690f471213541884)) [David T. Sadler]
 
-0.5.0 (2014-08-25)
-------------------
+## 0.5.0 - 2014-08-25
 
 ### API
 
@@ -82,36 +78,31 @@ CHANGELOG
 
 * Update requirements to recommend 64 bit systems. ([9f29bbb](https://github.com/davidtsadler/ebay-sdk-trading/commit/9f29bbb7044ad74eacb101e41969c51b051d36ff), [#6](https://github.com/davidtsadler/ebay-sdk-trading/issues/6)) [David T. Sadler]
 
-0.4.0 (2014-08-11)
-------------------
+## 0.4.0 - 2014-08-11
 
 ### API
 
 * Support API version 881. ([df99aea](https://github.com/davidtsadler/ebay-sdk-trading/commit/df99aea3b1d72524b8966afe25256362e4070701)) [David T. Sadler]
 
-0.3.1 (2014-07-28)
-------------------
+## 0.3.1 - 2014-07-28
 
 ### Fixes
 
 * Add missing class name to property list. ([00b46d2](https://github.com/davidtsadler/ebay-sdk-trading/commit/00b46d24d75629345330ea808ac28e2726dd4703)) [David T. Sadler]
 
-0.3.0 (2014-07-28)
-------------------
+## 0.3.0 - 2014-07-28
 
 ### API
 
 * Support API version 879. ([75a7ddf](https://github.com/davidtsadler/ebay-sdk-trading/commit/75a7ddf8d36c9cdc330c9f8fbd51049ffe904d9f)) [David T. Sadler]
 
-0.2.0 (2014-07-28)
-------------------
+## 0.2.0 - 2014-07-28
 
 ### API
 
 * Support API version 877. ([a80fb2b](https://github.com/davidtsadler/ebay-sdk-trading/commit/a80fb2b693b973b0de438fcc682cbf0db2646bc9)) [David T. Sadler]
 
-0.1.1 (2014-07-05)
-------------------
+## 0.1.1 - 2014-07-05
 
 ### Features
 
