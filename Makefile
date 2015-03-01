@@ -29,7 +29,7 @@ check_tag:
 tag: check_tag
 	@echo Tagging $(TAG)
 	chag update $(TAG)
-	sed -i '' -e "s/const VERSION = '.*'/const VERSION = '$(TAG)'/" src/DTS/eBaySDK/Trading/Services/TradingBaseService.php
+	sed -i -e "s/const VERSION = '.*'/const VERSION = '$(TAG)'/" src/DTS/eBaySDK/Trading/Services/TradingBaseService.php
 	php -l src/DTS/eBaySDK/Trading/Services/TradingBaseService.php
 	git commit -a -m '$(TAG) release'
 	chag tag

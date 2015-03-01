@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## 0.14.0 - 2015-03-01
 
 ### API
 
