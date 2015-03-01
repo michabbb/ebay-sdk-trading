@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### API
+
+* Support API version 907.
+
 ### Features
 
 * Allow manual installation of SDK via PHP Phar or Zip archive.

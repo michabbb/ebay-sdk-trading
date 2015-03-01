@@ -25,7 +25,6 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $ShowBidderNoticePreferences
  * @property boolean $ShowCombinedPaymentPreferences
- * @property boolean $ShowCrossPromotionPreferences
  * @property boolean $ShowDispatchCutoffTimePreferences
  * @property boolean $ShowEmailShipmentTrackingNumberPreference
  * @property boolean $ShowEndOfAuctionEmailPreferences
@@ -62,12 +61,6 @@ class GetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowCombinedPaymentPreferences'
-        ),
-        'ShowCrossPromotionPreferences' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ShowCrossPromotionPreferences'
         ),
         'ShowDispatchCutoffTimePreferences' => array(
             'type' => 'boolean',

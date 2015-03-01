@@ -34,7 +34,6 @@ class ShippingCarrierCodeType
     const C_DEUTSCHE_POST = 'DeutschePost';
     const C_DHL = 'DHL';
     const C_FED_EX = 'FedEx';
-    const C_GLOBAL_SHIPPING__MULTI_CARRIER = 'GlobalShipping_MultiCarrier';
     const C_HERMES = 'Hermes';
     const C_I_LOXX = 'iLoxx';
     const C_NACEX = 'Nacex';
