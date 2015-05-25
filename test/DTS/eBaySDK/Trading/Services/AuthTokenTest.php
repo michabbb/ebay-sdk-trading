@@ -2,7 +2,7 @@
 
 use DTS\eBaySDK\Trading\Services\TradingService;
 use DTS\eBaySDK\Trading\Types;
-use DTS\eBaySDK\HttpClient\HttpClient;
+use DTS\eBaySDK\Mocks\HttpClient;
 
 class AuthTokenTest extends \PHPUnit_Framework_TestCase
 {

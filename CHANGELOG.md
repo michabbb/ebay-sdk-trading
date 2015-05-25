@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## Unreleased
+
+### Tests
+
+Use mock HttpClient in AuthToken tests as actual request to eBay was been made. This was failing in Travis-ci with
+
+Guzzle\Http\Exception\CurlException: [curl] 35: gnutls_handshake() failed: A TLS fatal alert has been received. [url] https://api.ebay.com/ws/api.dll
+
 ## 0.15.0 - 2015-05-25
 
 ### API
