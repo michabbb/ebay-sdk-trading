@@ -23,61 +23,33 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $FavoriteSearcheCount
- * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
- * @property integer $FavoriteSellerCount
- * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
- * @property \DTS\eBaySDK\Trading\Types\ItemArrayType $ItemArray
- * @property integer $ItemCount
- * @property string $Name
+ * @property string $EAN
+ * @property string $ISBN
+ * @property string $UPC
  */
-class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
+class VariationProductListingDetailsType extends \DTS\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'FavoriteSearcheCount' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'FavoriteSearcheCount'
-        ),
-        'FavoriteSearches' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'FavoriteSearches'
-        ),
-        'FavoriteSellerCount' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'FavoriteSellerCount'
-        ),
-        'FavoriteSellers' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'FavoriteSellers'
-        ),
-        'ItemArray' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ItemArray'
-        ),
-        'ItemCount' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ItemCount'
-        ),
-        'Name' => array(
+        'EAN' => array(
             'type' => 'string',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'Name'
+            'elementName' => 'EAN'
+        ),
+        'ISBN' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ISBN'
+        ),
+        'UPC' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'UPC'
         )
     );
 

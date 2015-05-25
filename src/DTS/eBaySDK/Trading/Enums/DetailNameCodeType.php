@@ -36,6 +36,7 @@ class DetailNameCodeType
     const C_LISTING_FEATURE_DETAILS = 'ListingFeatureDetails';
     const C_LISTING_START_PRICE_DETAILS = 'ListingStartPriceDetails';
     const C_PAYMENT_OPTION_DETAILS = 'PaymentOptionDetails';
+    const C_PRODUCT_DETAILS = 'ProductDetails';
     const C_RECOUPMENT_POLICY_DETAILS = 'RecoupmentPolicyDetails';
     const C_REGION_DETAILS = 'RegionDetails';
     const C_REGION_OF_ORIGIN_DETAILS = 'RegionOfOriginDetails';

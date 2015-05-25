@@ -59,6 +59,7 @@ class FeatureIDCodeType
     const C_DEPOSIT_SUPPORTED = 'DepositSupported';
     const C_DIGITAL_DELIVERY_ENABLED = 'DigitalDeliveryEnabled';
     const C_DUTCHBIN_ENABLED = 'DutchBINEnabled';
+    const C_EAN_ENABLED = 'EANEnabled';
     const C_EAN_IDENTIFIER_ENABLED = 'EANIdentifierEnabled';
     const C_EXPRESS_CONDITION_REQUIRED = 'ExpressConditionRequired';
     const C_EXPRESS_ENABLED = 'ExpressEnabled';
@@ -86,6 +87,7 @@ class FeatureIDCodeType
     const C_HOME_PAGE_FEATURED_ENABLED = 'HomePageFeaturedEnabled';
     const C_INTANGIBLE_ENABLED = 'IntangibleEnabled';
     const C_IN_ESCROW_WORKFLOW_TIMELINE = 'INEscrowWorkflowTimeline';
+    const C_ISBN_ENABLED = 'ISBNEnabled';
     const C_ISBN_IDENTIFIER_ENABLED = 'ISBNIdentifierEnabled';
     const C_ITEM_SPECIFICS_ENABLED = 'ItemSpecificsEnabled';
     const C_LISTING_DURATIONS = 'ListingDurations';
@@ -143,6 +145,7 @@ class FeatureIDCodeType
     const C_STORE_OWNER_EXTENDED_LISTING_DURATIONS = 'StoreOwnerExtendedListingDurations';
     const C_STORE_OWNER_EXTENDED_LISTING_DURATIONS_ENABLED = 'StoreOwnerExtendedListingDurationsEnabled';
     const C_TRANSACTION_CONFIRMATION_REQUEST_ENABLED = 'TransactionConfirmationRequestEnabled';
+    const C_UPC_ENABLED = 'UPCEnabled';
     const C_UPC_IDENTIFIER_ENABLED = 'UPCIdentifierEnabled';
     const C_USER_CONSENT_REQUIRED = 'UserConsentRequired';
     const C_VALUE_CATEGORY = 'ValueCategory';

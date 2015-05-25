@@ -55,6 +55,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $CrossBorderTradeNorthAmericaEnabled
  * @property boolean $DepositSupported
  * @property boolean $DutchBINEnabled
+ * @property \DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType $EANEnabled
  * @property boolean $EANIdentifierEnabled
  * @property boolean $ExpressEnabled
  * @property boolean $ExpressPicturesRequired
@@ -68,6 +69,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $HandlingTimeEnabled
  * @property boolean $HomePageFeaturedEnabled
  * @property \DTS\eBaySDK\Trading\Enums\INEscrowWorkflowTimelineCodeType $INEscrowWorkflowTimeline
+ * @property \DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType $ISBNEnabled
  * @property boolean $ISBNIdentifierEnabled
  * @property \DTS\eBaySDK\Trading\Enums\ItemCompatibilityEnabledCodeType $ItemCompatibilityEnabled
  * @property \DTS\eBaySDK\Trading\Enums\ItemSpecificsEnabledCodeType $ItemSpecificsEnabled
@@ -125,6 +127,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsType $StoreOwnerExtendedListingDurations
  * @property boolean $StoreOwnerExtendedListingDurationsEnabled
  * @property boolean $TransactionConfirmationRequestEnabled
+ * @property \DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType $UPCEnabled
  * @property boolean $UPCIdentifierEnabled
  * @property boolean $UserConsentRequired
  * @property boolean $VINSupported
@@ -345,6 +348,12 @@ class CategoryFeatureType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'DutchBINEnabled'
         ),
+        'EANEnabled' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'EANEnabled'
+        ),
         'EANIdentifierEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
@@ -422,6 +431,12 @@ class CategoryFeatureType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'INEscrowWorkflowTimeline'
+        ),
+        'ISBNEnabled' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ISBNEnabled'
         ),
         'ISBNIdentifierEnabled' => array(
             'type' => 'boolean',
@@ -764,6 +779,12 @@ class CategoryFeatureType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TransactionConfirmationRequestEnabled'
+        ),
+        'UPCEnabled' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'UPCEnabled'
         ),
         'UPCIdentifierEnabled' => array(
             'type' => 'boolean',

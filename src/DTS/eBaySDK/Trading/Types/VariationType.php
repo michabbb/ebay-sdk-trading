@@ -33,6 +33,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
  * @property \DTS\eBaySDK\Trading\Types\AmountType $UnitCost
  * @property integer $UnitsAvailable
+ * @property \DTS\eBaySDK\Trading\Types\VariationProductListingDetailsType $VariationProductListingDetails
  * @property \DTS\eBaySDK\Trading\Types\NameValueListArrayType[] $VariationSpecifics
  * @property string $VariationTitle
  * @property string $VariationViewItemURL
@@ -103,6 +104,12 @@ class VariationType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UnitsAvailable'
+        ),
+        'VariationProductListingDetails' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\VariationProductListingDetailsType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'VariationProductListingDetails'
         ),
         'VariationSpecifics' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\NameValueListArrayType',
