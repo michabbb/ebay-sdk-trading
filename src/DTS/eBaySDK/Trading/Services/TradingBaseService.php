@@ -25,7 +25,7 @@ class TradingBaseService extends \DTS\eBaySDK\Services\BaseService
     /**
      * @var string Current version of the SDK
      */
-    const VERSION = '0.14.0';
+    const VERSION = '0.15.0';
 
     /**
      * Constants for the various HTTP headers required by the API.
