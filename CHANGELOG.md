@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### API
+
+* Support API version 923.
+
 ### Tests
 
 Use mock HttpClient in AuthToken tests as actual request to eBay was been made. This was failing in Travis-ci with
