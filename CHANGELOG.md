@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## 0.17.0 - 2015-06-15
 
 ### Fix
 
