@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Fix
+
+* Update packager to correctly autoload Symfony Event Dispatcher.
+
 ### API
 
 * Support API version 925.

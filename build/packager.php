@@ -15,9 +15,11 @@ $packager->recursiveCopy('src/DTS', 'DTS');
 $packager->recursiveCopy('vendor/dts/ebay-sdk/src/DTS', 'DTS');
 $packager->recursiveCopy('vendor/guzzle/guzzle/src/Guzzle', 'Guzzle', ['php', 'pem']);
 $packager->recursiveCopy('vendor/psr/log/Psr', 'Psr', ['php']);
-$packager->recursiveCopy('vendor/symfony/event-dispatcher/Symfony', 'Symfony');
+$packager->recursiveCopy('vendor/symfony/event-dispatcher', 'Symfony/Component/EventDispatcher');
 
-$packager->createAutoloader(array(), $autoLoader);
+$packager->createAutoloader(array(
+
+), $autoLoader);
 $packager->createZip(__DIR__ . '/artifacts/dts-trading.zip');
 $packager->createPhar(__DIR__ . '/artifacts/dts-trading.phar', null, $autoLoader);
 $packager->startSection('test_phar');
