@@ -43,6 +43,7 @@ class PaidStatusCodeType
     const C_PAYMENT_PENDING_WITH_PAISA_PAY = 'PaymentPendingWithPaisaPay';
     const C_PAYMENT_PENDING_WITH_PAISA_PAY_ESCROW = 'PaymentPendingWithPaisaPayEscrow';
     const C_PAYMENT_PENDING_WITH_PAY_PAL = 'PaymentPendingWithPayPal';
+    const C_PAY_UPON_INVOICE = 'PayUponInvoice';
     const C_REFUNDED = 'Refunded';
     const C_WAITING_FORCOD_PAYMENT = 'WaitingForCODPayment';
 }

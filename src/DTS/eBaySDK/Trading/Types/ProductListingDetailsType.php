@@ -30,7 +30,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ISBN
  * @property boolean $IncludePrefilledItemInformation
  * @property boolean $IncludeStockPhotoURL
- * @property boolean $ListIfNoProduct
  * @property string $ProductDetailsURL
  * @property string $ProductID
  * @property string $ProductReferenceID
@@ -88,12 +87,6 @@ class ProductListingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IncludeStockPhotoURL'
-        ),
-        'ListIfNoProduct' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ListIfNoProduct'
         ),
         'ProductDetailsURL' => array(
             'type' => 'string',

@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Unreleased
+
+### API
+
+* Support API version 925.
+
 ## 0.16.0 - 2015-05-31
 
 ### API

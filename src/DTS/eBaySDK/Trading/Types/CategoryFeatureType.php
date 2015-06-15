@@ -56,7 +56,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $DepositSupported
  * @property boolean $DutchBINEnabled
  * @property \DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType $EANEnabled
- * @property boolean $EANIdentifierEnabled
  * @property boolean $ExpressEnabled
  * @property boolean $ExpressPicturesRequired
  * @property boolean $FreeGalleryPlusEnabled
@@ -70,7 +69,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $HomePageFeaturedEnabled
  * @property \DTS\eBaySDK\Trading\Enums\INEscrowWorkflowTimelineCodeType $INEscrowWorkflowTimeline
  * @property \DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType $ISBNEnabled
- * @property boolean $ISBNIdentifierEnabled
  * @property \DTS\eBaySDK\Trading\Enums\ItemCompatibilityEnabledCodeType $ItemCompatibilityEnabled
  * @property \DTS\eBaySDK\Trading\Enums\ItemSpecificsEnabledCodeType $ItemSpecificsEnabled
  * @property \DTS\eBaySDK\Trading\Types\ListingDurationReferenceType[] $ListingDuration
@@ -128,7 +126,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $StoreOwnerExtendedListingDurationsEnabled
  * @property boolean $TransactionConfirmationRequestEnabled
  * @property \DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType $UPCEnabled
- * @property boolean $UPCIdentifierEnabled
  * @property boolean $UserConsentRequired
  * @property boolean $VINSupported
  * @property boolean $VRMSupported
@@ -354,12 +351,6 @@ class CategoryFeatureType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'EANEnabled'
         ),
-        'EANIdentifierEnabled' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'EANIdentifierEnabled'
-        ),
         'ExpressEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
@@ -437,12 +428,6 @@ class CategoryFeatureType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ISBNEnabled'
-        ),
-        'ISBNIdentifierEnabled' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ISBNIdentifierEnabled'
         ),
         'ItemCompatibilityEnabled' => array(
             'type' => 'string',
@@ -785,12 +770,6 @@ class CategoryFeatureType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'UPCEnabled'
-        ),
-        'UPCIdentifierEnabled' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'UPCIdentifierEnabled'
         ),
         'UserConsentRequired' => array(
             'type' => 'boolean',
