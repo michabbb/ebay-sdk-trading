@@ -23,13 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\PromotionSchemeCodeType $PrimaryScheme
- * @property \DTS\eBaySDK\Trading\Types\PromotedItemType[] $PromotedItem
- * @property \DTS\eBaySDK\Trading\Enums\PromotionMethodCodeType $PromotionMethod
- * @property string $SellerID
- * @property boolean $ShippingDiscount
- * @property string $StoreName
  */
 class CrossPromotionsType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -37,48 +30,6 @@ class CrossPromotionsType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'ItemID' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ItemID'
-        ),
-        'PrimaryScheme' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PrimaryScheme'
-        ),
-        'PromotedItem' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\PromotedItemType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'PromotedItem'
-        ),
-        'PromotionMethod' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'PromotionMethod'
-        ),
-        'SellerID' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellerID'
-        ),
-        'ShippingDiscount' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ShippingDiscount'
-        ),
-        'StoreName' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'StoreName'
-        )
     );
 
     /**
