@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## Unreleased
+## 0.19.0 - 2015-08-11
 
 ### API
 
