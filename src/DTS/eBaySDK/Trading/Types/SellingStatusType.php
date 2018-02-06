@@ -40,6 +40,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $ReserveMet
  * @property boolean $SecondChanceEligible
  * @property boolean $SoldAsBin
+ * @property \DTS\eBaySDK\Trading\Types\SuggestedBidValueType $SuggestedBidValues
  */
 class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -148,6 +149,12 @@ class SellingStatusType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SoldAsBin'
+        ),
+        'SuggestedBidValues' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\SuggestedBidValueType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'SuggestedBidValues'
         )
     );
 

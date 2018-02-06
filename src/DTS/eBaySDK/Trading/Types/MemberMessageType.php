@@ -26,7 +26,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $Body
  * @property boolean $DisplayToPublic
  * @property boolean $EmailCopyToSender
- * @property boolean $HideSendersEmailAddress
  * @property string $MessageID
  * @property \DTS\eBaySDK\Trading\Types\MessageMediaType[] $MessageMedia
  * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType $MessageType
@@ -60,12 +59,6 @@ class MemberMessageType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EmailCopyToSender'
-        ),
-        'HideSendersEmailAddress' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'HideSendersEmailAddress'
         ),
         'MessageID' => array(
             'type' => 'string',

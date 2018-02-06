@@ -28,7 +28,6 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $BillingEmail
  * @property \DTS\eBaySDK\Trading\Enums\BusinessRoleType $BusinessRole
  * @property \DTS\eBaySDK\Trading\Types\BuyerType $BuyerInfo
- * @property \DTS\eBaySDK\Trading\Types\CharityAffiliationsType $CharityAffiliations
  * @property string $EIASToken
  * @property string $Email
  * @property boolean $EnterpriseSeller
@@ -103,12 +102,6 @@ class UserType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'BuyerInfo'
-        ),
-        'CharityAffiliations' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\CharityAffiliationsType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'CharityAffiliations'
         ),
         'EIASToken' => array(
             'type' => 'string',

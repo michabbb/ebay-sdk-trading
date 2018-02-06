@@ -53,11 +53,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $CrossBorderTradeGBEnabled
  * @property boolean $CrossBorderTradeNorthAmericaEnabled
  * @property boolean $DepositSupported
+ * @property boolean $DigitalGoodDeliveryEnabled
  * @property boolean $DutchBINEnabled
+ * @property \DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType $EANEnabled
  * @property boolean $EANIdentifierEnabled
- * @property boolean $ExpressConditionRequired
- * @property boolean $ExpressEnabled
- * @property boolean $ExpressPicturesRequired
  * @property boolean $FreeGalleryPlusEnabled
  * @property boolean $FreePicturePackEnabled
  * @property \DTS\eBaySDK\Trading\Types\ListingEnhancementDurationReferenceType $GalleryFeaturedDurations
@@ -68,6 +67,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $HandlingTimeEnabled
  * @property boolean $HomePageFeaturedEnabled
  * @property \DTS\eBaySDK\Trading\Enums\INEscrowWorkflowTimelineCodeType $INEscrowWorkflowTimeline
+ * @property \DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType $ISBNEnabled
  * @property boolean $ISBNIdentifierEnabled
  * @property \DTS\eBaySDK\Trading\Enums\ItemCompatibilityEnabledCodeType $ItemCompatibilityEnabled
  * @property \DTS\eBaySDK\Trading\Enums\ItemSpecificsEnabledCodeType $ItemSpecificsEnabled
@@ -129,6 +129,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsType $StoreOwnerExtendedListingDurations
  * @property boolean $StoreOwnerExtendedListingDurationsEnabled
  * @property boolean $TransactionConfirmationRequestEnabled
+ * @property \DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType $UPCEnabled
  * @property boolean $UPCIdentifierEnabled
  * @property boolean $UserConsentRequired
  * @property boolean $VINSupported
@@ -337,35 +338,29 @@ class SiteDefaultsType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'DepositSupported'
         ),
+        'DigitalGoodDeliveryEnabled' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'DigitalGoodDeliveryEnabled'
+        ),
         'DutchBINEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DutchBINEnabled'
         ),
+        'EANEnabled' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'EANEnabled'
+        ),
         'EANIdentifierEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EANIdentifierEnabled'
-        ),
-        'ExpressConditionRequired' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressConditionRequired'
-        ),
-        'ExpressEnabled' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressEnabled'
-        ),
-        'ExpressPicturesRequired' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressPicturesRequired'
         ),
         'FreeGalleryPlusEnabled' => array(
             'type' => 'boolean',
@@ -426,6 +421,12 @@ class SiteDefaultsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'INEscrowWorkflowTimeline'
+        ),
+        'ISBNEnabled' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ISBNEnabled'
         ),
         'ISBNIdentifierEnabled' => array(
             'type' => 'boolean',
@@ -792,6 +793,12 @@ class SiteDefaultsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TransactionConfirmationRequestEnabled'
+        ),
+        'UPCEnabled' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'UPCEnabled'
         ),
         'UPCIdentifierEnabled' => array(
             'type' => 'boolean',

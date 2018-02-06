@@ -37,14 +37,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $PaisaPayEscrowEMIStatus
  * @property integer $PaisaPayStatus
  * @property \DTS\eBaySDK\Trading\Enums\SellerPaymentMethodCodeType $PaymentMethod
- * @property \DTS\eBaySDK\Trading\Types\ProStoresCheckoutPreferenceType $ProStoresPreference
  * @property boolean $QualifiesForB2BVAT
  * @property \DTS\eBaySDK\Trading\Types\RecoupmentPolicyConsentType $RecoupmentPolicyConsent
  * @property boolean $RegisteredBusinessSeller
  * @property boolean $SafePaymentExempt
  * @property \DTS\eBaySDK\Trading\Types\SchedulingInfoType $SchedulingInfo
  * @property \DTS\eBaySDK\Trading\Enums\SellerBusinessCodeType $SellerBusinessType
- * @property \DTS\eBaySDK\Trading\Enums\SellerGuaranteeLevelCodeType $SellerGuaranteeLevel
  * @property \DTS\eBaySDK\Trading\Enums\SellerLevelCodeType $SellerLevel
  * @property \DTS\eBaySDK\Trading\Types\AddressType $SellerPaymentAddress
  * @property boolean $StoreOwner
@@ -144,12 +142,6 @@ class SellerType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'PaymentMethod'
         ),
-        'ProStoresPreference' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ProStoresCheckoutPreferenceType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ProStoresPreference'
-        ),
         'QualifiesForB2BVAT' => array(
             'type' => 'boolean',
             'unbound' => false,
@@ -185,12 +177,6 @@ class SellerType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'SellerBusinessType'
-        ),
-        'SellerGuaranteeLevel' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellerGuaranteeLevel'
         ),
         'SellerLevel' => array(
             'type' => 'string',

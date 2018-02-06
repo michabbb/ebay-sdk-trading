@@ -1,6 +1,6 @@
 {
     "name": "dts/ebay-sdk-trading",
-    "description": "An eBay SDK for PHP. Use the eBay Trading API in your PHP projects.",
+    "description": "This SDK is deprecated in favor of https://packagist.org/packages/dts/ebay-sdk-php",
     "keywords": ["ebay", "api", "sdk"],
     "homepage": "http://devbay.net/",
     "type": "library",
@@ -27,5 +27,8 @@
             "DTS\\eBaySDK\\Trading\\": "src/",
             "DTS\\eBaySDK\\Trading\\Mocks\\": "test/"
         }
+    },
+    "suggest": {
+        "dts/ebay-sdk-php": "The SDK has moved to a new package name. The package you have installed, ebay-sdk-trading, is deprecated and is no longer maintained."
     }
 }

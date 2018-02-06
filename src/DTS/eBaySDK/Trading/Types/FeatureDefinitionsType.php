@@ -53,11 +53,10 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\CrossBorderTradeGBEnabledDefinitionType $CrossBorderTradeGBEnabled
  * @property \DTS\eBaySDK\Trading\Types\CrossBorderTradeNorthAmericaEnabledDefinitionType $CrossBorderTradeNorthAmericaEnabled
  * @property \DTS\eBaySDK\Trading\Types\DepositSupportedDefinitionType $DepositSupported
+ * @property \DTS\eBaySDK\Trading\Types\DigitalGoodDeliveryEnabledDefinitionType $DigitalGoodDeliveryEnabled
  * @property \DTS\eBaySDK\Trading\Types\DutchBINEnabledDefinitionType $DutchBINEnabled
+ * @property \DTS\eBaySDK\Trading\Types\EANEnabledDefinitionType $EANEnabled
  * @property \DTS\eBaySDK\Trading\Types\EANIdentifierEnabledDefinitionType $EANIdentifierEnabled
- * @property \DTS\eBaySDK\Trading\Types\ExpressConditionRequiredDefinitionType $ExpressConditionRequired
- * @property \DTS\eBaySDK\Trading\Types\ExpressEnabledDefinitionType $ExpressEnabled
- * @property \DTS\eBaySDK\Trading\Types\ExpressPicturesRequiredDefinitionType $ExpressPicturesRequired
  * @property \DTS\eBaySDK\Trading\Types\FreeGalleryPlusEnabledDefinitionType $FreeGalleryPlusEnabled
  * @property \DTS\eBaySDK\Trading\Types\FreePicturePackEnabledDefinitionType $FreePicturePackEnabled
  * @property \DTS\eBaySDK\Trading\Types\ListingEnhancementDurationDefinitionType $GalleryFeaturedDurations
@@ -68,6 +67,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\HandlingTimeEnabledDefinitionType $HandlingTimeEnabled
  * @property \DTS\eBaySDK\Trading\Types\HomePageFeaturedEnabledDefinitionType $HomePageFeaturedEnabled
  * @property \DTS\eBaySDK\Trading\Types\INEscrowWorkflowTimelineDefinitionType $INEscrowWorkflowTimeline
+ * @property \DTS\eBaySDK\Trading\Types\ISBNEnabledDefinitionType $ISBNEnabled
  * @property \DTS\eBaySDK\Trading\Types\ISBNIdentifierEnabledDefinitionType $ISBNIdentifierEnabled
  * @property \DTS\eBaySDK\Trading\Types\ItemCompatibilityEnabledDefinitionType $ItemCompatibilityEnabled
  * @property \DTS\eBaySDK\Trading\Types\ItemSpecificsEnabledDefinitionType $ItemSpecificsEnabled
@@ -128,6 +128,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsDefinitionType $StoreOwnerExtendedListingDurations
  * @property \DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsEnabledDefinitionType $StoreOwnerExtendedListingDurationsEnabled
  * @property \DTS\eBaySDK\Trading\Types\TCREnabledDefinitionType $TransactionConfirmationRequestEnabled
+ * @property \DTS\eBaySDK\Trading\Types\UPCEnabledDefinitionType $UPCEnabled
  * @property \DTS\eBaySDK\Trading\Types\UPCIdentifierEnabledDefinitionType $UPCIdentifierEnabled
  * @property \DTS\eBaySDK\Trading\Types\UserConsentRequiredDefinitionType $UserConsentRequired
  * @property \DTS\eBaySDK\Trading\Types\VINSupportedDefinitionType $VINSupported
@@ -336,35 +337,29 @@ class FeatureDefinitionsType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'DepositSupported'
         ),
+        'DigitalGoodDeliveryEnabled' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\DigitalGoodDeliveryEnabledDefinitionType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'DigitalGoodDeliveryEnabled'
+        ),
         'DutchBINEnabled' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\DutchBINEnabledDefinitionType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DutchBINEnabled'
         ),
+        'EANEnabled' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\EANEnabledDefinitionType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'EANEnabled'
+        ),
         'EANIdentifierEnabled' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\EANIdentifierEnabledDefinitionType',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'EANIdentifierEnabled'
-        ),
-        'ExpressConditionRequired' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ExpressConditionRequiredDefinitionType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressConditionRequired'
-        ),
-        'ExpressEnabled' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ExpressEnabledDefinitionType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressEnabled'
-        ),
-        'ExpressPicturesRequired' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ExpressPicturesRequiredDefinitionType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressPicturesRequired'
         ),
         'FreeGalleryPlusEnabled' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\FreeGalleryPlusEnabledDefinitionType',
@@ -425,6 +420,12 @@ class FeatureDefinitionsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'INEscrowWorkflowTimeline'
+        ),
+        'ISBNEnabled' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\ISBNEnabledDefinitionType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ISBNEnabled'
         ),
         'ISBNIdentifierEnabled' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\ISBNIdentifierEnabledDefinitionType',
@@ -785,6 +786,12 @@ class FeatureDefinitionsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'TransactionConfirmationRequestEnabled'
+        ),
+        'UPCEnabled' => array(
+            'type' => 'DTS\eBaySDK\Trading\Types\UPCEnabledDefinitionType',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'UPCEnabled'
         ),
         'UPCIdentifierEnabled' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\UPCIdentifierEnabledDefinitionType',

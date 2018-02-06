@@ -23,13 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property integer $AttributeID
- * @property string $DateFormat
- * @property string $DisplaySequence
- * @property string $DisplayUOM
- * @property \DTS\eBaySDK\Trading\Types\LabelType $Label
- * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
- * @property \DTS\eBaySDK\Trading\Types\ValType[] $ValueList
  */
 class CharacteristicType extends \DTS\eBaySDK\Types\BaseType
 {
@@ -37,48 +30,6 @@ class CharacteristicType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'AttributeID' => array(
-            'type' => 'integer',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'AttributeID'
-        ),
-        'DateFormat' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DateFormat'
-        ),
-        'DisplaySequence' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DisplaySequence'
-        ),
-        'DisplayUOM' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'DisplayUOM'
-        ),
-        'Label' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\LabelType',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'Label'
-        ),
-        'SortOrder' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SortOrder'
-        ),
-        'ValueList' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ValType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'ValueList'
-        )
     );
 
     /**

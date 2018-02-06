@@ -54,9 +54,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $CrossBorderTradeGBEnabled
  * @property boolean $CrossBorderTradeNorthAmericaEnabled
  * @property boolean $DepositSupported
+ * @property boolean $DigitalGoodDeliveryEnabled
  * @property boolean $DutchBINEnabled
- * @property boolean $EANIdentifierEnabled
- * @property boolean $ExpressConditionRequired
+ * @property \DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType $EANEnabled
  * @property boolean $ExpressEnabled
  * @property boolean $ExpressPicturesRequired
  * @property boolean $FreeGalleryPlusEnabled
@@ -69,7 +69,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $HandlingTimeEnabled
  * @property boolean $HomePageFeaturedEnabled
  * @property \DTS\eBaySDK\Trading\Enums\INEscrowWorkflowTimelineCodeType $INEscrowWorkflowTimeline
- * @property boolean $ISBNIdentifierEnabled
+ * @property \DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType $ISBNEnabled
  * @property \DTS\eBaySDK\Trading\Enums\ItemCompatibilityEnabledCodeType $ItemCompatibilityEnabled
  * @property \DTS\eBaySDK\Trading\Enums\ItemSpecificsEnabledCodeType $ItemSpecificsEnabled
  * @property \DTS\eBaySDK\Trading\Types\ListingDurationReferenceType[] $ListingDuration
@@ -126,7 +126,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property \DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsType $StoreOwnerExtendedListingDurations
  * @property boolean $StoreOwnerExtendedListingDurationsEnabled
  * @property boolean $TransactionConfirmationRequestEnabled
- * @property boolean $UPCIdentifierEnabled
+ * @property \DTS\eBaySDK\Trading\Enums\ProductIdentiferEnabledCodeType $UPCEnabled
  * @property boolean $UserConsentRequired
  * @property boolean $VINSupported
  * @property boolean $VRMSupported
@@ -340,23 +340,23 @@ class CategoryFeatureType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'DepositSupported'
         ),
+        'DigitalGoodDeliveryEnabled' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'DigitalGoodDeliveryEnabled'
+        ),
         'DutchBINEnabled' => array(
             'type' => 'boolean',
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'DutchBINEnabled'
         ),
-        'EANIdentifierEnabled' => array(
-            'type' => 'boolean',
+        'EANEnabled' => array(
+            'type' => 'string',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'EANIdentifierEnabled'
-        ),
-        'ExpressConditionRequired' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ExpressConditionRequired'
+            'elementName' => 'EANEnabled'
         ),
         'ExpressEnabled' => array(
             'type' => 'boolean',
@@ -430,11 +430,11 @@ class CategoryFeatureType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'INEscrowWorkflowTimeline'
         ),
-        'ISBNIdentifierEnabled' => array(
-            'type' => 'boolean',
+        'ISBNEnabled' => array(
+            'type' => 'string',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'ISBNIdentifierEnabled'
+            'elementName' => 'ISBNEnabled'
         ),
         'ItemCompatibilityEnabled' => array(
             'type' => 'string',
@@ -772,11 +772,11 @@ class CategoryFeatureType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'TransactionConfirmationRequestEnabled'
         ),
-        'UPCIdentifierEnabled' => array(
-            'type' => 'boolean',
+        'UPCEnabled' => array(
+            'type' => 'string',
             'unbound' => false,
             'attribute' => false,
-            'elementName' => 'UPCIdentifierEnabled'
+            'elementName' => 'UPCEnabled'
         ),
         'UserConsentRequired' => array(
             'type' => 'boolean',

@@ -27,11 +27,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string[] $Copyright
  * @property string $DetailsURL
  * @property string $EAN
- * @property string $GTIN
  * @property string $ISBN
  * @property boolean $IncludePrefilledItemInformation
  * @property boolean $IncludeStockPhotoURL
- * @property boolean $ListIfNoProduct
  * @property string $ProductDetailsURL
  * @property string $ProductID
  * @property string $ProductReferenceID
@@ -72,12 +70,6 @@ class ProductListingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'EAN'
         ),
-        'GTIN' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'GTIN'
-        ),
         'ISBN' => array(
             'type' => 'string',
             'unbound' => false,
@@ -95,12 +87,6 @@ class ProductListingDetailsType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'IncludeStockPhotoURL'
-        ),
-        'ListIfNoProduct' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ListIfNoProduct'
         ),
         'ProductDetailsURL' => array(
             'type' => 'string',

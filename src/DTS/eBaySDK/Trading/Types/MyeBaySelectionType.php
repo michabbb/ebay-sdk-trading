@@ -24,6 +24,7 @@ namespace DTS\eBaySDK\Trading\Types;
 /**
  *
  * @property boolean $Include
+ * @property boolean $IncludeFavoriteSearcheCount
  * @property boolean $IncludeFavoriteSellerCount
  * @property boolean $IncludeItemCount
  * @property boolean $IncludeListContents
@@ -42,6 +43,12 @@ class MyeBaySelectionType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'Include'
+        ),
+        'IncludeFavoriteSearcheCount' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'IncludeFavoriteSearcheCount'
         ),
         'IncludeFavoriteSellerCount' => array(
             'type' => 'boolean',

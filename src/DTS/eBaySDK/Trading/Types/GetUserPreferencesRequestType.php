@@ -25,7 +25,6 @@ namespace DTS\eBaySDK\Trading\Types;
  *
  * @property boolean $ShowBidderNoticePreferences
  * @property boolean $ShowCombinedPaymentPreferences
- * @property boolean $ShowCrossPromotionPreferences
  * @property boolean $ShowDispatchCutoffTimePreferences
  * @property boolean $ShowEmailShipmentTrackingNumberPreference
  * @property boolean $ShowEndOfAuctionEmailPreferences
@@ -44,6 +43,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property boolean $ShowSellerReturnPreferences
  * @property boolean $ShowUnpaidItemAssistanceExclusionList
  * @property boolean $ShowUnpaidItemAssistancePreference
+ * @property boolean $ShoweBayPLUSPreference
  */
 class GetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
 {
@@ -62,12 +62,6 @@ class GetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowCombinedPaymentPreferences'
-        ),
-        'ShowCrossPromotionPreferences' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ShowCrossPromotionPreferences'
         ),
         'ShowDispatchCutoffTimePreferences' => array(
             'type' => 'boolean',
@@ -176,6 +170,12 @@ class GetUserPreferencesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractR
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShowUnpaidItemAssistancePreference'
+        ),
+        'ShoweBayPLUSPreference' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'ShoweBayPLUSPreference'
         )
     );
 

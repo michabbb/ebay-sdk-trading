@@ -32,16 +32,12 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $CategoryName
  * @property string[] $CategoryParentID
  * @property string[] $CategoryParentName
- * @property \DTS\eBaySDK\Trading\Types\CharacteristicsSetType[] $CharacteristicsSets
  * @property boolean $Expired
  * @property boolean $IntlAutosFixedCat
  * @property boolean $LSD
  * @property boolean $LeafCategory
  * @property boolean $ORPA
  * @property boolean $ORRA
- * @property \DTS\eBaySDK\Trading\Types\ExtendedProductFinderIDType[] $ProductFinderIDs
- * @property boolean $ProductSearchPageAvailable
- * @property boolean $SellerGuaranteeEligible
  * @property boolean $Virtual
  */
 class CategoryType extends \DTS\eBaySDK\Types\BaseType
@@ -104,12 +100,6 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'CategoryParentName'
         ),
-        'CharacteristicsSets' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\CharacteristicsSetType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'CharacteristicsSets'
-        ),
         'Expired' => array(
             'type' => 'boolean',
             'unbound' => false,
@@ -145,24 +135,6 @@ class CategoryType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ORRA'
-        ),
-        'ProductFinderIDs' => array(
-            'type' => 'DTS\eBaySDK\Trading\Types\ExtendedProductFinderIDType',
-            'unbound' => true,
-            'attribute' => false,
-            'elementName' => 'ProductFinderIDs'
-        ),
-        'ProductSearchPageAvailable' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ProductSearchPageAvailable'
-        ),
-        'SellerGuaranteeEligible' => array(
-            'type' => 'boolean',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'SellerGuaranteeEligible'
         ),
         'Virtual' => array(
             'type' => 'boolean',

@@ -41,10 +41,8 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $ShipmentID
  * @property \DTS\eBaySDK\Trading\Types\ShipmentLineItemType $ShipmentLineItem
  * @property \DTS\eBaySDK\Trading\Types\ShipmentTrackingDetailsType[] $ShipmentTrackingDetails
- * @property string $ShipmentTrackingNumber
  * @property \DateTime $ShippedTime
  * @property \DTS\eBaySDK\Trading\Types\AddressType $ShippingAddress
- * @property string $ShippingCarrierUsed
  * @property \DTS\eBaySDK\Trading\Enums\ShippingFeatureCodeType[] $ShippingFeature
  * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType $ShippingPackage
  * @property string $ShippingServiceUsed
@@ -166,12 +164,6 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'ShipmentTrackingDetails'
         ),
-        'ShipmentTrackingNumber' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ShipmentTrackingNumber'
-        ),
         'ShippedTime' => array(
             'type' => 'DateTime',
             'unbound' => false,
@@ -183,12 +175,6 @@ class ShipmentType extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'ShippingAddress'
-        ),
-        'ShippingCarrierUsed' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => false,
-            'elementName' => 'ShippingCarrierUsed'
         ),
         'ShippingFeature' => array(
             'type' => 'string',

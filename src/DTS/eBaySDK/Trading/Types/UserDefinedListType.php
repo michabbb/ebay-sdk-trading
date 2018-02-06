@@ -23,6 +23,7 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
+ * @property integer $FavoriteSearcheCount
  * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType $FavoriteSearches
  * @property integer $FavoriteSellerCount
  * @property \DTS\eBaySDK\Trading\Types\MyeBayFavoriteSellerListType $FavoriteSellers
@@ -36,6 +37,12 @@ class UserDefinedListType extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
+        'FavoriteSearcheCount' => array(
+            'type' => 'integer',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'FavoriteSearcheCount'
+        ),
         'FavoriteSearches' => array(
             'type' => 'DTS\eBaySDK\Trading\Types\MyeBayFavoriteSearchListType',
             'unbound' => false,

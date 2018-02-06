@@ -23,7 +23,6 @@ namespace DTS\eBaySDK\Trading\Types;
 
 /**
  *
- * @property string $minimum
  */
 class FeedbackRequirementsType extends \DTS\eBaySDK\Types\BooleanType
 {
@@ -31,12 +30,6 @@ class FeedbackRequirementsType extends \DTS\eBaySDK\Types\BooleanType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
-        'minimum' => array(
-            'type' => 'string',
-            'unbound' => false,
-            'attribute' => true,
-            'attributeName' => 'minimum'
-        )
     );
 
     /**
