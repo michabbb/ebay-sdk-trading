@@ -30,5 +30,11 @@
     },
     "suggest": {
         "dts/ebay-sdk-php": "The SDK has moved to a new package name. The package you have installed, ebay-sdk-trading, is deprecated and is no longer maintained."
-    }
+    },
+    "repositories": [
+        {
+            "url": "https://github.com/michabbb/ebay-sdk.git",
+            "type": "git"
+        }
+    ]
 }
