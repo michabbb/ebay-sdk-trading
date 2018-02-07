@@ -39,7 +39,7 @@
                 "version": "master",
                 "dist" : {
                     "url": "https://github.com/michabbb/ebay-sdk/archive/master.zip",
-                    "type": "git"
+                    "type": "zip"
                 }
             }
         }
