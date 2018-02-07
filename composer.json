@@ -33,15 +33,12 @@
     },
     "repositories": [
         {
-            "type" : "package",
-            "package": {
                 "name": "dts/ebay-sdk",
                 "version": "master",
                 "dist" : {
-                    "url": "https://github.com/michabbb/ebay-sdk/archive/master.zip",
-                    "type": "zip"
+                    "url": "https://github.com/michabbb/ebay-sdk.git",
+                    "type": "git"
                 }
-            }
         }
     ]
 }
