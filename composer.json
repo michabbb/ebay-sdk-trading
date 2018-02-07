@@ -33,7 +33,6 @@
     },
     "repositories": [
         {
-                "name": "dts/ebay-sdk",
                 "url": "https://github.com/michabbb/ebay-sdk.git",
                 "type": "vcs"
         }
